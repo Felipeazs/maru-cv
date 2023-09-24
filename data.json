@@ -1,0 +1,58 @@
+{
+    "educacion": [
+        {
+            "formacion": "Doctor(c) - Magíster - Pregrado",
+            "fecha": [
+                "2001",
+                "2011"
+            ],
+            "institucion": "Pontificia Universidad Católica de Valparaíso, Chile.",
+            "logo": "./src/assets/pucv.png"
+        },
+        {
+            "formacion": "Doctorado",
+            "fecha": [
+                "2022",
+                "presente"
+            ],
+            "institucion": "U. Internacional Ibeoramericana, México.",
+            "logo": "./src/assets/unini.png"
+        },
+        {
+            "formacion": "Magíster en Mecanismo de Desarrollo Limpio y Eficiencia Energética.",
+            "fecha": [
+                "2020",
+                "presente"
+            ],
+            "institucion": "Núcleo Biotecnología Curauma, PUCV.",
+            "logo": "./src/assets/pucv.png"
+        },
+        {
+            "formacion": "Master en Big Data y Business Intelligence",
+            "fecha": [
+                "2020",
+                "presente"
+            ],
+            "institucion": "ENEB - Escuela de Negocios Europea de Barcelona Y Universidad I de Castilla, España.",
+            "logo": "./src/assets/eneb.png"
+        },
+        {
+            "formacion": "Master en Dirección Comercial y Marketing",
+            "fecha": [
+                "2020",
+                "presente"
+            ],
+            "institucion": "ENEB - Escuela de Negocios Europea de Barcelona Y Universidad I de Castilla, España.",
+            "logo": "./src/assets/eneb.png"
+        },
+        {
+            "formacion": "Master en Innovación y Emprendimiento",
+            "fecha": [
+                "2020",
+                "presente"
+            ],
+            "institucion": "ENEB - Escuela de Negocios Europea de Barcelona Y Universidad I de Castilla, España.",
+            "logo": "./src/assets/eneb.png"
+        }
+    ]
+}
