@@ -233,5 +233,50 @@
             ],
             "descripcion": ""
         }
+    ],
+    "diplomado": [
+        {
+            "titulo": "Data Science - Machine Learning, Inteligencia Artificial, Deep Learning",
+            "instituto": "Instituto de Estadística, Pontificia Universidad Católica de Valparaíso",
+            "fecha": [
+                "2023"
+            ],
+            "certificado": ""
+        },
+        {
+            "titulo": "Gestión, Control y Evaluación de Emisiones Atmosféricas de Olor",
+            "instituto": "Núcleo de Biotecnología de Curauma, Pontificia Universidad Católica de Valparaíso",
+            "fecha": [
+                "2022"
+            ],
+            "certificado": ""
+        },
+        {
+            "titulo": "Diploma Superior en Cambio Climático: Desafíos éticos para las políticas públicas",
+            "instituto": "Red CLACSO de Posgrados en Ciencias Sociales. Consejo Latinoamericano de Ciencias Sociales, Argentina",
+            "fecha": [
+                "2021",
+                "2022"
+            ],
+            "certificado": ""
+        },
+        {
+            "titulo": "Análisis de Ciclo de Vida",
+            "instituto": "Universidad Nacional Andrés Bello",
+            "fecha": [
+                "2020",
+                "2021"
+            ],
+            "certificado": ""
+        },
+        {
+            "titulo": "Evaluación y gestión medioambiental en la empresa",
+            "instituto": "Universidad del Mar",
+            "fecha": [
+                "2010",
+                "2011"
+            ],
+            "certificado": ""
+        }
     ]
 }

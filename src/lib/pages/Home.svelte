@@ -1,4 +1,5 @@
 <script lang="ts">
+    import Diplomado from "../Diplomado.svelte";
     import ExperienciaLaboral from "../ExperienciaLaboral.svelte";
     import Perfil from "../Perfil.svelte";
     import Hero from "../UI/Hero.svelte";
@@ -13,6 +14,8 @@
     <Perfil />
 {:else if selected === "experiencia_laboral"}
     <ExperienciaLaboral />
+{:else if selected === "diplomados"}
+    <Diplomado />
 {:else}
     <Perfil />
 {/if}

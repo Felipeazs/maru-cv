@@ -13,6 +13,7 @@
         >
             <option value="perfil">Perfil</option>
             <option value="experiencia_laboral">Experiencia laboral</option>
+            <option value="diplomados">Diplomados</option>
         </select>
     </div>
 </div>
