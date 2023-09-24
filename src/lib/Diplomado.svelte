@@ -4,7 +4,7 @@
     const { diplomado } = $data;
 </script>
 
-<div class="rubro">
+<div class="rubro relative z-10">
     <div class="rubro-content">
         <div class="rubro-title">Diplomados</div>
         <div class="divider-2" />
@@ -26,8 +26,10 @@
                         <p class="">{dip.titulo}</p>
                         <p class="text-sm text-slate-500">{dip.instituto}</p>
                         <hr class="py-2" />
-                        <a href="hola" class="text-sm"
-                            >{dip.certificado ?? ""}</a
+                        <a
+                            href={dip.certificado}
+                            class="text-sm underline"
+                            >{dip.certificado ? "Ver certificado" : ""}</a
                         >
                     </div>
                 </div>

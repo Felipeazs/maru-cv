@@ -3,7 +3,7 @@
 </script>
 
 <div
-    class="relative w-[50%] pt-[480px] md:pt-[420px] xl:pt-[35px] ps-[10%] pb-10"
+    class="relative z-20 w-[50%] pt-[480px] md:pt-[420px] xl:pt-[35px] ps-[10%] pb-10"
 >
     <div class="absolute z-10">
         <p>Selecciona un rubro</p>
