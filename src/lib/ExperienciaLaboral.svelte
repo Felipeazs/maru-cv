@@ -12,11 +12,15 @@
             {#each experiencia as exp}
                 <div class="flex flex-row gap-5 items-center">
                     <div
-                        class="flex flex-col items-center min-w-[125px] min-h-[100px] justify-center bg-[rgba(13,60,85,0.8)] text-md text-white font-bold p-3 rounded-lg"
+                        class="bg-[#fff] text-md text-black font-bold p-1 rounded-lg"
                     >
-                        <p>{exp.fecha[1] ?? ""}</p>
-                        <span>{exp.fecha[1] ? "・" : ""}</span>
-                        <p>{exp.fecha[0]}</p>
+                        <div
+                            class="flex flex-col justify-center items-center min-w-[125px] min-h-[100px] p-1 border-2 border-[rgba(13,60,85,0.8)] rounded-lg"
+                        >
+                            <p>{exp.fecha[1] ?? ""}</p>
+                            <span>{exp.fecha[1] ? "・" : ""}</span>
+                            <p>{exp.fecha[0]}</p>
+                        </div>
                     </div>
                     <div>
                         <p class="">{exp.cargo}</p>
