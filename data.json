@@ -7,7 +7,7 @@
                 "2011"
             ],
             "institucion": "Pontificia Universidad Católica de Valparaíso, Chile.",
-            "logo": "../../src/assets/pucv.png"
+            "logo": "/images/pucv.png"
         },
         {
             "formacion": "Doctorado",
@@ -16,7 +16,7 @@
                 "presente"
             ],
             "institucion": "U. Internacional Ibeoramericana, México.",
-            "logo": "../../src/assets/unini.png"
+            "logo": "/images/unini.png"
         },
         {
             "formacion": "Magíster en Mecanismo de Desarrollo Limpio y Eficiencia Energética.",
@@ -25,7 +25,7 @@
                 "presente"
             ],
             "institucion": "Núcleo Biotecnología Curauma, PUCV.",
-            "logo": "../../src/assets/pucv.png"
+            "logo": "/images/pucv.png"
         },
         {
             "formacion": "Master en Big Data y Business Intelligence",
@@ -34,7 +34,7 @@
                 "presente"
             ],
             "institucion": "ENEB - Escuela de Negocios Europea de Barcelona Y Universidad I de Castilla, España.",
-            "logo": "../../src/assets/eneb.png"
+            "logo": "/images/eneb.png"
         },
         {
             "formacion": "Master en Dirección Comercial y Marketing",
@@ -43,7 +43,7 @@
                 "presente"
             ],
             "institucion": "ENEB - Escuela de Negocios Europea de Barcelona Y Universidad I de Castilla, España.",
-            "logo": "../../src/assets/eneb.png"
+            "logo": "/images/eneb.png"
         },
         {
             "formacion": "Master en Innovación y Emprendimiento",
@@ -52,7 +52,7 @@
                 "presente"
             ],
             "institucion": "ENEB - Escuela de Negocios Europea de Barcelona Y Universidad I de Castilla, España.",
-            "logo": "../../src/assets/eneb.png"
+            "logo": "/images/eneb.png"
         }
     ]
 }
