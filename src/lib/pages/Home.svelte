@@ -1,10 +1,10 @@
 <script lang="ts">
-    // javascript code here
-
+    import Perfil from "../Perfil.svelte";
     import Hero from "../UI/Hero.svelte";
 </script>
 
 <Hero />
+<Perfil />
 
 <style>
 </style>

@@ -1,6 +1,5 @@
 <script lang="ts">
     import Contact from "../Contact.svelte";
-    import Perfil from "../Perfil.svelte";
 </script>
 
 <hero class="flex relative h-[700px]">
@@ -29,7 +28,6 @@
         </div>
     </div>
 </hero>
-<Perfil />
 
 <style>
     hero {

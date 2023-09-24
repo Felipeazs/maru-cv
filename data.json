@@ -54,5 +54,67 @@
             "institucion": "ENEB - Escuela de Negocios Europea de Barcelona Y Universidad I de Castilla, España.",
             "logo": "/images/eneb.png"
         }
+    ],
+    "competencias": [
+        {
+            "titulo": "Enfoque metódico",
+            "descripcion": "Capacidad demostrada para abordar proyectos de manera organizada y estructurada, garantizando la eficiencia en la ejecución."
+        },
+        {
+            "titulo": "Pensamiento analítico",
+            "descripcion": "Habilidad para descomponer problemas complejos en elementos manejables y tomar decisiones basadas en datos y evidencia."
+        },
+        {
+            "titulo": "Habilidad de planificación",
+            "descripcion": "Destreza en la planificación estratégica, estableciendo objetivos claros y desarrollando rutas efectivas para alcanzarlos."
+        },
+        {
+            "titulo": "Paciencia y Reflexión",
+            "descripcion": "Actitud paciente y reflexiva que facilita la toma de decisiones informadas y el manejo de desafíos con calma."
+        },
+        {
+            "titulo": "Liderazgo de proyectos",
+            "descripcion": "Experiencia en liderar proyectos e iniciativas, demostrando habilidades de coordinación, gestión de equipos y recursos."
+        },
+        {
+            "titulo": "Comunicación efectivia",
+            "descripcion": "Capacidad para comunicar ideas y resultados de manera clara y persuasiva, esencial para la colaboración y presentación de proyectos."
+        },
+        {
+            "titulo": "Orientación a la sostenibilidad",
+            "descripcion": "Compromiso firme con la sostenibilidad y la responsabilidad ambiental, con un enfoque en la búsqueda de soluciones sostenibles."
+        },
+        {
+            "titulo": "Adaptabilidad",
+            "descripcion": "Habilidad para adaptarse a entornos cambiantes y flexibilidad para enfrentar una variedad de proyectos y desafíos."
+        },
+        {
+            "titulo": "Trabajo en equipo",
+            "descripcion": "Competencia en trabajar de manera efectiva en equipos multidisciplinarios, fomentando la colaboración y el logro de objetivos compartidos."
+        },
+        {
+            "titulo": "Resolución de problemas",
+            "descripcion": "Habilidad para identificar y resolver problemas técnicos y científicos complejos, aplicando un enfoque analítico."
+        },
+        {
+            "titulo": "Toma de decisiones",
+            "descripcion": "Enfoque basado en datos que respalda la toma de decisiones fundamentadas en evidencia y análisis exhaustivos."
+        },
+        {
+            "titulo": "Ética profesional",
+            "descripcion": "Compromiso con la integridad y la ética en el trabajo, especialmente en proyectos relacionados con la sostenibilidad y la responsabilidad social."
+        },
+        {
+            "titulo": "Gestión de tiempo",
+            "descripcion": "Habilidad para administrar eficazmente el tiempo, cumplir plazos y mantener la productividad en proyectos y tareas."
+        },
+        {
+            "titulo": "Curiosidad y aprendizaje continuo",
+            "descripcion": "Actitud de aprendizaje constante y disposición para mantenerse actualizado en las últimas tendencias y tecnologías."
+        },
+        {
+            "titulo": "Empatía y colaboración",
+            "descripcion": "Capacidad para comprender y colaborar efectivamente con colegas y colaboradores, fomentando un entorno de trabajo armonioso."
+        }
     ]
 }
