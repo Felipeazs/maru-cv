@@ -4,11 +4,9 @@
     const competencias = data.competencias;
 </script>
 
-<div
-    class="flex flex-col gap-10 w-full min-h-screen xl:w-[70%] bg-crema p-[10%] xl:pt-24"
->
-    <div class="flex flex-col gap-3">
-        <h1 class="uppercase font-bold text-2xl">Perfil</h1>
+<div class="rubro">
+    <div class="rubro-content">
+        <h1 class="rubro-title">Perfil</h1>
         <div class="divider-2" />
         <div class="flex flex-col gap-5">
             <p>
@@ -53,8 +51,8 @@
             </p>
         </div>
     </div>
-    <div class="flex flex-col gap-3 z-10">
-        <h1 class="uppercase font-bold text-2xl">
+    <div class="rubro-content z-10">
+        <h1 class="rubro-title">
             Competencias y habilidades blandas
         </h1>
         <div class="divider-2" />

@@ -116,5 +116,122 @@
             "titulo": "Empatía y colaboración",
             "descripcion": "Capacidad para comprender y colaborar efectivamente con colegas y colaboradores, fomentando un entorno de trabajo armonioso."
         }
+    ],
+    "experiencia": [
+        {
+            "cargo": "Gerente técnico-comercial y líder de proyectos en EC y cambio climático.",
+            "empresa": "Consultora Técnica Sustrend SpA",
+            "fecha": [
+                "Mayo 2023",
+                "presente"
+            ],
+            "descripcion": ""
+        },
+        {
+            "cargo": "Gerente general",
+            "empresa": "Consultora Técnica Sustrend SpA",
+            "fecha": [
+                "Agosto 2023",
+                "presente"
+            ],
+            "descripcion": ""
+        },
+        {
+            "cargo": "Investigadora senior / Área de sostenibilidad industrial",
+            "empresa": "Centro de Biotecnología de Sistemas, Univerdidad Nacional Andrés Bello (CSB-UNAB)",
+            "fecha": [
+                "2022"
+            ],
+            "descripcion": ""
+        },
+        {
+            "cargo": "Investigadora senior / Área de Agroalimentos e Ingredientes",
+            "empresa": "Fraunhofer Chile Research, Centro de Biotecnología de Sistemas FCR-CSB",
+            "fecha": [
+                "2010",
+                "2021"
+            ],
+            "descripcion": ""
+        },
+        {
+            "cargo": "Socia fundadora y Gerente General",
+            "empresa": "Consultora de Negocios Sustentables Lazo SpA",
+            "fecha": [
+                "2021",
+                "presente"
+            ],
+            "descripcion": ""
+        },
+        {
+            "cargo": "Profesional educación ambiental",
+            "empresa": "Departamento de Medio Ambiente de la Ilustre Municipalidad de Quintero",
+            "fecha": [
+                "2023",
+                "presente"
+            ],
+            "descripcion": "Programa Comuna Energética del Ministerio de la Agencia de Sostenibilidad Energética Programa HuellaChile del Ministerio de Medio Ambiente. Implementación de iniciativas de economía circular y área de cambio climático de acuerdo con el Compromiso Municipio Verde-ONG FIMA y la Guía metodológica para orientar la transición hacia una economía circular. Ciudad Circular, Facultad Ciencias de la Vida, Universidad Andrés Bello Implementación de iniciativas educativas para funcionarios municipales y para la comunidad en línea con la Ley 21455 Ley Marco de Cambio Climático Contraparte municipal para el reporte del Plan de Acción Nacional de Cambio Climático 2017-2022 (PANCC)"
+        },
+        {
+            "cargo": "Asistente de investigación",
+            "empresa": "Centro Regional de Estudios en Alimentos Saludables, Pontificia Universidad Católica de Valparaíso",
+            "fecha": [
+                "2009",
+                "2010"
+            ],
+            "descripcion": ""
+        },
+        {
+            "cargo": "Profesional freelance proyectos de ingeniería",
+            "empresa": "Núcleo Biotecnología de Curauma, Pontificia Universidad Católica de Valparaíso",
+            "fecha": [
+                "Junio 2023",
+                "Julio 2023"
+            ],
+            "descripcion": "Apoyo en puesta en marcha y diseño de experimentos para la implementación de diversos pretratamientos para la digestión anaerobia de lodos en la Planta de Tratamiento de Aguas Residuales La Farfana en Santiago, Chile."
+        },
+        {
+            "cargo": "Profesional servicios de ingeniería",
+            "empresa": "Lazo SpA",
+            "fecha": [
+                "2022",
+                "2023"
+            ],
+            "descripcion": "Servicios de ingeniería para proyecto de innovación HubTec - Universidad de Los Andes"
+        },
+        {
+            "cargo": "Coordinadora programas formativos",
+            "empresa": "Núcleo Biotecnología de Curauma, Pontificia Universidad Católica de Valparaíso",
+            "fecha": [
+                "2022"
+            ],
+            "descripcion": ""
+        },
+        {
+            "cargo": "Gerente general",
+            "empresa": "AGS Innobiotics SpA",
+            "fecha": [
+                "2022",
+                "presente"
+            ],
+            "descripcion": ""
+        },
+        {
+            "cargo": "Asistente de laboratorio de la cátedra LABORATORIO DE BIOPROCESOS de la Escuela de Ingeniería Bioquímica para la carrera de Ingeniería Civil Bioquímica y para el postgrado Magíster en Ciencias de la Ingeniería.",
+            "empresa": "Pontificia Universidad Católica de Valparaíso",
+            "fecha": [
+                "2022",
+                "2023"
+            ],
+            "descripcion": ""
+        },
+        {
+            "cargo": "Práctica profesional (3 meses) y Asistente en el Departamento de Calidad, Grupo Alimentos. ",
+            "empresa": "Laboratorios Silob",
+            "fecha": [
+                "2007",
+                "2008"
+            ],
+            "descripcion": ""
+        }
     ]
 }
