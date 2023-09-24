@@ -1,10 +1,12 @@
 <script lang="ts">
     import Perfil from "../Perfil.svelte";
     import Hero from "../UI/Hero.svelte";
+    import Selector from "../UI/Selector.svelte";
 </script>
 
 <Hero />
-<Perfil />
+    <Selector />
+    <Perfil />
 
 <style>
 </style>

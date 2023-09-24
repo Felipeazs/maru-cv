@@ -5,7 +5,7 @@
 </script>
 
 <div
-    class="flex flex-col gap-10 w-full min-h-screen xl:w-[70%] bg-crema p-[10%] pt-[550px] md:pt-[450px] xl:pt-24"
+    class="flex flex-col gap-10 w-full min-h-screen xl:w-[70%] bg-crema p-[10%] xl:pt-24"
 >
     <div class="flex flex-col gap-3">
         <h1 class="uppercase font-bold text-2xl">Perfil</h1>
