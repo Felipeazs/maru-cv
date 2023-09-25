@@ -1,10 +1,28 @@
 {
     "educacion": [
         {
-            "formacion": "Doctor(c) - Magíster - Pregrado",
+            "formacion": "Doctorado (c) en Ciencias de la Ingeniería con mención en Ingeniería Bioquímica",
+            "fecha": [
+                "2010",
+                "2017"
+            ],
+            "institucion": "Pontificia Universidad Católica de Valparaíso, Chile.",
+            "logo": "/images/pucv.png"
+        },
+        {
+            "formacion": "Magíster en Ciencias de la Ingeniería con mención en Ingeniería Bioquímica",
+            "fecha": [
+                "2011",
+                "2012"
+            ],
+            "institucion": "Pontificia Universidad Católica de Valparaíso, Chile.",
+            "logo": "/images/pucv.png"
+        },
+        {
+            "formacion": "Ingeniero Civil Buiquímico",
             "fecha": [
                 "2001",
-                "2011"
+                "2010"
             ],
             "institucion": "Pontificia Universidad Católica de Valparaíso, Chile.",
             "logo": "/images/pucv.png"
@@ -28,25 +46,7 @@
             "logo": "/images/pucv.png"
         },
         {
-            "formacion": "Master en Big Data y Business Intelligence",
-            "fecha": [
-                "2020",
-                "presente"
-            ],
-            "institucion": "ENEB - Escuela de Negocios Europea de Barcelona Y Universidad I de Castilla, España.",
-            "logo": "/images/eneb.png"
-        },
-        {
-            "formacion": "Master en Dirección Comercial y Marketing",
-            "fecha": [
-                "2020",
-                "presente"
-            ],
-            "institucion": "ENEB - Escuela de Negocios Europea de Barcelona Y Universidad I de Castilla, España.",
-            "logo": "/images/eneb.png"
-        },
-        {
-            "formacion": "Master en Innovación y Emprendimiento",
+            "formacion": "Master en Comunicación Empresarial y Corporativa,\n Master en Big Data y Business Intelligence, Master en Direccion Comercial y Marketing, Master en Innovación y Emprendimiento, Master en Marketing Digital y eCommerce, MBA en Administración y Dirección de Empresas",
             "fecha": [
                 "2020",
                 "presente"

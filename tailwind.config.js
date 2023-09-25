@@ -8,9 +8,12 @@ export default {
                 white: '#F3F3F3',
                 crema: '#F0FFF5',
                 cafe: '#A7835A',
-                gris: '#909797'
-            }
+                gris: '#909797',
+            },
         },
     },
     plugins: [require('daisyui')],
+    daisyui: {
+        themes: ['light'],
+    },
 }

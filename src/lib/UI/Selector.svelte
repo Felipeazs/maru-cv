@@ -3,7 +3,7 @@
 </script>
 
 <div
-    class="relative z-20 w-[50%] pt-[480px] md:pt-[420px] xl:pt-[35px] ps-[10%] pb-10"
+    class="relative z-20 w-[50%] pt-[500px] md:pt-[420px] xl:pt-[35px] ps-[10%] pb-10"
 >
     <div class="absolute z-10">
         <p>Selecciona un rubro</p>
@@ -12,6 +12,7 @@
             bind:value={selected}
         >
             <option value="perfil">Perfil</option>
+            <option value="educacion">Educación</option>
             <option value="experiencia_laboral">Experiencia laboral</option>
             <option value="diplomados">Diplomados</option>
         </select>
