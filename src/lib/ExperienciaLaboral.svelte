@@ -10,7 +10,9 @@
         <div class="divider-2" />
         <div class="flex flex-col gap-3">
             {#each experiencia as exp}
-                <div class="flex flex-col md:flex-row gap-5 items-start md:items-center">
+                <div
+                    class="flex flex-col md:flex-row gap-5 items-start md:items-center"
+                >
                     <div
                         class="bg-[#fff] text-md text-black font-bold p-1 rounded-lg"
                     >

@@ -52,9 +52,7 @@
         </div>
     </div>
     <div class="rubro-content z-10">
-        <h1 class="rubro-title">
-            Competencias y habilidades blandas
-        </h1>
+        <h1 class="rubro-title">Competencias y habilidades blandas</h1>
         <div class="divider-2" />
         <div class="flex flex-row flex-wrap justify-center items-center gap-2">
             {#each competencias as competencia}
