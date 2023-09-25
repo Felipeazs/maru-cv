@@ -12,8 +12,8 @@
             bind:value={selected}
         >
             <option value="perfil">Perfil</option>
-            <option value="educacion">Educación</option>
             <option value="experiencia_laboral">Experiencia laboral</option>
+            <option value="educacion">Educación</option>
             <option value="diplomados">Diplomados</option>
         </select>
     </div>

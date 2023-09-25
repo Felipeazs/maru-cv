@@ -10,12 +10,14 @@
         <div class="divider-2" />
         <div class="flex flex-col gap-3">
             {#each educacion as ed}
-                <div class="flex flex-row gap-5 items-start h-[120px]">
+                <div
+                    class="flex flex-col md:flex-row gap-5 items-start md:items-center"
+                >
                     <div
                         class="bg-[#fff] text-md text-black font-bold p-1 rounded-lg"
                     >
                         <div
-                            class="flex flex-col justify-center items-center min-w-[125px] min-h-[100px] p-1 border-2 border-[rgba(13,60,85,0.8)] rounded-lg"
+                            class="flex md:flex-col justify-center items-center md:min-w-[125px] md:min-h-[100px] p-1 border-2 border-[rgba(13,60,85,0.8)] rounded-lg"
                         >
                             <p>{ed.fecha[1] ?? ""}</p>
                             <span>{ed.fecha[1] ? "・" : ""}</span>
