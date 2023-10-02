@@ -97,18 +97,20 @@
     <div class="hidden w-full xl:inline-block">
         <h1 class="uppercase font-bold text-xl">Competencias</h1>
         <div class="divider" />
-        {#each competencias as cs}
-            <div class="card">
-                <div class="flex flex-row gap-3">
-                    <p class="text-xl text-gris">
-                        {cs.titulo}
+        <div class="flex flex-col gap-3">
+            {#each competencias as cs}
+                <div class="card">
+                    <div class="flex flex-row gap-3">
+                        <p class="text-xl text-gris">
+                            {cs.titulo}
+                        </p>
+                    </div>
+                    <p class="text-slate-400">
+                        {cs.descripcion}
                     </p>
                 </div>
-                <p class="text-slate-400">
-                    {cs.descripcion}
-                </p>
-            </div>
-        {/each}
+            {/each}
+        </div>
     </div>
 </div>
 
@@ -118,6 +120,5 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
-        padding: 30px 0;
     }
 </style>
