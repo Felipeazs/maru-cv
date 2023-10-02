@@ -1,14 +1,7 @@
 <script lang="ts">
-    import data from "../../data.json";
+    import data from "./cv-store";
 
-    interface EducacionTypes {
-        formacion: string;
-        fecha: string[];
-        institucion: string;
-        logo: string;
-    }
-
-    const educacion: EducacionTypes[] = data.educacion;
+    const { competencias, idiomas } = $data;
 </script>
 
 <div class="flex flex-col gap-10 items-center text-white text-sm">
@@ -86,21 +79,33 @@
         </div>
     </div>
     <div class="hidden w-full xl:inline-block">
-        <h1 class="uppercase font-bold text-xl">Educación</h1>
+        <h1 class="uppercase font-bold text-xl">Idiomas</h1>
         <div class="divider" />
-        {#each educacion as ed}
-            <div class="card">
-                <img src={ed.logo} alt={ed.institucion} width={100} />
-                <div class="flex flex-row gap-3">
-                    <p class="text-xl text-gris">
-                        {`${ed.fecha[0]} ・ ${ed.fecha[1]}`}
+        <div class="flex flex-col gap-1">
+            {#each idiomas as i}
+                <div class="flex flex-row gap-1">
+                    <p class="text-xl text-gris w-1/3">
+                        {i.idioma}
+                    </p>
+                    <p class="text-slate-400 w-2/3">
+                        {i.descripcion}
                     </p>
                 </div>
-                <h1 class="text-lg font-semibold">
-                    {ed.formacion}
-                </h1>
+            {/each}
+        </div>
+    </div>
+    <div class="hidden w-full xl:inline-block">
+        <h1 class="uppercase font-bold text-xl">Competencias</h1>
+        <div class="divider" />
+        {#each competencias as cs}
+            <div class="card">
+                <div class="flex flex-row gap-3">
+                    <p class="text-xl text-gris">
+                        {cs.titulo}
+                    </p>
+                </div>
                 <p class="text-slate-400">
-                    {ed.institucion}
+                    {cs.descripcion}
                 </p>
             </div>
         {/each}
