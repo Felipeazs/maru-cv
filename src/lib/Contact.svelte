@@ -7,7 +7,7 @@
     let collapsable = true;
 </script>
 
-<div class="flex flex-col gap-5 items-center text-white text-sm min-h-screen">
+<div class="flex flex-col gap-5 items-center text-white text-sm">
     <div
         class={`collapse collapse-arrow ${
             collapsable ? "collapse-open" : "collapse-close"
