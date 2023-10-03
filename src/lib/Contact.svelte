@@ -78,6 +78,7 @@
             <span>maru.27@gmail.com</span>
         </div>
     </div>
+    <div class="divider" />
     <div class="hidden w-full xl:inline-block">
         <div class="collapse">
             <input type="checkbox" />
@@ -141,9 +142,9 @@
                     class="flex flex-col gap-3 py-5 border-crema border-[1px] rounded-2xl rounded-t-none w-full px-3"
                 >
                     {#each competencias as cs}
-                        <div class="card">
+                        <div class="flex flex-col">
                             <div class="flex flex-row gap-3">
-                                <p class="text-xl text-crema">
+                                <p class="text-md text-crema">
                                     {cs.titulo}
                                 </p>
                             </div>
@@ -151,18 +152,10 @@
                                 {cs.descripcion}
                             </p>
                         </div>
+                        <div class="divider-3" />
                     {/each}
                 </div>
             </div>
         </div>
     </div>
 </div>
-
-<style>
-    .card {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-</style>
