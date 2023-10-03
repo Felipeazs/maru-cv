@@ -6,8 +6,14 @@
 </script>
 
 <!-- <Navbar /> -->
-<slot />
-<Footer />
+<main>
+    <slot />
+</main>
+
+<!-- <Footer /> -->
 
 <style>
+    main {
+        min-height: 160vh;
+    }
 </style>

@@ -11,17 +11,21 @@
             class="select select-bordered select-sm w-max"
             bind:value={selected}
         >
-            <option value="perfil">Perfil</option>
-            <option value="experiencia_laboral">Experiencia laboral</option>
-            <option value="educacion">Educación</option>
-            <option value="diplomados">Diplomados</option>
             <option value="cursos">Cursos</option>
-            <option value="vinculaciones">Vinculación con el medio</option>
+            <option value="educacion">Educación</option>
+            <option value="empresas">Empresas</option>
+            <option value="experiencia_laboral">Experiencia laboral</option>
+            <option value="diplomados">Diplomados</option>
+            <option value="perfil">Perfil</option>
+            <option value="premios">Premios</option>
+            <option value="presentaciones"
+                >Presentaciones internacionales</option
+            >
             <option value="proyectos">Proyectos</option>
+            <option value="publicaciones">Publicaciones</option>
             <option value="seminarios">Seminarios</option>
+            <option value="servicios">Servicios</option>
+            <option value="vinculaciones">Vinculación con el medio</option>
         </select>
     </div>
 </div>
-
-<style>
-</style>

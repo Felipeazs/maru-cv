@@ -1,10 +1,10 @@
 <script lang="ts">
     import data from "./cv-store";
 
-    const { competencias, idiomas } = $data;
+    const { competencias, idiomas, herramientas } = $data;
 </script>
 
-<div class="flex flex-col gap-10 items-center text-white text-sm">
+<div class="flex flex-col gap-5 items-center text-white text-sm">
     <div class="w-full flex flex-col gap-5">
         <div>
             <h1 class="uppercase font-bold text-xl">Contacto</h1>
@@ -79,37 +79,72 @@
         </div>
     </div>
     <div class="hidden w-full xl:inline-block">
-        <h1 class="uppercase font-bold text-xl">Idiomas</h1>
-        <div class="divider" />
-        <div class="flex flex-col gap-1">
-            {#each idiomas as i}
-                <div class="flex flex-row gap-1">
-                    <p class="text-xl text-gris w-1/3">
-                        {i.idioma}
-                    </p>
-                    <p class="text-slate-400 w-2/3">
-                        {i.descripcion}
-                    </p>
+        <div class="collapse">
+            <input type="checkbox" />
+            <div class="collapse-title text-xl uppercase font-bold">
+                Idiomas
+            </div>
+            <div class="divider" />
+            <div class="collapse-content">
+                <div class="flex flex-col gap-1">
+                    {#each idiomas as i}
+                        <div class="flex flex-row gap-1">
+                            <p class="text-crema w-1/3">{i.idioma}</p>
+                            <p class="text-slate-400 w-2/3">
+                                {i.descripcion}
+                            </p>
+                        </div>
+                    {/each}
                 </div>
-            {/each}
+            </div>
         </div>
     </div>
     <div class="hidden w-full xl:inline-block">
-        <h1 class="uppercase font-bold text-xl">Competencias</h1>
-        <div class="divider" />
-        <div class="flex flex-col gap-3">
-            {#each competencias as cs}
-                <div class="card">
-                    <div class="flex flex-row gap-3">
-                        <p class="text-xl text-gris">
-                            {cs.titulo}
-                        </p>
-                    </div>
-                    <p class="text-slate-400">
-                        {cs.descripcion}
-                    </p>
+        <div class="collapse">
+            <input type="checkbox" />
+            <div class="collapse-title text-xl uppercase font-bold">
+                Herramientas
+            </div>
+            <div class="divider" />
+            <div class="collapse-content">
+                <div class="flex flex-col text-center">
+                    {#each herramientas as hs}
+                        <div class="py-2">
+                            <p class="text-crema">{hs.titulo}</p>
+                            <p class="text-slate-400">{hs.tipo}</p>
+                            <p class="text-gris">
+                                nivel {hs.nivel.toLowerCase()}
+                            </p>
+                        </div>
+                        <div class="divider-3" />
+                    {/each}
                 </div>
-            {/each}
+            </div>
+        </div>
+    </div>
+    <div class="hidden w-full xl:inline-block">
+        <div class="collapse">
+            <input type="checkbox" />
+            <div class="collapse-title text-xl uppercase font-bold">
+                Competencias
+            </div>
+            <div class="divider" />
+            <div class="collapse-content">
+                <div class="flex flex-col gap-3">
+                    {#each competencias as cs}
+                        <div class="card">
+                            <div class="flex flex-row gap-3">
+                                <p class="text-xl text-crema">
+                                    {cs.titulo}
+                                </p>
+                            </div>
+                            <p class="text-slate-400">
+                                {cs.descripcion}
+                            </p>
+                        </div>
+                    {/each}
+                </div>
+            </div>
         </div>
     </div>
 </div>
