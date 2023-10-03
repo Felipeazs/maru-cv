@@ -81,12 +81,15 @@
     <div class="hidden w-full xl:inline-block">
         <div class="collapse">
             <input type="checkbox" />
-            <div class="collapse-title text-xl uppercase font-bold">
+            <div
+                class="collapse-title text-xl uppercase font-bold bg-crema text-black"
+            >
                 Idiomas
             </div>
-            <div class="divider" />
-            <div class="collapse-content">
-                <div class="flex flex-col gap-1">
+            <div class="collapse-content p-0">
+                <div
+                    class="flex flex-col gap-1 py-5 border-crema border-[1px] rounded-2xl rounded-t-none w-full px-3"
+                >
                     {#each idiomas as i}
                         <div class="flex flex-row gap-1">
                             <p class="text-crema w-1/3">{i.idioma}</p>
@@ -102,12 +105,15 @@
     <div class="hidden w-full xl:inline-block">
         <div class="collapse">
             <input type="checkbox" />
-            <div class="collapse-title text-xl uppercase font-bold">
+            <div
+                class="collapse-title text-xl uppercase font-bold bg-crema text-black"
+            >
                 Herramientas
             </div>
-            <div class="divider" />
-            <div class="collapse-content">
-                <div class="flex flex-col text-center">
+            <div class="collapse-content p-0">
+                <div
+                    class="flex flex-col gap-1 py-5 border-crema border-[1px] rounded-2xl rounded-t-none w-full px-3"
+                >
                     {#each herramientas as hs}
                         <div class="py-2">
                             <p class="text-crema">{hs.titulo}</p>
@@ -125,12 +131,15 @@
     <div class="hidden w-full xl:inline-block">
         <div class="collapse">
             <input type="checkbox" />
-            <div class="collapse-title text-xl uppercase font-bold">
+            <div
+                class="collapse-title text-xl uppercase font-bold bg-crema text-black"
+            >
                 Competencias
             </div>
-            <div class="divider" />
-            <div class="collapse-content">
-                <div class="flex flex-col gap-3">
+            <div class="collapse-content p-0">
+                <div
+                    class="flex flex-col gap-3 py-5 border-crema border-[1px] rounded-2xl rounded-t-none w-full px-3"
+                >
                     {#each competencias as cs}
                         <div class="card">
                             <div class="flex flex-row gap-3">
