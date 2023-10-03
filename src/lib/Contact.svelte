@@ -3,21 +3,19 @@
 
     const { competencias, idiomas, herramientas } = $data;
     let collapsable = true;
-
-    $: console.log(collapsable);
-
-    const handleCollapsable = () => {
-        collapsable = !collapsable;
-    };
 </script>
 
-<div class="flex flex-col gap-5 items-center text-white text-sm">
+<div class="flex flex-col gap-5 items-center text-white text-sm min-h-screen">
     <div
         class={`collapse collapse-arrow ${
             collapsable ? "collapse-open" : "collapse-close"
         }`}
     >
-        <input type="checkbox" on:click={handleCollapsable} class="hover:cursor-pointer" />
+        <input
+            type="checkbox"
+            on:click={() => (collapsable = !collapsable)}
+            class="hover:cursor-pointer"
+        />
         <div
             class="collapse-title text-xl uppercase font-bold bg-crema text-black"
         >
