@@ -1,7 +1,9 @@
 <script lang="ts">
+    import CollapsableWrapper from "./UI/CollapsableWrapper.svelte";
     import data from "./cv-store";
 
     const { competencias, idiomas, herramientas } = $data;
+
     let collapsable = true;
 </script>
 
@@ -95,83 +97,41 @@
             </div>
         </div>
     </div>
-    <div class="hidden w-full xl:inline-block">
-        <div class="collapse collapse-arrow">
-            <input type="checkbox" />
-            <div
-                class="collapse-title text-xl uppercase font-bold bg-crema text-black"
-            >
-                Idiomas
+    <CollapsableWrapper title="idiomas">
+        {#each idiomas as i}
+            <div class="flex flex-row gap-1">
+                <p class="text-crema w-1/3">{i.idioma}</p>
+                <p class="text-slate-400 w-2/3">
+                    {i.descripcion}
+                </p>
             </div>
-            <div class="collapse-content p-0">
-                <div
-                    class="flex flex-col gap-1 py-5 border-crema border-[1px] rounded-2xl rounded-t-none w-full px-3"
-                >
-                    {#each idiomas as i}
-                        <div class="flex flex-row gap-1">
-                            <p class="text-crema w-1/3">{i.idioma}</p>
-                            <p class="text-slate-400 w-2/3">
-                                {i.descripcion}
-                            </p>
-                        </div>
-                    {/each}
+        {/each}
+    </CollapsableWrapper>
+    <CollapsableWrapper title="herramientas">
+        {#each herramientas as hs}
+            <div class="py-2">
+                <p class="text-crema">{hs.titulo}</p>
+                <p class="text-slate-400">{hs.tipo}</p>
+                <p class="text-gris">
+                    nivel {hs.nivel.toLowerCase()}
+                </p>
+            </div>
+            <div class="divider-3" />
+        {/each}
+    </CollapsableWrapper>
+    <CollapsableWrapper title="competencias">
+        {#each competencias as cs}
+            <div class="flex flex-col">
+                <div class="flex flex-row gap-3">
+                    <p class="text-md text-crema">
+                        {cs.titulo}
+                    </p>
                 </div>
+                <p class="text-slate-400">
+                    {cs.descripcion}
+                </p>
             </div>
-        </div>
-    </div>
-    <div class="hidden w-full xl:inline-block">
-        <div class="collapse collapse-arrow">
-            <input type="checkbox" />
-            <div
-                class="collapse-title text-xl uppercase font-bold bg-crema text-black"
-            >
-                Herramientas
-            </div>
-            <div class="collapse-content p-0">
-                <div
-                    class="flex flex-col gap-1 py-5 border-crema border-[1px] rounded-2xl rounded-t-none w-full px-3"
-                >
-                    {#each herramientas as hs}
-                        <div class="py-2">
-                            <p class="text-crema">{hs.titulo}</p>
-                            <p class="text-slate-400">{hs.tipo}</p>
-                            <p class="text-gris">
-                                nivel {hs.nivel.toLowerCase()}
-                            </p>
-                        </div>
-                        <div class="divider-3" />
-                    {/each}
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="hidden w-full xl:inline-block">
-        <div class="collapse collapse-arrow">
-            <input type="checkbox" />
-            <div
-                class="collapse-title text-xl uppercase font-bold bg-crema text-black"
-            >
-                Competencias
-            </div>
-            <div class="collapse-content p-0">
-                <div
-                    class="flex flex-col gap-3 py-5 border-crema border-[1px] rounded-2xl rounded-t-none w-full px-3"
-                >
-                    {#each competencias as cs}
-                        <div class="flex flex-col">
-                            <div class="flex flex-row gap-3">
-                                <p class="text-md text-crema">
-                                    {cs.titulo}
-                                </p>
-                            </div>
-                            <p class="text-slate-400">
-                                {cs.descripcion}
-                            </p>
-                        </div>
-                        <div class="divider-3" />
-                    {/each}
-                </div>
-            </div>
-        </div>
-    </div>
+            <div class="divider-3" />
+        {/each}
+    </CollapsableWrapper>
 </div>
