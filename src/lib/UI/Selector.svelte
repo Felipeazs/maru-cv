@@ -48,9 +48,9 @@
 </script>
 
 <div
-    class="relative z-20 w-[50%] pt-[650px] md:pt-[520px] xl:pt-[35px] ps-[10%] pb-10"
+    class="relative z-20 w-[50%] pt-[350px] md:pt-[520px] xl:pt-[35px] ps-[10%] pb-10"
 >
-    <div class="absolute z-10 flex flex-row flex-wrap gap-5">
+    <div class="md:absolute md:z-10 flex flex-row flex-wrap gap-5">
         <label class="flex flex-col">
             Pincha en la sección
             <select

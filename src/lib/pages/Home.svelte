@@ -24,7 +24,7 @@
 <main>
     <Hero />
     <div
-        class="fixed top-10 bottom-0 right-[5%] overflow-auto flex flex-col w-[350px] rounded-[5px] py-5 px-10 bg-black text-black"
+        class="absolute md:fixed top-10 bottom-0 right-[5%] overflow-auto flex flex-col w-[350px] rounded-[5px] py-5 px-10 bg-black text-black"
     >
         <img class="h-[400px]" alt="foto" />
         <Contact />
