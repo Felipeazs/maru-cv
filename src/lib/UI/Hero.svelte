@@ -20,12 +20,6 @@
                 </p>
             </div>
         </div>
-        <div
-            class="w-[350px] h-max rounded-[5px] py-5 px-10 bg-black text-black"
-        >
-            <img class="h-[400px]" alt="foto" />
-            <Contact />
-        </div>
     </div>
 </hero>
 

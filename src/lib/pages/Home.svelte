@@ -1,4 +1,5 @@
 <script lang="ts">
+    import Contact from "../Contact.svelte";
     import Cursos from "../Cursos.svelte";
     import Diplomado from "../Diplomado.svelte";
     import Educacion from "../Educacion.svelte";
@@ -15,40 +16,62 @@
     import Selector from "../UI/Selector.svelte";
     import Vinculacion from "../Vinculacion.svelte";
 
-    let selected: string = "perfil";
+    let selection: string = "todos";
+    let anio: number = 0;
+    let especialidad: string = "todas";
 </script>
 
-<Hero />
-<Selector bind:selected />
-{#if selected === "perfil"}
-    <Perfil />
-{:else if selected === "experiencia_laboral"}
-    <ExperienciaLaboral />
-{:else if selected === "diplomados"}
-    <Diplomado />
-{:else if selected === "educacion"}
-    <Educacion />
-{:else if selected === "cursos"}
-    <Cursos />
-{:else if selected === "vinculaciones"}
-    <Vinculacion />
-{:else if selected === "proyectos"}
-    <Proyectos />
-{:else if selected === "seminarios"}
-    <Seminarios />
-{:else if selected === "servicios"}
-    <Servicios />
-{:else if selected === "empresas"}
-    <Empresas />
-{:else if selected === "publicaciones"}
-    <Publicaciones />
-{:else if selected === "presentaciones"}
-    <Presentaciones />
-{:else if selected === "premios"}
-    <Premios />
-{:else}
-    <Perfil />
-{/if}
+<main>
+    <Hero />
+    <div
+        class="fixed top-10 bottom-0 right-[5%] overflow-auto flex flex-col w-[350px] rounded-[5px] py-5 px-10 bg-black text-black"
+    >
+        <img class="h-[400px]" alt="foto" />
+        <Contact />
+    </div>
+    <Selector bind:selection bind:anio bind:especialidad />
+    {#if selection === "perfil"}
+        <Perfil />
+    {:else if selection === "experiencia_laboral"}
+        <ExperienciaLaboral bind:anio bind:especialidad />
+    {:else if selection === "diplomados"}
+        <Diplomado bind:anio bind:especialidad />
+    {:else if selection === "educacion"}
+        <Educacion bind:anio bind:especialidad />
+    {:else if selection === "cursos"}
+        <Cursos bind:anio bind:especialidad />
+    {:else if selection === "vinculaciones"}
+        <Vinculacion bind:anio bind:especialidad />
+    {:else if selection === "proyectos"}
+        <Proyectos bind:anio bind:especialidad />
+    {:else if selection === "seminarios"}
+        <Seminarios bind:anio bind:especialidad />
+    {:else if selection === "servicios"}
+        <Servicios bind:anio bind:especialidad />
+    {:else if selection === "empresas"}
+        <Empresas bind:anio bind:especialidad />
+    {:else if selection === "publicaciones"}
+        <Publicaciones bind:anio bind:especialidad />
+    {:else if selection === "presentaciones"}
+        <Presentaciones bind:anio bind:especialidad />
+    {:else if selection === "premios"}
+        <Premios bind:anio bind:especialidad />
+    {:else}
+        <Perfil />
+        <ExperienciaLaboral bind:anio bind:especialidad />
+        <Proyectos bind:anio bind:especialidad />
+        <Educacion bind:anio bind:especialidad />
+        <Publicaciones bind:anio bind:especialidad />
+        <Presentaciones bind:anio bind:especialidad />
+        <Diplomado bind:anio bind:especialidad />
+        <Cursos bind:anio bind:especialidad />
+        <Seminarios bind:anio bind:especialidad />
+        <Premios bind:anio bind:especialidad />
+        <Vinculacion bind:anio bind:especialidad />
+        <Empresas bind:anio bind:especialidad />
+        <Servicios bind:anio bind:especialidad />
+    {/if}
+</main>
 
 <style>
 </style>

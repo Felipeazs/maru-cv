@@ -1,25 +1,17 @@
 <script lang="ts">
     import RubroWrapper from "./UI/RubroWrapper.svelte";
+    import DetallesWrapper from "./UI/DetallesWrapper.svelte";
+
     import data from "./cv-store";
+    import { sorting_items } from "../utils/utils";
+
+    export let anio: number;
+    export let especialidad: string;
 
     const { vinculaciones } = $data;
+    $: items = sorting_items(vinculaciones, anio, especialidad);
 </script>
 
 <RubroWrapper title="Vinculación con el medio">
-    {#each vinculaciones as vs, i}
-        <div class="flex flex-col md:flex-row gap-5 items-start md:items-start">
-            <div class="bg-[#fff] text-md text-black font-bold p-1 rounded-lg">
-                <div
-                    class="flex md:flex-col justify-center items-center p-3 border-2 border-[rgba(13,60,85,0.8)] rounded-lg"
-                >
-                    <p>{i + 1}</p>
-                </div>
-            </div>
-            <div class="relative pb-5">
-                <p class="">{vs.titulo}</p>
-                <p class="text-sm text-slate-500">{vs.institucion}</p>
-                <hr class="py-1" />
-            </div>
-        </div>
-    {/each}
+    <DetallesWrapper bind:items />
 </RubroWrapper>

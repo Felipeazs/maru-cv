@@ -1,30 +1,18 @@
 <script lang="ts">
     import RubroWrapper from "./UI/RubroWrapper.svelte";
+    import DetallesWrapper from "./UI/DetallesWrapper.svelte";
+
     import data from "./cv-store";
+    import { sorting_items } from "../utils/utils";
+
+    export let anio: number;
+    export let especialidad: string;
 
     const { experiencia } = $data;
+
+    $: items = sorting_items(experiencia, anio, especialidad);
 </script>
 
 <RubroWrapper title="Experiencia laboral">
-    {#each experiencia as exp}
-        <div
-            class="flex flex-col md:flex-row gap-5 items-start md:items-center"
-        >
-            <div class="bg-[#fff] text-md text-black font-bold p-1 rounded-lg">
-                <div
-                    class="flex md:flex-col justify-center items-center md:min-w-[125px] md:min-h-[100px] p-1 border-2 border-[rgba(13,60,85,0.8)] rounded-lg"
-                >
-                    <p>{exp.fecha[1] ?? ""}</p>
-                    <span>{exp.fecha[1] ? "・" : ""}</span>
-                    <p>{exp.fecha[0]}</p>
-                </div>
-            </div>
-            <div>
-                <p class="">{exp.cargo}</p>
-                <p class="text-sm text-slate-500">{exp.empresa}</p>
-                <hr class="py-2" />
-                <p class="text-sm">{exp.descripcion}</p>
-            </div>
-        </div>
-    {/each}
+    <DetallesWrapper bind:items />
 </RubroWrapper>
