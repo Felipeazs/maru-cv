@@ -10,7 +10,7 @@
     import Todos from "../todos/Todos.svelte";
     import Perfil from "../todos/Perfil.svelte";
 
-    import maru from "/images/maru.jpeg";
+    import maru from "/images/maru.jpg";
 
     let selection: string = "todos";
     let anio: number = 0;
@@ -49,7 +49,7 @@
     >
         <img
             src={maru}
-            class="h-full text-white object-cover rounded-md"
+            class="h-full text-white object-top object-cover rounded-md"
             alt="foto_perfil"
         />
         <Contact />
