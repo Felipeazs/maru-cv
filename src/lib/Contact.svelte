@@ -82,7 +82,7 @@
                     {i.idioma === "Español"
                         ? "🇪🇸"
                         : i.idioma === "Inglés"
-                        ? "🇺🇸"
+                        ? "🇬🇧"
                         : "🇩🇪"}
                 </p>
                 <p class="text-slate-400 w-2/3">
