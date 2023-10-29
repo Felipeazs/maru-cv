@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { sorting_items, transform_title } from "../../utils/utils";
+    import { transform_title } from "../../utils/utils";
 
     import DetallesWrapper from "../UI/DetallesWrapper.svelte";
     import Hero from "../UI/Hero.svelte";
@@ -25,9 +25,7 @@
     $: xScroll = selectedItems ? 700 : 1400;
 
     const tagHandler = (event: Event) => {
-        const t = (event as MouseEvent).detail.toString();
-        tag = t;
-
+        tag = (event as MouseEvent).detail.toString();
         showTagHandler = true;
 
         window.scrollTo(0, xScroll);
@@ -80,9 +78,10 @@
         {/if}
     </div>
     {#if showTagHandler}
-        <div class="fixed bottom-24 left-[60px]">
-            <button class="btn btn-success btn-xs" on:click={resetTags}
-                >reiniciar tags</button
+        <div class="fixed bottom-[50px] left-[80px]">
+            <button
+                class="btn bg-black text-white hover:text-black rounded-full btn-xs w-[80px] h-[80px]"
+                on:click={resetTags}>🛠️ reiniciar tags</button
             >
         </div>
     {/if}
