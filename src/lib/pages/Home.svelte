@@ -43,7 +43,7 @@
 <main>
     <Hero />
     <div
-        class="absolute top-20 right-[6.5%] bottom-0 md:fixed md:top-10 md:right-[3%] overflow-auto flex flex-col w-[350px] rounded-[5px] py-5 px-5 bg-black text-black"
+        class="absolute top-20 right-[6.5%] bottom-10 md:fixed md:top-10 md:right-[3%] overflow-auto flex flex-col w-[350px] rounded-[5px] py-5 px-5 bg-black text-black"
     >
         <img class="h-[400px] text-white" alt="foto_perfil" />
         <Contact />
