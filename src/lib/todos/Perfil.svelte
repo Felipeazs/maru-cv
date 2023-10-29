@@ -2,7 +2,7 @@
     import RubroWrapper from "../UI/RubroWrapper.svelte";
 </script>
 
-<RubroWrapper title="rubro">
+<RubroWrapper title="perfil">
     <div>
         <p>
             Soy un profesional altamente comprometido y apasionado por la
