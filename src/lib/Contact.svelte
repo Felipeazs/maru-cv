@@ -32,6 +32,9 @@
             <div
                 class="flex flex-col justify-around items-start gap-5 py-5 border-crema border-[1px] rounded-2xl rounded-t-none w-full px-3"
             >
+                <p class="uppercase font-semibold text-center md:hidden">
+                    maría eugenia martínez valenzuela
+                </p>
                 <div class="flex flex-row gap-2 items-center w-full">
                     <div class="w-1/3">
                         <img src={phone} alt="phone" width={40} height={40} />
