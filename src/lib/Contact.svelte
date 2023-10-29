@@ -9,7 +9,7 @@
     import data from "./cv-store";
     const { competencias, idiomas, herramientas } = $data;
 
-    let collapsable = true;
+    let collapsable = false;
 </script>
 
 <div class="flex flex-col gap-3 items-center text-white text-sm bg-black">

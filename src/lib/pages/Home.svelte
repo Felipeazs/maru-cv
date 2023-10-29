@@ -10,7 +10,7 @@
     import Todos from "../todos/Todos.svelte";
     import Perfil from "../todos/Perfil.svelte";
 
-    import maru from "/images/maru.jpg";
+    import maru from "/images/maru.webp";
 
     let selection: string = "todos";
     let anio: number = 0;
@@ -45,11 +45,11 @@
 <main>
     <Hero />
     <div
-        class="absolute top-20 right-[6.5%] bottom-10 md:fixed md:top-10 md:right-[3%] overflow-auto flex flex-col w-[350px] rounded-[5px] gap-3 py-5 px-5 bg-[rgba(8,11,13,0.9)] text-black"
+        class="absolute top-20 right-[6.5%] bottom-10 md:fixed md:top-10 md:right-[3%] overflow-auto flex flex-col w-[350px] rounded-[5px] gap-3 pb-5 px-5 bg-[rgba(8,11,13,0.9)] text-black"
     >
         <img
             src={maru}
-            class="h-full text-white object-top object-cover rounded-md"
+            class="h-full w-full overflow-visible text-white object-top object-cover rounded-md"
             alt="foto_perfil"
         />
         <Contact />
