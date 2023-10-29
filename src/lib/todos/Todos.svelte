@@ -1,41 +1,43 @@
 <script lang="ts">
-    import Cursos from "./Cursos.svelte";
-    import Diplomado from "./Diplomado.svelte";
-    import Educacion from "./Educacion.svelte";
-    import Empresas from "./Empresas.svelte";
-    import ExperienciaLaboral from "./ExperienciaLaboral.svelte";
-    import Premios from "./Premios.svelte";
-    import Presentaciones from "./Presentaciones.svelte";
-    import Proyectos from "./Proyectos.svelte";
-    import Publicaciones from "./Publicaciones.svelte";
-    import Seminarios from "./Seminarios.svelte";
-    import Servicios from "./Servicios.svelte";
-    import Vinculacion from "./Vinculacion.svelte";
+    import RubroWrapper from "../UI/RubroWrapper.svelte";
+    import DetallesWrapper from "../UI/DetallesWrapper.svelte";
+
     import Perfil from "./Perfil.svelte";
 
-    // javascript code here
+    import data from "../cv-store";
+    import { allItems, extractTitles } from "../../utils/utils";
+
     export let selection: string;
     export let anio: number;
     export let especialidad: string;
     export let tag: string;
+
+    let foundItems = [];
+    let titulos = [];
+    $: titulos = extractTitles($data);
+    $: foundItems = allItems($data);
 </script>
 
 <div>
     {#if selection === "todos"}
         <Perfil />
     {/if}
-    <ExperienciaLaboral bind:anio bind:especialidad bind:tag on:tag-click />
-    <Proyectos bind:anio bind:especialidad bind:tag on:tag-click />
-    <Educacion bind:anio bind:especialidad bind:tag on:tag-click />
-    <Publicaciones bind:anio bind:especialidad bind:tag on:tag-click />
-    <Presentaciones bind:anio bind:especialidad bind:tag on:tag-click />
-    <Diplomado bind:anio bind:especialidad bind:tag on:tag-click />
-    <Cursos bind:anio bind:especialidad bind:tag on:tag-click />
-    <Seminarios bind:anio bind:especialidad bind:tag on:tag-click />
-    <Premios bind:anio bind:especialidad bind:tag on:tag-click />
-    <Vinculacion bind:anio bind:especialidad bind:tag on:tag-click />
-    <Empresas bind:anio bind:especialidad bind:tag on:tag-click />
-    <Servicios bind:anio bind:especialidad bind:tag on:tag-click />
+    {#if tag}
+        <div class="w-[90%] md:w-[75%] m-auto xl:m-0 bg-crema md:px-[10%]">
+            <p class="italic">tag: {tag.replace(/_/g, " ")}</p>
+        </div>
+    {/if}
+    {#each foundItems as items, i}
+        <RubroWrapper title={titulos[i]}>
+            <DetallesWrapper
+                bind:anio
+                bind:especialidad
+                bind:tag
+                bind:items
+                on:tag-click
+            />
+        </RubroWrapper>
+    {/each}
 </div>
 
 <style>

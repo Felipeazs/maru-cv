@@ -4,13 +4,18 @@
 
     //@ts-ignore
     import { tooltip } from "@svelte-plugins/tooltips";
+    import { sorting_items } from "../../utils/utils";
 
     const dispatch = createEventDispatcher();
 
+    export let anio: number;
+    export let especialidad: string;
     export let tag: string;
     export let items: any[] = [];
+
     let filteredItems = [];
 
+    $: items = sorting_items(items, anio, especialidad);
     $: if (tag) {
         filteredItems = items.filter((i) => i.tags?.includes(tag));
     } else {

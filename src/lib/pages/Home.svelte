@@ -15,50 +15,77 @@
     let especialidad: string = "todas";
     let tag: string;
     let items = [];
+    let showTagHandler: boolean = false;
 
     import data from "../cv-store";
 
     $: selectedItems = $data[selection];
     $: title = transform_title(selection);
-    $: if (selectedItems)
-        items = sorting_items(selectedItems, anio, especialidad);
+    $: if (selectedItems) items = selectedItems;
+    $: xScroll = selectedItems ? 700 : 1400;
 
     const tagHandler = (event: Event) => {
         const t = (event as MouseEvent).detail.toString();
         tag = t;
+
+        showTagHandler = true;
+
+        window.scrollTo(0, xScroll);
+    };
+
+    const resetTags = () => {
+        tag = "";
+        showTagHandler = false;
+
+        window.scrollTo(0, xScroll);
     };
 </script>
 
 <main>
     <Hero />
     <div
-        class="absolute md:fixed top-10 bottom-0 right-[5%] overflow-auto flex flex-col w-[350px] rounded-[5px] py-5 px-10 bg-black text-black"
+        class="absolute top-20 right-[6.5%] bottom-0 md:fixed md:top-10 md:right-[3%] overflow-auto flex flex-col w-[350px] rounded-[5px] py-5 px-10 bg-black text-black"
     >
         <img class="h-[400px] text-white" alt="foto_perfil" />
         <Contact />
     </div>
-    <Selector bind:selection bind:anio bind:especialidad bind:tag />
-    <div class="w-[95%] ml-20">
+    <Selector
+        bind:showTagHandler
+        bind:selection
+        bind:anio
+        bind:especialidad
+        bind:tag
+    />
+    <div class="w-[95%] m-auto pt-[500px] md:pt-[100px] md:ml-20">
         {#if selectedItems && selection !== "perfil"}
             <RubroWrapper {title} {tag}>
                 <DetallesWrapper
+                    bind:anio
+                    bind:especialidad
                     bind:items
-                    on:tag-click={tagHandler}
                     bind:tag
+                    on:tag-click={tagHandler}
                 />
             </RubroWrapper>
         {:else if selection === "perfil"}
             <Perfil />
         {:else}
             <Todos
-                bind:selection
                 bind:anio
                 bind:especialidad
+                bind:selection
                 bind:tag
                 on:tag-click={tagHandler}
             />
         {/if}
     </div>
+    {#if showTagHandler}
+        <div class="fixed bottom-24 left-[60px]">
+            <button class="btn btn-success btn-xs" on:click={resetTags}
+                >reiniciar tags</button
+            >
+        </div>
+    {/if}
 </main>
 
 <style>

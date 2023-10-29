@@ -29,168 +29,6 @@
             "descripcion": "Nivel B1 Deutscher Akademischer Austausch Dienst (DAAD) "
         }
     ],
-    "educacion": [
-        {
-            "formacion": "Doctorado (c) en Ciencias de la Ingeniería con mención en Ingeniería Bioquímica",
-            "tesis": "“Establecimiento de un cultivo en suspensión de células de T. officinale para la producción de α-amirina y lupeol. Pontificia Universidad Católica de Valparaíso, Chile. Examen de titulación pendiente.”",
-            "fecha": [
-                "2010",
-                "2017"
-            ],
-            "universidad": "Pontificia Universidad Católica de Valparaíso, Chile.",
-            "logo": "/images/pucv.png",
-            "especialidad": "ciencias_ingenieria",
-            "tags": [
-                "ingeniería",
-                "ciencias_biológicas"
-            ]
-        },
-        {
-            "formacion": "Magíster en Ciencias de la Ingeniería con mención en Ingeniería Bioquímica",
-            "tesis": "“Evaluación del cultivo de diente de león común (Taraxacum officinale) para la extracción de látex e inulina desde sus raíces y revalorización de sus residuos.” [Nota de aprobación 6.0 mención Cum laude].”",
-            "fecha": [
-                "2011",
-                "2012"
-            ],
-            "universidad": "Pontificia Universidad Católica de Valparaíso, Chile.",
-            "logo": "/images/pucv.png",
-            "especialidad": "sostenibilidad",
-            "tags": [
-                "ingeniería",
-                "ciencias_biológicas",
-                "sostenibilidad"
-            ]
-        },
-        {
-            "formacion": "Ingeniero Civil Bioquímico",
-            "tesis": "“Estudio de la cinética de degradación de lodos provenientes de una planta de tratamiento de aguas residuales urbanas y evaluación de un sistema de pre-hidrólisis térmica de lodo biológico.” [Nota de aprobación 7.0].”",
-            "fecha": [
-                "2001",
-                "2010"
-            ],
-            "universidad": "Pontificia Universidad Católica de Valparaíso, Chile.",
-            "logo": "/images/pucv.png",
-            "especialidad": "ciencias_ingenieria",
-            "tags": [
-                "ingeniería",
-                "ciencias_biológicas"
-            ]
-        },
-        {
-            "formacion": "Doctorado (c) en proyectos con mención en medio ambiente",
-            "tesis": "“Creación de un modelo computacional utilizando una base de datos construida a partir de información proveniente del sector frutícola, con el cual se permita cuantificar su impacto en términos sociales, ambientales y económicos, con el fin de promover la circularidad del sector.”",
-            "fecha": [
-                "2022",
-                "presente"
-            ],
-            "universidad": "U. Internacional Ibeoramericana, México.",
-            "logo": "/images/unini.png",
-            "especialidad": "sostenibilidad",
-            "tags": [
-                "ingeniería",
-                "sostenibilidad"
-            ]
-        },
-        {
-            "formacion": "Magíster en Mecanismo de Desarrollo Limpio y Eficiencia Energética.",
-            "tesis": "“Diseño de un modelo de simbiosis industrial como herramienta para promover acciones de mitigación y adaptación al cambio climático desde el sector agroindustrial”",
-            "fecha": [
-                "2020",
-                "presente"
-            ],
-            "universidad": "Núcleo Biotecnología Curauma, PUCV.",
-            "logo": "/images/pucv.png",
-            "especialidad": "sostenibilidad",
-            "tags": [
-                "ingeniería",
-                "sostenibilidad",
-                "cambio_climático",
-                "eficiencia_energética"
-            ]
-        },
-        {
-            "formacion": "Master en Comunicación Empresarial y Corporativa,\n Master en Big Data y Business Intelligence, Master en Direccion Comercial y Marketing, Master en Innovación y Emprendimiento, Master en Marketing Digital y eCommerce, MBA en Administración y Dirección de Empresas",
-            "tesis": "",
-            "fecha": [
-                "2020",
-                "presente"
-            ],
-            "universidad": "ENEB - Escuela de Negocios Europea de Barcelona Y Universidad I de Castilla, España.",
-            "logo": "/images/eneb.png",
-            "especialidad": "direccion_empresas",
-            "tags": [
-                "comunicación",
-                "direccion_de_empresas",
-                "big_data",
-                "ciencia_de_datos",
-                "marketing",
-                "emprendimiento",
-                "innovación"
-            ]
-        }
-    ],
-    "competencias": [
-        {
-            "titulo": "Enfoque metódico",
-            "descripcion": "Capacidad demostrada para abordar proyectos de manera organizada y estructurada, garantizando la eficiencia en la ejecución."
-        },
-        {
-            "titulo": "Pensamiento analítico",
-            "descripcion": "Habilidad para descomponer problemas complejos en elementos manejables y tomar decisiones basadas en datos y evidencia."
-        },
-        {
-            "titulo": "Habilidad de planificación",
-            "descripcion": "Destreza en la planificación estratégica, estableciendo objetivos claros y desarrollando rutas efectivas para alcanzarlos."
-        },
-        {
-            "titulo": "Paciencia y Reflexión",
-            "descripcion": "Actitud paciente y reflexiva que facilita la toma de decisiones informadas y el manejo de desafíos con calma."
-        },
-        {
-            "titulo": "Liderazgo de proyectos",
-            "descripcion": "Experiencia en liderar proyectos e iniciativas, demostrando habilidades de coordinación, gestión de equipos y recursos."
-        },
-        {
-            "titulo": "Comunicación efectivia",
-            "descripcion": "Capacidad para comunicar ideas y resultados de manera clara y persuasiva, esencial para la colaboración y presentación de proyectos."
-        },
-        {
-            "titulo": "Orientación a la sostenibilidad",
-            "descripcion": "Compromiso firme con la sostenibilidad y la responsabilidad ambiental, con un enfoque en la búsqueda de soluciones sostenibles."
-        },
-        {
-            "titulo": "Adaptabilidad",
-            "descripcion": "Habilidad para adaptarse a entornos cambiantes y flexibilidad para enfrentar una variedad de proyectos y desafíos."
-        },
-        {
-            "titulo": "Trabajo en equipo",
-            "descripcion": "Competencia en trabajar de manera efectiva en equipos multidisciplinarios, fomentando la colaboración y el logro de objetivos compartidos."
-        },
-        {
-            "titulo": "Resolución de problemas",
-            "descripcion": "Habilidad para identificar y resolver problemas técnicos y científicos complejos, aplicando un enfoque analítico."
-        },
-        {
-            "titulo": "Toma de decisiones",
-            "descripcion": "Enfoque basado en datos que respalda la toma de decisiones fundamentadas en evidencia y análisis exhaustivos."
-        },
-        {
-            "titulo": "Ética profesional",
-            "descripcion": "Compromiso con la integridad y la ética en el trabajo, especialmente en proyectos relacionados con la sostenibilidad y la responsabilidad social."
-        },
-        {
-            "titulo": "Gestión de tiempo",
-            "descripcion": "Habilidad para administrar eficazmente el tiempo, cumplir plazos y mantener la productividad en proyectos y tareas."
-        },
-        {
-            "titulo": "Curiosidad y aprendizaje continuo",
-            "descripcion": "Actitud de aprendizaje constante y disposición para mantenerse actualizado en las últimas tendencias y tecnologías."
-        },
-        {
-            "titulo": "Empatía y colaboración",
-            "descripcion": "Capacidad para comprender y colaborar efectivamente con colegas y colaboradores, fomentando un entorno de trabajo armonioso."
-        }
-    ],
     "experiencias": [
         {
             "cargo": "Gerente técnico-comercial y líder de proyectos en EC y cambio climático.",
@@ -217,7 +55,7 @@
             "tags": [
                 "ingeniería",
                 "sostenibilidad",
-                "direccion_de_empresas",
+                "dirección_de_empresas",
                 "cambio_climático"
             ]
         },
@@ -263,7 +101,7 @@
                 "ingeniería",
                 "sostenibilidad",
                 "innovación",
-                "direccion_de_empresas"
+                "dirección_de_empresas"
             ]
         },
         {
@@ -348,7 +186,7 @@
                 "ingeniería",
                 "sostenibilidad",
                 "innovación",
-                "direccion_de_empresas",
+                "dirección_de_empresas",
                 "agroindustria",
                 "inteligencia_artifilcial",
                 "data_science",
@@ -368,7 +206,7 @@
                 "ingeniería",
                 "sostenibilidad",
                 "innovación",
-                "direccion_de_empresas",
+                "dirección_de_empresas",
                 "agroindustria",
                 "inteligencia_artifilcial",
                 "data_science",
@@ -388,7 +226,7 @@
                 "ingeniería",
                 "sostenibilidad",
                 "innovación",
-                "direccion_de_empresas",
+                "dirección_de_empresas",
                 "agroindustria",
                 "inteligencia_artifilcial",
                 "data_science",
@@ -419,6 +257,732 @@
             "especialidad": "ciencias_ingenieria",
             "tags": [
                 "ingeniería"
+            ]
+        }
+    ],
+    "proyectos": [
+        {
+            "titulo": "TT Green Foods: transformación tecnológica, adaptación y transformación productiva ante el cambio climático",
+            "cargo": "Responsable técnica para el levantamiento de indicadores de desempeño ambiental y circularidad en el proyecto CORFO",
+            "institucion": "Consultora Técnica Sustrend SpA",
+            "fecha": [
+                "2023"
+            ],
+            "tags": [
+                "agroindustria",
+                "innovación",
+                "economía_circular",
+                "emprendimiento",
+                "cambio_climático",
+                "CORFO"
+            ]
+        },
+        {
+            "titulo": "FONDEF ID22I10292 “Aplicación de una tecnología enzimática para la recuperación de biomoléculas de alto potencial comercial a partir del aprovechamiento integral del bagazo cervecero”",
+            "cargo": "Empresa asociada  - Directorio",
+            "institucion": "Lazo SpA",
+            "fecha": [
+                "2023"
+            ],
+            "tags": [
+                "agroindustria",
+                "innovación",
+                "economía_circular",
+                "valorización_de_recursos",
+                "FONDEF"
+            ]
+        },
+        {
+            "titulo": "Innova región código 23IR-246428 “Escalamiento y validación de una hamburguesa vegana como alternativa a la valorización del bagazo de cerveza para el fortalecimiento de la economía regional sustentable” ",
+            "cargo": "Contraparte Cervecería Anfiteatro",
+            "institucion": "Lazo SpA",
+            "fecha": [
+                "2023"
+            ],
+            "tags": [
+                "agroindustria",
+                "innovación",
+                "economía_circular",
+                "valorización_de_recursos",
+                "CORFO"
+            ]
+        },
+        {
+            "titulo": "Proyecto de Innovación Social de Corfo Maule Código 19 IS-111148 “Desafío Circular Maule”",
+            "cargo": "Coordinadora Técnica 3era etapa. Profesional contratado por Ingenativa SpA",
+            "institucion": "Profesional independiente",
+            "fecha": [
+                "2019"
+            ],
+            "tags": [
+                "agroindustria",
+                "sostenibilidad",
+                "economía_circular",
+                "CORFO"
+            ]
+        },
+        {
+            "titulo": "Proyecto de Intercambio de expertos UE-Cuba para la promoción de las fuentes renovables de energía y la eficiencia energética en Cuba (Desarrollado por FIIAPP). Elaboración informe “ESTADO ACTUAL DE LAS TECNOLOGÍAS DE REACTORES ANAEROBIOS DE ALTA EFICIENCIA PARA LA PRODUCCIÓN DE BIOGÁS A NIVEL INDUSTRIAL”",
+            "cargo": "Profesional experto contratado por EURECAT",
+            "institucion": "Profesional independiente",
+            "fecha": [
+                "2022"
+            ],
+            "tags": [
+                "sostenibilidad",
+                "biogás"
+            ]
+        },
+        {
+            "titulo": "Bagán! Semilla Inicia 22INI2-238658 de la Gerencia de Emprendimiento de CORFO.",
+            "cargo": "Representante y líder de proyecto",
+            "institucion": "Up Foods",
+            "fecha": [
+                "2023"
+            ],
+            "tags": [
+                "agroindustria",
+                "innovación",
+                "economía_circular",
+                "valorización_de_recursos",
+                "CORFO"
+            ]
+        },
+        {
+            "titulo": "Súmate a Innovar “Desarrollo de una línea de productos innovadores congelados como alternativa de valorización del bagazo de cerveza” código 21SN2-200648.",
+            "cargo": "Contraparte Cervecería Anfiteatro",
+            "institucion": "Lazo SpA",
+            "fecha": [
+                "2022"
+            ],
+            "tags": [
+                "agroindustria",
+                "innovación",
+                "economía_circular",
+                "valorización_de_recursos",
+                "CORFO"
+            ]
+        },
+        {
+            "titulo": "Desarrollo herramienta digital para simbiosis industrial en la agroindustria ",
+            "cargo": "Representante y líder de proyecto",
+            "institucion": "AgroSimBiótica",
+            "fecha": [
+                "2020"
+            ],
+            "tags": [
+                "agroindustria",
+                "innovación",
+                "economía_circular",
+                "valorización_de_recursos",
+                "herramientas_digitales",
+                "simbiosis_industrial"
+            ]
+        },
+        {
+            "titulo": "Corfo 20CV-140127 “Ingrediente de alta biodisponibilidad a base de arándano, topinambur, y miel para nutraceúticos”. Arantruf Ltda.  Duración del proyecto 2020-2021",
+            "cargo": "Responsable del análisis tecno-económico.",
+            "institucion": "Fraunhofer Chile Research",
+            "fecha": [
+                "2021"
+            ],
+            "tags": [
+                "agroindustria",
+                "innovación",
+                "economía_circular",
+                "valorización_de_recursos",
+                "CORFO",
+                "análisis_técnico_económico"
+            ]
+        },
+        {
+            "titulo": "Corfo 19SN-123426 “Caracterización y valorización del ajo negro chilote como base para llegar al mercado internacional“. Agrícola Patricio Varas EIRL. 2017-2021.",
+            "cargo": "Responsable del análisis tecno-económico.",
+            "institucion": "Fraunhofer Chile Research",
+            "fecha": [
+                "2021"
+            ],
+            "tags": [
+                "agroindustria",
+                "innovación",
+                "economía_circular",
+                "valorización_de_recursos",
+                "CORFO",
+                "análisis_técnico_económico"
+            ]
+        },
+        {
+            "titulo": "Corfo-18COTE-89580 “Valorización de nueces chilenas no exportables mediante el desarrollo de una pasta con antioxidantes microencapsulados del pelón y/o hojas del nogal”.  Duración del proyecto 2018-2019.",
+            "cargo": "Responsable del análisis tecnoeconómico y de mercado.",
+            "institucion": "Fraunhofer Chile Research",
+            "fecha": [
+                "2021"
+            ],
+            "tags": [
+                "agroindustria",
+                "innovación",
+                "economía_circular",
+                "valorización_de_recursos",
+                "CORFO",
+                "análisis_técnico_económico"
+            ]
+        },
+        {
+            "titulo": "ELAC2015/T03-0663 “BIOCODE: Towards a novel and sustainable biorefinery concept based on green technologies for main commercial grain crop residues”. Financiadora Conicyt.",
+            "cargo": "Participación en el desarrollo del paquete de trabajo que involucró análisis tecno-económico y de análisis de ciclo de vida.",
+            "institucion": "Fraunhofer Chile Research",
+            "fecha": [
+                "2017"
+            ],
+            "tags": [
+                "biorefinería",
+                "agroindustria",
+                "innovación",
+                "economía_circular",
+                "valorización_de_recursos",
+                "fondo_europeo",
+                "análisis_técnico_económico",
+                "análisis_de_ciclo_de_vida"
+            ]
+        },
+        {
+            "titulo": "Corfo-15CONTEC-48011 Valorización del orujo de uva para el desarrollo de ingredientes de alto valor para la formulación de alimentos saludables. Duración del proyecto 2016-2017.",
+            "cargo": "Responsable del análisis tecnoeconómico y de mercado. ",
+            "institucion": "Fraunhofer Chile Research",
+            "fecha": [
+                "2017"
+            ],
+            "tags": [
+                "agroindustria",
+                "innovación",
+                "economía_circular",
+                "valorización_de_recursos",
+                "CORFO",
+                "análisis_técnico_económico"
+            ]
+        },
+        {
+            "titulo": "ELAC2014/BES-0171 project “SCREAM Screening marine microalgae and terrestrial bacteria; in search of novel compounds of potential medicinal and other industrial values”. Financiadora Fraunhofer-Gesellschaft.  Duración desde el 1 de mayo de 2016 al 30 de abril de 2019.",
+            "cargo": "Participación en el desarrollo del paquete de trabajo que involucró caracterización bioquímica y bioactividad de los extractos, además de ser responsable del análisis tecnoeconómico y de mercado.",
+            "institucion": "Fraunhofer Chile Research",
+            "fecha": [
+                "2016"
+            ],
+            "tags": [
+                "agroindustria",
+                "innovación",
+                "ciencias_biológicas",
+                "microalgas",
+                "valorización_de_recursos",
+                "fondo_europeo",
+                "análisis_técnico_económico",
+                "laboratorio"
+            ]
+        },
+        {
+            "titulo": "FP7 project 613513 “DISCO: From DISCOvery to products: A next generation pipeline for the sustainable generation of high-value plant products”.  Duración desde el 01-12-2013 al 30-11-2015. http://www.disco-fp7.eu/",
+            "cargo": "Responsable del paquete de trabajo de revalorización de residuos mediante digestión anaerobia, además de ser responsable del análisis tecnoeconómico y de mercado.",
+            "institucion": "Fraunhofer Chile Research",
+            "fecha": [
+                "2013"
+            ],
+            "tags": [
+                "biorefinería",
+                "agroindustria",
+                "innovación",
+                "economía_circular",
+                "valorización_de_recursos",
+                "fondo_europeo",
+                "análisis_técnico_económico",
+                "laboratorio"
+            ]
+        },
+        {
+            "titulo": "Tesis de magíster y doctorado en el marco del Proyecto #09CEII-6991 CORFO",
+            "cargo": "Desarrollo de investigación con foco en biorefinería para la revalorización de residuos. Foco en producción de biogás desde residuos lignocelulósicos derivados de actividades agrícolas y municipales.",
+            "institucion": "Fraunhofer Chile Research",
+            "fecha": [
+                "2009"
+            ],
+            "tags": [
+                "biorefinería",
+                "agroindustria",
+                "innovación",
+                "economía_circular",
+                "valorización_de_recursos",
+                "CORFO",
+                "análisis_técnico_económico",
+                "laboratorio"
+            ]
+        },
+        {
+            "titulo": "FONDEF D07I1045 \"Desarrollo de un proceso biotecnológico para la revalorización de descartes de la industria de procesamiento de berries\". Financiadora Conicyt. ",
+            "cargo": "Participación en la caracterización bioquímica y bioactividad de los extractos. ",
+            "institucion": "Centro Regional de Estudios Saludables - CREAS",
+            "fecha": [
+                "2009"
+            ],
+            "tags": [
+                "agroindustria",
+                "innovación",
+                "economía_circular",
+                "valorización_de_recursos",
+                "CORFO",
+                "análisis_técnico_económico",
+                "laboratorio"
+            ]
+        }
+    ],
+    "educacion": [
+        {
+            "formacion": "Doctorado (c) en Ciencias de la Ingeniería con mención en Ingeniería Bioquímica",
+            "tesis": "“Establecimiento de un cultivo en suspensión de células de T. officinale para la producción de α-amirina y lupeol. Pontificia Universidad Católica de Valparaíso, Chile. Examen de titulación pendiente.”",
+            "fecha": [
+                "2010",
+                "2017"
+            ],
+            "universidad": "Pontificia Universidad Católica de Valparaíso, Chile.",
+            "logo": "/images/pucv.png",
+            "especialidad": "ciencias_ingenieria",
+            "tags": [
+                "ingeniería",
+                "ciencias_biológicas"
+            ]
+        },
+        {
+            "formacion": "Magíster en Ciencias de la Ingeniería con mención en Ingeniería Bioquímica",
+            "tesis": "“Evaluación del cultivo de diente de león común (Taraxacum officinale) para la extracción de látex e inulina desde sus raíces y revalorización de sus residuos.” [Nota de aprobación 6.0 mención Cum laude].”",
+            "fecha": [
+                "2011",
+                "2012"
+            ],
+            "universidad": "Pontificia Universidad Católica de Valparaíso, Chile.",
+            "logo": "/images/pucv.png",
+            "especialidad": "sostenibilidad",
+            "tags": [
+                "ingeniería",
+                "ciencias_biológicas",
+                "sostenibilidad"
+            ]
+        },
+        {
+            "formacion": "Ingeniero Civil Bioquímico",
+            "tesis": "“Estudio de la cinética de degradación de lodos provenientes de una planta de tratamiento de aguas residuales urbanas y evaluación de un sistema de pre-hidrólisis térmica de lodo biológico.” [Nota de aprobación 7.0].”",
+            "fecha": [
+                "2001",
+                "2010"
+            ],
+            "universidad": "Pontificia Universidad Católica de Valparaíso, Chile.",
+            "logo": "/images/pucv.png",
+            "especialidad": "ciencias_ingenieria",
+            "tags": [
+                "ingeniería",
+                "ciencias_biológicas"
+            ]
+        },
+        {
+            "formacion": "Doctorado (c) en proyectos con mención en medio ambiente",
+            "tesis": "“Creación de un modelo computacional utilizando una base de datos construida a partir de información proveniente del sector frutícola, con el cual se permita cuantificar su impacto en términos sociales, ambientales y económicos, con el fin de promover la circularidad del sector.”",
+            "fecha": [
+                "2022",
+                "presente"
+            ],
+            "universidad": "U. Internacional Ibeoramericana, México.",
+            "logo": "/images/unini.png",
+            "especialidad": "sostenibilidad",
+            "tags": [
+                "ingeniería",
+                "sostenibilidad"
+            ]
+        },
+        {
+            "formacion": "Magíster en Mecanismo de Desarrollo Limpio y Eficiencia Energética.",
+            "tesis": "“Diseño de un modelo de simbiosis industrial como herramienta para promover acciones de mitigación y adaptación al cambio climático desde el sector agroindustrial”",
+            "fecha": [
+                "2020",
+                "presente"
+            ],
+            "universidad": "Núcleo Biotecnología Curauma, PUCV.",
+            "logo": "/images/pucv.png",
+            "especialidad": "sostenibilidad",
+            "tags": [
+                "ingeniería",
+                "sostenibilidad",
+                "cambio_climático",
+                "eficiencia_energética"
+            ]
+        },
+        {
+            "formacion": "Master en Comunicación Empresarial y Corporativa,\n Master en Big Data y Business Intelligence, Master en dirección Comercial y Marketing, Master en Innovación y Emprendimiento, Master en Marketing Digital y eCommerce, MBA en Administración y Dirección de Empresas",
+            "tesis": "",
+            "fecha": [
+                "2020",
+                "presente"
+            ],
+            "universidad": "ENEB - Escuela de Negocios Europea de Barcelona Y Universidad I de Castilla, España.",
+            "logo": "/images/eneb.png",
+            "especialidad": "dirección_empresas",
+            "tags": [
+                "comunicación",
+                "dirección_de_empresas",
+                "big_data",
+                "ciencia_de_datos",
+                "marketing",
+                "emprendimiento",
+                "innovación"
+            ]
+        }
+    ],
+    "publicaciones": [
+        {
+            "titulo": "Revisora revista Waste Management con foco en artículos de sostenibilidad, valorización de residuos, biorefinería y análisis técnico económico de procesos industriales",
+            "fecha": [
+                "2023"
+            ],
+            "link": null
+        },
+        {
+            "titulo": "Co-editora  journal Sustainable Social Development section Sustainable Management",
+            "fecha": [
+                "2023"
+            ],
+            "link": null
+        },
+        {
+            "titulo": "Martínez, M.E.; Jorquera, L.; Poirrier, P.; Díaz, K.; Chamy, R. Effect of Inoculum Size and Age, and Sucrose Concentration on Cell Growth to Promote Metabolites Production in Cultured Taraxacum officinale (Weber) Cells. Plants 2023, 12, 1116. ",
+            "fecha": [
+                "2023"
+            ],
+            "link": "https://doi.org/10.3390/plants12051116",
+            "tags": [
+                "ciencias_biológicas",
+                "cultivo_celular",
+                "taraxacum"
+            ]
+        },
+        {
+            "titulo": "Martínez, M.; Rodríguez, A.; Gea, T.; Font, X. A Simplified Techno-Economic Analysis for Sophorolipid Production in a Solid-State Fermentation Process. Energies 2022, 15, 4077. ",
+            "fecha": [
+                "2022"
+            ],
+            "link": "https://doi.org/10.3390/en15114077",
+            "tags": [
+                "análisis_técnico_económico",
+                "valorización_de_recursos"
+            ]
+        },
+        {
+            "titulo": "Martínez, M.E.; Jorquera, L.; Poirrier, P.; Díaz, K.; Chamy, R. Assessment of Plant Growth Regulators and Carbon Sources on the Germination and Growth Process of Dandelion (Taraxacum officinale G.H. Weber ex Wiggers) under In Vitro Conditions. Horticulturae 2021, 7, 486. ",
+            "fecha": [
+                "2021"
+            ],
+            "link": "https://doi.org/10.3390/horticulturae7110486",
+            "tags": [
+                "ciencias_biológicas",
+                "cultivo_celular",
+                "taraxacum"
+            ]
+        },
+        {
+            "titulo": "María Martinez; Lorena Jorquera; Paola Poirrier; Katy Díaz; Rolando Chamy. Effect of the Carbon Source and Plant Growth Regulators (PGRs) in the Induction and Maintenance of an In Vitro Callus Culture of Taraxacum officinale (L) Weber Ex F.H. Wigg. Agronomy 2021, 11, 1181. ",
+            "fecha": [
+                "2021"
+            ],
+            "link": "https://www.mdpi.com/2073-4395/11/6/1181",
+            "tags": [
+                "ciencias_biológicas",
+                "cultivo_celular",
+                "taraxacum"
+            ]
+        },
+        {
+            "titulo": "María Martínez, Carlos Ramos, Paola Poirrier, Rolando Chamy. 2020. Influence of substrate concentration and bicarbonate addition on the anaerobic digestion of an inulin-rich substrate as the ending stage in a dandelion biorefinery scheme. Process Biochemistry. Process Biochemistry. Vol 98,  211-216",
+            "fecha": [
+                "2020"
+            ],
+            "link": "https://www.sciencedirect.com/science/article/abs/pii/S1359511320306012",
+            "tags": [
+                "bioingeniería",
+                "biogás"
+            ]
+        },
+        {
+            "titulo": "Valorization of Tomato Waste for Energy Production. María E. Martínez Valenzuela; Franko Restović. In Tomato chemistry, Industrial Processing and Product Development, pp. 247-258. Food Chemistry, Function and Analysis Series. The Royal Society of Chemistry. United Kingdom. 2019. doi: 10.1039/9781788016247-00245. ISBN: 978-1-78801-396-3",
+            "fecha": [
+                "2019"
+            ],
+            "link": "https://pubs.rsc.org/en/content/chapter/bk9781788013963-00245/978-1-78801-396-3",
+            "tags": [
+                "biorefinería"
+            ]
+        },
+        {
+            "titulo": "María Eugenia Martínez, Paola Poirrier, Dirk Prüfer, Christian Schulze, Gronover, Lorena Jorquera, Perla Ferrer, Katy Díaz, Rolando Chamy. 2018. Kinetics and Modelling of cell growth for potential anthocyanin induction in cultures of Taraxacum officinale G.H. Weber ex Wiggers (Dandelion) in vitro. Electronic Journal of Biotechnology. Vol 36, 15-23. doi:10.1016/j.ejbt.2018.08.006",
+            "fecha": [
+                "2018"
+            ],
+            "link": "https://www.sciencedirect.com/science/article/pii/S0717345818300368",
+            "tags": [
+                "ciencias_biológicas",
+                "cultivo_celular",
+                "taraxacum"
+            ]
+        },
+        {
+            "titulo": "Marilise Nogueira, Eugenia M. A. Enfissi, Maria E. Martínez Valenzuela, Guillaume N. Menard, Richard L. Driller, Peter J. Eastmond, Wolfgang Schuch, Gerhard Sandmann, and Paul D. Fraser. 2017, 'Engineering of tomato for the sustainable production of ketocarotenoids and its evaluation in aquaculture feed'. Proceedings of the National Academy of Sciences of the United States of America. Vol 114 (41), 10876–10881. doi: 10.1073/pnas.1708349114",
+            "fecha": [
+                "2017"
+            ],
+            "link": "https://www.pnas.org/content/114/41/10876",
+            "tags": [
+                "biorefinería"
+            ]
+        },
+        {
+            "titulo": "Martinez, M., Driller, L., Chamy, R., Schuch, W., Nogueira, M., Fraser, P. 2017. Biogas potential of residues generated by the tomato processing industry under different substrate and inoculum conditions. Acta Horticulturae 1159, 151-158. doi: 10.17660/ActaHortic.2017.1159.23",
+            "fecha": [
+                "2017"
+            ],
+            "link": "https://www.ishs.org/ishs-article/1159_23"
+        },
+        {
+            "titulo": "Taraxacum Genus: A Review of Its Potential Antibacterial and Antifungal Activity. María E. Martínez Valenzuela; Lorena Jorquera Martínez; Katy Díaz Peralta; Rolando Chamy Maggi. In Herbal Medicine. INTECHOPEN. 2019. doi: 10.5772/intechopen.69412. ISBN: 978-1-78984-783-3",
+            "fecha": [
+                "2019"
+            ],
+            "link": "https://www.intechopen.com/books/herbal-medicine/taraxacum-genus-potential-antibacterial-and-antifungal-activity",
+            "tags": [
+                "ciencias_biológicas",
+                "cultivo_celular",
+                "taraxacum"
+            ]
+        },
+        {
+            "titulo": "Taraxacum Genus: Extract Experimental Approaches. María E. Martínez Valenzuela; Katy Díaz Peralta; Lorena Jorquera Martínez; Rolando Chamy Maggi. In Herbal Medicine. INTECHOPEN. 2018. doi: 10.5772/intechopen.72849. ISBN: 978-1-78984-783-3",
+            "fecha": [
+                "2018"
+            ],
+            "link": "https://www.intechopen.com/books/herbal-medicine/taraxacum-genus-extract-experimental-approaches",
+            "tags": [
+                "ciencias_biológicas",
+                "cultivo_celular",
+                "taraxacum"
+            ]
+        },
+        {
+            "titulo": "Martínez, M.; Poirrier, P.; Chamy, R.; Prüfer, D.; Schulze-Gronover, C.; Jorquera, L.; Ruiz, G. 2015. Taraxacum officinale and related species-An ethnopharmacological review and its potential as a commercial medicinal plant. J Ethnopharmacol. Vol 169, 244-262. doi: 10.1016/j.jep.2015.03.067",
+            "fecha": [
+                "2015"
+            ],
+            "link": "https://www.sciencedirect.com/science/article/abs/pii/S0378874115002263",
+            "tags": [
+                "ciencias_biológicas",
+                "cultivo_celular",
+                "taraxacum"
+            ]
+        },
+        {
+            "titulo": "Cerda, A.; Martínez, M.; Soto, C.; Poirrier, P.; Pérez-Correa, J.; Vergara-Salinas, J.; Zúñiga, M. 2013. The enhancement of antioxidant compounds extracted from Thymus vulgaris using enzymes and the effect of extracting solvent. Food Chemistry. Vol 139, 138-143. doi: 10.1016/j.foodchem.2012.12.044",
+            "fecha": [
+                "2012"
+            ],
+            "link": "https://www.sciencedirect.com/science/article/abs/pii/S0308814613000137"
+        },
+        {
+            "titulo": "Cerda, A.; Martínez, M.; Soto, C.; Zúñiga, M.; Poirrier, P. 2013. Methanisation of spent maqui berry pomace via enzymatic treatment. Renewable Energy. Vol 87, 326–331. doi.org/10.1016/j.renene.2015.10.027",
+            "fecha": [
+                "2015"
+            ],
+            "link": "https://www.sciencedirect.com/science/article/abs/pii/S0960148115303803"
+        },
+        {
+            "titulo": "Presentación en el Proceedings book of International Conference “Plant Nutrition, Growth & Environment Interactions III con el trabajo titulado “Taraxacum officinale seed germination under in vitro conditions” Viena, Austria.",
+            "fecha": [
+                "2017"
+            ],
+            "link": null,
+            "tags": [
+                "artículo_corto",
+                "ciencias_biológicas",
+                "células_vegetales"
+            ]
+        },
+        {
+            "titulo": "Presentación Plant Molecular Physiology con el trabajo titulado “Anthocyanin induction from Taraxacum officinale callus”. Viena, Austria.",
+            "fecha": [
+                "2017"
+            ],
+            "link": null,
+            "tags": [
+                "artículo_corto",
+                "ciencias_biológicas",
+                "células_vegetales"
+            ]
+        },
+        {
+            "titulo": "Presentación en el Proceedings book of Plant Cells in vitro: Theory and Practice con el trabajo titulado “Adaptation of a callus culture of T. officinale - high PGR concentrations. Viena, Austria.",
+            "fecha": [
+                "2016"
+            ],
+            "link": null,
+            "tags": [
+                "artículo_corto",
+                "ciencias_biológicas",
+                "células_vegetales"
+            ]
+        },
+        {
+            "titulo": "Presentación en el 5th Global Nephrologists Annual Meeting con el trabajo titulado “Taraxacum officinale as a bioactive source with antimicrobial properties useful for urinary tract infections. Valencia, España. ",
+            "fecha": [
+                "2016"
+            ],
+            "link": null,
+            "tags": [
+                "artículo_corto",
+                "ciencias_biológicas",
+                "células_vegetales"
+            ]
+        },
+        {
+            "titulo": "Presentación en el Proceedings book of 2016 World Congress on In Vitro Biology con el trabajo titulado \"Development of dandelion weed as a platform for triterpenes production\".  San Diego, California, USA.",
+            "fecha": [
+                "2016"
+            ],
+            "link": null,
+            "tags": [
+                "artículo_corto",
+                "ciencias_biológicas",
+                "células_vegetales"
+            ]
+        }
+    ],
+    "presentaciones": [
+        {
+            "titulo": " “FROM LAB TO MARKET. Retos en el escalado y comercialización de la fermentación en estado sólido”, VII edición de las Jornadas de la Red Española de Compostaje.",
+            "fecha": [
+                "10·01·2022"
+            ],
+            "tags": [
+                "valorización_de_recursos",
+                "análisis_técnico_económico"
+            ]
+        },
+        {
+            "titulo": " LCAFood2020 con el trabajo titulado “Life Cycle Analysis of a demonstrative Solar-Urban Agriculture Pilot for lettuce production in a mid-income area of Central Chile”. Berlín, Alemania.",
+            "fecha": [
+                "10·01·2020"
+            ],
+            "tags": [
+                "análisis_de_ciclo_de_vida"
+            ]
+        },
+        {
+            "titulo": "Presentación en 3rd International Society of Industrial Ecology Americas Conference - ISIE Americas 2020 con el trabajo titulado “Solar Urban Agriculture - A case study for Santiago” Organizado por la International Society of Industrial Ecology (ISIE), Lima, Perú.",
+            "fecha": [
+                "07·01·2020"
+            ],
+            "tags": [
+                "análisis_de_ciclo_de_vida"
+            ]
+        },
+        {
+            "titulo": "Presentación en IWA Conference on Algal Technologies and Stabilization Ponds for Wastewater Treatment and Resource Recovery con el trabajo titulado “Biorefinery of Chlorella protothecoides focused on lutein recovery”. Organizado por la Universidad de Valladolid y el International Water Association (IWA). Valladolid, España. ",
+            "fecha": [
+                "07·01·2019"
+            ],
+            "tags": [
+                "ciencias_biológicas",
+                "microalgas"
+            ]
+        },
+        {
+            "titulo": "Presentación en el 5th Latin American Congress on Biorefineries con el trabajo titulado “BIOCODE: Towards a novel and sustainable biorefinery concept based on green technologies for main commercial grain crop residues”. Organizado por la Unidad de Desarrollo Tecnológico de la Universidad de Concepción (UDT-UC) y el Centro de Biotecnología de la Universidad de Concepción. Concepción, Chile.",
+            "fecha": [
+                "01·01·2019"
+            ],
+            "tags": [
+                "biorefinería",
+                "análisis_técnico_económico"
+            ]
+        },
+        {
+            "titulo": "Presentación en el 12th World Processing Tomato Congress and the 14th ISHS Symposium on the Processing Tomato con el trabajo titulado “Biogas productivity potential of agro-industrial biomasses, generated by the tomato processing industry”, Santiago, Chile.",
+            "fecha": [
+                "03·01·2016"
+            ],
+            "tags": [
+                "biorefinería",
+                "bioingeniería"
+            ]
+        },
+        {
+            "titulo": "Presentación en el 14th World Congress on Anaerobic Digestion con el trabajo titulado “Biogas potential of residues generated by the tomato processing industry under different substrate and inoculum conditions\". Viña del Mar, Chile",
+            "fecha": [
+                "11·01·2015"
+            ],
+            "tags": [
+                "biorefinería",
+                "bioingeniería"
+            ]
+        },
+        {
+            "titulo": "Presentación en el 3er Iberoamerican Biorefinery Congress (CIAB), 4to Latinoamerican Congress on Biorefineries and in the 2nd International Symposium of Lignocellulosic Materials con el trabajo titulado \"Impact of Organizado por la Unidad de Desarrollo Tecnológico de la Universidad de Concepción (UDT-UC). Concepción, Chile.",
+            "fecha": [
+                "11·01·2015"
+            ],
+            "tags": [
+                "biorefinería",
+                "bioingeniería"
+            ]
+        },
+        {
+            "titulo": "Presentación en el XXXII Congreso Interamericano de Ingeniería Sanitaria y Ambiental AIDIS con el trabajo titulado \"Efecto del inóculo en la etapa de arranque de digestores anaerobios para la degradación de lodos provenientes de plantas de tratamiento de aguas residuales urbanas.” Punta Cana, República Dominicana.",
+            "fecha": [
+                "10·01·2010"
+            ],
+            "tags": [
+                "biorefinería",
+                "biogás"
+            ]
+        },
+        {
+            "titulo": "Presentación en el XXXII Congreso Interamericano de Ingeniería Sanitaria y Ambiental AIDIS con el trabajo titulado \"Evaluación de la solubilización mediante tratamiento enzimático de los residuos generados durante la extracción de bioactivos desde pomaza de berries.” Punta Cana, República Dominicana.",
+            "fecha": [
+                "10·01·2010"
+            ],
+            "tags": [
+                "biorefinería",
+                "biogás"
+            ]
+        },
+        {
+            "titulo": "Presentación en XVIII Congreso Nacional de la Asociación de Ingeniería Sanitaria y Ambiental AIDIS con el trabajo titulado “Determinación de las Cinéticas de Degradación Anaerobia de Distintos Tipos de Lodos Provenientes de PTAR Mediante Digestión Anaerobia Mesófila”. Pucón, Chile.",
+            "fecha": [
+                "11·01·2009"
+            ],
+            "tags": [
+                "biorefinería",
+                "biogás"
+            ]
+        },
+        {
+            "titulo": "Presentación en XXXI Congreso Interamericano de Ingeniería Sanitaria y Ambiental AIDIS con el trabajo titulado “Evaluación y Diseño de un Pre-tratamiento Térmico Aplicado a Lodos biológicos provenientes de Plantas de Tratamiento de Aguas Residuales Urbanas”. Santiago, Chile.",
+            "fecha": [
+                "10·01·2008"
+            ],
+            "tags": [
+                "biorefinería",
+                "biogás"
+            ]
+        },
+        {
+            "titulo": "Presentación en V Taller y Simposio de Digestión Anaerobia con el trabajo titulado “Evaluación y Diseño de un Pre-tratamiento Térmico Aplicado a Lodos biológicos provenientes de Plantas de Tratamiento de Aguas Residuales Urbanas”. Isla de Pascua, Chile.",
+            "fecha": [
+                "10·01·2008"
+            ],
+            "tags": [
+                "biorefinería",
+                "biogás"
             ]
         }
     ],
@@ -1178,324 +1742,6 @@
             ]
         }
     ],
-    "vinculaciones": [
-        {
-            "titulo": "Convenio Municipio Verde ONG Fima",
-            "institucion": "Departamento de Medio Ambiente de la \nIlustre Municipalidad de Quintero",
-            "tags": [
-                "ong",
-                "actividad_municipal",
-                "convenio",
-                "gestión_ambiental"
-            ]
-        },
-        {
-            "titulo": "Convenio ValpoXclima Pontificia Universidad Católica de Valparaíso, a través de la Dirección de Innovación de la Vicerrectoría de Investigación, Creación e Innovación (VINCI), “Valparaíso por el clima: Torneo de innovación y emprendimiento estudiantil frente a la crisis climática”, 22VIR-215521,",
-            "institucion": "Departamento de Medio Ambiente de la \nIlustre Municipalidad de Quintero",
-            "tags": [
-                "universidad",
-                "actividad_municipal",
-                "convenio",
-                "gestión_ambiental",
-                "educación",
-                "emprendimiento",
-                "innovación"
-            ]
-        },
-        {
-            "titulo": "Convenio proyecto Fondef ID23I10249, denominado “Desarrollo de un vehículo para la recolección eficiente y autónoma de residuos en playas",
-            "institucion": "Departamento de Medio Ambiente de la \nIlustre Municipalidad de Quintero",
-            "tags": [
-                "universidad",
-                "actividad_municipal",
-                "convenio",
-                "gestión_ambiental"
-            ]
-        },
-        {
-            "titulo": "Consorcio Science Up compuesto por las Universidades Pontificia Universidad Católica de Valparaíso, Universidad de Santiago de Chile y Universidad Católica del Norte, abrió el 25 de abril 2022 la Convocatoria al “Primer Concurso del Programa VINCULAB”. Proyecto “Recolección y Limpieza Eficiente de Basura en Playa”, en adelante el “Proyecto\", al Programa “VINCULAB”, siendo adjudicado con fecha 16 de agosto de 2022, asignándosele el código interno VLAB22-02 para el seguimiento y control durante su ejecución.",
-            "institucion": "Departamento de Medio Ambiente de la \nIlustre Municipalidad de Quintero",
-            "tags": [
-                "universidad",
-                "actividad_municipal",
-                "convenio",
-                "gestión_ambiental"
-            ]
-        }
-    ],
-    "proyectos": [
-        {
-            "titulo": "TT Green Foods: transformación tecnológica, adaptación y transformación productiva ante el cambio climático",
-            "cargo": "Responsable técnica para el levantamiento de indicadores de desempeño ambiental y circularidad en el proyecto CORFO",
-            "institucion": "Consultora Técnica Sustrend SpA",
-            "fecha": [
-                "2023"
-            ],
-            "tags": [
-                "agroindustria",
-                "innovación",
-                "economía_circular",
-                "emprendimiento",
-                "cambio_climático",
-                "CORFO"
-            ]
-        },
-        {
-            "titulo": "FONDEF ID22I10292 “Aplicación de una tecnología enzimática para la recuperación de biomoléculas de alto potencial comercial a partir del aprovechamiento integral del bagazo cervecero”",
-            "cargo": "Empresa asociada  - Directorio",
-            "institucion": "Lazo SpA",
-            "fecha": [
-                "2023"
-            ],
-            "tags": [
-                "agroindustria",
-                "innovación",
-                "economía_circular",
-                "valorización_de_recursos",
-                "FONDEF"
-            ]
-        },
-        {
-            "titulo": "Innova región código 23IR-246428 “Escalamiento y validación de una hamburguesa vegana como alternativa a la valorización del bagazo de cerveza para el fortalecimiento de la economía regional sustentable” ",
-            "cargo": "Contraparte Cervecería Anfiteatro",
-            "institucion": "Lazo SpA",
-            "fecha": [
-                "2023"
-            ],
-            "tags": [
-                "agroindustria",
-                "innovación",
-                "economía_circular",
-                "valorización_de_recursos",
-                "CORFO"
-            ]
-        },
-        {
-            "titulo": "Proyecto de Innovación Social de Corfo Maule Código 19 IS-111148 “Desafío Circular Maule”",
-            "cargo": "Coordinadora Técnica 3era etapa. Profesional contratado por Ingenativa SpA",
-            "institucion": "Profesional independiente",
-            "fecha": [
-                "2019"
-            ],
-            "tags": [
-                "agroindustria",
-                "sostenibilidad",
-                "economía_circular",
-                "CORFO"
-            ]
-        },
-        {
-            "titulo": "Proyecto de Intercambio de expertos UE-Cuba para la promoción de las fuentes renovables de energía y la eficiencia energética en Cuba (Desarrollado por FIIAPP). Elaboración informe “ESTADO ACTUAL DE LAS TECNOLOGÍAS DE REACTORES ANAEROBIOS DE ALTA EFICIENCIA PARA LA PRODUCCIÓN DE BIOGÁS A NIVEL INDUSTRIAL”",
-            "cargo": "Profesional experto contratado por EURECAT",
-            "institucion": "Profesional independiente",
-            "fecha": [
-                "2022"
-            ],
-            "tags": [
-                "sostenibilidad",
-                "biogás"
-            ]
-        },
-        {
-            "titulo": "Bagán! Semilla Inicia 22INI2-238658 de la Gerencia de Emprendimiento de CORFO.",
-            "cargo": "Representante y líder de proyecto",
-            "institucion": "Up Foods",
-            "fecha": [
-                "2023"
-            ],
-            "tags": [
-                "agroindustria",
-                "innovación",
-                "economía_circular",
-                "valorización_de_recursos",
-                "CORFO"
-            ]
-        },
-        {
-            "titulo": "Súmate a Innovar “Desarrollo de una línea de productos innovadores congelados como alternativa de valorización del bagazo de cerveza” código 21SN2-200648.",
-            "cargo": "Contraparte Cervecería Anfiteatro",
-            "institucion": "Lazo SpA",
-            "fecha": [
-                "2022"
-            ],
-            "tags": [
-                "agroindustria",
-                "innovación",
-                "economía_circular",
-                "valorización_de_recursos",
-                "CORFO"
-            ]
-        },
-        {
-            "titulo": "Desarrollo herramienta digital para simbiosis industrial en la agroindustria ",
-            "cargo": "Representante y líder de proyecto",
-            "institucion": "AgroSimBiótica",
-            "fecha": [
-                "2020"
-            ],
-            "tags": [
-                "agroindustria",
-                "innovación",
-                "economía_circular",
-                "valorización_de_recursos",
-                "herramientas_digitales",
-                "simbiosis_industrial"
-            ]
-        },
-        {
-            "titulo": "Corfo 20CV-140127 “Ingrediente de alta biodisponibilidad a base de arándano, topinambur, y miel para nutraceúticos”. Arantruf Ltda.  Duración del proyecto 2020-2021",
-            "cargo": "Responsable del análisis tecno-económico.",
-            "institucion": "Fraunhofer Chile Research",
-            "fecha": [
-                "2021"
-            ],
-            "tags": [
-                "agroindustria",
-                "innovación",
-                "economía_circular",
-                "valorización_de_recursos",
-                "CORFO",
-                "análisis_técnico_económico"
-            ]
-        },
-        {
-            "titulo": "Corfo 19SN-123426 “Caracterización y valorización del ajo negro chilote como base para llegar al mercado internacional“. Agrícola Patricio Varas EIRL. 2017-2021.",
-            "cargo": "Responsable del análisis tecno-económico.",
-            "institucion": "Fraunhofer Chile Research",
-            "fecha": [
-                "2021"
-            ],
-            "tags": [
-                "agroindustria",
-                "innovación",
-                "economía_circular",
-                "valorización_de_recursos",
-                "CORFO",
-                "análisis_técnico_económico"
-            ]
-        },
-        {
-            "titulo": "Corfo-18COTE-89580 “Valorización de nueces chilenas no exportables mediante el desarrollo de una pasta con antioxidantes microencapsulados del pelón y/o hojas del nogal”.  Duración del proyecto 2018-2019.",
-            "cargo": "Responsable del análisis tecnoeconómico y de mercado.",
-            "institucion": "Fraunhofer Chile Research",
-            "fecha": [
-                "2021"
-            ],
-            "tags": [
-                "agroindustria",
-                "innovación",
-                "economía_circular",
-                "valorización_de_recursos",
-                "CORFO",
-                "análisis_técnico_económico"
-            ]
-        },
-        {
-            "titulo": "ELAC2015/T03-0663 “BIOCODE: Towards a novel and sustainable biorefinery concept based on green technologies for main commercial grain crop residues”. Financiadora Conicyt.",
-            "cargo": "Participación en el desarrollo del paquete de trabajo que involucró análisis tecno-económico y de análisis de ciclo de vida.",
-            "institucion": "Fraunhofer Chile Research",
-            "fecha": [
-                "2017"
-            ],
-            "tags": [
-                "biorefinería",
-                "agroindustria",
-                "innovación",
-                "economía_circular",
-                "valorización_de_recursos",
-                "fondo_europeo",
-                "análisis_técnico_económico",
-                "análisis_de_ciclo_de_vida"
-            ]
-        },
-        {
-            "titulo": "Corfo-15CONTEC-48011 Valorización del orujo de uva para el desarrollo de ingredientes de alto valor para la formulación de alimentos saludables. Duración del proyecto 2016-2017.",
-            "cargo": "Responsable del análisis tecnoeconómico y de mercado. ",
-            "institucion": "Fraunhofer Chile Research",
-            "fecha": [
-                "2017"
-            ],
-            "tags": [
-                "agroindustria",
-                "innovación",
-                "economía_circular",
-                "valorización_de_recursos",
-                "CORFO",
-                "análisis_técnico_económico"
-            ]
-        },
-        {
-            "titulo": "ELAC2014/BES-0171 project “SCREAM Screening marine microalgae and terrestrial bacteria; in search of novel compounds of potential medicinal and other industrial values”. Financiadora Fraunhofer-Gesellschaft.  Duración desde el 1 de mayo de 2016 al 30 de abril de 2019.",
-            "cargo": "Participación en el desarrollo del paquete de trabajo que involucró caracterización bioquímica y bioactividad de los extractos, además de ser responsable del análisis tecnoeconómico y de mercado.",
-            "institucion": "Fraunhofer Chile Research",
-            "fecha": [
-                "2016"
-            ],
-            "tags": [
-                "agroindustria",
-                "innovación",
-                "ciencias_biológicas",
-                "microalgas",
-                "valorización_de_recursos",
-                "fondo_europeo",
-                "análisis_técnico_económico",
-                "laboratorio"
-            ]
-        },
-        {
-            "titulo": "FP7 project 613513 “DISCO: From DISCOvery to products: A next generation pipeline for the sustainable generation of high-value plant products”.  Duración desde el 01-12-2013 al 30-11-2015. http://www.disco-fp7.eu/",
-            "cargo": "Responsable del paquete de trabajo de revalorización de residuos mediante digestión anaerobia, además de ser responsable del análisis tecnoeconómico y de mercado.",
-            "institucion": "Fraunhofer Chile Research",
-            "fecha": [
-                "2013"
-            ],
-            "tags": [
-                "biorefinería",
-                "agroindustria",
-                "innovación",
-                "economía_circular",
-                "valorización_de_recursos",
-                "fondo_europeo",
-                "análisis_técnico_económico",
-                "laboratorio"
-            ]
-        },
-        {
-            "titulo": "Tesis de magíster y doctorado en el marco del Proyecto #09CEII-6991 CORFO",
-            "cargo": "Desarrollo de investigación con foco en biorefinería para la revalorización de residuos. Foco en producción de biogás desde residuos lignocelulósicos derivados de actividades agrícolas y municipales.",
-            "institucion": "Fraunhofer Chile Research",
-            "fecha": [
-                "2009"
-            ],
-            "tags": [
-                "biorefinería",
-                "agroindustria",
-                "innovación",
-                "economía_circular",
-                "valorización_de_recursos",
-                "CORFO",
-                "análisis_técnico_económico",
-                "laboratorio"
-            ]
-        },
-        {
-            "titulo": "FONDEF D07I1045 \"Desarrollo de un proceso biotecnológico para la revalorización de descartes de la industria de procesamiento de berries\". Financiadora Conicyt. ",
-            "cargo": "Participación en la caracterización bioquímica y bioactividad de los extractos. ",
-            "institucion": "Centro Regional de Estudios Saludables - CREAS",
-            "fecha": [
-                "2009"
-            ],
-            "tags": [
-                "agroindustria",
-                "innovación",
-                "economía_circular",
-                "valorización_de_recursos",
-                "CORFO",
-                "análisis_técnico_económico",
-                "laboratorio"
-            ]
-        }
-    ],
     "seminarios": [
         {
             "titulo": "The Biorefinery as a Multi-Platform for Energy and Biomaterials",
@@ -1573,15 +1819,60 @@
             ]
         }
     ],
-    "servicios": [
+    "premios": [
         {
-            "titulo": "Desarrollo de hojas de ruta en economía circular, incluyendo diagnóstico situacional, co-creación, priorización e implementación de iniciativas de economía circular en línea con las políticas públicas y los Objetivos de Desarrollo Sostenible de la Agenda 2030.",
+            "titulo": "Programa The Lift ganador AGS"
+        },
+        {
+            "titulo": "Programa CREA y DESARROLLA del DIE. PUCV"
+        },
+        {
+            "titulo": "Distinción premio “Carmen Gloria Arévalo” que se otorga a un titulado entre quienes hayan obtenido la más alta calificación en su memoria de título realizada en la modalidad experimental (2010). Pontificia Universidad Católica de Valparaíso, Chile."
+        }
+    ],
+    "vinculaciones": [
+        {
+            "titulo": "Convenio Municipio Verde ONG Fima",
+            "institucion": "Departamento de Medio Ambiente de la \nIlustre Municipalidad de Quintero",
             "tags": [
-                "economía_circular"
+                "ong",
+                "actividad_municipal",
+                "convenio",
+                "gestión_ambiental"
             ]
         },
         {
-            "titulo": "Postulación, ejecución y rendición de proyectos con foco en sostenibilidad para fondos concursables públicos y privados. Especialización en fondos CORFO de las Gerencia de Emprendimiento y Gerencia de Innovación."
+            "titulo": "Convenio ValpoXclima Pontificia Universidad Católica de Valparaíso, a través de la Dirección de Innovación de la Vicerrectoría de Investigación, Creación e Innovación (VINCI), “Valparaíso por el clima: Torneo de innovación y emprendimiento estudiantil frente a la crisis climática”, 22VIR-215521,",
+            "institucion": "Departamento de Medio Ambiente de la \nIlustre Municipalidad de Quintero",
+            "tags": [
+                "universidad",
+                "actividad_municipal",
+                "convenio",
+                "gestión_ambiental",
+                "educación",
+                "emprendimiento",
+                "innovación"
+            ]
+        },
+        {
+            "titulo": "Convenio proyecto Fondef ID23I10249, denominado “Desarrollo de un vehículo para la recolección eficiente y autónoma de residuos en playas",
+            "institucion": "Departamento de Medio Ambiente de la \nIlustre Municipalidad de Quintero",
+            "tags": [
+                "universidad",
+                "actividad_municipal",
+                "convenio",
+                "gestión_ambiental"
+            ]
+        },
+        {
+            "titulo": "Consorcio Science Up compuesto por las Universidades Pontificia Universidad Católica de Valparaíso, Universidad de Santiago de Chile y Universidad Católica del Norte, abrió el 25 de abril 2022 la Convocatoria al “Primer Concurso del Programa VINCULAB”. Proyecto “Recolección y Limpieza Eficiente de Basura en Playa”, en adelante el “Proyecto\", al Programa “VINCULAB”, siendo adjudicado con fecha 16 de agosto de 2022, asignándosele el código interno VLAB22-02 para el seguimiento y control durante su ejecución.",
+            "institucion": "Departamento de Medio Ambiente de la \nIlustre Municipalidad de Quintero",
+            "tags": [
+                "universidad",
+                "actividad_municipal",
+                "convenio",
+                "gestión_ambiental"
+            ]
         }
     ],
     "empresas": [
@@ -1626,357 +1917,77 @@
             ]
         }
     ],
-    "publicaciones": [
+    "servicios": [
         {
-            "titulo": "Revisora revista Waste Management con foco en artículos de sostenibilidad, valorización de residuos, biorefinería y análisis técnico económico de procesos industriales",
-            "fecha": [
-                "2023"
-            ],
-            "link": null
-        },
-        {
-            "titulo": "Co-editora  journal Sustainable Social Development section Sustainable Management",
-            "fecha": [
-                "2023"
-            ],
-            "link": null
-        },
-        {
-            "titulo": "Martínez, M.E.; Jorquera, L.; Poirrier, P.; Díaz, K.; Chamy, R. Effect of Inoculum Size and Age, and Sucrose Concentration on Cell Growth to Promote Metabolites Production in Cultured Taraxacum officinale (Weber) Cells. Plants 2023, 12, 1116. ",
-            "fecha": [
-                "2023"
-            ],
-            "link": "https://doi.org/10.3390/plants12051116",
+            "titulo": "Desarrollo de hojas de ruta en economía circular, incluyendo diagnóstico situacional, co-creación, priorización e implementación de iniciativas de economía circular en línea con las políticas públicas y los Objetivos de Desarrollo Sostenible de la Agenda 2030.",
             "tags": [
-                "ciencias_biológicas",
-                "cultivo_celular",
-                "taraxacum"
+                "economía_circular"
             ]
         },
         {
-            "titulo": "Martínez, M.; Rodríguez, A.; Gea, T.; Font, X. A Simplified Techno-Economic Analysis for Sophorolipid Production in a Solid-State Fermentation Process. Energies 2022, 15, 4077. ",
-            "fecha": [
-                "2022"
-            ],
-            "link": "https://doi.org/10.3390/en15114077",
-            "tags": [
-                "análisis_técnico_económico",
-                "valorización_de_recursos"
-            ]
-        },
-        {
-            "titulo": "Martínez, M.E.; Jorquera, L.; Poirrier, P.; Díaz, K.; Chamy, R. Assessment of Plant Growth Regulators and Carbon Sources on the Germination and Growth Process of Dandelion (Taraxacum officinale G.H. Weber ex Wiggers) under In Vitro Conditions. Horticulturae 2021, 7, 486. ",
-            "fecha": [
-                "2021"
-            ],
-            "link": "https://doi.org/10.3390/horticulturae7110486",
-            "tags": [
-                "ciencias_biológicas",
-                "cultivo_celular",
-                "taraxacum"
-            ]
-        },
-        {
-            "titulo": "María Martinez; Lorena Jorquera; Paola Poirrier; Katy Díaz; Rolando Chamy. Effect of the Carbon Source and Plant Growth Regulators (PGRs) in the Induction and Maintenance of an In Vitro Callus Culture of Taraxacum officinale (L) Weber Ex F.H. Wigg. Agronomy 2021, 11, 1181. ",
-            "fecha": [
-                "2021"
-            ],
-            "link": "https://www.mdpi.com/2073-4395/11/6/1181",
-            "tags": [
-                "ciencias_biológicas",
-                "cultivo_celular",
-                "taraxacum"
-            ]
-        },
-        {
-            "titulo": "María Martínez, Carlos Ramos, Paola Poirrier, Rolando Chamy. 2020. Influence of substrate concentration and bicarbonate addition on the anaerobic digestion of an inulin-rich substrate as the ending stage in a dandelion biorefinery scheme. Process Biochemistry. Process Biochemistry. Vol 98,  211-216",
-            "fecha": [
-                "2020"
-            ],
-            "link": "https://www.sciencedirect.com/science/article/abs/pii/S1359511320306012",
-            "tags": [
-                "bioingeniería",
-                "biogás"
-            ]
-        },
-        {
-            "titulo": "Valorization of Tomato Waste for Energy Production. María E. Martínez Valenzuela; Franko Restović. In Tomato chemistry, Industrial Processing and Product Development, pp. 247-258. Food Chemistry, Function and Analysis Series. The Royal Society of Chemistry. United Kingdom. 2019. doi: 10.1039/9781788016247-00245. ISBN: 978-1-78801-396-3",
-            "fecha": [
-                "2019"
-            ],
-            "link": "https://pubs.rsc.org/en/content/chapter/bk9781788013963-00245/978-1-78801-396-3",
-            "tags": [
-                "biorefinería"
-            ]
-        },
-        {
-            "titulo": "María Eugenia Martínez, Paola Poirrier, Dirk Prüfer, Christian Schulze, Gronover, Lorena Jorquera, Perla Ferrer, Katy Díaz, Rolando Chamy. 2018. Kinetics and Modelling of cell growth for potential anthocyanin induction in cultures of Taraxacum officinale G.H. Weber ex Wiggers (Dandelion) in vitro. Electronic Journal of Biotechnology. Vol 36, 15-23. doi:10.1016/j.ejbt.2018.08.006",
-            "fecha": [
-                "2018"
-            ],
-            "link": "https://www.sciencedirect.com/science/article/pii/S0717345818300368",
-            "tags": [
-                "ciencias_biológicas",
-                "cultivo_celular",
-                "taraxacum"
-            ]
-        },
-        {
-            "titulo": "Marilise Nogueira, Eugenia M. A. Enfissi, Maria E. Martínez Valenzuela, Guillaume N. Menard, Richard L. Driller, Peter J. Eastmond, Wolfgang Schuch, Gerhard Sandmann, and Paul D. Fraser. 2017, 'Engineering of tomato for the sustainable production of ketocarotenoids and its evaluation in aquaculture feed'. Proceedings of the National Academy of Sciences of the United States of America. Vol 114 (41), 10876–10881. doi: 10.1073/pnas.1708349114",
-            "fecha": [
-                "2017"
-            ],
-            "link": "https://www.pnas.org/content/114/41/10876",
-            "tags": [
-                "biorefinería"
-            ]
-        },
-        {
-            "titulo": "Martinez, M., Driller, L., Chamy, R., Schuch, W., Nogueira, M., Fraser, P. 2017. Biogas potential of residues generated by the tomato processing industry under different substrate and inoculum conditions. Acta Horticulturae 1159, 151-158. doi: 10.17660/ActaHortic.2017.1159.23",
-            "fecha": [
-                "2017"
-            ],
-            "link": "https://www.ishs.org/ishs-article/1159_23"
-        },
-        {
-            "titulo": "Taraxacum Genus: A Review of Its Potential Antibacterial and Antifungal Activity. María E. Martínez Valenzuela; Lorena Jorquera Martínez; Katy Díaz Peralta; Rolando Chamy Maggi. In Herbal Medicine. INTECHOPEN. 2019. doi: 10.5772/intechopen.69412. ISBN: 978-1-78984-783-3",
-            "fecha": [
-                "2019"
-            ],
-            "link": "https://www.intechopen.com/books/herbal-medicine/taraxacum-genus-potential-antibacterial-and-antifungal-activity",
-            "tags": [
-                "ciencias_biológicas",
-                "cultivo_celular",
-                "taraxacum"
-            ]
-        },
-        {
-            "titulo": "Taraxacum Genus: Extract Experimental Approaches. María E. Martínez Valenzuela; Katy Díaz Peralta; Lorena Jorquera Martínez; Rolando Chamy Maggi. In Herbal Medicine. INTECHOPEN. 2018. doi: 10.5772/intechopen.72849. ISBN: 978-1-78984-783-3",
-            "fecha": [
-                "2018"
-            ],
-            "link": "https://www.intechopen.com/books/herbal-medicine/taraxacum-genus-extract-experimental-approaches",
-            "tags": [
-                "ciencias_biológicas",
-                "cultivo_celular",
-                "taraxacum"
-            ]
-        },
-        {
-            "titulo": "Martínez, M.; Poirrier, P.; Chamy, R.; Prüfer, D.; Schulze-Gronover, C.; Jorquera, L.; Ruiz, G. 2015. Taraxacum officinale and related species-An ethnopharmacological review and its potential as a commercial medicinal plant. J Ethnopharmacol. Vol 169, 244-262. doi: 10.1016/j.jep.2015.03.067",
-            "fecha": [
-                "2015"
-            ],
-            "link": "https://www.sciencedirect.com/science/article/abs/pii/S0378874115002263",
-            "tags": [
-                "ciencias_biológicas",
-                "cultivo_celular",
-                "taraxacum"
-            ]
-        },
-        {
-            "titulo": "Cerda, A.; Martínez, M.; Soto, C.; Poirrier, P.; Pérez-Correa, J.; Vergara-Salinas, J.; Zúñiga, M. 2013. The enhancement of antioxidant compounds extracted from Thymus vulgaris using enzymes and the effect of extracting solvent. Food Chemistry. Vol 139, 138-143. doi: 10.1016/j.foodchem.2012.12.044",
-            "fecha": [
-                "2012"
-            ],
-            "link": "https://www.sciencedirect.com/science/article/abs/pii/S0308814613000137"
-        },
-        {
-            "titulo": "Cerda, A.; Martínez, M.; Soto, C.; Zúñiga, M.; Poirrier, P. 2013. Methanisation of spent maqui berry pomace via enzymatic treatment. Renewable Energy. Vol 87, 326–331. doi.org/10.1016/j.renene.2015.10.027",
-            "fecha": [
-                "2015"
-            ],
-            "link": "https://www.sciencedirect.com/science/article/abs/pii/S0960148115303803"
-        },
-        {
-            "titulo": "Presentación en el Proceedings book of International Conference “Plant Nutrition, Growth & Environment Interactions III con el trabajo titulado “Taraxacum officinale seed germination under in vitro conditions” Viena, Austria.",
-            "fecha": [
-                "2017"
-            ],
-            "link": null,
-            "tags": [
-                "artículo_corto",
-                "ciencias_biológicas",
-                "células_vegetales"
-            ]
-        },
-        {
-            "titulo": "Presentación Plant Molecular Physiology con el trabajo titulado “Anthocyanin induction from Taraxacum officinale callus”. Viena, Austria.",
-            "fecha": [
-                "2017"
-            ],
-            "link": null,
-            "tags": [
-                "artículo_corto",
-                "ciencias_biológicas",
-                "células_vegetales"
-            ]
-        },
-        {
-            "titulo": "Presentación en el Proceedings book of Plant Cells in vitro: Theory and Practice con el trabajo titulado “Adaptation of a callus culture of T. officinale - high PGR concentrations. Viena, Austria.",
-            "fecha": [
-                "2016"
-            ],
-            "link": null,
-            "tags": [
-                "artículo_corto",
-                "ciencias_biológicas",
-                "células_vegetales"
-            ]
-        },
-        {
-            "titulo": "Presentación en el 5th Global Nephrologists Annual Meeting con el trabajo titulado “Taraxacum officinale as a bioactive source with antimicrobial properties useful for urinary tract infections. Valencia, España. ",
-            "fecha": [
-                "2016"
-            ],
-            "link": null,
-            "tags": [
-                "artículo_corto",
-                "ciencias_biológicas",
-                "células_vegetales"
-            ]
-        },
-        {
-            "titulo": "Presentación en el Proceedings book of 2016 World Congress on In Vitro Biology con el trabajo titulado \"Development of dandelion weed as a platform for triterpenes production\".  San Diego, California, USA.",
-            "fecha": [
-                "2016"
-            ],
-            "link": null,
-            "tags": [
-                "artículo_corto",
-                "ciencias_biológicas",
-                "células_vegetales"
-            ]
+            "titulo": "Postulación, ejecución y rendición de proyectos con foco en sostenibilidad para fondos concursables públicos y privados. Especialización en fondos CORFO de las Gerencia de Emprendimiento y Gerencia de Innovación."
         }
     ],
-    "presentaciones": [
+    "competencias": [
         {
-            "titulo": " “FROM LAB TO MARKET. Retos en el escalado y comercialización de la fermentación en estado sólido”, VII edición de las Jornadas de la Red Española de Compostaje.",
-            "fecha": [
-                "10·01·2022"
-            ],
-            "tags": [
-                "valorización_de_recursos",
-                "análisis_técnico_económico"
-            ]
+            "titulo": "Enfoque metódico",
+            "descripcion": "Capacidad demostrada para abordar proyectos de manera organizada y estructurada, garantizando la eficiencia en la ejecución."
         },
         {
-            "titulo": " LCAFood2020 con el trabajo titulado “Life Cycle Analysis of a demonstrative Solar-Urban Agriculture Pilot for lettuce production in a mid-income area of Central Chile”. Berlín, Alemania.",
-            "fecha": [
-                "10·01·2020"
-            ],
-            "tags": [
-                "análisis_de_ciclo_de_vida"
-            ]
+            "titulo": "Pensamiento analítico",
+            "descripcion": "Habilidad para descomponer problemas complejos en elementos manejables y tomar decisiones basadas en datos y evidencia."
         },
         {
-            "titulo": "Presentación en 3rd International Society of Industrial Ecology Americas Conference - ISIE Americas 2020 con el trabajo titulado “Solar Urban Agriculture - A case study for Santiago” Organizado por la International Society of Industrial Ecology (ISIE), Lima, Perú.",
-            "fecha": [
-                "07·01·2020"
-            ],
-            "tags": [
-                "análisis_de_ciclo_de_vida"
-            ]
+            "titulo": "Habilidad de planificación",
+            "descripcion": "Destreza en la planificación estratégica, estableciendo objetivos claros y desarrollando rutas efectivas para alcanzarlos."
         },
         {
-            "titulo": "Presentación en IWA Conference on Algal Technologies and Stabilization Ponds for Wastewater Treatment and Resource Recovery con el trabajo titulado “Biorefinery of Chlorella protothecoides focused on lutein recovery”. Organizado por la Universidad de Valladolid y el International Water Association (IWA). Valladolid, España. ",
-            "fecha": [
-                "07·01·2019"
-            ],
-            "tags": [
-                "ciencias_biológicas",
-                "microalgas"
-            ]
+            "titulo": "Paciencia y Reflexión",
+            "descripcion": "Actitud paciente y reflexiva que facilita la toma de decisiones informadas y el manejo de desafíos con calma."
         },
         {
-            "titulo": "Presentación en el 5th Latin American Congress on Biorefineries con el trabajo titulado “BIOCODE: Towards a novel and sustainable biorefinery concept based on green technologies for main commercial grain crop residues”. Organizado por la Unidad de Desarrollo Tecnológico de la Universidad de Concepción (UDT-UC) y el Centro de Biotecnología de la Universidad de Concepción. Concepción, Chile.",
-            "fecha": [
-                "01·01·2019"
-            ],
-            "tags": [
-                "biorefinería",
-                "análisis_técnico_económico"
-            ]
+            "titulo": "Liderazgo de proyectos",
+            "descripcion": "Experiencia en liderar proyectos e iniciativas, demostrando habilidades de coordinación, gestión de equipos y recursos."
         },
         {
-            "titulo": "Presentación en el 12th World Processing Tomato Congress and the 14th ISHS Symposium on the Processing Tomato con el trabajo titulado “Biogas productivity potential of agro-industrial biomasses, generated by the tomato processing industry”, Santiago, Chile.",
-            "fecha": [
-                "03·01·2016"
-            ],
-            "tags": [
-                "biorefinería",
-                "bioingeniería"
-            ]
+            "titulo": "Comunicación efectivia",
+            "descripcion": "Capacidad para comunicar ideas y resultados de manera clara y persuasiva, esencial para la colaboración y presentación de proyectos."
         },
         {
-            "titulo": "Presentación en el 14th World Congress on Anaerobic Digestion con el trabajo titulado “Biogas potential of residues generated by the tomato processing industry under different substrate and inoculum conditions\". Viña del Mar, Chile",
-            "fecha": [
-                "11·01·2015"
-            ],
-            "tags": [
-                "biorefinería",
-                "bioingeniería"
-            ]
+            "titulo": "Orientación a la sostenibilidad",
+            "descripcion": "Compromiso firme con la sostenibilidad y la responsabilidad ambiental, con un enfoque en la búsqueda de soluciones sostenibles."
         },
         {
-            "titulo": "Presentación en el 3er Iberoamerican Biorefinery Congress (CIAB), 4to Latinoamerican Congress on Biorefineries and in the 2nd International Symposium of Lignocellulosic Materials con el trabajo titulado \"Impact of Organizado por la Unidad de Desarrollo Tecnológico de la Universidad de Concepción (UDT-UC). Concepción, Chile.",
-            "fecha": [
-                "11·01·2015"
-            ],
-            "tags": [
-                "biorefinería",
-                "bioingeniería"
-            ]
+            "titulo": "Adaptabilidad",
+            "descripcion": "Habilidad para adaptarse a entornos cambiantes y flexibilidad para enfrentar una variedad de proyectos y desafíos."
         },
         {
-            "titulo": "Presentación en el XXXII Congreso Interamericano de Ingeniería Sanitaria y Ambiental AIDIS con el trabajo titulado \"Efecto del inóculo en la etapa de arranque de digestores anaerobios para la degradación de lodos provenientes de plantas de tratamiento de aguas residuales urbanas.” Punta Cana, República Dominicana.",
-            "fecha": [
-                "10·01·2010"
-            ],
-            "tags": [
-                "biorefinería",
-                "biogás"
-            ]
+            "titulo": "Trabajo en equipo",
+            "descripcion": "Competencia en trabajar de manera efectiva en equipos multidisciplinarios, fomentando la colaboración y el logro de objetivos compartidos."
         },
         {
-            "titulo": "Presentación en el XXXII Congreso Interamericano de Ingeniería Sanitaria y Ambiental AIDIS con el trabajo titulado \"Evaluación de la solubilización mediante tratamiento enzimático de los residuos generados durante la extracción de bioactivos desde pomaza de berries.” Punta Cana, República Dominicana.",
-            "fecha": [
-                "10·01·2010"
-            ],
-            "tags": [
-                "biorefinería",
-                "biogás"
-            ]
+            "titulo": "Resolución de problemas",
+            "descripcion": "Habilidad para identificar y resolver problemas técnicos y científicos complejos, aplicando un enfoque analítico."
         },
         {
-            "titulo": "Presentación en XVIII Congreso Nacional de la Asociación de Ingeniería Sanitaria y Ambiental AIDIS con el trabajo titulado “Determinación de las Cinéticas de Degradación Anaerobia de Distintos Tipos de Lodos Provenientes de PTAR Mediante Digestión Anaerobia Mesófila”. Pucón, Chile.",
-            "fecha": [
-                "11·01·2009"
-            ],
-            "tags": [
-                "biorefinería",
-                "biogás"
-            ]
+            "titulo": "Toma de decisiones",
+            "descripcion": "Enfoque basado en datos que respalda la toma de decisiones fundamentadas en evidencia y análisis exhaustivos."
         },
         {
-            "titulo": "Presentación en XXXI Congreso Interamericano de Ingeniería Sanitaria y Ambiental AIDIS con el trabajo titulado “Evaluación y Diseño de un Pre-tratamiento Térmico Aplicado a Lodos biológicos provenientes de Plantas de Tratamiento de Aguas Residuales Urbanas”. Santiago, Chile.",
-            "fecha": [
-                "10·01·2008"
-            ],
-            "tags": [
-                "biorefinería",
-                "biogás"
-            ]
+            "titulo": "Ética profesional",
+            "descripcion": "Compromiso con la integridad y la ética en el trabajo, especialmente en proyectos relacionados con la sostenibilidad y la responsabilidad social."
         },
         {
-            "titulo": "Presentación en V Taller y Simposio de Digestión Anaerobia con el trabajo titulado “Evaluación y Diseño de un Pre-tratamiento Térmico Aplicado a Lodos biológicos provenientes de Plantas de Tratamiento de Aguas Residuales Urbanas”. Isla de Pascua, Chile.",
-            "fecha": [
-                "10·01·2008"
-            ],
-            "tags": [
-                "biorefinería",
-                "biogás"
-            ]
+            "titulo": "Gestión de tiempo",
+            "descripcion": "Habilidad para administrar eficazmente el tiempo, cumplir plazos y mantener la productividad en proyectos y tareas."
+        },
+        {
+            "titulo": "Curiosidad y aprendizaje continuo",
+            "descripcion": "Actitud de aprendizaje constante y disposición para mantenerse actualizado en las últimas tendencias y tecnologías."
+        },
+        {
+            "titulo": "Empatía y colaboración",
+            "descripcion": "Capacidad para comprender y colaborar efectivamente con colegas y colaboradores, fomentando un entorno de trabajo armonioso."
         }
     ],
     "herramientas": [
@@ -2024,17 +2035,6 @@
             "titulo": "KNIME Analytic software ",
             "tipo": null,
             "nivel": "Básico"
-        }
-    ],
-    "premios": [
-        {
-            "titulo": "Programa The Lift ganador AGS"
-        },
-        {
-            "titulo": "Programa CREA y DESARROLLA del DIE. PUCV"
-        },
-        {
-            "titulo": "Distinción premio “Carmen Gloria Arévalo” que se otorga a un titulado entre quienes hayan obtenido la más alta calificación en su memoria de título realizada en la modalidad experimental (2010). Pontificia Universidad Católica de Valparaíso, Chile."
         }
     ]
 }

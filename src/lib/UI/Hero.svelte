@@ -1,5 +1,4 @@
 <script lang="ts">
-    import Contact from "../Contact.svelte";
 </script>
 
 <hero class="flex relative h-[700px] z-0">
@@ -9,7 +8,7 @@
         <div
             class="flex flex-col gap-[20px] p-[25px] rounded-[5px] text-white w-full xl:w-[700px] bg-[rgba(8,11,13,0.7)]"
         >
-            <p class="uppercase font-black text-5xl">
+            <p class="uppercase font-extrabold text-5xl">
                 María Eugenia Martínez Valenzuela
             </p>
             <div class="text-lg">

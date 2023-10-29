@@ -3,6 +3,7 @@
     export let anio: number = 0;
     export let especialidad: string = "todas";
     export let tag: string = "";
+    export let showTagHandler: boolean;
 
     $: anio = 0;
 
@@ -46,11 +47,12 @@
         anio = 0;
         especialidad = "todas";
         tag = "";
+        showTagHandler = false;
     };
 </script>
 
 <div
-    class="relative z-20 w-[50%] pt-[350px] md:pt-[520px] xl:pt-[35px] ps-[10%] pb-10"
+    class="relative z-20 w-[90%] m-auto md:w-[50%] top-[250px] md:top-[50px] md:left-28 md:m-0"
 >
     <p class="font-bold text-xl">¿Quieres saber más de mí?</p>
     <div
