@@ -191,7 +191,7 @@
             "descripcion": "Capacidad para comprender y colaborar efectivamente con colegas y colaboradores, fomentando un entorno de trabajo armonioso."
         }
     ],
-    "experiencia": [
+    "experiencias": [
         {
             "cargo": "Gerente técnico-comercial y líder de proyectos en EC y cambio climático.",
             "empresa": "Consultora Técnica Sustrend SpA",
@@ -422,7 +422,7 @@
             ]
         }
     ],
-    "diplomado": [
+    "diplomados": [
         {
             "titulo": "Data Science - Machine Learning, Inteligencia Artificial, Deep Learning",
             "instituto": "Instituto de Estadística, Pontificia Universidad Católica de Valparaíso",

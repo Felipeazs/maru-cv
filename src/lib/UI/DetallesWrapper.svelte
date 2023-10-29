@@ -1,15 +1,27 @@
 <script lang="ts">
     // javascript code here
+    import { createEventDispatcher } from "svelte";
+
     //@ts-ignore
     import { tooltip } from "@svelte-plugins/tooltips";
 
+    const dispatch = createEventDispatcher();
+
+    export let tag: string;
     export let items: any[] = [];
+    let filteredItems = [];
+
+    $: if (tag) {
+        filteredItems = items.filter((i) => i.tags?.includes(tag));
+    } else {
+        filteredItems = items;
+    }
 </script>
 
-{#if items.length === 0}
+{#if filteredItems.length === 0}
     <p>No existen elementos</p>
 {/if}
-{#each items as item, i}
+{#each filteredItems as item, i}
     <div class="flex flex-col md:flex-row gap-5 items-start md:items-center">
         <div class="bg-[#fff] text-md text-black font-bold p-1 rounded-lg">
             <div
@@ -67,7 +79,9 @@
             {#if item.tags}
                 <div class="flex flex-row flex-wrap gap-1 py-3">
                     {#each item.tags as tag}
-                        <button class="btn btn-sm p-1 lowercase text-xs"
+                        <button
+                            class="btn btn-sm p-1 lowercase text-xs"
+                            on:click={() => dispatch("tag-click", tag)}
                             >{tag.replace(/_/g, " ")}</button
                         >
                     {/each}

@@ -1,11 +1,8 @@
 <script lang="ts">
-    import data from "../../data.json";
-    import RubroWrapper from "./UI/RubroWrapper.svelte";
-
-    const competencias = data.competencias;
+    import RubroWrapper from "../UI/RubroWrapper.svelte";
 </script>
 
-<RubroWrapper title="Perfil">
+<RubroWrapper title="rubro">
     <div>
         <p>
             Soy un profesional altamente comprometido y apasionado por la

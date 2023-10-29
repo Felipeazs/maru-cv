@@ -2,13 +2,14 @@
     export let selection: string = "todos";
     export let anio: number = 0;
     export let especialidad: string = "todas";
+    export let tag: string = "";
 
     $: anio = 0;
 
     const rubros = [
         { value: "todos", opcion: "Todos" },
         { value: "perfil", opcion: "Perfil" },
-        { value: "experiencia_laboral", opcion: "Experiencia laboral" },
+        { value: "experiencias", opcion: "Experiencia laboral" },
         { value: "proyectos", opcion: "Proyectos" },
         { value: "educacion", opcion: "Educación" },
         { value: "publicaciones", opcion: "Publicaciones" },
@@ -44,17 +45,21 @@
     const resetValues = () => {
         anio = 0;
         especialidad = "todas";
+        tag = "";
     };
 </script>
 
 <div
     class="relative z-20 w-[50%] pt-[350px] md:pt-[520px] xl:pt-[35px] ps-[10%] pb-10"
 >
-    <div class="md:absolute md:z-10 flex flex-row flex-wrap gap-5">
+    <p class="font-bold text-xl">¿Quieres saber más de mí?</p>
+    <div
+        class="absolute md:z-10 flex flex-row flex-wrap gap-5 border-4 border-black rounded-md p-2 bg-black text-white"
+    >
         <label class="flex flex-col">
-            Pincha en la sección
+            Selecciona un tema
             <select
-                class="select select-bordered select-sm min-w-[200px]"
+                class="select select-bordered select-sm min-w-[200px] text-black"
                 bind:value={selection}
                 on:change={resetValues}
             >
@@ -66,7 +71,7 @@
         <label class="flex flex-col">
             Año
             <select
-                class="select select-bordered select-sm min-w-[150px]"
+                class="select select-bordered select-sm min-w-[150px] text-black"
                 bind:value={anio}
             >
                 {#each anios as anio}
@@ -77,7 +82,7 @@
         <label class="flex flex-col">
             Especialidad
             <select
-                class="select select-bordered select-sm min-w-[200px]"
+                class="select select-bordered select-sm min-w-[200px] text-black"
                 bind:value={especialidad}
             >
                 {#each especialidades as esp}

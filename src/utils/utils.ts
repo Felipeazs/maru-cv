@@ -1,6 +1,4 @@
-
 export const sorting_items = <T extends Record<string, any>>(items: T[], year: number, especialidad: string): T[] => {
-    console.log('sorting', year, especialidad)
     let sortedItems: T[] = items
         .sort(
             (a, b) =>
@@ -21,4 +19,23 @@ export const sorting_items = <T extends Record<string, any>>(items: T[], year: n
     }
 
     return sortedItems
+}
+
+export const transform_title = (title: string): string => {
+    let new_title: string
+    switch (title) {
+        case 'experiencia_laboral':
+            new_title = 'experiecia laboral'
+            break;
+        case 'educacion':
+            new_title = 'educación'
+            break;
+        case 'vinculaciones':
+            new_title = 'vinculación con el medio'
+            break;
+        default:
+            new_title = title
+    }
+
+    return new_title
 }

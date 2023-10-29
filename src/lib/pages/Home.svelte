@@ -1,24 +1,32 @@
 <script lang="ts">
-    import Contact from "../Contact.svelte";
-    import Cursos from "../Cursos.svelte";
-    import Diplomado from "../Diplomado.svelte";
-    import Educacion from "../Educacion.svelte";
-    import Empresas from "../Empresas.svelte";
-    import ExperienciaLaboral from "../ExperienciaLaboral.svelte";
-    import Perfil from "../Perfil.svelte";
-    import Premios from "../Premios.svelte";
-    import Presentaciones from "../Presentaciones.svelte";
-    import Proyectos from "../Proyectos.svelte";
-    import Publicaciones from "../Publicaciones.svelte";
-    import Seminarios from "../Seminarios.svelte";
-    import Servicios from "../Servicios.svelte";
+    import { sorting_items, transform_title } from "../../utils/utils";
+
+    import DetallesWrapper from "../UI/DetallesWrapper.svelte";
     import Hero from "../UI/Hero.svelte";
+    import RubroWrapper from "../UI/RubroWrapper.svelte";
     import Selector from "../UI/Selector.svelte";
-    import Vinculacion from "../Vinculacion.svelte";
+    import Contact from "../Contact.svelte";
+
+    import Todos from "../todos/Todos.svelte";
+    import Perfil from "../todos/Perfil.svelte";
 
     let selection: string = "todos";
     let anio: number = 0;
     let especialidad: string = "todas";
+    let tag: string;
+    let items = [];
+
+    import data from "../cv-store";
+
+    $: selectedItems = $data[selection];
+    $: title = transform_title(selection);
+    $: if (selectedItems)
+        items = sorting_items(selectedItems, anio, especialidad);
+
+    const tagHandler = (event: Event) => {
+        const t = (event as MouseEvent).detail.toString();
+        tag = t;
+    };
 </script>
 
 <main>
@@ -26,51 +34,31 @@
     <div
         class="absolute md:fixed top-10 bottom-0 right-[5%] overflow-auto flex flex-col w-[350px] rounded-[5px] py-5 px-10 bg-black text-black"
     >
-        <img class="h-[400px]" alt="foto" />
+        <img class="h-[400px] text-white" alt="foto_perfil" />
         <Contact />
     </div>
-    <Selector bind:selection bind:anio bind:especialidad />
-    {#if selection === "perfil"}
-        <Perfil />
-    {:else if selection === "experiencia_laboral"}
-        <ExperienciaLaboral bind:anio bind:especialidad />
-    {:else if selection === "diplomados"}
-        <Diplomado bind:anio bind:especialidad />
-    {:else if selection === "educacion"}
-        <Educacion bind:anio bind:especialidad />
-    {:else if selection === "cursos"}
-        <Cursos bind:anio bind:especialidad />
-    {:else if selection === "vinculaciones"}
-        <Vinculacion bind:anio bind:especialidad />
-    {:else if selection === "proyectos"}
-        <Proyectos bind:anio bind:especialidad />
-    {:else if selection === "seminarios"}
-        <Seminarios bind:anio bind:especialidad />
-    {:else if selection === "servicios"}
-        <Servicios bind:anio bind:especialidad />
-    {:else if selection === "empresas"}
-        <Empresas bind:anio bind:especialidad />
-    {:else if selection === "publicaciones"}
-        <Publicaciones bind:anio bind:especialidad />
-    {:else if selection === "presentaciones"}
-        <Presentaciones bind:anio bind:especialidad />
-    {:else if selection === "premios"}
-        <Premios bind:anio bind:especialidad />
-    {:else}
-        <Perfil />
-        <ExperienciaLaboral bind:anio bind:especialidad />
-        <Proyectos bind:anio bind:especialidad />
-        <Educacion bind:anio bind:especialidad />
-        <Publicaciones bind:anio bind:especialidad />
-        <Presentaciones bind:anio bind:especialidad />
-        <Diplomado bind:anio bind:especialidad />
-        <Cursos bind:anio bind:especialidad />
-        <Seminarios bind:anio bind:especialidad />
-        <Premios bind:anio bind:especialidad />
-        <Vinculacion bind:anio bind:especialidad />
-        <Empresas bind:anio bind:especialidad />
-        <Servicios bind:anio bind:especialidad />
-    {/if}
+    <Selector bind:selection bind:anio bind:especialidad bind:tag />
+    <div class="w-[95%] ml-20">
+        {#if selectedItems && selection !== "perfil"}
+            <RubroWrapper {title} {tag}>
+                <DetallesWrapper
+                    bind:items
+                    on:tag-click={tagHandler}
+                    bind:tag
+                />
+            </RubroWrapper>
+        {:else if selection === "perfil"}
+            <Perfil />
+        {:else}
+            <Todos
+                bind:selection
+                bind:anio
+                bind:especialidad
+                bind:tag
+                on:tag-click={tagHandler}
+            />
+        {/if}
+    </div>
 </main>
 
 <style>
