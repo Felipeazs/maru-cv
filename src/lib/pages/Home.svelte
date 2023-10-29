@@ -45,7 +45,7 @@
 <main>
     <Hero />
     <div
-        class="absolute top-20 right-[6.5%] bottom-10 md:fixed md:top-10 md:right-[3%] overflow-auto flex flex-col w-[350px] rounded-[5px] py-5 px-5 bg-[rgba(8,11,13,0.9)] text-black gap-5"
+        class="absolute top-20 right-[6.5%] bottom-10 md:fixed md:top-10 md:right-[3%] overflow-auto flex flex-col w-[350px] rounded-[5px] gap-3 py-5 px-5 bg-[rgba(8,11,13,0.9)] text-black"
     >
         <img
             src={maru}
@@ -86,10 +86,10 @@
     </div>
     {#if showTagHandler}
         <div
-            class="fixed bottom-[50px] right-5 md:left-[80px] md:w-[80px] md:h-[80px] transition ease-in-out"
+            class="fixed bottom-[50px] right-5 md:left-[50px] md:w-[80px] md:h-[80px] transition ease-in-out"
         >
             <button
-                class="btn bg-black gap-0 text-white hover:text-black rounded-full w-full h-full btn-xs"
+                class="btn bg-black gap-0 text-white hover:text-black rounded-md w-full h-full btn-xs"
                 on:click={resetTags}
             >
                 <svg

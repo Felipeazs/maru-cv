@@ -3,8 +3,8 @@
 </script>
 
 <div class="hidden w-full xl:inline-block">
-    <div class="collapse collapse-arrow">
-        <input type="checkbox" />
+    <div class="collapse p-1 collapse-arrow">
+        <input type="checkbox" class="p-1" />
         <div
             class="collapse-title text-xl uppercase font-bold bg-crema text-black"
         >
