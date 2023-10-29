@@ -51,7 +51,7 @@
     src: url('../fonts/Raleway-Black.ttf');
 }
 * {
-    font-family: 'Raleway'
+    font-family: 'Raleway';
 }
 
 body {
@@ -78,3 +78,4 @@ body {
         padding-top: 6rem;
     }
 }
+

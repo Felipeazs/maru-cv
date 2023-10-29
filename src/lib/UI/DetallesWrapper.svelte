@@ -51,7 +51,9 @@
                 {item.descripcion ?? ""}
             </p>
             {#if item.logo}
-                <div class="flex flex-row gap-5 pb-3">
+                <div
+                    class="flex flex-col md:flex-row justify-center items-center gap-5 pb-3"
+                >
                     <img
                         src={item.logo}
                         width={70}

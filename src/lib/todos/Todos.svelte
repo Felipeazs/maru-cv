@@ -19,7 +19,7 @@
 </script>
 
 <div>
-    {#if selection === "todos"}
+    {#if selection === "todos" && !tag && especialidad === "todas"}
         <Perfil />
     {/if}
     {#if tag}

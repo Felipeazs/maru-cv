@@ -16,13 +16,14 @@
     let tag: string;
     let items = [];
     let showTagHandler: boolean = false;
+    let xScroll = 0;
 
     import data from "../cv-store";
 
     $: selectedItems = $data[selection];
     $: title = transform_title(selection);
     $: if (selectedItems) items = selectedItems;
-    $: xScroll = selectedItems ? 700 : 1400;
+    $: xScroll = window.innerWidth <= 400 ? 2340 : 700;
 
     const tagHandler = (event: Event) => {
         tag = (event as MouseEvent).detail.toString();
@@ -42,7 +43,7 @@
 <main>
     <Hero />
     <div
-        class="absolute top-20 right-[6.5%] bottom-0 md:fixed md:top-10 md:right-[3%] overflow-auto flex flex-col w-[350px] rounded-[5px] py-5 px-10 bg-black text-black"
+        class="absolute top-20 right-[6.5%] bottom-0 md:fixed md:top-10 md:right-[3%] overflow-auto flex flex-col w-[350px] rounded-[5px] py-5 px-5 bg-black text-black"
     >
         <img class="h-[400px] text-white" alt="foto_perfil" />
         <Contact />
@@ -78,9 +79,11 @@
         {/if}
     </div>
     {#if showTagHandler}
-        <div class="fixed bottom-[50px] left-[80px]">
+        <div
+            class="fixed bottom-[50px] right-5 md:left-[80px] md:w-[80px] md:h-[80px] transition ease-in-out"
+        >
             <button
-                class="btn bg-black text-white hover:text-black rounded-full btn-xs w-[80px] h-[80px]"
+                class="btn bg-black text-white hover:text-black rounded-full w-full h-full btn-xs"
                 on:click={resetTags}>🛠️ reiniciar tags</button
             >
         </div>
