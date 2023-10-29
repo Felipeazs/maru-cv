@@ -73,7 +73,10 @@
                             height={40}
                         />
                     </div>
-                    <p class="w-full text-lg">link</p>
+                    <a
+                        class="w-full text-lg"
+                        href="https://www.linkedin.com/in/memartinezv/">🔗</a
+                    >
                 </div>
             </div>
         </div>
