@@ -36,7 +36,8 @@
                     <div class="w-1/3">
                         <img src={phone} alt="phone" width={40} height={40} />
                     </div>
-                    <a href="tel:+56952570413" class="w-full">+56 9 5257 0413</a
+                    <a href="tel:+56952570413" class="w-full text-lg"
+                        >+56 9 5257 0413</a
                     >
                 </div>
                 <div class="flex flex-row items-center gap-2 w-full">
@@ -48,7 +49,7 @@
                             height={40}
                         />
                     </div>
-                    <a class="w-full" href="http://wa.me/56952570413"
+                    <a class="w-full text-lg" href="http://wa.me/56952570413"
                         >+56 9 5257 0413</a
                     >
                 </div>
@@ -56,7 +57,7 @@
                     <div class="w-1/3">
                         <img src={email} alt="email" width={40} height={40} />
                     </div>
-                    <a href="mailto:maru.27@gmail.com" class="w-full"
+                    <a href="mailto:maru.27@gmail.com" class="w-full text-lg"
                         >maru.27@gmail.com</a
                     >
                 </div>
@@ -69,7 +70,7 @@
                             height={40}
                         />
                     </div>
-                    <p class="w-full">link</p>
+                    <p class="w-full text-lg">link</p>
                 </div>
             </div>
         </div>

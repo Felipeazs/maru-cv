@@ -56,7 +56,7 @@
 >
     <p class="font-bold text-xl">¿Quieres saber más de mí?</p>
     <div
-        class="absolute md:z-10 flex flex-row flex-wrap gap-5 border-4 border-black rounded-md p-2 bg-black text-white"
+        class="absolute md:z-10 flex flex-row flex-wrap gap-5 border-black rounded-md p-4 bg-[rgba(8,11,13,0.8)] text-white"
     >
         <label class="flex flex-col">
             Selecciona un tema
