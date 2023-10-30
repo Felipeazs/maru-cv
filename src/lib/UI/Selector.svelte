@@ -52,7 +52,7 @@
 </script>
 
 <div
-    class="relative z-20 w-[90%] m-auto md:w-[50%] top-[250px] md:top-[50px] md:left-28 md:m-0"
+    class="relative z-20 w-[90%] m-auto md:w-[50%] top-[490px] md:top-[50px] md:left-28 md:m-0"
 >
     <p class="font-bold text-xl">¿Quieres saber más de mí?</p>
     <div

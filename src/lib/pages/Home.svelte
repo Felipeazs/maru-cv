@@ -45,11 +45,11 @@
 <main>
     <Hero />
     <div
-        class="absolute top-20 right-[6.5%] bottom-10 md:fixed md:top-10 md:right-[3%] overflow-auto flex flex-col w-[350px] rounded-[5px] gap-3 pb-5 px-5 bg-[rgba(8,11,13,0.9)] text-black"
+        class="absolute right-[6.5%] bottom-10 md:fixed md:top-10 md:right-[3%] overflow-auto flex flex-col w-[90%] md:w-[350px] rounded-[5px] gap-3 pb-5 bg-[rgba(8,11,13,0.9)] text-black"
     >
         <img
             src={maru}
-            class="h-full w-full overflow-visible text-white object-top object-cover rounded-md"
+            class="relative z-10 md:h-full w-full overflow-visible text-white object-cover"
             alt="foto_perfil"
         />
         <Contact />
@@ -61,7 +61,7 @@
         bind:especialidad
         bind:tag
     />
-    <div class="w-[95%] m-auto pt-[500px] md:pt-[100px] md:ml-20">
+    <div class="w-[95%] m-auto pt-[750px] md:pt-[100px] md:ml-20">
         {#if selectedItems && selection !== "perfil"}
             <RubroWrapper {title} {tag}>
                 <DetallesWrapper
