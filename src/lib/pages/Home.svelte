@@ -17,26 +17,22 @@
     let especialidad: string = "todas";
     let tag: string;
     let items = [];
-    let showTagHandler: boolean = false;
-    let xScroll = 0;
 
     import data from "../cv-store";
 
     $: selectedItems = $data[selection];
     $: title = transform_title(selection);
     $: if (selectedItems) items = selectedItems;
-    $: xScroll = window.innerWidth <= 400 ? 2340 : 700;
+    $: xScroll = window.innerWidth <= 500 ? 2740 : 700;
 
     const tagHandler = (event: Event) => {
         tag = (event as MouseEvent).detail.toString();
-        showTagHandler = true;
 
         window.scrollTo(0, xScroll);
     };
 
     const resetTags = () => {
         tag = "";
-        showTagHandler = false;
 
         window.scrollTo(0, xScroll);
     };
@@ -45,7 +41,7 @@
 <main>
     <Hero />
     <div
-        class="absolute right-[6.5%] bottom-10 md:fixed md:top-10 md:right-[3%] overflow-auto flex flex-col w-[90%] md:w-[350px] rounded-[5px] gap-3 pb-5 bg-[rgba(8,11,13,0.9)] text-black"
+        class="relative z-10 m-auto bottom-10 md:fixed md:top-10 md:right-[3%] overflow-auto flex flex-col w-[90%] md:w-[350px] rounded-[5px] gap-3 pb-5 bg-[rgba(8,11,13,0.9)] text-black"
     >
         <img
             src={maru}
@@ -54,16 +50,23 @@
         />
         <Contact />
     </div>
-    <Selector
-        bind:showTagHandler
-        bind:selection
-        bind:anio
-        bind:especialidad
-        bind:tag
-    />
-    <div class="w-[95%] m-auto pt-[750px] md:pt-[100px] md:ml-20">
+    <Selector bind:selection bind:anio bind:especialidad bind:tag />
+    <div class="w-[95%] m-auto pt-[300px] md:pt-[100px] md:ml-20">
+        {#if tag}
+            <div
+                class="fixed z-10 right-[450px] bg-[#fff] border-2 border-black rounded-md flex flex-row items-center gap-3 p-2"
+            >
+                <p class="italic text-sm">
+                    {selection}: {tag.replace(/_/g, " ")}
+                </p>
+                <button
+                    class="btn btn-xs btn-transparent text-xs lowercase border-2 border-black"
+                    on:click={resetTags}>x</button
+                >
+            </div>
+        {/if}
         {#if selectedItems && selection !== "perfil"}
-            <RubroWrapper {title} {tag}>
+            <RubroWrapper {title}>
                 <DetallesWrapper
                     bind:anio
                     bind:especialidad
@@ -84,30 +87,6 @@
             />
         {/if}
     </div>
-    {#if showTagHandler}
-        <div
-            class="fixed bottom-[50px] right-5 md:left-[50px] md:w-[80px] md:h-[80px] transition ease-in-out"
-        >
-            <button
-                class="btn bg-black gap-0 text-white hover:text-black rounded-md w-full h-full btn-xs"
-                on:click={resetTags}
-            >
-                <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="20"
-                    height="20"
-                    viewBox="0 0 16 16"
-                    ><path
-                        fill="currentColor"
-                        fill-rule="evenodd"
-                        d="M7.32.029a8 8 0 0 1 7.18 3.307V1.75a.75.75 0 0 1 1.5 0V6h-4.25a.75.75 0 0 1 0-1.5h1.727A6.5 6.5 0 0 0 1.694 6.424A.75.75 0 1 1 .239 6.06A8 8 0 0 1 7.319.03Zm-3.4 14.852A8 8 0 0 0 15.76 9.94a.75.75 0 0 0-1.455-.364A6.5 6.5 0 0 1 2.523 11.5H4.25a.75.75 0 0 0 0-1.5H0v4.25a.75.75 0 0 0 1.5 0v-1.586a8 8 0 0 0 2.42 2.217Z"
-                        clip-rule="evenodd"
-                    /></svg
-                >
-                reiniciar tags</button
-            >
-        </div>
-    {/if}
 </main>
 
 <style>

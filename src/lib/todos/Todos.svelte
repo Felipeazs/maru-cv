@@ -19,13 +19,8 @@
 </script>
 
 <div>
-    {#if selection === "todos" && !tag && especialidad === "todas"}
+    {#if selection === "todos" && !tag && especialidad === "todas" && anio === 0}
         <Perfil />
-    {/if}
-    {#if tag}
-        <div class="w-[90%] md:w-[75%] m-auto xl:m-0 bg-crema md:px-[10%]">
-            <p class="italic">tag: {tag.replace(/_/g, " ")}</p>
-        </div>
     {/if}
     {#each foundItems as items, i}
         <RubroWrapper title={titulos[i]}>

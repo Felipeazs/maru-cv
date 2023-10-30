@@ -27,10 +27,15 @@
     <p>No existen elementos</p>
 {/if}
 {#each filteredItems as item, i}
-    <div class="flex flex-col md:flex-row gap-5 items-start md:items-center">
-        <div class="bg-[#fff] text-md text-black font-bold p-1 rounded-lg">
+    <div class="relative flex flex-col md:flex-row gap-5 md:gap-10 items-start">
+        {#if i !== filteredItems.length - 1}
             <div
-                class="flex md:flex-col justify-center items-center md:min-w-[125px] md:min-h-[50px] p-1 border-2 border-[rgba(13,60,85,0.8)] rounded-lg"
+                class="absolute hidden md:inline-block z-0 top-10 left-[5%] bg-white h-full pl-[3px]"
+            />
+        {/if}
+        <div class="z-10 bg-[#fff] text-md text-black font-bold rounded-lg">
+            <div
+                class="flex md:flex-col justify-center items-center min-w-[105px] md:min-h-[50px] p-1 border-2 border-[rgba(13,60,85,0.8)] rounded-lg"
             >
                 {#if item.fecha}
                     <p>{item.fecha[0]}</p>
@@ -47,13 +52,13 @@
             <p class="text-sm text-slate-500 italic">
                 {item.empresa ?? item.institucion ?? item.instituto ?? ""}
             </p>
-            <p class="text-sm text-slate-500 py-2">
-                {item.descripcion ?? ""}
-            </p>
+            {#if item.description}
+                <p class="text-sm text-slate-500 py-2">
+                    {item.descripcion ?? ""}
+                </p>
+            {/if}
             {#if item.logo}
-                <div
-                    class="flex flex-col md:flex-row justify-center items-center gap-5 pb-3"
-                >
+                <div class="flex flex-col md:flex-row gap-5 md:gap-10 pb-3">
                     <img
                         src={item.logo}
                         width={70}
@@ -91,7 +96,7 @@
                     <div class="flex flex-row flex-wrap gap-1 py-3">
                         {#each item.tags as tag}
                             <button
-                                class="btn btn-xs btn-light p-1 lowercase text-xs text-slate-500"
+                                class="btn btn-xs btn-light p-1 lowercase text-xs text-slate-600"
                                 on:click={() => dispatch("tag-click", tag)}
                                 >{tag.replace(/_/g, " ")}</button
                             >
