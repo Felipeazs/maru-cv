@@ -84,7 +84,7 @@
     <CollapsableWrapper title="idiomas">
         {#each idiomas as i}
             <div class="flex flex-row gap-3">
-                <p class="text-crema w-[50px]">{i.idioma}</p>
+                <p class="text-crema w-[50px]">{i.idioma ?? ""}</p>
                 <p>
                     {i.idioma === "Español"
                         ? "🇪🇸"
@@ -93,7 +93,7 @@
                         : "🇩🇪"}
                 </p>
                 <p class="text-slate-400 w-2/3">
-                    {i.descripcion}
+                    {i.descripcion ?? ""}
                 </p>
             </div>
         {/each}
@@ -101,10 +101,10 @@
     <CollapsableWrapper title="herramientas">
         {#each herramientas as hs}
             <div class="py-2">
-                <p class="text-crema">{hs.titulo}</p>
-                <p class="text-slate-400">{hs.tipo}</p>
+                <p class="text-crema">{hs.titulo ?? ""}</p>
+                <p class="text-slate-400">{hs.tipo ?? ""}</p>
                 <p class="text-gris">
-                    nivel {hs.nivel.toLowerCase()}
+                    nivel {hs.nivel.toLowerCase() ?? ""}
                 </p>
             </div>
             <div class="divider-3" />
@@ -115,11 +115,11 @@
             <div class="flex flex-col">
                 <div class="flex flex-row gap-3">
                     <p class="text-md text-crema">
-                        {cs.titulo}
+                        {cs.titulo ?? ""}
                     </p>
                 </div>
                 <p class="text-slate-400">
-                    {cs.descripcion}
+                    {cs.descripcion ?? ""}
                 </p>
             </div>
             <div class="divider-3" />
