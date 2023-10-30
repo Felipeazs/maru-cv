@@ -84,14 +84,19 @@
                 >
             {/if}
             {#if item.tags}
-                <div class="flex flex-row flex-wrap gap-1 py-3">
-                    {#each item.tags as tag}
-                        <button
-                            class="btn btn-sm p-1 lowercase text-xs"
-                            on:click={() => dispatch("tag-click", tag)}
-                            >{tag.replace(/_/g, " ")}</button
-                        >
-                    {/each}
+                <div
+                    class="flex flex-row items-baseline gap-2 text-xs font-semibold text-slate-500"
+                >
+                    <p>tags:</p>
+                    <div class="flex flex-row flex-wrap gap-1 py-3">
+                        {#each item.tags as tag}
+                            <button
+                                class="btn btn-xs btn-light p-1 lowercase text-xs text-slate-500"
+                                on:click={() => dispatch("tag-click", tag)}
+                                >{tag.replace(/_/g, " ")}</button
+                            >
+                        {/each}
+                    </div>
                 </div>
             {/if}
             <hr class="w-full" />
