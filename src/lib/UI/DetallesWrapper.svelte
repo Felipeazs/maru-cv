@@ -2,8 +2,7 @@
     // javascript code here
     import { createEventDispatcher } from "svelte";
 
-    //@ts-ignore
-    import { tooltip } from "@svelte-plugins/tooltips";
+    import { tooltip } from "./tooltip/tooltip";
     import { sorting_items } from "../../utils/utils";
 
     const dispatch = createEventDispatcher();
@@ -48,7 +47,7 @@
         </div>
         <div class="w-full">
             <p class="">{item.titulo ?? ""}</p>
-            <p class="text-sm text-slate-700">{item.cargo ?? ""}</p>
+            <p class="text-sm text-slate-500 italic">{item.cargo ?? ""}</p>
             <p class="text-sm text-slate-500 italic">
                 {item.empresa ?? item.institucion ?? item.instituto ?? ""}
             </p>
@@ -80,13 +79,13 @@
                 </div>
             {/if}
             {#if item.link}
-                <a
-                    href={item.link}
-                    use:tooltip={{
-                        content: "ver publicación",
-                        style: { color: "#fff" },
-                    }}>🔗</a
-                >
+                <div class="pt-3">
+                    <a
+                        href={item.link}
+                        use:tooltip
+                        data-tooltip="ver publicación">🔗</a
+                    >
+                </div>
             {/if}
             {#if item.tags}
                 <div

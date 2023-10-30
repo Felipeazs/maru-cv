@@ -31,7 +31,7 @@
     ],
     "experiencias": [
         {
-            "cargo": "Gerente técnico-comercial y líder de proyectos en EC y cambio climático.",
+            "titulo": "Gerente técnico-comercial y líder de proyectos en EC y cambio climático.",
             "empresa": "Consultora Técnica Sustrend SpA",
             "fecha": [
                 "2023"
@@ -45,7 +45,7 @@
             ]
         },
         {
-            "cargo": "Gerente general",
+            "titulo": "Gerente general",
             "empresa": "Consultora Técnica Sustrend SpA",
             "fecha": [
                 "2023"
@@ -60,7 +60,7 @@
             ]
         },
         {
-            "cargo": "Investigadora senior / Área de sostenibilidad industrial",
+            "titulo": "Investigadora senior / Área de sostenibilidad industrial",
             "empresa": "Centro de Biotecnología de Sistemas, Univerdidad Nacional Andrés Bello (CSB-UNAB)",
             "fecha": [
                 "2022"
@@ -74,7 +74,7 @@
             ]
         },
         {
-            "cargo": "Investigadora senior / Área de Agroalimentos e Ingredientes",
+            "titulo": "Investigadora senior / Área de Agroalimentos e Ingredientes",
             "empresa": "Fraunhofer Chile Research, Centro de Biotecnología de Sistemas FCR-CSB",
             "fecha": [
                 "2021",
@@ -89,7 +89,7 @@
             ]
         },
         {
-            "cargo": "Socia fundadora y Gerente General",
+            "titulo": "Socia fundadora y Gerente General",
             "empresa": "Consultora de Negocios Sustentables Lazo SpA",
             "fecha": [
                 "2023",
@@ -105,7 +105,7 @@
             ]
         },
         {
-            "cargo": "Profesional educación ambiental",
+            "titulo": "Profesional educación ambiental",
             "empresa": "Departamento de Medio Ambiente de la Ilustre Municipalidad de Quintero",
             "fecha": [
                 "2023"
@@ -120,7 +120,7 @@
             ]
         },
         {
-            "cargo": "Asistente de investigación",
+            "titulo": "Asistente de investigación",
             "empresa": "Centro Regional de Estudios en Alimentos Saludables, Pontificia Universidad Católica de Valparaíso",
             "fecha": [
                 "2010",
@@ -134,7 +134,7 @@
             ]
         },
         {
-            "cargo": "Profesional freelance proyectos de ingeniería",
+            "titulo": "Profesional freelance proyectos de ingeniería",
             "empresa": "Núcleo Biotecnología de Curauma, Pontificia Universidad Católica de Valparaíso",
             "fecha": [
                 "2023"
@@ -146,7 +146,7 @@
             ]
         },
         {
-            "cargo": "Profesional servicios de ingeniería",
+            "titulo": "Profesional servicios de ingeniería",
             "empresa": "Lazo SpA",
             "fecha": [
                 "2023",
@@ -162,7 +162,7 @@
             ]
         },
         {
-            "cargo": "Coordinadora programas formativos",
+            "titulo": "Coordinadora programas formativos",
             "empresa": "Núcleo Biotecnología de Curauma, Pontificia Universidad Católica de Valparaíso",
             "fecha": [
                 "2022"
@@ -174,7 +174,7 @@
             ]
         },
         {
-            "cargo": "Socia fundadora y CSO",
+            "titulo": "Socia fundadora y CSO",
             "empresa": "AGS Innobiotics SpA",
             "fecha": [
                 "2023",
@@ -194,7 +194,7 @@
             ]
         },
         {
-            "cargo": "Socia fundadora y CSO",
+            "titulo": "Socia fundadora y CSO",
             "empresa": "Up Foods",
             "fecha": [
                 "2023",
@@ -214,7 +214,7 @@
             ]
         },
         {
-            "cargo": "Socia fundadora y CSO",
+            "titulo": "Socia fundadora y CSO",
             "empresa": "Retrocicla",
             "fecha": [
                 "2022",
@@ -234,7 +234,7 @@
             ]
         },
         {
-            "cargo": "Asistente de laboratorio de la cátedra LABORATORIO DE BIOPROCESOS de la Escuela de Ingeniería Bioquímica para la carrera de Ingeniería Civil Bioquímica y para el postgrado Magíster en Ciencias de la Ingeniería.",
+            "titulo": "Asistente de laboratorio de la cátedra LABORATORIO DE BIOPROCESOS de la Escuela de Ingeniería Bioquímica para la carrera de Ingeniería Civil Bioquímica y para el postgrado Magíster en Ciencias de la Ingeniería.",
             "empresa": "Pontificia Universidad Católica de Valparaíso",
             "fecha": [
                 "2023",
@@ -247,7 +247,7 @@
             ]
         },
         {
-            "cargo": "Práctica profesional (3 meses) y Asistente en el Departamento de Calidad, Grupo Alimentos. ",
+            "titulo": "Práctica profesional (3 meses) y Asistente en el Departamento de Calidad, Grupo Alimentos. ",
             "empresa": "Laboratorios Silob",
             "fecha": [
                 "2008",
