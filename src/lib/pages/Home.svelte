@@ -47,22 +47,22 @@
 <main>
     <Hero />
     <div
-        class="relative z-10 top-5 m-auto bottom-10 md:fixed md:top-10 md:right-[3%] overflow-auto flex flex-col w-[90%] md:w-[25%] rounded-[5px] gap-3 pb-5 bg-[rgba(8,11,13,0.9)] text-black"
+        class="relative z-10 top-5 m-auto bottom-10 lg:fixed md:top-10 lg:right-[3%] overflow-auto flex flex-col md:flex-row lg:flex-col w-[90%] lg:w-[25%] rounded-[5px] justify-center gap-3 pb-5 md:pb-0 lg:pb-5 bg-[rgba(8,11,13,0.9)] text-black"
     >
         <img
             src={maru}
-            class="relative z-10 md:h-full w-full overflow-visible text-white object-cover"
+            class="relative z-10 md:h-full w-full overflow-visible md:overflow-x-hidden lg:overflow-visible text-white object-cover"
             alt="foto_perfil"
         />
         <Contact />
     </div>
     <Selector bind:selection bind:anio bind:especialidad />
     <div
-        class="w-[95%] m-auto pt-[300px] md:pt-[300px] xl:pt-[100px] md:-ml-20 xl:ml-20"
+        class="w-[95%] m-auto pt-[300px] md:pt-[200px] xl:pt-[100px] lg:-ml-20 xl:ml-20"
     >
         {#if tags.length}
             <div
-                class="py-2 md:fixed md:z-10 md:right-[30%] md:bottom-16 flex flex-row flex-wrap justify-center md:items-center gap-1"
+                class="py-2 md:fixed md:z-10 md:right-[5%] lg:right-[30%] md:bottom-16 flex flex-row flex-wrap justify-center md:items-center gap-1"
             >
                 <p
                     class="bg-black border-2 border-white rounded-md w-max px-2 py-1 text-white"

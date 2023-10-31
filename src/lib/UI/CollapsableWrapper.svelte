@@ -2,7 +2,7 @@
     export let title: string;
 </script>
 
-<div class="hidden w-full xl:inline-block">
+<div class="w-full">
     <div class="collapse p-1 collapse-arrow">
         <input type="checkbox" class="p-1" />
         <div

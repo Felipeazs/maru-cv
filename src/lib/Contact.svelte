@@ -12,7 +12,7 @@
     let collapsable = false;
 </script>
 
-<div class="flex flex-col gap-3 items-center text-white text-sm bg-black px-3">
+<div class="flex flex-col gap-3 items-center text-white text-sm bg-black p-3">
     <div
         class={`collapse p-1 collapse-arrow ${
             collapsable ? "collapse-open" : "collapse-close"

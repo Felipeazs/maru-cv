@@ -48,11 +48,11 @@
 </script>
 
 <div
-    class="relative z-20 w-[90%] m-auto md:w-[30%] xl:w-[50%] top-[50px] md:top-[50px] md:left-28 md:m-0"
+    class="relative z-20 w-[90%] m-auto xl:w-[50%] top-[50px] md:top-[100px] lg:top-[50px] lg:left-28 lg:m-0"
 >
     <p class="font-bold text-xl">¿Quieres saber más de mí?</p>
     <div
-        class="absolute md:z-10 flex flex-row flex-wrap justify-center gap-5 border-black rounded-md p-4 bg-[rgba(8,11,13,0.8)] text-white"
+        class="absolute lg:z-10 flex flex-row flex-wrap justify-center gap-5 border-black rounded-md p-4 bg-[rgba(8,11,13,0.8)] text-white"
         id="tag-ref"
     >
         <label class="flex flex-col w-full md:w-[200px]">
