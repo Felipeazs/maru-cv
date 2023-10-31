@@ -15,7 +15,7 @@
     let selection: string = "todos";
     let anio: number = 0;
     let especialidad: string = "todas";
-    let tags: string[] = [];
+    let tags: { icono: string; nombre: string }[] = [];
     let items = [];
 
     import data from "../cv-store";
@@ -26,9 +26,11 @@
     $: xScroll = window.innerWidth <= 500 ? 2740 : 700;
 
     const tagHandler = (event: Event) => {
-        const tag_selected = (event as MouseEvent).detail.toString();
+        const tag_selected = Object((event as MouseEvent).detail);
 
-        if (!tags.some((t) => t === tag_selected)) {
+        console.log(tag_selected);
+
+        if (!tags.some((t) => t.nombre === tag_selected.nombre)) {
             tags = [...tags, tag_selected];
 
             window.scrollTo(0, xScroll);
@@ -45,7 +47,7 @@
 <main>
     <Hero />
     <div
-        class="relative z-10 m-auto bottom-10 md:fixed md:top-10 md:right-[3%] overflow-auto flex flex-col w-[90%] md:w-[350px] rounded-[5px] gap-3 pb-5 bg-[rgba(8,11,13,0.9)] text-black"
+        class="relative z-10 m-auto bottom-10 md:fixed md:top-10 md:right-[3%] overflow-auto flex flex-col w-[90%] md:w-[25%] rounded-[5px] gap-3 pb-5 bg-[rgba(8,11,13,0.9)] text-black"
     >
         <img
             src={maru}
@@ -58,15 +60,19 @@
     <div class="w-[95%] m-auto pt-[300px] md:pt-[100px] md:ml-20">
         {#if tags.length}
             <div
-                class="md:fixed md:z-10 md:right-[27%] md:bottom-16 flex flex-row flex-wrap justify-center md:items-start gap-1"
+                class="py-5 md:fixed md:z-10 md:right-[30%] md:bottom-16 flex flex-row flex-wrap justify-center md:items-start gap-1"
             >
+                <p
+                    class="bg-[#fff] border-2 border-white rounded-md w-max px-2 py-1"
+                >
+                    tags:
+                </p>
                 {#each tags as tag, i}
                     <div
-                        class="flex flex-row gap-3 w-max bg-[#fff] border-2 border-black rounded-md p-2"
+                        class="flex flex-row gap-3 w-max bg-[#fff] border-2 border-black rounded-md px-2 py-1"
                     >
-                        🏷️
                         <p class="italic text-sm">
-                            {tag.replace(/_/g, " ")}
+                            {tag.nombre.replace(/_/g, " ")}
                         </p>
                         <button
                             class="btn btn-xs btn-transparent text-xs lowercase border-2 border-black"

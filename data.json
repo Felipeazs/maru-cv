@@ -626,7 +626,7 @@
                 "comunicación",
                 "dirección_de_empresas",
                 "big_data",
-                "ciencia_de_datos",
+                "data_science",
                 "marketing",
                 "emprendimiento",
                 "innovación"
@@ -1039,7 +1039,7 @@
             "tags": [
                 "sostenibilidad",
                 "economía_circular",
-                "análisis_de_ciclo_vida"
+                "análisis_de_ciclo_de_vida"
             ]
         },
         {
@@ -1782,7 +1782,7 @@
                 "2010"
             ],
             "tags": [
-                "bioenergíá",
+                "bioenergía",
                 "bioetanol"
             ]
         },

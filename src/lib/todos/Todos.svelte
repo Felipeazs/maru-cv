@@ -10,7 +10,7 @@
     export let selection: string;
     export let anio: number;
     export let especialidad: string;
-    export let tags: string[];
+    export let tags: { icono: string; nombre: string }[];
 
     let foundItems = [];
     let titulos = [];

@@ -9,7 +9,7 @@
 
     export let anio: number;
     export let especialidad: string;
-    export let tags: string[];
+    export let tags: { icono: string; nombre: string }[];
     export let items: any[] = [];
 
     let filteredItems = [];
@@ -18,7 +18,7 @@
         filteredItems = items;
         tags.forEach((t) => {
             filteredItems = [
-                ...filteredItems.filter((i) => i.tags?.includes(t)),
+                ...filteredItems.filter((i) => i.tags?.includes(t.nombre)),
             ];
         });
     } else {
@@ -97,12 +97,21 @@
                 >
                     <p>tags:</p>
                     <div class="flex flex-row flex-wrap gap-1 py-3">
-                        {#each item.tags as tag}
+                        {#each item.iconos as tag}
                             <button
                                 class="btn btn-xs btn-light p-1 lowercase text-xs text-slate-600"
+                                use:tooltip
+                                data-tooltip={tag?.nombre?.replace(/_/g, " ")}
                                 on:click={() => dispatch("tag-click", tag)}
-                                >{tag.replace(/_/g, " ")}</button
                             >
+                                <img
+                                    src={tag.icono}
+                                    width={15}
+                                    height={"auto"}
+                                    alt=""
+                                />
+                                <p>{tag.nombre.replace(/_/g, " ")}</p>
+                            </button>
                         {/each}
                     </div>
                 </div>
