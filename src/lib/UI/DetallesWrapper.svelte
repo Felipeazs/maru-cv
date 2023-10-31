@@ -104,7 +104,7 @@
                             >
                                 <img
                                     src={tag.icono}
-                                    width={15}
+                                    width={16}
                                     height={"auto"}
                                     alt=""
                                 />

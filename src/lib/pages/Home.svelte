@@ -77,7 +77,7 @@
                         <!-- </p> -->
                         <img
                             src={tag.icono}
-                            width={15}
+                            width={20}
                             alt="icono"
                             use:tooltip
                             data-tooltip={tag.nombre.replace(/_/g, " ")}
