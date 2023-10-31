@@ -24,24 +24,23 @@
     $: selectedItems = $data[selection];
     $: title = transform_title(selection);
     $: if (selectedItems) items = selectedItems;
-    $: xScroll = window.innerWidth <= 500 ? 2740 : 700;
 
     const tagHandler = (event: Event) => {
         const tag_selected = Object((event as MouseEvent).detail);
 
-        console.log(tag_selected);
-
         if (!tags.some((t) => t.nombre === tag_selected.nombre)) {
             tags = [...tags, tag_selected];
 
-            window.scrollTo(0, xScroll);
+            const section = document.querySelector("#tag-ref");
+            section.scrollIntoView(true);
         }
     };
 
     const limpiarTag = (i: number) => {
         tags = tags.filter((_, index) => index !== i);
 
-        window.scrollTo(0, xScroll);
+        const section = document.querySelector("#tag-ref");
+        section.scrollIntoView(true);
     };
 </script>
 
