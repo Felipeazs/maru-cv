@@ -48,13 +48,13 @@
 </script>
 
 <div
-    class="relative z-20 w-[90%] m-auto md:w-[50%] top-[50px] md:top-[50px] md:left-28 md:m-0"
+    class="relative z-20 w-[90%] m-auto md:w-[30%] xl:w-[50%] top-[50px] md:top-[50px] md:left-28 md:m-0"
 >
     <p class="font-bold text-xl">¿Quieres saber más de mí?</p>
     <div
-        class="absolute md:z-10 flex flex-row flex-wrap gap-5 border-black rounded-md p-4 bg-[rgba(8,11,13,0.8)] text-white"
+        class="absolute md:z-10 flex flex-row flex-wrap justify-center gap-5 border-black rounded-md p-4 bg-[rgba(8,11,13,0.8)] text-white"
     >
-        <label class="flex flex-col">
+        <label class="flex flex-col w-full md:w-[200px]">
             Selecciona un tema
             <select
                 class="select select-bordered select-sm min-w-[200px] text-black"
@@ -66,7 +66,7 @@
                 {/each}
             </select>
         </label>
-        <label class="flex flex-col">
+        <label class="flex flex-col w-full md:w-[200px]">
             Año
             <select
                 class="select select-bordered select-sm min-w-[150px] text-black"
@@ -77,7 +77,7 @@
                 {/each}
             </select>
         </label>
-        <label class="flex flex-col">
+        <label class="flex flex-col w-full md:w-[200px]">
             Especialidad
             <select
                 class="select select-bordered select-sm min-w-[200px] text-black"

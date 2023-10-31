@@ -48,7 +48,7 @@
 <main>
     <Hero />
     <div
-        class="relative z-10 m-auto bottom-10 md:fixed md:top-10 md:right-[3%] overflow-auto flex flex-col w-[90%] md:w-[25%] rounded-[5px] gap-3 pb-5 bg-[rgba(8,11,13,0.9)] text-black"
+        class="relative z-10 top-5 m-auto bottom-10 md:fixed md:top-10 md:right-[3%] overflow-auto flex flex-col w-[90%] md:w-[25%] rounded-[5px] gap-3 pb-5 bg-[rgba(8,11,13,0.9)] text-black"
     >
         <img
             src={maru}
@@ -58,7 +58,9 @@
         <Contact />
     </div>
     <Selector bind:selection bind:anio bind:especialidad />
-    <div class="w-[95%] m-auto pt-[300px] md:pt-[100px] md:ml-20">
+    <div
+        class="w-[95%] m-auto pt-[300px] md:pt-[300px] xl:pt-[100px] md:-ml-20 xl:ml-20"
+    >
         {#if tags.length}
             <div
                 class="py-2 md:fixed md:z-10 md:right-[30%] md:bottom-16 flex flex-row flex-wrap justify-center md:items-start gap-1"
