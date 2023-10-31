@@ -61,7 +61,7 @@
     <div class="w-[95%] m-auto pt-[300px] md:pt-[100px] md:ml-20">
         {#if tags.length}
             <div
-                class="py-5 md:fixed md:z-10 md:right-[30%] md:bottom-16 flex flex-row flex-wrap justify-center md:items-start gap-1"
+                class="py-2 md:fixed md:z-10 md:right-[30%] md:bottom-16 flex flex-row flex-wrap justify-center md:items-start gap-1"
             >
                 <p
                     class="bg-[#fff] border-2 border-white rounded-md w-max px-2 py-1"
