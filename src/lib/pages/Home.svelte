@@ -82,10 +82,10 @@
                             data-tooltip={tag.nombre.replace(/_/g, " ")}
                         />
                         <button
-                            class="btn btn-xs btn-ghost text-xs lowercase text-white"
+                            class="btn btn-xs btn-ghost text-xs text-white"
                             on:click={() => limpiarTag(i)}
                         >
-                            <span>x</span>
+                            <span>✕</span>
                         </button>
                     </div>
                 {/each}
