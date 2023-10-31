@@ -72,9 +72,6 @@
                     <div
                         class="flex flex-row gap-3 w-max bg-[#fff] border-2 border-white rounded-md px-2 py-1"
                     >
-                        <!-- <p class="italic text-sm"> -->
-                        <!--     {tag.nombre.replace(/_/g, " ")} -->
-                        <!-- </p> -->
                         <img
                             src={tag.icono}
                             width={20}

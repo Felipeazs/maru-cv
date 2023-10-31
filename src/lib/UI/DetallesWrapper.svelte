@@ -33,7 +33,7 @@
     <div class="relative flex flex-col md:flex-row gap-5 md:gap-10 items-start">
         {#if i !== filteredItems.length - 1}
             <div
-                class="absolute hidden md:inline-block z-0 top-10 left-[5%] bg-white h-full pl-[3px]"
+                class="absolute hidden md:inline-block z-0 top-10 left-[5%] bg-stone-200 h-full pl-[3px]"
             />
         {/if}
         <div class="z-10 bg-[#fff] text-md text-black font-bold rounded-lg">
