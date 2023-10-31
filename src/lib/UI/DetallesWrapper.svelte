@@ -93,7 +93,7 @@
             {/if}
             {#if item.tags}
                 <div
-                    class="flex flex-row items-baseline gap-2 text-xs font-semibold text-slate-500"
+                    class="flex flex-row items-baseline gap-2 text-xs text-gray-400"
                 >
                     <p>tags:</p>
                     <div class="flex flex-row flex-wrap gap-1 py-3">
