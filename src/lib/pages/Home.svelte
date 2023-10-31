@@ -65,25 +65,23 @@
                 class="py-2 md:fixed md:z-10 md:right-[30%] md:bottom-16 flex flex-row flex-wrap justify-center md:items-start gap-1"
             >
                 <p
-                    class="bg-[#fff] border-2 border-white rounded-md w-max px-2 py-1"
+                    class="bg-black border-2 border-white rounded-md w-max px-2 py-1 text-white"
                 >
-                    tags:
+                    tags
                 </p>
                 {#each tags as tag, i}
                     <div
-                        class="flex flex-row gap-3 w-max bg-[#fff] border-2 border-white rounded-md px-2 py-1"
+                        class="flex flex-row gap-3 w-max bg-black border-2 border-gris rounded-md justify-center items-center"
                     >
-                        <img
-                            src={tag.icono}
-                            width={20}
-                            alt="icono"
+                        <button
+                            class="btn btn-sm btn-ghost text-xs lowercase text-white"
                             use:tooltip
                             data-tooltip={tag.nombre.replace(/_/g, " ")}
-                        />
-                        <button
-                            class="btn btn-xs btn-transparent text-xs lowercase border-1 border-white"
-                            on:click={() => limpiarTag(i)}>x</button
+                            on:click={() => limpiarTag(i)}
                         >
+                            <img src={tag.icono} width={20} alt="icono" />
+                            <span>x</span>
+                        </button>
                     </div>
                 {/each}
             </div>
