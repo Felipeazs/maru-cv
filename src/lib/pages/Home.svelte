@@ -69,22 +69,22 @@
                 >
                     tags
                 </p>
-                    :
+                :
                 {#each tags as tag, i}
                     <div
-                        class="flex flex-row gap-3 w-max bg-black border-2 border-gris rounded-md justify-center items-center"
+                        class="flex flex-row w-max bg-black border-2 border-gris rounded-md justify-center items-center px-2 py-1"
                     >
+                        <img
+                            src={tag.icono}
+                            width={20}
+                            alt="icono"
+                            use:tooltip
+                            data-tooltip={tag.nombre.replace(/_/g, " ")}
+                        />
                         <button
-                            class="btn btn-sm btn-ghost text-xs lowercase text-white"
+                            class="btn btn-xs btn-ghost text-xs lowercase text-white"
                             on:click={() => limpiarTag(i)}
                         >
-                            <img
-                                src={tag.icono}
-                                width={20}
-                                alt="icono"
-                                use:tooltip
-                                data-tooltip={tag.nombre.replace(/_/g, " ")}
-                            />
                             <span>x</span>
                         </button>
                     </div>
