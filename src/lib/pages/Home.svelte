@@ -62,24 +62,29 @@
     >
         {#if tags.length}
             <div
-                class="py-2 md:fixed md:z-10 md:right-[30%] md:bottom-16 flex flex-row flex-wrap justify-center md:items-start gap-1"
+                class="py-2 md:fixed md:z-10 md:right-[30%] md:bottom-16 flex flex-row flex-wrap justify-center md:items-center gap-1"
             >
                 <p
                     class="bg-black border-2 border-white rounded-md w-max px-2 py-1 text-white"
                 >
                     tags
                 </p>
+                    :
                 {#each tags as tag, i}
                     <div
                         class="flex flex-row gap-3 w-max bg-black border-2 border-gris rounded-md justify-center items-center"
-                        use:tooltip
-                        data-tooltip={tag.nombre.replace(/_/g, " ")}
                     >
                         <button
                             class="btn btn-sm btn-ghost text-xs lowercase text-white"
                             on:click={() => limpiarTag(i)}
                         >
-                            <img src={tag.icono} width={20} alt="icono" />
+                            <img
+                                src={tag.icono}
+                                width={20}
+                                alt="icono"
+                                use:tooltip
+                                data-tooltip={tag.nombre.replace(/_/g, " ")}
+                            />
                             <span>x</span>
                         </button>
                     </div>
