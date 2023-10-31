@@ -72,11 +72,11 @@
                 {#each tags as tag, i}
                     <div
                         class="flex flex-row gap-3 w-max bg-black border-2 border-gris rounded-md justify-center items-center"
+                        use:tooltip
+                        data-tooltip={tag.nombre.replace(/_/g, " ")}
                     >
                         <button
                             class="btn btn-sm btn-ghost text-xs lowercase text-white"
-                            use:tooltip
-                            data-tooltip={tag.nombre.replace(/_/g, " ")}
                             on:click={() => limpiarTag(i)}
                         >
                             <img src={tag.icono} width={20} alt="icono" />
