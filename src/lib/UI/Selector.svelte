@@ -2,7 +2,6 @@
     export let selection: string = "todos";
     export let anio: number = 0;
     export let especialidad: string = "todas";
-    export let tag: string = "";
 
     $: anio = 0;
 
@@ -45,7 +44,6 @@
     const resetValues = () => {
         anio = 0;
         especialidad = "todas";
-        tag = "";
     };
 </script>
 

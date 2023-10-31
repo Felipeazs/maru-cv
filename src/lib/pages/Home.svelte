@@ -15,7 +15,7 @@
     let selection: string = "todos";
     let anio: number = 0;
     let especialidad: string = "todas";
-    let tag: string;
+    let tags: string[] = [];
     let items = [];
 
     import data from "../cv-store";
@@ -26,13 +26,17 @@
     $: xScroll = window.innerWidth <= 500 ? 2740 : 700;
 
     const tagHandler = (event: Event) => {
-        tag = (event as MouseEvent).detail.toString();
+        const tag_selected = (event as MouseEvent).detail.toString();
 
-        window.scrollTo(0, xScroll);
+        if (!tags.some((t) => t === tag_selected)) {
+            tags = [...tags, tag_selected];
+
+            window.scrollTo(0, xScroll);
+        }
     };
 
-    const resetTags = () => {
-        tag = "";
+    const limpiarTag = (i: number) => {
+        tags = tags.filter((_, index) => index !== i);
 
         window.scrollTo(0, xScroll);
     };
@@ -50,19 +54,26 @@
         />
         <Contact />
     </div>
-    <Selector bind:selection bind:anio bind:especialidad bind:tag />
+    <Selector bind:selection bind:anio bind:especialidad />
     <div class="w-[95%] m-auto pt-[300px] md:pt-[100px] md:ml-20">
-        {#if tag}
+        {#if tags.length}
             <div
-                class="fixed z-10 right-[450px] bg-[#fff] border-2 border-black rounded-md flex flex-row items-center gap-3 p-2"
+                class="md:fixed md:z-10 md:right-[27%] md:bottom-16 flex flex-row flex-wrap justify-center md:items-start gap-1"
             >
-                <p class="italic text-sm">
-                    {selection}: {tag.replace(/_/g, " ")}
-                </p>
-                <button
-                    class="btn btn-xs btn-transparent text-xs lowercase border-2 border-black"
-                    on:click={resetTags}>x</button
-                >
+                {#each tags as tag, i}
+                    <div
+                        class="flex flex-row gap-3 w-max bg-[#fff] border-2 border-black rounded-md p-2"
+                    >
+                        🏷️
+                        <p class="italic text-sm">
+                            {tag.replace(/_/g, " ")}
+                        </p>
+                        <button
+                            class="btn btn-xs btn-transparent text-xs lowercase border-2 border-black"
+                            on:click={() => limpiarTag(i)}>x</button
+                        >
+                    </div>
+                {/each}
             </div>
         {/if}
         {#if selectedItems && selection !== "perfil"}
@@ -71,7 +82,7 @@
                     bind:anio
                     bind:especialidad
                     bind:items
-                    bind:tag
+                    bind:tags
                     on:tag-click={tagHandler}
                 />
             </RubroWrapper>
@@ -82,7 +93,7 @@
                 bind:anio
                 bind:especialidad
                 bind:selection
-                bind:tag
+                bind:tags
                 on:tag-click={tagHandler}
             />
         {/if}

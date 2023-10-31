@@ -9,14 +9,18 @@
 
     export let anio: number;
     export let especialidad: string;
-    export let tag: string;
+    export let tags: string[];
     export let items: any[] = [];
 
     let filteredItems = [];
-
     $: items = sorting_items(items, anio, especialidad);
-    $: if (tag) {
-        filteredItems = items.filter((i) => i.tags?.includes(tag));
+    $: if (tags?.length) {
+        filteredItems = items;
+        tags.forEach((t) => {
+            filteredItems = [
+                ...filteredItems.filter((i) => i.tags?.includes(t)),
+            ];
+        });
     } else {
         filteredItems = items;
     }

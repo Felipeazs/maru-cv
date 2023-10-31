@@ -10,7 +10,7 @@
     export let selection: string;
     export let anio: number;
     export let especialidad: string;
-    export let tag: string;
+    export let tags: string[];
 
     let foundItems = [];
     let titulos = [];
@@ -19,7 +19,7 @@
 </script>
 
 <div>
-    {#if selection === "todos" && !tag && especialidad === "todas" && anio === 0}
+    {#if selection === "todos" && !tags.length && especialidad === "todas" && anio === 0}
         <Perfil />
     {/if}
     {#each foundItems as items, i}
@@ -27,7 +27,7 @@
             <DetallesWrapper
                 bind:anio
                 bind:especialidad
-                bind:tag
+                bind:tags
                 bind:items
                 on:tag-click
             />
