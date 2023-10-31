@@ -1,4 +1,5 @@
 <script lang="ts">
+    import { tooltip } from "../UI/tooltip/tooltip";
     import { transform_title } from "../../utils/utils";
 
     import DetallesWrapper from "../UI/DetallesWrapper.svelte";
@@ -69,13 +70,20 @@
                 </p>
                 {#each tags as tag, i}
                     <div
-                        class="flex flex-row gap-3 w-max bg-[#fff] border-2 border-black rounded-md px-2 py-1"
+                        class="flex flex-row gap-3 w-max bg-[#fff] border-2 border-white rounded-md px-2 py-1"
                     >
-                        <p class="italic text-sm">
-                            {tag.nombre.replace(/_/g, " ")}
-                        </p>
+                        <!-- <p class="italic text-sm"> -->
+                        <!--     {tag.nombre.replace(/_/g, " ")} -->
+                        <!-- </p> -->
+                        <img
+                            src={tag.icono}
+                            width={15}
+                            alt="icono"
+                            use:tooltip
+                            data-tooltip={tag.nombre.replace(/_/g, " ")}
+                        />
                         <button
-                            class="btn btn-xs btn-transparent text-xs lowercase border-2 border-black"
+                            class="btn btn-xs btn-transparent text-xs lowercase border-1 border-white"
                             on:click={() => limpiarTag(i)}>x</button
                         >
                     </div>

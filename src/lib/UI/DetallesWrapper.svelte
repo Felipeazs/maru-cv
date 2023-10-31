@@ -100,8 +100,6 @@
                         {#each item.iconos as tag}
                             <button
                                 class="btn btn-xs btn-light p-1 lowercase text-xs text-slate-600"
-                                use:tooltip
-                                data-tooltip={tag?.nombre?.replace(/_/g, " ")}
                                 on:click={() => dispatch("tag-click", tag)}
                             >
                                 <img
