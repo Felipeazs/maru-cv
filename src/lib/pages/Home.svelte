@@ -62,10 +62,10 @@
     >
         {#if tags.length}
             <div
-                class="py-2 md:fixed md:z-10 md:right-[5%] lg:right-[30%] md:bottom-16 flex flex-row flex-wrap justify-center md:items-center gap-1"
+                class="p-1 md:fixed md:z-50 md:right-[5%] lg:right-[30%] md:bottom-16 flex flex-row flex-wrap justify-center md:items-center gap-1 bg-crema"
             >
                 <p
-                    class="bg-black border-2 border-white rounded-md w-max px-2 py-1 text-white"
+                    class="bg-black border-2 border-white rounded-md w-max px-2 py-1 font-semibold text-white"
                 >
                     tags
                 </p>
