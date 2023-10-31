@@ -1,3 +1,7 @@
+import contrato from '/images/contrato.svg'
+import ong from '/images/ong.svg'
+import huella from '/images/huella.svg'
+import bioetanol from '/images/bioetanol.svg'
 import recycle from '/images/recycle.svg'
 import gear from "/images/gear.svg"
 import climate from "/images/climate.svg"
@@ -292,6 +296,27 @@ export const allItems = <T>(items: T) => {
                         break;
                     case 'bioenergía':
                         item.iconos = [...item.iconos, { nombre: tag, icono: bioenergy }]
+                        break;
+                    case 'bioetanol':
+                        item.iconos = [...item.iconos, { nombre: tag, icono: bioetanol }]
+                        break;
+                    case 'huella_de_carbono':
+                        item.iconos = [...item.iconos, { nombre: tag, icono: huella }]
+                        break;
+                    case 'bioeconomía':
+                        item.iconos = [...item.iconos, { nombre: tag, icono: wallet }]
+                        break;
+                    case 'negocios':
+                        item.iconos = [...item.iconos, { nombre: tag, icono: cartera }]
+                        break;
+                    case 'ong':
+                        item.iconos = [...item.iconos, { nombre: tag, icono: ong }]
+                        break;
+                    case 'universidad':
+                        item.iconos = [...item.iconos, { nombre: tag, icono: education }]
+                        break;
+                    case 'convenio':
+                        item.iconos = [...item.iconos, { nombre: tag, icono: contrato }]
                         break;
                     default:
                         item.iconos = [...item.iconos, { nombre: tag, icono: '' }]
