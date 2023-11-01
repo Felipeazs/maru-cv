@@ -6,10 +6,14 @@
 
     $: window.addEventListener("scroll", (event) => {
         const section = document.getElementById("tags-section");
+        if (section === null) return;
+
         if (window.scrollY < 380) {
-            section.style.display = "none";
+            section.style.opacity = "0%";
+            section.style.transition = "opacity 0.2s ease-out";
         } else {
-            section.style.display = "inline-block";
+            section.style.opacity = "100%";
+            section.style.transition = "opacity 0.2s ease-out";
         }
     });
 
