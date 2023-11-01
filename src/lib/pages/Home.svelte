@@ -47,7 +47,7 @@
 <main>
     <Hero />
     <div
-        class="relative z-10 top-5 m-auto bottom-10 lg:fixed md:top-10 lg:right-[3%] overflow-auto flex flex-col md:flex-row lg:flex-col w-[90%] lg:w-[25%] rounded-[5px] justify-center gap-3 pb-5 md:pb-0 lg:pb-5 bg-[rgba(8,11,13,0.9)] text-black"
+        class="relative z-10 top-0 h-full m-auto lg:fixed lg:right-[3%] overflow-auto flex flex-col md:flex-row lg:flex-col w-full lg:w-[25%] rounded-[5px] justify-center gap-3 pb-5 md:pb-0 lg:pb-5 bg-[rgba(8,11,13,0.9)] text-black"
     >
         <img
             src={maru}
@@ -62,7 +62,7 @@
     >
         {#if tags.length}
             <div
-                class="p-1 md:fixed md:z-50 md:right-[5%] lg:right-[30%] md:bottom-16 flex flex-row flex-wrap justify-center md:items-center gap-1 bg-[#fff] border-2 border-slate-300 rounded-md"
+                class="w-max m-auto p-1 md:fixed md:z-50 md:right-[5%] lg:right-[30%] md:bottom-16 flex flex-row flex-wrap justify-center items-center gap-1 bg-[#fff] border-2 border-slate-300 rounded-md"
             >
                 <p
                     class="bg-black border-2 border-white rounded-md w-max px-2 py-1 font-semibold text-white"
