@@ -32,15 +32,6 @@
             section.scrollIntoView(true);
         }
     };
-
-    $: window.addEventListener("scroll", (event) => {
-        const section = document.getElementById("tags-section");
-        if (window.scrollY < 380) {
-            section.style.display = "none";
-        } else {
-            section.style.display = "inline-block";
-        }
-    });
 </script>
 
 <main>
@@ -50,9 +41,7 @@
     <div
         class="w-[95%] m-auto pt-[300px] md:pt-[200px] xl:pt-[100px] lg:-ml-20 xl:ml-20"
     >
-        <div id="tags-section">
-            <Tags bind:tags />
-        </div>
+        <Tags bind:tags />
         {#if selectedItems && selection !== "perfil"}
             <DetallesWrapper
                 bind:title

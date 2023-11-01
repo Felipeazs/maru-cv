@@ -4,6 +4,15 @@
 
     export let tags = [];
 
+    $: window.addEventListener("scroll", (event) => {
+        const section = document.getElementById("tags-section");
+        if (window.scrollY < 380) {
+            section.style.display = "none";
+        } else {
+            section.style.display = "inline-block";
+        }
+    });
+
     const limpiarTag = (i: number) => {
         tags = tags.filter((_, index) => index !== i);
 
