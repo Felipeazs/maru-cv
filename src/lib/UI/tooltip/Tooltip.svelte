@@ -18,7 +18,7 @@
         font-size: 0.7rem;
         line-height: 1.2;
         border-radius: 0.25rem;
-        background-color: rgba(0, 0, 0, 0.8);
+        background-color: rgb(0, 0, 0);
         z-index: 100;
     }
     .tooltip:before {
@@ -27,7 +27,7 @@
         bottom: -5px;
         left: 50%;
         width: 0;
-        border-top: 5px solid rgba(0, 0, 0, 0.8);
+        border-top: 5px solid rgb(0, 0, 0);
         border-right: 5px solid transparent;
         border-left: 5px solid transparent;
         font-size: 0;
