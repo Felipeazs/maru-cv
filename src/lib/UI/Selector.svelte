@@ -5,8 +5,6 @@
     export let anio: number = 0;
     export let especialidad: string = "todas";
 
-    import reset from "/images/reset.svg";
-
     $: anio = 0;
 
     const rubros = [

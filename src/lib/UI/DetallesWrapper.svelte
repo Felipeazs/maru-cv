@@ -25,7 +25,6 @@
     } else {
         filteredItems = items;
     }
-    $: console.log(filteredItems);
 </script>
 
 {#if filteredItems.length > 0}

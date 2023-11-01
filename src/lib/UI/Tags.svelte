@@ -14,12 +14,12 @@
 
 {#if tags.length}
     <div
-        class="flex flex-row flex-wrap gap-1 h-min justify-center items-center p-2 mx-3 mt-16 md:fixed md:z-50 md:right-[5%] md:bottom-16 lg:m-0 lg:left-10 lg:top-80 lg:w-min lg:h-mingap-1 bg-[#fff] border-2 border-slate-300 rounded-md"
+        class="flex flex-row flex-wrap gap-1 h-min justify-center items-center p-2 mx-3 mt-16 md:fixed md:z-50 md:right-[5%] md:bottom-16 lg:m-0 lg:left-10 lg:top-80 lg:w-min lg:h-mingap-1 bg-[#fff] border-4 border-crema rounded-md"
     >
-        <p class="bg-[#fff] w-max font-semibold text-black">tags:</p>
+        <p class="w-max font-semibold text-black">tags:</p>
         {#each tags as tag, i}
             <div
-                class="flex flex-row w-max bg-black border-2 border-gris rounded-md justify-center items-center px-2 py-1"
+                class="flex flex-row w-max bg-black border-2 border-gris rounded-md justify-center items-center px-2 py-1 transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110"
             >
                 <img
                     src={tag.icono}
