@@ -19,6 +19,7 @@
         line-height: 1.2;
         border-radius: 0.25rem;
         background-color: rgba(0, 0, 0, 0.8);
+        z-index: 100;
     }
     .tooltip:before {
         content: "";
@@ -31,6 +32,7 @@
         border-left: 5px solid transparent;
         font-size: 0;
         line-height: 0;
+        z-index: 100;
     }
 
     /* Uncomment these to make tooltip more dynamic | Be sure to make these tooltip CSS global */

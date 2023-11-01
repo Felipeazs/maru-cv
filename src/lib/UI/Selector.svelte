@@ -1,7 +1,11 @@
 <script lang="ts">
+    import { tooltip } from "./tooltip/tooltip";
+
     export let selection: string = "todos";
     export let anio: number = 0;
     export let especialidad: string = "todas";
+
+    import reset from "/images/reset.svg";
 
     $: anio = 0;
 
@@ -45,15 +49,31 @@
         anio = 0;
         especialidad = "todas";
     };
+    const resetAll = () => {
+        selection = "todos";
+        anio = 0;
+        especialidad = "todas";
+    };
 </script>
 
 <div
-    class="relative z-20 w-[90%] m-auto xl:w-[50%] top-[50px] md:top-[100px] lg:top-[50px] lg:left-28 lg:m-0"
+    class="relative z-20 m-auto w-[90%] md:w-[70%] lg:w-[60%] xl:w-[45%] top-[50px] md:top-[50px] lg:top-[50px] lg:m-0 lg:left-[100px]"
 >
-    <p class="font-bold text-xl">¿Quieres saber más de mí?</p>
+    <div class="flex flex-row justify-between">
+        <p class="w-max font-bold text-xl" id="tag-ref">
+            ¿Quieres saber más de mí?
+        </p>
+        <button
+            class="w-max text-black border-2 border-gris rounded-md"
+            on:click={resetAll}
+            use:tooltip
+            data-tooltip="reiniciar campos"
+        >
+            <img src={reset} width={20} alt="reset" />
+        </button>
+    </div>
     <div
         class="absolute lg:z-10 flex flex-row flex-wrap justify-center gap-5 border-black rounded-md p-4 bg-[rgba(8,11,13,0.8)] text-white"
-        id="tag-ref"
     >
         <label class="flex flex-col w-full md:w-[200px]">
             Selecciona un tema

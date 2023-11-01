@@ -1,5 +1,4 @@
 <script lang="ts">
-    import RubroWrapper from "../UI/RubroWrapper.svelte";
     import DetallesWrapper from "../UI/DetallesWrapper.svelte";
 
     import Perfil from "./Perfil.svelte";
@@ -23,15 +22,14 @@
         <Perfil />
     {/if}
     {#each foundItems as items, i}
-        <RubroWrapper title={titulos[i]}>
-            <DetallesWrapper
-                bind:anio
-                bind:especialidad
-                bind:tags
-                bind:items
-                on:tag-click
-            />
-        </RubroWrapper>
+        <DetallesWrapper
+            title={titulos[i]}
+            {anio}
+            {especialidad}
+            {tags}
+            bind:items
+            on:tag-click
+        />
     {/each}
 </div>
 
