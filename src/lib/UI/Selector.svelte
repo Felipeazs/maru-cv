@@ -63,17 +63,9 @@
         <p class="w-max font-bold text-xl" id="tag-ref">
             ¿Quieres saber más de mí?
         </p>
-        <button
-            class="w-max text-black border-2 border-gris rounded-md"
-            on:click={resetAll}
-            use:tooltip
-            data-tooltip="reiniciar campos"
-        >
-            <img src={reset} width={20} alt="reset" />
-        </button>
     </div>
     <div
-        class="absolute lg:z-10 flex flex-row flex-wrap justify-center gap-5 border-black rounded-md p-4 bg-[rgba(8,11,13,0.8)] text-white"
+        class="absolute lg:z-10 flex flex-row flex-wrap lg:flex-nowrap justify-center gap-5 border-black rounded-md p-4 bg-[rgba(8,11,13,0.8)] text-white"
     >
         <label class="flex flex-col w-full md:w-[200px]">
             Selecciona un tema
@@ -109,5 +101,13 @@
                 {/each}
             </select>
         </label>
+        <button
+            class="w-max p-1 text-black border-2 border-crema rounded-md"
+            on:click={resetAll}
+            use:tooltip
+            data-tooltip="reiniciar campos"
+        >
+            <img src={reset} width={20} alt="reset" />
+        </button>
     </div>
 </div>

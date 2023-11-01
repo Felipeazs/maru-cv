@@ -21,6 +21,7 @@
     $: selectedItems = $data[selection];
     $: title = transform_title(selection);
     $: if (selectedItems) items = selectedItems;
+    $: console.log(selectedItems);
 
     const tagHandler = (event: Event) => {
         const tag_selected = Object((event as MouseEvent).detail);
@@ -43,18 +44,14 @@
     >
         <Tags bind:tags />
         {#if selectedItems && selection !== "perfil"}
-            {#if items.length === 0}
-                <p>No existen elementos</p>
-            {:else}
-                <DetallesWrapper
-                    bind:title
-                    bind:anio
-                    bind:especialidad
-                    bind:items
-                    bind:tags
-                    on:tag-click={tagHandler}
-                />
-            {/if}
+            <DetallesWrapper
+                bind:title
+                bind:anio
+                bind:especialidad
+                bind:items
+                bind:tags
+                on:tag-click={tagHandler}
+            />
         {:else if selection === "perfil"}
             <Perfil />
         {:else}
