@@ -55,7 +55,7 @@
 </script>
 
 <div
-    class="relative z-20 m-auto w-[90%] md:w-[70%] lg:w-[60%] xl:w-[45%] top-[50px] md:top-[50px] lg:top-[50px] lg:m-0 lg:left-[100px]"
+    class="relative z-20 m-auto w-[90%] md:w-[70%] lg:w-[55%] xl:w-[45%] top-[50px] md:top-[50px] lg:top-[50px] lg:m-0 lg:left-[150px]"
     id="selector-ref"
 >
     <div class="flex flex-row justify-between">
@@ -64,7 +64,7 @@
         </p>
     </div>
     <div
-        class="absolute lg:z-10 flex flex-row flex-wrap lg:flex-nowrap justify-center gap-5 border-black rounded-md p-4 bg-[rgba(8,11,13,0.8)] text-white"
+        class="absolute lg:z-10 flex flex-row flex-wrap xl:flex-nowrap justify-center gap-5 border-black rounded-md p-4 bg-[rgba(8,11,13,0.8)] text-white"
     >
         <label class="flex flex-col w-full md:w-[200px]">
             Selecciona un tema
