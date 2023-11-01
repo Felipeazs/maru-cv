@@ -21,7 +21,6 @@
     $: selectedItems = $data[selection];
     $: title = transform_title(selection);
     $: if (selectedItems) items = selectedItems;
-    $: console.log(selectedItems);
 
     const tagHandler = (event: Event) => {
         const tag_selected = Object((event as MouseEvent).detail);
@@ -33,6 +32,15 @@
             section.scrollIntoView(true);
         }
     };
+
+    $: window.addEventListener("scroll", (event) => {
+        const section = document.getElementById("tags-section");
+        if (window.scrollY < 380) {
+            section.style.display = "none";
+        } else {
+            section.style.display = "inline-block";
+        }
+    });
 </script>
 
 <main>
@@ -42,7 +50,9 @@
     <div
         class="w-[95%] m-auto pt-[300px] md:pt-[200px] xl:pt-[100px] lg:-ml-20 xl:ml-20"
     >
-        <Tags bind:tags />
+        <div id="tags-section">
+            <Tags bind:tags />
+        </div>
         {#if selectedItems && selection !== "perfil"}
             <DetallesWrapper
                 bind:title
