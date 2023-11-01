@@ -102,12 +102,24 @@
             </select>
         </label>
         <button
-            class="w-max p-1 text-black border-2 border-crema rounded-md"
+            class="w-max p-1 text-black border-2 border-crema rounded-md hover:bg-gray-500"
             on:click={resetAll}
             use:tooltip
             data-tooltip="reiniciar campos"
         >
-            <img src={reset} width={20} alt="reset" />
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                ><path
+                    fill="#F0FFF5"
+                    d="M7.207 2.543a1 1 0 0 1 0 1.414L5.414 5.75h7.836a8 8 0 1 1-8 8a1 1 0 1 1 2 0a6 6 0 1 0 6-6H5.414l1.793 1.793a1 1 0 0 1-1.414 1.414l-3.5-3.5a1 1 0 0 1 0-1.414l3.5-3.5a1 1 0 0 1 1.414 0Z"
+                /></svg
+            >
         </button>
     </div>
 </div>
+
+<style>
+</style>
