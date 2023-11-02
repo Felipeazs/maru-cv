@@ -3,7 +3,10 @@
 </script>
 
 <footer class="bg-black h-16 flex flex-row items-center">
-    <p class="text-crema font-semibold ps-[40%] md:ps-[75%] lg:ps-[55%]">
+    <a
+        href="mailto:felipeazs@gmail.com"
+        class="text-crema text-xl ps-[40%] md:ps-[75%] lg:ps-[55%]"
+    >
         felipeazs@gmail.com
-    </p>
+    </a>
 </footer>

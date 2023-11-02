@@ -34,12 +34,12 @@
     };
 </script>
 
-<main class="flex flex-col">
+<main>
     <Hero />
     <Sidebar />
     <Selector bind:selection bind:anio bind:especialidad />
     <div
-        class="w-[95%] m-auto h-full pt-[300px] mb-32 md:pt-[200px] xl:pt-[100px] lg:-ml-20 xl:ml-20"
+        class="relative w-[95%] m-auto h-full pt-[300px] mb-32 md:pt-[200px] xl:pt-[100px] lg:-ml-20 xl:ml-20"
     >
         <Tags bind:tags />
         {#if selectedItems && selection !== "perfil"}
