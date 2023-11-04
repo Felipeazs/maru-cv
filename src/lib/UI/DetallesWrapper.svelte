@@ -4,6 +4,7 @@
 
     import { tooltip } from "./tooltip/tooltip";
     import { sorting_items } from "../../utils/utils";
+    import tag from "/images/tag.svg";
 
     const dispatch = createEventDispatcher();
 
@@ -112,11 +113,11 @@
                             {/if}
                             {#if item.tags}
                                 <div
-                                    class="flex flex-row items-baseline gap-2 text-xs text-gray-400"
+                                    class="flex flex-col justify-center items-baseline text-xs text-gray-400 py-3"
                                 >
-                                    <p>tags:</p>
+                                    <p class="text-center">tags:</p>
                                     <div
-                                        class="flex flex-row flex-wrap gap-1 py-3"
+                                        class="flex flex-row flex-wrap gap-1 py-1"
                                     >
                                         {#each item.iconos as tag}
                                             <button
