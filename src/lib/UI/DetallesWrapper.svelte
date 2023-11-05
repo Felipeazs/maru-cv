@@ -69,16 +69,11 @@
                                         : "flex flex-row"
                                 }`}
                             >
-                                {#if item.logo}
-                                    <img
-                                        src={item.logo ?? ""}
-                                        width={70}
-                                        height={50}
-                                        alt={item.institucion ?? ""}
-                                        class="object-contain"
-                                    />
-                                {/if}
-                                <div>
+                                <div
+                                    class={`${
+                                        item.logo ? "w-[80%]" : "w-full"
+                                    }`}
+                                >
                                     <p class="">
                                         {item.titulo ?? ""}
                                     </p>
@@ -93,18 +88,31 @@
                                             item.instituto ??
                                             ""}
                                     </p>
-                                        <div
-                                            class="flex flex-col text-sm text-slate-500 py-2"
-                                        >
-                                    {#if item.descripcion}
+                                    <div
+                                        class="flex flex-col text-sm text-slate-500 py-2"
+                                    >
+                                        {#if item.descripcion}
                                             <p class="underline">
                                                 descripción:
                                             </p>
                                             <p>
                                                 {item.descripcion}
                                             </p>
+                                        {/if}
+                                    </div>
+                                </div>
+                                <div
+                                    class={`${
+                                        item.logo ? "w-[15%]" : ""
+                                    }`}
+                                >
+                                    {#if item.logo}
+                                        <img
+                                            src={item.logo}
+                                            alt={item.institucion ?? ""}
+                                            class="object-cover"
+                                        />
                                     {/if}
-                                        </div>
                                 </div>
                             </div>
                             <div class="py-1">

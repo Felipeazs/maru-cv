@@ -603,7 +603,7 @@
                 "presente"
             ],
             "institucion": "Núcleo Biotecnología Curauma, PUCV.",
-            "logo": "/images/pucv.png",
+            "logo": "/images/nbc.png",
             "especialidad": "sostenibilidad",
             "tags": [
                 "ingeniería",
@@ -993,6 +993,7 @@
             "fecha": [
                 "2023"
             ],
+            "logo": "/images/ie.png",
             "certificado": "",
             "especialidad": "ciencia_datos",
             "tags": [
@@ -1007,6 +1008,7 @@
             "fecha": [
                 "2022"
             ],
+            "logo": "/images/nbc.png",
             "certificado": "https://drive.google.com/file/d/1r_jdA-Eczr85Ka9zjK0LP-c5rdwPS3Y2/view?usp=drive_link",
             "especialidad": "sostenibilidad",
             "tags": [
@@ -1020,6 +1022,7 @@
                 "2022",
                 "2021"
             ],
+            "logo": "/images/clacso.png",
             "certificado": "https://drive.google.com/file/d/1rM4kn4PHAsh5D-lddbyV-zAuD1igNuO_/view?usp=drive_link",
             "especialidad": "sostenibilidad",
             "tags": [
@@ -1034,6 +1037,7 @@
                 "2021",
                 "2020"
             ],
+            "logo": "/images/unab.png",
             "certificado": "https://drive.google.com/file/d/1R06IEsHR6Riimyb1UjDT4zOw5kliNTdW/view?usp=drive_link",
             "especialidad": "sostenibilidad",
             "tags": [
@@ -1064,6 +1068,7 @@
             "fecha": [
                 "2023"
             ],
+            "logo": "/images/fia.png",
             "certificado": null,
             "especialidad": "sostenibilidad",
             "tags": [
@@ -1078,6 +1083,7 @@
             "fecha": [
                 "2023"
             ],
+            "logo": "/images/ci.png",
             "certificado": null,
             "tags": [
                 "actividad_municipal",
@@ -1090,6 +1096,7 @@
             "fecha": [
                 "2023"
             ],
+            "logo": "/images/dl.png",
             "certificado": null,
             "especialidad": "ciencia_datos",
             "tags": [
@@ -1103,6 +1110,7 @@
             "fecha": [
                 "2019"
             ],
+            "logo": "/images/dl.png",
             "certificado": null,
             "especialidad": "ciencia_datos",
             "tags": [
@@ -1116,6 +1124,7 @@
             "fecha": [
                 "1905"
             ],
+            "logo": "/images/pucv.png",
             "certificado": null,
             "especialidad": "sostenibilidad",
             "tags": [
@@ -1130,6 +1139,7 @@
             "fecha": [
                 "1905"
             ],
+            "logo": "/images/pucv.png",
             "certificado": null,
             "tags": [
                 "innovación",
@@ -1142,6 +1152,7 @@
             "fecha": [
                 "2023"
             ],
+            "logo": "/images/fima.png",
             "certificado": null,
             "tags": [
                 "actividad_municipal",
@@ -1154,6 +1165,7 @@
             "fecha": [
                 "2023"
             ],
+            "logo": "/images/catie.png",
             "certificado": null,
             "especialidad": "sostenibilidad",
             "tags": [
@@ -1167,6 +1179,7 @@
             "fecha": [
                 "2023"
             ],
+            "logo": "/images/me.png",
             "certificado": null,
             "especialidad": "sostenibilidad",
             "tags": [
@@ -1179,6 +1192,7 @@
             "fecha": [
                 "2023"
             ],
+            "logo": "/images/udd.png",
             "certificado": null,
             "especialidad": "sostenibilidad",
             "tags": [
@@ -1192,6 +1206,7 @@
             "fecha": [
                 "2023"
             ],
+            "logo": "/images/insight.png",
             "certificado": "https://drive.google.com/file/d/13f9NS5GgwOf7myz0mPvKpLqYnx7RCG5g/view?usp=drive_link",
             "especialidad": "sostenibilidad",
             "tags": [
@@ -1206,6 +1221,7 @@
             "fecha": [
                 "2023"
             ],
+            "logo": "/images/ah.png",
             "certificado": "https://drive.google.com/file/d/1wScfU-_rkQgftIBd3rRg28JwYE47PTBe/view?usp=drive_link",
             "especialidad": "sostenibilidad",
             "tags": [
@@ -1220,6 +1236,7 @@
             "fecha": [
                 "2023"
             ],
+            "logo": "/images/ah.png",
             "certificado": null,
             "especialidad": "sostenibilidad",
             "tags": [
@@ -1233,6 +1250,7 @@
             "fecha": [
                 "2023"
             ],
+            "logo": "/images/ah.png",
             "certificado": null,
             "especialidad": "sostenibilidad",
             "tags": [
@@ -1246,6 +1264,7 @@
             "fecha": [
                 "2023"
             ],
+            "logo": "/images/ah.png",
             "certificado": null,
             "especialidad": "sostenibilidad",
             "tags": [
@@ -1260,6 +1279,7 @@
             "fecha": [
                 "2023"
             ],
+            "logo": "/images/ah.png",
             "certificado": null,
             "especialidad": "sostenibilidad",
             "tags": [
@@ -1274,6 +1294,7 @@
             "fecha": [
                 "2022"
             ],
+            "logo": "/images/pucv.png",
             "certificado": null,
             "especialidad": "ciencia_datos",
             "tags": [
@@ -1287,6 +1308,7 @@
             "fecha": [
                 "2022"
             ],
+            "logo": "/images/cir.png",
             "certificado": null,
             "especialidad": "sostenibilidad",
             "tags": [
@@ -1300,6 +1322,7 @@
             "fecha": [
                 "2022"
             ],
+            "logo": "/images/sim.png",
             "certificado": null,
             "tags": [
                 "social"
@@ -1417,6 +1440,7 @@
             "fecha": [
                 "2011"
             ],
+            "logo": "/images/pucv.png",
             "certificado": null,
             "especialidad": "sostenibilidad",
             "tags": [
@@ -1430,6 +1454,7 @@
             "fecha": [
                 "2020"
             ],
+            "logo": "/images/unab.png",
             "certificado": null,
             "especialidad": "sostenibilidad",
             "tags": [
@@ -1443,6 +1468,7 @@
             "fecha": [
                 "2022"
             ],
+            "logo": "/images/tal.png",
             "certificado": null,
             "especialidad": "ciencia_datos",
             "tags": [
@@ -1455,6 +1481,7 @@
             "fecha": [
                 "2022"
             ],
+            "logo": "/images/uah.png",
             "certificado": "https://drive.google.com/file/d/1cxtRPAtv69IONkgNHpkIk0yb-nrdLfkJ/view?usp=drive_link",
             "especialidad": "sostenibilidad",
             "tags": [
@@ -1544,6 +1571,7 @@
             "fecha": [
                 "2020"
             ],
+            "logo": "/images/inn.png",
             "certificado": null,
             "tags": [
                 "programación"
@@ -1616,6 +1644,7 @@
             "fecha": [
                 "2020"
             ],
+            "logo": "/images/dl.png",
             "certificado": null,
             "especialidad": "ciencia_datos",
             "tags": [
@@ -1628,6 +1657,7 @@
             "fecha": [
                 "2020"
             ],
+            "logo": "/images/dl.png",
             "certificado": null,
             "especialidad": "ciencia_datos",
             "tags": [
@@ -1775,6 +1805,7 @@
             "fecha": [
                 "2023"
             ],
+            "logo": "/images/inn.png",
             "certificado": null,
             "especialidad": "ciencia_datos",
             "tags": [
@@ -1791,6 +1822,7 @@
             "fecha": [
                 "2022"
             ],
+            "logo": "/images/me.png",
             "certificado": "https://drive.google.com/file/d/1D8kSowKrVeGbMw_nNJ7q0sr-1Ll2YPcp/view?usp=drive_link",
             "especialidad": "sostenibilidad",
             "tags": [
