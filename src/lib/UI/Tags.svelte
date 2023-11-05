@@ -8,13 +8,15 @@
         const section = document.getElementById("tags-section");
         if (section === null) return;
 
-        if (window.scrollY < 380) {
-            section.style.opacity = "0%";
-            section.style.transition = "opacity 0.2s ease-out";
-        } else {
-            section.style.opacity = "100%";
-            section.style.transition = "opacity 0.2s ease-out";
+        section.style.visibility = "hidden";
+        section.style.opacity = "0";
+
+        if (window.scrollY > 380) {
+            section.style.visibility = "visible";
+            section.style.opacity = "1";
         }
+
+        section.style.transition = "visibility 0.5s, opacity 0.2s ease-out";
     });
 
     const limpiarTag = (i: number) => {
