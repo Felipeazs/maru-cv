@@ -103,7 +103,7 @@
         <button
             class="w-max p-1 text-black border-2 border-crema rounded-md hover:bg-gray-500"
             on:click={resetAll}
-            use:tooltipy={{ content: "reiniciar campos"}}
+            use:tooltipy={{ content: "reiniciar campos" }}
         >
             <svg
                 xmlns="http://www.w3.org/2000/svg"

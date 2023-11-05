@@ -1,4 +1,6 @@
 <script lang="ts">
+    import { tooltipy } from "./UI/tooltip/tooltip";
+
     import CollapsableWrapper from "./UI/CollapsableWrapper.svelte";
 
     import whatsapp from "/images/whatsapp.svg";
@@ -60,13 +62,14 @@
                     <div class="w-1/3">
                         <img
                             src={linkedin}
-                            alt="whatsapp"
+                            alt="linkedin"
                             width={40}
                             height={40}
                         />
                     </div>
                     <a
-                        class="w-full text-lg"
+                        use:tooltipy={{ content: "enlace linkedin" }}
+                        class="w-min"
                         href="https://www.linkedin.com/in/memartinezv/">🔗</a
                     >
                 </div>
