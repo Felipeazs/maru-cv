@@ -101,7 +101,7 @@
             </select>
         </label>
         <button
-            class="w-max p-1 text-black border-2 border-crema rounded-md bg-black hover:bg-gray-500"
+            class="w-max p-1 text-black border-2 border-crema rounded-md bg-black hover:bg-gray-500 transition ease-in-out delay-75 hover:scale-110"
             on:click={resetAll}
             use:tooltipy={{ content: "reiniciar campos" }}
         >

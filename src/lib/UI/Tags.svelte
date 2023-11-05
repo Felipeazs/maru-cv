@@ -35,7 +35,7 @@
         <p class="w-max font-semibold text-black">tags:</p>
         {#each tags as tag, i}
             <div
-                class="flex flex-row w-max bg-black border-2 border-gray-300 rounded-md justify-center items-center px-2 py-1 transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110"
+                class="flex flex-row w-max bg-black border-2 border-gray-300 rounded-md justify-center items-center px-2 py-1 transition ease-in-out delay-75 hover:scale-110"
                 use:tooltipy={{
                     content: tag.nombre.replace(/_/g, " "),
                 }}
