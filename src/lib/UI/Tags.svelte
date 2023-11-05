@@ -27,7 +27,7 @@
 
 {#if tags.length}
     <div
-        class="flex flex-row flex-wrap gap-1 h-min justify-center items-center p-2 mx-3 mt-16 md:fixed md:z-50 md:right-[5%] md:bottom-16 lg:m-0 lg:left-10 lg:top-80 lg:w-min lg:h-mingap-1 bg-[#fff] border-4 border-crema rounded-md"
+        class="flex flex-row flex-wrap gap-1 h-min justify-center items-center p-2 mx-3 mt-16 md:fixed md:z-50 md:right-[10%] md:bottom-[75px] lg:m-0 lg:left-10 lg:top-80 lg:w-min lg:h-mingap-1 bg-[#fff] border-4 border-crema rounded-md"
         id="tags-section"
     >
         <p class="w-max font-semibold text-black">tags:</p>

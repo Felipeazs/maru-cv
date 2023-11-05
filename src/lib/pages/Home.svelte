@@ -4,6 +4,7 @@
     import DetallesWrapper from "../UI/DetallesWrapper.svelte";
     import Hero from "../UI/Hero.svelte";
     import Selector from "../UI/Selector.svelte";
+    import UpButton from "../UI/UpButton.svelte";
 
     import Todos from "../todos/Todos.svelte";
     import Perfil from "../todos/Perfil.svelte";
@@ -63,4 +64,5 @@
             />
         {/if}
     </div>
+    <UpButton />
 </main>

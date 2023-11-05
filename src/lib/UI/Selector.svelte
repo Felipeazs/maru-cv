@@ -64,7 +64,7 @@
         </p>
     </div>
     <div
-        class="absolute lg:z-10 flex flex-row flex-wrap xl:flex-nowrap justify-center gap-5 border-black rounded-md p-4 bg-[rgba(8,11,13,0.8)] text-white"
+        class="absolute lg:z-10 flex flex-row flex-wrap xl:flex-nowrap justify-center gap-5 border-2 border-gray-200 rounded-md p-4 bg-transparent text-black"
     >
         <label class="flex flex-col w-full md:w-[200px]">
             Selecciona un tema
@@ -101,7 +101,7 @@
             </select>
         </label>
         <button
-            class="w-max p-1 text-black border-2 border-crema rounded-md hover:bg-gray-500"
+            class="w-max p-1 text-black border-2 border-crema rounded-md bg-black hover:bg-gray-500"
             on:click={resetAll}
             use:tooltipy={{ content: "reiniciar campos" }}
         >
