@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { tooltip } from "./tooltip/tooltip";
+    import { tooltipy } from "./tooltip/tooltip";
 
     export let selection: string = "todos";
     export let anio: number = 0;
@@ -103,8 +103,7 @@
         <button
             class="w-max p-1 text-black border-2 border-crema rounded-md hover:bg-gray-500"
             on:click={resetAll}
-            use:tooltip
-            data-tooltip="reiniciar campos"
+            use:tooltipy={{ content: "reiniciar campos"}}
         >
             <svg
                 xmlns="http://www.w3.org/2000/svg"

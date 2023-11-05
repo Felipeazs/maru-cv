@@ -1,6 +1,6 @@
 <script lang="ts">
     // javascript code here
-    import { tooltip } from "../UI/tooltip/tooltip";
+    import { tooltipy } from "../UI/tooltip/tooltip";
 
     export let tags = [];
 
@@ -34,14 +34,11 @@
         {#each tags as tag, i}
             <div
                 class="flex flex-row w-max bg-black border-2 border-gris rounded-md justify-center items-center px-2 py-1 transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110"
+                use:tooltipy={{
+                    content: tag.nombre.replace(/_/g, " "),
+                }}
             >
-                <img
-                    src={tag.icono}
-                    width={20}
-                    alt="icono"
-                    use:tooltip
-                    data-tooltip={tag.nombre.replace(/_/g, " ")}
-                />
+                <img src={tag.icono} width={20} alt="icono" />
                 <button
                     class="btn btn-xs btn-ghost text-xs text-white"
                     on:click={() => limpiarTag(i)}
@@ -52,6 +49,3 @@
         {/each}
     </div>
 {/if}
-
-<style>
-</style>

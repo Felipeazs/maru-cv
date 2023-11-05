@@ -2,7 +2,7 @@
     // javascript code here
     import { createEventDispatcher } from "svelte";
 
-    import { tooltip } from "./tooltip/tooltip";
+    import { tooltipy } from "./tooltip/tooltip";
     import { sorting_items } from "../../utils/utils";
 
     const dispatch = createEventDispatcher();
@@ -103,14 +103,16 @@
                                 </div>
                                 <div
                                     class={`${
-                                        item.logo ? "w-[15%]" : ""
+                                        item.logo
+                                            ? "flex justify-center w-[15%]"
+                                            : ""
                                     }`}
                                 >
                                     {#if item.logo}
                                         <img
                                             src={item.logo}
                                             alt={item.institucion ?? ""}
-                                            class="object-cover"
+                                            class="object-contain"
                                         />
                                     {/if}
                                 </div>
@@ -118,11 +120,13 @@
                             <div class="py-1">
                                 {#if item.link || item.certificado}
                                     <a
+                                        use:tooltipy={{
+                                            content: item.link
+                                                ? "ver publicación"
+                                                : "ver certificado",
+                                        }}
                                         href={item.link || item.certificado}
-                                        use:tooltip
-                                        data-tooltip={item.link
-                                            ? "ver publicación"
-                                            : "ver certificado"}>🔗</a
+                                        id="link-ref">🔗</a
                                     >
                                 {/if}
                             </div>
