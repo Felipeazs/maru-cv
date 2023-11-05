@@ -4,7 +4,6 @@
 
     import { tooltip } from "./tooltip/tooltip";
     import { sorting_items } from "../../utils/utils";
-    import tag from "/images/tag.svg";
 
     const dispatch = createEventDispatcher();
 
@@ -63,57 +62,65 @@
                             </div>
                         </div>
                         <div class="w-full">
-                            <p class="">{item.titulo ?? ""}</p>
-                            <p class="text-sm text-slate-500 italic">
-                                {item.cargo ?? ""}
-                            </p>
-                            <p class="text-sm text-slate-500 italic">
-                                {item.empresa ??
-                                    item.institucion ??
-                                    item.instituto ??
-                                    ""}
-                            </p>
-                            {#if item.description}
-                                <p class="text-sm text-slate-500 py-2">
-                                    {item.descripcion ?? ""}
-                                </p>
-                            {/if}
-                            {#if item.logo}
-                                <div
-                                    class="flex flex-col md:flex-row gap-5 md:gap-10 pb-3"
-                                >
+                            <div
+                                class={`${
+                                    item.logo
+                                        ? "flex flex-col md:flex-row gap-5 md:gap-10 pb-3"
+                                        : "flex flex-row"
+                                }`}
+                            >
+                                {#if item.logo}
                                     <img
-                                        src={item.logo}
+                                        src={item.logo ?? ""}
                                         width={70}
                                         height={50}
-                                        alt={item.universidad}
+                                        alt={item.institucion ?? ""}
                                         class="object-contain"
                                     />
-                                    <div>
-                                        <p class="text-slate-900">
-                                            {item.formacion ?? ""}
-                                        </p>
-                                        <p class="text-sm text-slate-500">
-                                            {item.universidad}
-                                        </p>
-                                        <p class="text-sm text-slate-500 py-2">
-                                            {item.tesis ?? ""}
-                                        </p>
-                                    </div>
-                                </div>
-                            {/if}
-                            {#if item.link}
-                                <div class="pt-3">
-                                    <a
-                                        href={item.link}
-                                        use:tooltip
-                                        data-tooltip="ver publicación">🔗</a
+                                {/if}
+                                <div>
+                                    <p class="">
+                                        {item.titulo ?? ""}
+                                    </p>
+                                    <p class="text-sm text-slate-500 italic">
+                                        {item.cargo ?? ""}
+                                    </p>
+                                    <p
+                                        class="text-sm text-slate-500 font-semibold"
                                     >
+                                        {item.empresa ??
+                                            item.institucion ??
+                                            item.instituto ??
+                                            ""}
+                                    </p>
+                                        <div
+                                            class="flex flex-col text-sm text-slate-500 py-2"
+                                        >
+                                    {#if item.descripcion}
+                                            <p class="underline">
+                                                descripción:
+                                            </p>
+                                            <p>
+                                                {item.descripcion}
+                                            </p>
+                                    {/if}
+                                        </div>
                                 </div>
-                            {/if}
+                            </div>
+                            <div class="py-1">
+                                {#if item.link || item.certificado}
+                                    <a
+                                        href={item.link || item.certificado}
+                                        use:tooltip
+                                        data-tooltip={item.link
+                                            ? "ver publicación"
+                                            : "ver certificado"}>🔗</a
+                                    >
+                                {/if}
+                            </div>
                             {#if item.tags}
                                 <div
-                                    class="flex flex-col justify-center items-baseline text-xs text-gray-400 py-3"
+                                    class="flex flex-col justify-center items-baseline text-xs text-gray-400 pb-3"
                                 >
                                     <p class="text-center">tags:</p>
                                     <div

@@ -12,7 +12,7 @@
                 María Eugenia Martínez Valenzuela
             </p>
             <div class="text-lg">
-                <p>Ingeniero Bioquímico</p>
+                <p>Ingeniero Civil Bioquímico</p>
                 <p>
                     Magister en Ciencias de la Ingeniería con mención en
                     Ingeniería Bioquímica

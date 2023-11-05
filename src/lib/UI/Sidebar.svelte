@@ -9,7 +9,7 @@
 >
     <img
         src={maru}
-        class="relative z-10 md:h-full w-full overflow-visible md:overflow-x-hidden lg:overflow-visible text-white object-cover"
+        class="relative z-10 h-full w-full overflow-visible md:overflow-x-hidden lg:overflow-visible text-white object-cover"
         alt="foto_perfil"
     />
     <Contact />

@@ -535,13 +535,13 @@
     ],
     "educacion": [
         {
-            "formacion": "Doctorado (c) en Ciencias de la Ingeniería con mención en Ingeniería Bioquímica",
-            "tesis": "“Establecimiento de un cultivo en suspensión de células de T. officinale para la producción de α-amirina y lupeol. Pontificia Universidad Católica de Valparaíso, Chile. Examen de titulación pendiente.”",
+            "titulo": "Doctorado (c) en Ciencias de la Ingeniería con mención en Ingeniería Bioquímica",
+            "descripcion": "“Establecimiento de un cultivo en suspensión de células de T. officinale para la producción de α-amirina y lupeol. Pontificia institucion Católica de Valparaíso, Chile. Examen de titulación pendiente.”",
             "fecha": [
                 "2010",
                 "2017"
             ],
-            "universidad": "Pontificia Universidad Católica de Valparaíso, Chile.",
+            "institucion": "Pontificia Universidad Católica de Valparaíso, Chile.",
             "logo": "/images/pucv.png",
             "especialidad": "ciencias_ingenieria",
             "tags": [
@@ -550,13 +550,13 @@
             ]
         },
         {
-            "formacion": "Magíster en Ciencias de la Ingeniería con mención en Ingeniería Bioquímica",
-            "tesis": "“Evaluación del cultivo de diente de león común (Taraxacum officinale) para la extracción de látex e inulina desde sus raíces y revalorización de sus residuos.” [Nota de aprobación 6.0 mención Cum laude].”",
+            "titulo": "Magíster en Ciencias de la Ingeniería con mención en Ingeniería Bioquímica",
+            "descripcion": "“Evaluación del cultivo de diente de león común (Taraxacum officinale) para la extracción de látex e inulina desde sus raíces y revalorización de sus residuos.” [Nota de aprobación 6.0 mención Cum laude].”",
             "fecha": [
                 "2011",
                 "2012"
             ],
-            "universidad": "Pontificia Universidad Católica de Valparaíso, Chile.",
+            "institucion": "Pontificia Universidad Católica de Valparaíso, Chile.",
             "logo": "/images/pucv.png",
             "especialidad": "sostenibilidad",
             "tags": [
@@ -566,13 +566,13 @@
             ]
         },
         {
-            "formacion": "Ingeniero Civil Bioquímico",
-            "tesis": "“Estudio de la cinética de degradación de lodos provenientes de una planta de tratamiento de aguas residuales urbanas y evaluación de un sistema de pre-hidrólisis térmica de lodo biológico.” [Nota de aprobación 7.0].”",
+            "titulo": "Ingeniero Civil Bioquímico",
+            "descripcion": "“Estudio de la cinética de degradación de lodos provenientes de una planta de tratamiento de aguas residuales urbanas y evaluación de un sistema de pre-hidrólisis térmica de lodo biológico.” [Nota de aprobación 7.0].”",
             "fecha": [
                 "2001",
                 "2010"
             ],
-            "universidad": "Pontificia Universidad Católica de Valparaíso, Chile.",
+            "institucion": "Pontificia Universidad Católica de Valparaíso, Chile.",
             "logo": "/images/pucv.png",
             "especialidad": "ciencias_ingenieria",
             "tags": [
@@ -581,13 +581,13 @@
             ]
         },
         {
-            "formacion": "Doctorado (c) en proyectos con mención en medio ambiente",
-            "tesis": "“Creación de un modelo computacional utilizando una base de datos construida a partir de información proveniente del sector frutícola, con el cual se permita cuantificar su impacto en términos sociales, ambientales y económicos, con el fin de promover la circularidad del sector.”",
+            "titulo": "Doctorado (c) en proyectos con mención en medio ambiente",
+            "descripcion": "“Creación de un modelo computacional utilizando una base de datos construida a partir de información proveniente del sector frutícola, con el cual se permita cuantificar su impacto en términos sociales, ambientales y económicos, con el fin de promover la circularidad del sector.”",
             "fecha": [
                 "2022",
                 "presente"
             ],
-            "universidad": "U. Internacional Ibeoramericana, México.",
+            "institucion": "U. Internacional Ibeoramericana, México.",
             "logo": "/images/unini.png",
             "especialidad": "sostenibilidad",
             "tags": [
@@ -596,13 +596,13 @@
             ]
         },
         {
-            "formacion": "Magíster en Mecanismo de Desarrollo Limpio y Eficiencia Energética.",
-            "tesis": "“Diseño de un modelo de simbiosis industrial como herramienta para promover acciones de mitigación y adaptación al cambio climático desde el sector agroindustrial”",
+            "titulo": "Magíster en Mecanismo de Desarrollo Limpio y Eficiencia Energética.",
+            "descripcion": "“Diseño de un modelo de simbiosis industrial como herramienta para promover acciones de mitigación y adaptación al cambio climático desde el sector agroindustrial”",
             "fecha": [
                 "2020",
                 "presente"
             ],
-            "universidad": "Núcleo Biotecnología Curauma, PUCV.",
+            "institucion": "Núcleo Biotecnología Curauma, PUCV.",
             "logo": "/images/pucv.png",
             "especialidad": "sostenibilidad",
             "tags": [
@@ -613,13 +613,13 @@
             ]
         },
         {
-            "formacion": "Master en Comunicación Empresarial y Corporativa,\n Master en Big Data y Business Intelligence, Master en dirección Comercial y Marketing, Master en Innovación y Emprendimiento, Master en Marketing Digital y eCommerce, MBA en Administración y Dirección de Empresas",
-            "tesis": "",
+            "titulo": "Master en Comunicación Empresarial y Corporativa,\n Master en Big Data y Business Intelligence, Master en dirección Comercial y Marketing, Master en Innovación y Emprendimiento, Master en Marketing Digital y eCommerce, MBA en Administración y Dirección de Empresas",
+            "descripcion": "",
             "fecha": [
                 "2020",
                 "presente"
             ],
-            "universidad": "ENEB - Escuela de Negocios Europea de Barcelona Y Universidad I de Castilla, España.",
+            "institucion": "ENEB - Escuela de Negocios Europea de Barcelona Y Universidad I de Castilla, España.",
             "logo": "/images/eneb.png",
             "especialidad": "dirección_empresas",
             "tags": [
@@ -1064,6 +1064,7 @@
             "fecha": [
                 "2023"
             ],
+            "certificado": null,
             "especialidad": "sostenibilidad",
             "tags": [
                 "agroindustria",
@@ -1077,6 +1078,7 @@
             "fecha": [
                 "2023"
             ],
+            "certificado": null,
             "tags": [
                 "actividad_municipal",
                 "participación_ciudadana"
@@ -1088,6 +1090,7 @@
             "fecha": [
                 "2023"
             ],
+            "certificado": null,
             "especialidad": "ciencia_datos",
             "tags": [
                 "inteligencia_artificial",
@@ -1100,6 +1103,7 @@
             "fecha": [
                 "2019"
             ],
+            "certificado": null,
             "especialidad": "ciencia_datos",
             "tags": [
                 "machine_learning",
@@ -1112,6 +1116,7 @@
             "fecha": [
                 "1905"
             ],
+            "certificado": null,
             "especialidad": "sostenibilidad",
             "tags": [
                 "sostenibilidad",
@@ -1125,6 +1130,7 @@
             "fecha": [
                 "1905"
             ],
+            "certificado": null,
             "tags": [
                 "innovación",
                 "emprendimiento"
@@ -1136,6 +1142,7 @@
             "fecha": [
                 "2023"
             ],
+            "certificado": null,
             "tags": [
                 "actividad_municipal",
                 "participación_ciudadana"
@@ -1147,6 +1154,7 @@
             "fecha": [
                 "2023"
             ],
+            "certificado": null,
             "especialidad": "sostenibilidad",
             "tags": [
                 "agroindustria",
@@ -1159,6 +1167,7 @@
             "fecha": [
                 "2023"
             ],
+            "certificado": null,
             "especialidad": "sostenibilidad",
             "tags": [
                 "eficiencia_energética"
@@ -1170,6 +1179,7 @@
             "fecha": [
                 "2023"
             ],
+            "certificado": null,
             "especialidad": "sostenibilidad",
             "tags": [
                 "sostenibilidad",
@@ -1178,10 +1188,11 @@
         },
         {
             "titulo": "Facilitador de simbiosis industrial. Acercando la simbiosis industrial a las empresas - proyecto INSIGHT Programa Erasmus+ 2019-1-BE01-KA202-050439.",
-            "institucion": null,
+            "institucion": "INSIGHT",
             "fecha": [
                 "2023"
             ],
+            "certificado": "https://drive.google.com/file/d/13f9NS5GgwOf7myz0mPvKpLqYnx7RCG5g/view?usp=drive_link",
             "especialidad": "sostenibilidad",
             "tags": [
                 "sostenibilidad",
@@ -1195,6 +1206,7 @@
             "fecha": [
                 "2023"
             ],
+            "certificado": "https://drive.google.com/file/d/1wScfU-_rkQgftIBd3rRg28JwYE47PTBe/view?usp=drive_link",
             "especialidad": "sostenibilidad",
             "tags": [
                 "actividad_municipal",
@@ -1208,6 +1220,7 @@
             "fecha": [
                 "2023"
             ],
+            "certificado": null,
             "especialidad": "sostenibilidad",
             "tags": [
                 "sostenibilidad",
@@ -1220,6 +1233,7 @@
             "fecha": [
                 "2023"
             ],
+            "certificado": null,
             "especialidad": "sostenibilidad",
             "tags": [
                 "actividad_municipal",
@@ -1232,6 +1246,7 @@
             "fecha": [
                 "2023"
             ],
+            "certificado": null,
             "especialidad": "sostenibilidad",
             "tags": [
                 "actividad_municipal",
@@ -1245,6 +1260,7 @@
             "fecha": [
                 "2023"
             ],
+            "certificado": null,
             "especialidad": "sostenibilidad",
             "tags": [
                 "actividad_municipal",
@@ -1258,6 +1274,7 @@
             "fecha": [
                 "2022"
             ],
+            "certificado": null,
             "especialidad": "ciencia_datos",
             "tags": [
                 "bioinformática",
@@ -1270,6 +1287,7 @@
             "fecha": [
                 "2022"
             ],
+            "certificado": null,
             "especialidad": "sostenibilidad",
             "tags": [
                 "sostenibilidad",
@@ -1282,6 +1300,7 @@
             "fecha": [
                 "2022"
             ],
+            "certificado": null,
             "tags": [
                 "social"
             ]
@@ -1292,6 +1311,7 @@
             "fecha": [
                 "2021"
             ],
+            "certificado": null,
             "especialidad": "ciencia_datos",
             "tags": [
                 "bioinformática",
@@ -1305,6 +1325,7 @@
             "fecha": [
                 "2023"
             ],
+            "certificado": null,
             "especialidad": "ciencia_datos",
             "tags": [
                 "bioinformática",
@@ -1318,6 +1339,7 @@
             "fecha": [
                 "2021"
             ],
+            "certificado": "https://drive.google.com/file/d/1iU5JdCpQh2xKjlVW4iann0fJojE74Nqk/view?usp=drive_link",
             "especialidad": "sostenibilidad",
             "tags": [
                 "economía_circular",
@@ -1330,6 +1352,7 @@
             "fecha": [
                 "2021"
             ],
+            "certificado": "https://drive.google.com/file/d/1SqRRJew71TnKS--wbL7bh3hTOM4qGLfG/view?usp=drive_link",
             "especialidad": "sostenibilidad",
             "tags": [
                 "economía_circular",
@@ -1342,6 +1365,7 @@
             "fecha": [
                 "2020"
             ],
+            "certificado": null,
             "especialidad": "sostenibilidad",
             "tags": [
                 "sostenibilidad",
@@ -1354,6 +1378,7 @@
             "fecha": [
                 "2020"
             ],
+            "certificado": null,
             "especialidad": "sostenibilidad",
             "tags": [
                 "sostenibilidad",
@@ -1366,6 +1391,7 @@
             "fecha": [
                 "2020"
             ],
+            "certificado": null,
             "especialidad": "sostenibilidad",
             "tags": [
                 "sostenibilidad",
@@ -1378,6 +1404,7 @@
             "fecha": [
                 "2020"
             ],
+            "certificado": null,
             "especialidad": "sostenibilidad",
             "tags": [
                 "sostenibilidad",
@@ -1390,6 +1417,7 @@
             "fecha": [
                 "2011"
             ],
+            "certificado": null,
             "especialidad": "sostenibilidad",
             "tags": [
                 "sostenibilidad",
@@ -1402,6 +1430,7 @@
             "fecha": [
                 "2020"
             ],
+            "certificado": null,
             "especialidad": "sostenibilidad",
             "tags": [
                 "sostenibilidad",
@@ -1414,6 +1443,7 @@
             "fecha": [
                 "2022"
             ],
+            "certificado": null,
             "especialidad": "ciencia_datos",
             "tags": [
                 "programación"
@@ -1425,6 +1455,7 @@
             "fecha": [
                 "2022"
             ],
+            "certificado": "https://drive.google.com/file/d/1cxtRPAtv69IONkgNHpkIk0yb-nrdLfkJ/view?usp=drive_link",
             "especialidad": "sostenibilidad",
             "tags": [
                 "sostenibilidad",
@@ -1437,6 +1468,7 @@
             "fecha": [
                 "1905"
             ],
+            "certificado": null,
             "especialidad": "sostenibilidad",
             "tags": [
                 "sostenibilidad",
@@ -1449,6 +1481,7 @@
             "fecha": [
                 "1905"
             ],
+            "certificado": null,
             "especialidad": "ciencia_datos",
             "tags": [
                 "programación",
@@ -1462,6 +1495,7 @@
             "fecha": [
                 "1905"
             ],
+            "certificado": null,
             "especialidad": "ciencias_ingenieria",
             "tags": [
                 "estadística"
@@ -1473,6 +1507,7 @@
             "fecha": [
                 "1905"
             ],
+            "certificado": null,
             "especialidad": "ciencia_datos",
             "tags": [
                 "estadística"
@@ -1484,6 +1519,7 @@
             "fecha": [
                 "2020"
             ],
+            "certificado": null,
             "especialidad": "sostenibilidad",
             "tags": [
                 "innovación"
@@ -1495,6 +1531,7 @@
             "fecha": [
                 "2020"
             ],
+            "certificado": null,
             "especialidad": "sostenibilidad",
             "tags": [
                 "ods",
@@ -1507,6 +1544,7 @@
             "fecha": [
                 "2020"
             ],
+            "certificado": null,
             "tags": [
                 "programación"
             ]
@@ -1517,6 +1555,7 @@
             "fecha": [
                 "2020"
             ],
+            "certificado": null,
             "especialidad": "sostenibilidad",
             "tags": [
                 "sostenibilidad",
@@ -1529,6 +1568,7 @@
             "fecha": [
                 "2020"
             ],
+            "certificado": null,
             "tags": [
                 "programación",
                 "educación"
@@ -1540,6 +1580,7 @@
             "fecha": [
                 "2020"
             ],
+            "certificado": null,
             "especialidad": "sostenibilidad",
             "tags": [
                 "sostenibilidad",
@@ -1552,6 +1593,7 @@
             "fecha": [
                 "2020"
             ],
+            "certificado": null,
             "tags": [
                 "administración_de_empresas"
             ]
@@ -1562,6 +1604,7 @@
             "fecha": [
                 "2020"
             ],
+            "certificado": null,
             "especialidad": "ciencia_datos",
             "tags": [
                 "programación"
@@ -1573,6 +1616,7 @@
             "fecha": [
                 "2020"
             ],
+            "certificado": null,
             "especialidad": "ciencia_datos",
             "tags": [
                 "data_science"
@@ -1584,6 +1628,7 @@
             "fecha": [
                 "2020"
             ],
+            "certificado": null,
             "especialidad": "ciencia_datos",
             "tags": [
                 "programación"
@@ -1595,6 +1640,7 @@
             "fecha": [
                 "2019"
             ],
+            "certificado": null,
             "tags": [
                 "educación"
             ]
@@ -1605,6 +1651,7 @@
             "fecha": [
                 "2019"
             ],
+            "certificado": null,
             "tags": [
                 "data_science",
                 "innovación"
@@ -1616,6 +1663,7 @@
             "fecha": [
                 "2019"
             ],
+            "certificado": null,
             "tags": [
                 "innovación"
             ]
@@ -1626,6 +1674,7 @@
             "fecha": [
                 "2018"
             ],
+            "certificado": null,
             "especialidad": "ciencias_ingenieria",
             "tags": [
                 "software",
@@ -1638,6 +1687,7 @@
             "fecha": [
                 "2018"
             ],
+            "certificado": null,
             "especialidad": "sostenibilidad",
             "tags": [
                 "software",
@@ -1650,6 +1700,7 @@
             "fecha": [
                 "2018"
             ],
+            "certificado": null,
             "tags": [
                 "finanzas",
                 "administración_de_empresas"
@@ -1661,6 +1712,7 @@
             "fecha": [
                 "2017"
             ],
+            "certificado": null,
             "especialidad": "sostenibilidad",
             "tags": [
                 "software",
@@ -1674,6 +1726,7 @@
             "fecha": [
                 "2012"
             ],
+            "certificado": null,
             "tags": [
                 "propiedad_intelectual",
                 "innovación"
@@ -1685,6 +1738,7 @@
             "fecha": [
                 "1905"
             ],
+            "certificado": null,
             "tags": [
                 "ciencias_biológicas",
                 "agroindustria"
@@ -1696,6 +1750,7 @@
             "fecha": [
                 "1905"
             ],
+            "certificado": null,
             "tags": [
                 "auditoría",
                 "gestión_ambiental",
@@ -1708,6 +1763,7 @@
             "fecha": [
                 "1905"
             ],
+            "certificado": null,
             "tags": [
                 "auditoría",
                 "empresa"
@@ -1719,6 +1775,7 @@
             "fecha": [
                 "2023"
             ],
+            "certificado": null,
             "especialidad": "ciencia_datos",
             "tags": [
                 "software",
@@ -1734,6 +1791,7 @@
             "fecha": [
                 "2022"
             ],
+            "certificado": "https://drive.google.com/file/d/1D8kSowKrVeGbMw_nNJ7q0sr-1Ll2YPcp/view?usp=drive_link",
             "especialidad": "sostenibilidad",
             "tags": [
                 "hidrógeno_verde",
@@ -1776,7 +1834,7 @@
             ]
         },
         {
-            "titulo": "Participación en la Conferencia internacional “Optimal processes for the treatment of lignocellulosic material for bioethanol production”. ",
+            "titulo": "Participación en la Conferencia internacional “Optimal processes for the treatment of lignocellulosic material for bioethanol production”",
             "institucion": "Organizado por la Facultad de Ciencias Forestales y de la Conservación de la Naturaleza. Universidad de Chile. Santiago, Chile.",
             "fecha": [
                 "2010"
@@ -1798,8 +1856,8 @@
             ]
         },
         {
-            "titulo": "Asistencia al Seminario internacional “Huella de Carbono Como Herramienta de Competitividad en el Sector Productivo Chileno” ",
-            "institucion": "organizado por Centro de Gestión y Fortalecimiento para el Mecanismo de Desarrollo Limpio, CGF-MDL. Valparaíso, Chile.",
+            "titulo": "Asistencia al Seminario internacional “Huella de Carbono Como Herramienta de Competitividad en el Sector Productivo Chileno”",
+            "institucion": "Organizado por Centro de Gestión y Fortalecimiento para el Mecanismo de Desarrollo Limpio, CGF-MDL. Valparaíso, Chile.",
             "fecha": [
                 "2010"
             ],
@@ -1810,7 +1868,7 @@
         },
         {
             "titulo": "III Conferencia ACV Chile. Red Chilena de Análisis de Ciclo de Vida: Herramientas para una economía circular, Pucón.",
-            "institucion": "",
+            "institucion": null,
             "fecha": [
                 "2020"
             ],

@@ -13,16 +13,8 @@
 </script>
 
 <div class="flex flex-col gap-3 items-center text-white text-sm bg-black p-3">
-    <div
-        class={`collapse p-1 collapse-arrow ${
-            collapsable ? "collapse-open" : "collapse-close"
-        }`}
-    >
-        <input
-            type="checkbox"
-            on:click={() => (collapsable = !collapsable)}
-            class="hover:cursor-pointer"
-        />
+    <div class="collapse p-1 collapse-arrow">
+        <input type="checkbox" class="p-1" />
         <div
             class="collapse-title text-xl uppercase font-bold bg-crema text-black"
         >
