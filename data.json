@@ -1,34 +1,4 @@
 {
-    "idiomas": [
-        {
-            "idioma": "Español",
-            "descripcion": "Lengua materna"
-        },
-        {
-            "idioma": "Inglés",
-            "descripcion": "Intermediate level in speaking and writing"
-        },
-        {
-            "idioma": "Inglés",
-            "descripcion": "GRE test: Verbal 520 points, Mathematics 730 points."
-        },
-        {
-            "idioma": "Inglés",
-            "descripcion": "Cambridge English Test C1 - Effective Proficiency."
-        },
-        {
-            "idioma": "Inglés",
-            "descripcion": "TOEIC 900 points. Level 2+."
-        },
-        {
-            "idioma": "Inglés",
-            "descripcion": "Cursando Business English Program. ENEB - Escuela de Negocios Europea de Barcelona. España."
-        },
-        {
-            "idioma": "Alemán",
-            "descripcion": "Nivel B1 Deutscher Akademischer Austausch Dienst (DAAD) "
-        }
-    ],
     "experiencias": [
         {
             "titulo": "Gerente técnico-comercial y líder de proyectos en EC y cambio climático.",
@@ -384,7 +354,8 @@
             "cargo": "Responsable del análisis tecno-económico.",
             "institucion": "Fraunhofer Chile Research",
             "fecha": [
-                "2021"
+                "2021",
+                "2020"
             ],
             "tags": [
                 "agroindustria",
@@ -400,7 +371,8 @@
             "cargo": "Responsable del análisis tecno-económico.",
             "institucion": "Fraunhofer Chile Research",
             "fecha": [
-                "2021"
+                "2021",
+                "2017"
             ],
             "tags": [
                 "agroindustria",
@@ -416,7 +388,8 @@
             "cargo": "Responsable del análisis tecnoeconómico y de mercado.",
             "institucion": "Fraunhofer Chile Research",
             "fecha": [
-                "2021"
+                "2019",
+                "2018"
             ],
             "tags": [
                 "agroindustria",
@@ -450,7 +423,8 @@
             "cargo": "Responsable del análisis tecnoeconómico y de mercado. ",
             "institucion": "Fraunhofer Chile Research",
             "fecha": [
-                "2017"
+                "2017",
+                "2016"
             ],
             "tags": [
                 "agroindustria",
@@ -466,6 +440,7 @@
             "cargo": "Participación en el desarrollo del paquete de trabajo que involucró caracterización bioquímica y bioactividad de los extractos, además de ser responsable del análisis tecnoeconómico y de mercado.",
             "institucion": "Fraunhofer Chile Research",
             "fecha": [
+                "2019",
                 "2016"
             ],
             "tags": [
@@ -484,6 +459,7 @@
             "cargo": "Responsable del paquete de trabajo de revalorización de residuos mediante digestión anaerobia, además de ser responsable del análisis tecnoeconómico y de mercado.",
             "institucion": "Fraunhofer Chile Research",
             "fecha": [
+                "2015",
                 "2013"
             ],
             "tags": [
@@ -538,8 +514,8 @@
             "titulo": "Doctorado (c) en Ciencias de la Ingeniería con mención en Ingeniería Bioquímica",
             "descripcion": "“Establecimiento de un cultivo en suspensión de células de T. officinale para la producción de α-amirina y lupeol. Pontificia institucion Católica de Valparaíso, Chile. Examen de titulación pendiente.”",
             "fecha": [
-                "2010",
-                "2017"
+                "2017",
+                "2010"
             ],
             "institucion": "Pontificia Universidad Católica de Valparaíso, Chile.",
             "logo": "/images/pucv.png",
@@ -553,8 +529,8 @@
             "titulo": "Magíster en Ciencias de la Ingeniería con mención en Ingeniería Bioquímica",
             "descripcion": "“Evaluación del cultivo de diente de león común (Taraxacum officinale) para la extracción de látex e inulina desde sus raíces y revalorización de sus residuos.” [Nota de aprobación 6.0 mención Cum laude].”",
             "fecha": [
-                "2011",
-                "2012"
+                "2012",
+                "2011"
             ],
             "institucion": "Pontificia Universidad Católica de Valparaíso, Chile.",
             "logo": "/images/pucv.png",
@@ -569,8 +545,8 @@
             "titulo": "Ingeniero Civil Bioquímico",
             "descripcion": "“Estudio de la cinética de degradación de lodos provenientes de una planta de tratamiento de aguas residuales urbanas y evaluación de un sistema de pre-hidrólisis térmica de lodo biológico.” [Nota de aprobación 7.0].”",
             "fecha": [
-                "2001",
-                "2010"
+                "2010",
+                "2001"
             ],
             "institucion": "Pontificia Universidad Católica de Valparaíso, Chile.",
             "logo": "/images/pucv.png",
@@ -584,8 +560,8 @@
             "titulo": "Doctorado (c) en proyectos con mención en medio ambiente",
             "descripcion": "“Creación de un modelo computacional utilizando una base de datos construida a partir de información proveniente del sector frutícola, con el cual se permita cuantificar su impacto en términos sociales, ambientales y económicos, con el fin de promover la circularidad del sector.”",
             "fecha": [
-                "2022",
-                "presente"
+                "2023",
+                "2022"
             ],
             "institucion": "U. Internacional Ibeoramericana, México.",
             "logo": "/images/unini.png",
@@ -599,8 +575,8 @@
             "titulo": "Magíster en Mecanismo de Desarrollo Limpio y Eficiencia Energética.",
             "descripcion": "“Diseño de un modelo de simbiosis industrial como herramienta para promover acciones de mitigación y adaptación al cambio climático desde el sector agroindustrial”",
             "fecha": [
-                "2020",
-                "presente"
+                "2023",
+                "2020"
             ],
             "institucion": "Núcleo Biotecnología Curauma, PUCV.",
             "logo": "/images/nbc.png",
@@ -613,11 +589,11 @@
             ]
         },
         {
-            "titulo": "Master en Comunicación Empresarial y Corporativa,\n Master en Big Data y Business Intelligence, Master en dirección Comercial y Marketing, Master en Innovación y Emprendimiento, Master en Marketing Digital y eCommerce, MBA en Administración y Dirección de Empresas",
+            "titulo": "Master en Comunicación Empresarial y Corporativa • Master en Big Data y Business Intelligence • Master en dirección Comercial y Marketing • Master en Innovación y Emprendimiento • Master en Marketing Digital y eCommerce • MBA en Administración y Dirección de Empresas",
             "descripcion": "",
             "fecha": [
-                "2020",
-                "presente"
+                "2023",
+                "2020"
             ],
             "institucion": "ENEB - Escuela de Negocios Europea de Barcelona Y Universidad I de Castilla, España.",
             "logo": "/images/eneb.png",
@@ -2147,6 +2123,36 @@
             "titulo": "KNIME Analytic software ",
             "tipo": null,
             "nivel": "Básico"
+        }
+    ],
+    "idiomas": [
+        {
+            "idioma": "Español",
+            "descripcion": "Lengua materna"
+        },
+        {
+            "idioma": "Inglés",
+            "descripcion": "Intermediate level in speaking and writing"
+        },
+        {
+            "idioma": "Inglés",
+            "descripcion": "GRE test: Verbal 520 points, Mathematics 730 points."
+        },
+        {
+            "idioma": "Inglés",
+            "descripcion": "Cambridge English Test C1 - Effective Proficiency."
+        },
+        {
+            "idioma": "Inglés",
+            "descripcion": "TOEIC 900 points. Level 2+."
+        },
+        {
+            "idioma": "Inglés",
+            "descripcion": "Cursando Business English Program. ENEB - Escuela de Negocios Europea de Barcelona. España."
+        },
+        {
+            "idioma": "Alemán",
+            "descripcion": "Nivel B1 Deutscher Akademischer Austausch Dienst (DAAD) "
         }
     ]
 }

@@ -73,8 +73,9 @@
                                         item.logo ? "w-[80%]" : "w-full"
                                     }`}
                                 >
-                                    <p class="">
-                                        {item.titulo ?? ""}
+                                    <p class="py-1">
+                                        {item.titulo.split("|").join("\n") ??
+                                            ""}
                                     </p>
                                     <p class="text-sm text-slate-500 italic">
                                         {item.cargo ?? ""}
@@ -87,14 +88,12 @@
                                             item.instituto ??
                                             ""}
                                     </p>
-                                    <div
-                                        class="flex flex-col text-sm text-slate-500 py-2"
-                                    >
+                                    <div class="flex flex-col text-sm py-2">
                                         {#if item.descripcion}
-                                            <p class="underline">
+                                            <p class="text-xs text-gray-400">
                                                 descripción:
                                             </p>
-                                            <p>
+                                            <p class="text-gray-600">
                                                 {item.descripcion}
                                             </p>
                                         {/if}
