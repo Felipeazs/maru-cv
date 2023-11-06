@@ -39,10 +39,10 @@
     <Hero />
     <Sidebar />
     <Selector bind:selection bind:anio bind:especialidad />
-    <Tags bind:tags />
     <div
         class="relative w-[95%] m-auto h-full pt-[300px] mb-32 md:pt-[200px] xl:pt-[100px] lg:-ml-20 xl:ml-20"
     >
+        <Tags bind:tags />
         {#if selectedItems && selection !== "perfil"}
             <DetallesWrapper
                 bind:title
