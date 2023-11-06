@@ -75,7 +75,7 @@
                         }}
                         class="w-full text-lg text-start"
                         href="https://www.linkedin.com/in/memartinezv/"
-                        >memartinezv 🔗</a
+                        target="_blank">memartinezv 🔗</a
                     >
                 </div>
             </div>

@@ -105,6 +105,7 @@
                                         {#each item?.social as social}
                                             <a
                                                 href={social.link}
+                                                target="_blank"
                                                 type="button"
                                                 class="btn btn-xs w-max"
                                             >
@@ -142,6 +143,7 @@
                                                 : "ver certificado",
                                         }}
                                         href={item.link || item.certificado}
+                                        target="_blank"
                                         id="link-ref">🔗</a
                                     >
                                 {/if}
