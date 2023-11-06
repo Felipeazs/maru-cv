@@ -34,20 +34,19 @@
     >
         <p class="w-max font-semibold text-black">tags:</p>
         {#each tags as tag, i}
-            <div
-                class="flex flex-row w-max bg-black border-2 border-gray-300 rounded-md justify-center items-center px-2 py-1 transition ease-in-out delay-75 hover:scale-110"
+            <button
+                class="relative w-max bg-black border-2 border-gray-300 rounded-md justify-center items-center px-4 py-1 transition ease-in-out delay-75 hover:scale-110"
                 use:tooltipy={{
                     content: tag.nombre.replace(/_/g, " "),
                 }}
+                on:click={() => limpiarTag(i)}
             >
                 <img src={tag.icono} width={20} alt="icono" />
-                <button
-                    class="btn btn-xs btn-ghost text-xs text-white"
-                    on:click={() => limpiarTag(i)}
+                <span
+                    class="absolute top-0 right-1 text-white p-0 m-0 lowercase text-[10px]"
+                    >✕</span
                 >
-                    <span class="text-red-300">✕</span>
-                </button>
-            </div>
+            </button>
         {/each}
     </div>
 {/if}

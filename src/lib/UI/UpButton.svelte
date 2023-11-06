@@ -1,5 +1,4 @@
 <script lang="ts">
-
     import up from "/images/up.svg";
 
     const callback = (entries) => {
