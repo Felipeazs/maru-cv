@@ -1,7 +1,5 @@
 <script lang="ts">
-    // javascript code here
     import { createEventDispatcher } from "svelte";
-    import { fade } from "svelte/transition";
 
     import { tooltipy } from "./tooltip/tooltip";
     import { sorting_items } from "../../utils/utils";
@@ -32,10 +30,7 @@
     <div
         class="relative z-10 flex flex-col gap-[2.5rem] w-[90%] lg:w-[75%] m-auto xl:m-0 bg-crema top-16 py-[5%] px-[2%] lg:px-[10%]"
     >
-        <div
-            class="flex flex-col gap-2"
-            transition:fade={{ delay: 250, duration: 300 }}
-        >
+        <div class="flex flex-col gap-2">
             <div class="uppercase font-bold text-[1.5rem] leading-[2rem]">
                 {title}
             </div>
@@ -104,6 +99,24 @@
                                             </p>
                                         {/if}
                                     </div>
+                                    {#if item.social.length}
+                                        <p class="text-xs text-gray-400 py-1">
+                                            rr.ss:
+                                        </p>
+                                        {#each item?.social as social}
+                                            <a
+                                                href={social.link}
+                                                type="button"
+                                                class="btn btn-xs w-max"
+                                            >
+                                                <img
+                                                    src={social.icono}
+                                                    alt={social.nombre}
+                                                    width={15}
+                                                />
+                                            </a>
+                                        {/each}
+                                    {/if}
                                 </div>
                                 <div
                                     class={`${

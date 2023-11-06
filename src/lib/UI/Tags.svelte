@@ -1,5 +1,6 @@
 <script lang="ts">
-    // javascript code here
+    import { fade } from "svelte/transition";
+
     import { tooltipy } from "../UI/tooltip/tooltip";
 
     export let tags = [];
@@ -35,10 +36,12 @@
         <p class="w-max font-semibold text-black">tags:</p>
         {#each tags as tag, i}
             <button
-                class="relative w-max bg-black border-2 border-gray-300 rounded-md justify-center items-center px-4 py-1 transition ease-in-out delay-75 hover:scale-110"
+                class="relative w-max bg-black border-2 border-gray-300 rounded-md justify-center items-center px-4 py-1 transition ease-in-out delay-75 hover:scale-110 hover:text-red-500"
                 use:tooltipy={{
                     content: tag.nombre.replace(/_/g, " "),
+                    placement: "right",
                 }}
+                transition:fade={{ delay: 0, duration: 200 }}
                 on:click={() => limpiarTag(i)}
             >
                 <img src={tag.icono} width={20} alt="icono" />

@@ -68,9 +68,14 @@
                         />
                     </div>
                     <a
-                        use:tooltipy={{ content: "enlace linkedin" }}
-                        class="w-min"
-                        href="https://www.linkedin.com/in/memartinezv/">🔗</a
+                        use:tooltipy={{
+                            content: "enlace linkedin",
+                            theme: "light",
+                            placement: "bottom",
+                        }}
+                        class="w-full text-lg text-start"
+                        href="https://www.linkedin.com/in/memartinezv/"
+                        >memartinezv 🔗</a
                     >
                 </div>
             </div>

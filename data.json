@@ -1968,8 +1968,15 @@
     "empresas": [
         {
             "titulo": "Lazo SpA",
-            "cargo": "Socia cofundadora y Gerente General",
+            "cargo": "Socia cofundadora",
             "descripcion": "Consultora de Negocios Sustentables.\nLazo SpA es una empresa de derecho privado que nace el 2021 para promover negocios en línea con la sostenibilidad, y priorizando los Objetivos de Desarrollo Sostenible (ODS), y en particular los ODS 9 Industria, Innovación e Infraestructura; ODS 12 Producción y Consumo Responsable; ODS 11 Ciudades y Comunidades Sostenibles; ODS 13 Acción por el Clima, y ODS 17 Alianzas para lograr los objetivos. De igual manera, la empresa se compromete con fomentar en las empresas las políticas de sostenibilidad nacionales en favor del cumplimiento de las obligaciones adquiridas para el Acuerdo de París el 9 de abril del 2020 en su Contribución Determinada a Nivel Nacional",
+            "sociales": [
+                {
+                    "nombre": "linkedin",
+                    "link": "https://www.linkedin.com/company/lazo-consultora-de-negocios-sustentables/",
+                    "icono": ""
+                }
+            ],
             "tags": [
                 "negocios",
                 "sostenibilidad",
@@ -1980,6 +1987,13 @@
             "titulo": "Up Foods SpA ",
             "cargo": "Socia cofundadora",
             "descripcion": "spin off como empresa elaboradora de alimentos en base a bagazo de cerveza, con foco en producción sostenible en línea con la economía circular, con sede en el Maule,",
+            "sociales": [
+                {
+                    "nombre": "linkedin",
+                    "link": "https://www.linkedin.com/company/UpFoods/",
+                    "icono": ""
+                }
+            ],
             "tags": [
                 "economía_circular",
                 "valorización_de_recursos",
@@ -1988,8 +2002,9 @@
         },
         {
             "titulo": "ASB Innobiotics SpA",
-            "cargo": "Socia cofundadora y Gerente General",
+            "cargo": "Socia cofundadora",
             "descripcion": "Empresa de prototipaje on-demand para emprendimientos digitales.\n•\tDesarrollo de aplicaciones web (Java, Javascript)\n\n•\tServicios UX/UI y back end\n\n•\tReportabilidad de variables en plataforma web\n\n•\tDeployment de servidores en Amazon Web Service, Heroku y Vercel\n\n•\tManejo de bases de datos SQL y NoSQL (PgAdmin (Postgres), DBeaver, MySQl, Compass (MongoDB)\n\n•\tPrueba de prototipos en baja con Raspebrry Pi\n\nDirector Tecnológico – Felipe Zapata Soto. Java Full Stack developer (LinkedIn)",
+            "sociales": null,
             "tags": [
                 "economía_circular",
                 "valorización_de_recursos",
@@ -2000,6 +2015,13 @@
             "titulo": "Retrocicla SpA",
             "cargo": "Socia cofundadora",
             "descripcion": null,
+            "sociales": [
+                {
+                    "nombre": "linkedin",
+                    "link": "https://www.linkedin.com/company/retrocicla-spa/",
+                    "icono": ""
+                }
+            ],
             "tags": [
                 "economía_circular",
                 "textil",
