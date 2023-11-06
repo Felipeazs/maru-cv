@@ -134,8 +134,13 @@
                                     {/if}
                                 </div>
                             </div>
-                            <div class="py-1">
+                            <div class="flex flex-row gap-1 items-center py-1">
                                 {#if item.link || item.certificado}
+                                    <p class="text-xs text-gray-400">
+                                        {item.link
+                                            ? "publicación"
+                                            : "certificado"}:
+                                    </p>
                                     <a
                                         use:tooltipy={{
                                             content: item.link
@@ -144,7 +149,9 @@
                                         }}
                                         href={item.link || item.certificado}
                                         target="_blank"
-                                        id="link-ref">🔗</a
+                                        id="link-ref"
+                                    >
+                                        {item.link ? "📄" : "🔖"}</a
                                     >
                                 {/if}
                             </div>
@@ -166,7 +173,7 @@
                                                     src={tag.icono}
                                                     width={16}
                                                     height={"auto"}
-                                                    alt=""
+                                                    alt="tag"
                                                 />
                                                 <p>
                                                     {tag.nombre.replace(
