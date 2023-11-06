@@ -17,21 +17,19 @@
     $: foundItems = allItems($data);
 </script>
 
-<div>
-    {#if selection === "todos" && !tags.length && especialidad === "todas" && anio === 0}
-        <Perfil />
-    {/if}
-    {#each foundItems as items, i}
-        <DetallesWrapper
-            title={titulos[i]}
-            {anio}
-            {especialidad}
-            {tags}
-            bind:items
-            on:tag-click
-        />
-    {/each}
-</div>
+{#if selection === "todos" && !tags.length && especialidad === "todas" && anio === 0}
+    <Perfil />
+{/if}
+{#each foundItems as items, i}
+    <DetallesWrapper
+        title={titulos[i]}
+        {anio}
+        {especialidad}
+        {tags}
+        bind:items
+        on:tag-click
+    />
+{/each}
 
 <style>
 </style>
