@@ -148,7 +148,7 @@
                 "2022"
             ],
             "descripcion": "",
-            "especialidad": "educacion",
+            "especialidad": "educación",
             "tags": [
                 "vinculación_con_el_medio"
             ]
@@ -225,7 +225,7 @@
                 "2022"
             ],
             "descripcion": "",
-            "especialidad": "educacion",
+            "especialidad": "educación",
             "tags": [
                 "ciencias_biológicas"
             ]
@@ -239,7 +239,7 @@
                 "2007"
             ],
             "descripcion": "",
-            "especialidad": "ciencias_ingenieria",
+            "especialidad": "ciencias_de_la_ingeniería",
             "tags": [
                 "ingeniería"
             ]
@@ -552,7 +552,7 @@
             ],
             "institucion": "Pontificia Universidad Católica de Valparaíso, Chile.",
             "logo": "/images/pucv.png",
-            "especialidad": "ciencias_ingenieria",
+            "especialidad": "ciencias_de_la_ingeniería",
             "tags": [
                 "ingeniería",
                 "ciencias_biológicas"
@@ -585,7 +585,7 @@
             ],
             "institucion": "Pontificia Universidad Católica de Valparaíso, Chile.",
             "logo": "/images/pucv.png",
-            "especialidad": "ciencias_ingenieria",
+            "especialidad": "ciencias_de_la_ingeniería",
             "tags": [
                 "ingeniería",
                 "ciencias_biológicas"
@@ -635,7 +635,7 @@
             ],
             "institucion": "ENEB - Escuela de Negocios Europea de Barcelona Y Universidad I de Castilla, España.",
             "logo": "/images/eneb.png",
-            "especialidad": "dirección_empresas",
+            "especialidad": "dirección_de_empresas",
             "tags": [
                 "comunicación",
                 "dirección_de_empresas",
@@ -1043,7 +1043,7 @@
             ],
             "logo": "/images/ie.png",
             "certificado": "",
-            "especialidad": "ciencia_datos",
+            "especialidad": "ciencia_de_datos_/_TI",
             "tags": [
                 "data_science",
                 "machine_learning",
@@ -1153,7 +1153,7 @@
             ],
             "logo": "/images/dl.png",
             "certificado": null,
-            "especialidad": "ciencia_datos",
+            "especialidad": "ciencia_de_datos_/_TI",
             "tags": [
                 "inteligencia_artificial",
                 "marketing"
@@ -1168,7 +1168,7 @@
             ],
             "logo": "/images/dl.png",
             "certificado": null,
-            "especialidad": "ciencia_datos",
+            "especialidad": "ciencia_de_datos_/_TI",
             "tags": [
                 "machine_learning",
                 "inteligencia_artificial"
@@ -1367,7 +1367,7 @@
             ],
             "logo": "/images/pucv.png",
             "certificado": null,
-            "especialidad": "ciencia_datos",
+            "especialidad": "ciencia_de_datos_/_TI",
             "tags": [
                 "bioinformática",
                 "data_science"
@@ -1409,7 +1409,7 @@
                 "2021"
             ],
             "certificado": null,
-            "especialidad": "ciencia_datos",
+            "especialidad": "ciencia_de_datos_/_TI",
             "tags": [
                 "bioinformática",
                 "deep_learning",
@@ -1424,7 +1424,7 @@
                 "2023"
             ],
             "certificado": null,
-            "especialidad": "ciencia_datos",
+            "especialidad": "ciencia_de_datos_/_TI",
             "tags": [
                 "bioinformática",
                 "machine_learning",
@@ -1554,7 +1554,7 @@
             ],
             "logo": "/images/tal.png",
             "certificado": null,
-            "especialidad": "ciencia_datos",
+            "especialidad": "ciencia_de_datos_/_TI",
             "tags": [
                 "programación"
             ]
@@ -1596,7 +1596,7 @@
                 "2021"
             ],
             "certificado": null,
-            "especialidad": "ciencia_datos",
+            "especialidad": "ciencia_de_datos_/_TI",
             "tags": [
                 "programación",
                 "big_data",
@@ -1611,7 +1611,7 @@
                 "2021"
             ],
             "certificado": null,
-            "especialidad": "ciencias_ingenieria",
+            "especialidad": "ciencias_de_la_ingeniería",
             "tags": [
                 "estadística"
             ]
@@ -1624,7 +1624,7 @@
                 "2021"
             ],
             "certificado": null,
-            "especialidad": "ciencia_datos",
+            "especialidad": "ciencia_de_datos_/_TI",
             "tags": [
                 "estadística"
             ]
@@ -1730,7 +1730,7 @@
                 "2020"
             ],
             "certificado": null,
-            "especialidad": "ciencia_datos",
+            "especialidad": "ciencia_de_datos_/_TI",
             "tags": [
                 "programación"
             ]
@@ -1744,7 +1744,7 @@
             ],
             "logo": "/images/dl.png",
             "certificado": null,
-            "especialidad": "ciencia_datos",
+            "especialidad": "ciencia_de_datos_/_TI",
             "tags": [
                 "data_science"
             ]
@@ -1758,7 +1758,7 @@
             ],
             "logo": "/images/dl.png",
             "certificado": null,
-            "especialidad": "ciencia_datos",
+            "especialidad": "ciencia_de_datos_/_TI",
             "tags": [
                 "programación"
             ]
@@ -1808,7 +1808,7 @@
                 "2018"
             ],
             "certificado": null,
-            "especialidad": "ciencias_ingenieria",
+            "especialidad": "ciencias_de_la_ingeniería",
             "tags": [
                 "software",
                 "análisis_de_riesgos"
@@ -1918,7 +1918,7 @@
             ],
             "logo": "/images/inn.png",
             "certificado": null,
-            "especialidad": "ciencia_datos",
+            "especialidad": "ciencia_de_datos_/_TI",
             "tags": [
                 "software",
                 "big_data",

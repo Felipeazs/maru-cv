@@ -36,10 +36,13 @@
 
     const especialidades = [
         { value: "todas", opcion: "Todas" },
-        { value: "ciencias_ingenieria", opcion: "Ciencias de la ingeniería" },
-        { value: "ciencia_datos", opcion: "Ciencia de datos / TI" },
-        { value: "direccion_empresas", opcion: "Dirección de empresas" },
-        { value: "educacion", opcion: "Educación" },
+        {
+            value: "ciencias_de_la_ingeniería",
+            opcion: "Ciencias de la ingeniería",
+        },
+        { value: "ciencia_de_datos_/_TI", opcion: "Ciencia de datos / TI" },
+        { value: "dirección_de_empresas", opcion: "Dirección de empresas" },
+        { value: "educación", opcion: "Educación" },
         { value: "sostenibilidad", opcion: "Sostenibilidad" },
     ];
 
@@ -118,6 +121,3 @@
         </button>
     </div>
 </div>
-
-<style>
-</style>
