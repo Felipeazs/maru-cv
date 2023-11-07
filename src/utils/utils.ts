@@ -104,11 +104,9 @@ export const allItems = <T>(items: T) => {
     }
 
     all.forEach((items) => {
-        items.forEach((item) => {
+        items.forEach((item: any) => {
             item.iconos = []
             item.social = []
-
-            item.educacion?.split("|").join("\n")
 
             item.sociales?.forEach((social: { nombre: string }) => {
                 switch (social.nombre) {
@@ -118,7 +116,7 @@ export const allItems = <T>(items: T) => {
                 }
             })
 
-            item.tags?.sort((a, b) => a.localeCompare(b))
+            item.tags?.sort((a: string, b: string) => a.localeCompare(b))
             item.tags?.forEach((tag: string) => {
                 switch (tag) {
                     case 'ingeniería':

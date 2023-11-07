@@ -5,7 +5,7 @@
 
     export let tags = [];
 
-    $: window.addEventListener("scroll", (event) => {
+    $: window.addEventListener("scroll", () => {
         const section = document.getElementById("tags-section");
         if (section === null) return;
 

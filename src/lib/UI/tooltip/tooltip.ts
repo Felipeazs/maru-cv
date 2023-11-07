@@ -1,10 +1,10 @@
 import tippy from "tippy.js";
 
-export const tooltipy = (node, options) => {
+export const tooltipy = (node: any, options: any) => {
     const tooltip = tippy(node, options);
 
     return {
-        update(options) {
+        update(options: any) {
             //@ts-ignore
             tooltip.setProps(options);
         },

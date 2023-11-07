@@ -1,5 +1,6 @@
 <script lang="ts">
     import { createEventDispatcher } from "svelte";
+    import { fade } from "svelte/transition";
 
     import { tooltipy } from "./tooltip/tooltip";
     import { sorting_items } from "../../utils/utils";
@@ -71,6 +72,10 @@
                             {#if pdfItems.find((p) => p.id === item.id)}
                                 <span
                                     class="indicator-item badge badge-secondary"
+                                    transition:fade={{
+                                        delay:0,
+                                        duration: 100,
+                                    }}
                                 >
                                     <img src={check} alt="check" width={12} />
                                 </span>

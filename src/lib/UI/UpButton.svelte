@@ -1,7 +1,7 @@
 <script lang="ts">
     import up from "/images/up.svg";
 
-    const callback = (entries) => {
+    const callback = (entries: any) => {
         const section = document.getElementById("btn-section");
         if (section === null) return;
 
@@ -21,7 +21,7 @@
         threshold: 1.0,
     };
 
-    $: document.addEventListener("scroll", (event) => {
+    $: document.addEventListener("scroll", () => {
         let observer = new IntersectionObserver(callback, options);
         observer.observe(document.getElementById("selector-ref"));
     });
