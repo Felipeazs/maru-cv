@@ -3,7 +3,7 @@
 </script>
 
 <div id="pdf-source">
-    <h4 class="title">Formato de Curriculum Vitae</h4>
+    <h4 class="title">Formato de Curriculum Vitae CORFO</h4>
 
     <h4>II. Antecedentes académicos</h4>
     <table class="table table-fixed">
@@ -111,6 +111,7 @@
     }
     h4 {
         font-size: 14px;
+        font-weight: bold;
     }
     .title {
         padding: 20px;

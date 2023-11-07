@@ -73,7 +73,7 @@
                                 <span
                                     class="indicator-item badge badge-secondary"
                                     transition:fade={{
-                                        delay:0,
+                                        delay: 0,
                                         duration: 100,
                                     }}
                                 >
