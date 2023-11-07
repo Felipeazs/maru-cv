@@ -3,6 +3,7 @@
 
     import { tooltipy } from "./tooltip/tooltip";
     import { sorting_items } from "../../utils/utils";
+    import check from "/images/check.svg";
 
     const dispatch = createEventDispatcher();
 
@@ -11,6 +12,7 @@
     export let tags: { icono: string; nombre: string }[];
     export let items: any[] = [];
     export let title: string;
+    export let pdfItems = [];
 
     let filteredItems = [];
     $: items = sorting_items(items, anio, especialidad);
@@ -24,6 +26,17 @@
     } else {
         filteredItems = items;
     }
+
+    const badgeHandler = (item: any) => {
+        if (pdfItems.some((p) => p.id === item.id)) {
+            pdfItems = pdfItems.filter((p) => p.id !== item.id);
+            return;
+        }
+
+        if (item.educacion || item.proyecto || item.empresa) {
+            pdfItems = [...pdfItems, item];
+        }
+    };
 </script>
 
 {#if filteredItems.length > 0}
@@ -38,7 +51,7 @@
                 <div class="divider-2 opacity-60" />
             </div>
             <div class="flex flex-col gap-8 pt-10">
-                {#each filteredItems as item, i}
+                {#each filteredItems as item, i (item.id)}
                     <div
                         class="relative flex flex-col md:flex-row gap-5 md:gap-10 items-start"
                     >
@@ -47,9 +60,21 @@
                                 class="absolute hidden md:inline-block z-0 top-10 left-[5%] bg-[rgba(13,60,85,0.1)] h-full pl-[3px]"
                             />
                         {/if}
-                        <div
-                            class="z-10 bg-[#fff] text-md text-black font-bold rounded-lg"
+                        <button
+                            class={item.educacion ||
+                            item.proyecto ||
+                            item.empresa
+                                ? "indicator z-10 bg-[#fff] text-md text-black font-bold rounded-lg hover:bg-[rgba(13,60,85,0.8)] hover:text-white hover:cursor-pointer"
+                                : "z-10 bg-[#fff] text-md text-black font-bold rounded-lg hover:cursor-auto"}
+                            on:click={() => badgeHandler(item)}
                         >
+                            {#if pdfItems.find((p) => p.id === item.id)}
+                                <span
+                                    class="indicator-item badge badge-secondary"
+                                >
+                                    <img src={check} alt="check" width={12} />
+                                </span>
+                            {/if}
                             <div
                                 class="flex md:flex-col justify-center items-center min-w-[105px] md:min-h-[50px] p-1 border-2 border-[rgba(13,60,85,0.8)] rounded-lg"
                             >
@@ -61,7 +86,7 @@
                                     {i + 1}
                                 {/if}
                             </div>
-                        </div>
+                        </button>
                         <div class="w-full">
                             <div
                                 class={`${
@@ -76,7 +101,9 @@
                                     }`}
                                 >
                                     <p class="py-1">
-                                        {item.titulo.split("|").join("\n") ??
+                                        {item.titulo?.split("|").join("\n") ??
+                                            item.proyecto ??
+                                            item.educacion ??
                                             ""}
                                     </p>
                                     <p class="text-sm text-slate-500 italic">

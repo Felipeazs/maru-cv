@@ -10,6 +10,7 @@
     export let anio: number;
     export let especialidad: string;
     export let tags: { icono: string; nombre: string }[];
+    export let pdfItems = [];
 
     let foundItems = [];
     let titulos = [];
@@ -27,6 +28,7 @@
         {especialidad}
         {tags}
         bind:items
+        bind:pdfItems
         on:tag-click
     />
 {/each}

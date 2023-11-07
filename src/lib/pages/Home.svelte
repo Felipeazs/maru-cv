@@ -14,10 +14,12 @@
     let especialidad: string = "todas";
     let tags: { icono: string; nombre: string }[] = [];
     let items = [];
+    let pdfItems = [];
 
     import data from "../cv-store";
     import Tags from "../UI/Tags.svelte";
     import Sidebar from "../UI/Sidebar.svelte";
+    import PreviewPdf from "../UI/PreviewPDF.svelte";
 
     $: selectedItems = $data[selection];
     $: title = transform_title(selection);
@@ -37,7 +39,7 @@
 
 <main>
     <Hero />
-    <Sidebar />
+    <Sidebar bind:pdfItems />
     <Selector bind:selection bind:anio bind:especialidad />
     <div
         class="relative w-[95%] m-auto h-full pt-[300px] mb-32 md:pt-[200px] xl:pt-[100px] lg:-ml-20 xl:ml-20"
@@ -50,6 +52,7 @@
                 bind:especialidad
                 bind:items
                 bind:tags
+                bind:pdfItems
                 on:tag-click={tagHandler}
             />
         {:else if selection === "perfil"}
@@ -60,6 +63,7 @@
                 bind:especialidad
                 bind:selection
                 bind:tags
+                bind:pdfItems
                 on:tag-click={tagHandler}
             />
         {/if}

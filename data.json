@@ -1,6 +1,7 @@
 {
     "experiencias": [
         {
+            "id": 1,
             "titulo": "Gerente técnico-comercial y líder de proyectos en EC y cambio climático.",
             "empresa": "Consultora Técnica Sustrend SpA",
             "fecha": [
@@ -15,6 +16,7 @@
             ]
         },
         {
+            "id": 2,
             "titulo": "Gerente general",
             "empresa": "Consultora Técnica Sustrend SpA",
             "fecha": [
@@ -30,6 +32,7 @@
             ]
         },
         {
+            "id": 3,
             "titulo": "Investigadora senior / Área de sostenibilidad industrial",
             "empresa": "Centro de Biotecnología de Sistemas, Univerdidad Nacional Andrés Bello (CSB-UNAB)",
             "fecha": [
@@ -44,6 +47,7 @@
             ]
         },
         {
+            "id": 4,
             "titulo": "Investigadora senior / Área de Agroalimentos e Ingredientes",
             "empresa": "Fraunhofer Chile Research, Centro de Biotecnología de Sistemas FCR-CSB",
             "fecha": [
@@ -59,6 +63,7 @@
             ]
         },
         {
+            "id": 5,
             "titulo": "Socia fundadora",
             "empresa": "Consultora de Negocios Sustentables Lazo SpA",
             "fecha": [
@@ -75,6 +80,7 @@
             ]
         },
         {
+            "id": 6,
             "titulo": "Profesional educación ambiental",
             "empresa": "Departamento de Medio Ambiente de la Ilustre Municipalidad de Quintero",
             "fecha": [
@@ -90,6 +96,7 @@
             ]
         },
         {
+            "id": 7,
             "titulo": "Asistente de investigación",
             "empresa": "Centro Regional de Estudios en Alimentos Saludables, Pontificia Universidad Católica de Valparaíso",
             "fecha": [
@@ -104,6 +111,7 @@
             ]
         },
         {
+            "id": 8,
             "titulo": "Profesional freelance proyectos de ingeniería",
             "empresa": "Núcleo Biotecnología de Curauma, Pontificia Universidad Católica de Valparaíso",
             "fecha": [
@@ -116,6 +124,7 @@
             ]
         },
         {
+            "id": 9,
             "titulo": "Profesional servicios de ingeniería",
             "empresa": "Lazo SpA",
             "fecha": [
@@ -132,6 +141,7 @@
             ]
         },
         {
+            "id": 10,
             "titulo": "Coordinadora programas formativos",
             "empresa": "Núcleo Biotecnología de Curauma, Pontificia Universidad Católica de Valparaíso",
             "fecha": [
@@ -144,6 +154,7 @@
             ]
         },
         {
+            "id": 11,
             "titulo": "Socia fundadora y CSO",
             "empresa": "AGS Innobiotics SpA",
             "fecha": [
@@ -164,6 +175,7 @@
             ]
         },
         {
+            "id": 12,
             "titulo": "Socia fundadora y CSO",
             "empresa": "Up Foods",
             "fecha": [
@@ -184,6 +196,7 @@
             ]
         },
         {
+            "id": 13,
             "titulo": "Socia fundadora y CSO",
             "empresa": "Retrocicla",
             "fecha": [
@@ -204,6 +217,7 @@
             ]
         },
         {
+            "id": 14,
             "titulo": "Asistente de laboratorio de la cátedra LABORATORIO DE BIOPROCESOS de la Escuela de Ingeniería Bioquímica para la carrera de Ingeniería Civil Bioquímica y para el postgrado Magíster en Ciencias de la Ingeniería.",
             "empresa": "Pontificia Universidad Católica de Valparaíso",
             "fecha": [
@@ -217,6 +231,7 @@
             ]
         },
         {
+            "id": 15,
             "titulo": "Práctica profesional (3 meses) y Asistente en el Departamento de Calidad, Grupo Alimentos. ",
             "empresa": "Laboratorios Silob",
             "fecha": [
@@ -232,7 +247,8 @@
     ],
     "proyectos": [
         {
-            "titulo": "TT Green Foods: transformación tecnológica, adaptación y transformación productiva ante el cambio climático",
+            "id": 16,
+            "proyecto": "TT Green Foods: transformación tecnológica, adaptación y transformación productiva ante el cambio climático",
             "cargo": "Responsable técnica para el levantamiento de indicadores de desempeño ambiental y circularidad en el proyecto CORFO",
             "institucion": "Consultora Técnica Sustrend SpA",
             "fecha": [
@@ -248,7 +264,8 @@
             ]
         },
         {
-            "titulo": "FONDEF ID22I10292 “Aplicación de una tecnología enzimática para la recuperación de biomoléculas de alto potencial comercial a partir del aprovechamiento integral del bagazo cervecero”",
+            "id": 17,
+            "proyecto": "FONDEF ID22I10292 “Aplicación de una tecnología enzimática para la recuperación de biomoléculas de alto potencial comercial a partir del aprovechamiento integral del bagazo cervecero”",
             "cargo": "Empresa asociada  - Directorio",
             "institucion": "Lazo SpA",
             "fecha": [
@@ -263,7 +280,8 @@
             ]
         },
         {
-            "titulo": "Innova región código 23IR-246428 “Escalamiento y validación de una hamburguesa vegana como alternativa a la valorización del bagazo de cerveza para el fortalecimiento de la economía regional sustentable” ",
+            "id": 18,
+            "proyecto": "Innova región código 23IR-246428 “Escalamiento y validación de una hamburguesa vegana como alternativa a la valorización del bagazo de cerveza para el fortalecimiento de la economía regional sustentable” ",
             "cargo": "Contraparte Cervecería Anfiteatro",
             "institucion": "Lazo SpA",
             "fecha": [
@@ -278,7 +296,8 @@
             ]
         },
         {
-            "titulo": "Proyecto de Innovación Social de Corfo Maule Código 19 IS-111148 “Desafío Circular Maule”",
+            "id": 19,
+            "proyecto": "Proyecto de Innovación Social de Corfo Maule Código 19 IS-111148 “Desafío Circular Maule”",
             "cargo": "Coordinadora Técnica 3era etapa. Profesional contratado por Ingenativa SpA",
             "institucion": "Profesional independiente",
             "fecha": [
@@ -292,7 +311,8 @@
             ]
         },
         {
-            "titulo": "Proyecto de Intercambio de expertos UE-Cuba para la promoción de las fuentes renovables de energía y la eficiencia energética en Cuba (Desarrollado por FIIAPP). Elaboración informe “ESTADO ACTUAL DE LAS TECNOLOGÍAS DE REACTORES ANAEROBIOS DE ALTA EFICIENCIA PARA LA PRODUCCIÓN DE BIOGÁS A NIVEL INDUSTRIAL”",
+            "id": 20,
+            "proyecto": "Proyecto de Intercambio de expertos UE-Cuba para la promoción de las fuentes renovables de energía y la eficiencia energética en Cuba (Desarrollado por FIIAPP). Elaboración informe “ESTADO ACTUAL DE LAS TECNOLOGÍAS DE REACTORES ANAEROBIOS DE ALTA EFICIENCIA PARA LA PRODUCCIÓN DE BIOGÁS A NIVEL INDUSTRIAL”",
             "cargo": "Profesional experto contratado por EURECAT",
             "institucion": "Profesional independiente",
             "fecha": [
@@ -304,7 +324,8 @@
             ]
         },
         {
-            "titulo": "Bagán! Semilla Inicia 22INI2-238658 de la Gerencia de Emprendimiento de CORFO.",
+            "id": 21,
+            "proyecto": "Bagán! Semilla Inicia 22INI2-238658 de la Gerencia de Emprendimiento de CORFO.",
             "cargo": "Representante y líder de proyecto",
             "institucion": "Up Foods",
             "fecha": [
@@ -319,7 +340,8 @@
             ]
         },
         {
-            "titulo": "Súmate a Innovar “Desarrollo de una línea de productos innovadores congelados como alternativa de valorización del bagazo de cerveza” código 21SN2-200648.",
+            "id": 22,
+            "proyecto": "Súmate a Innovar “Desarrollo de una línea de productos innovadores congelados como alternativa de valorización del bagazo de cerveza” código 21SN2-200648.",
             "cargo": "Contraparte Cervecería Anfiteatro",
             "institucion": "Lazo SpA",
             "fecha": [
@@ -334,7 +356,8 @@
             ]
         },
         {
-            "titulo": "Desarrollo herramienta digital para simbiosis industrial en la agroindustria ",
+            "id": 23,
+            "proyecto": "Desarrollo herramienta digital para simbiosis industrial en la agroindustria ",
             "cargo": "Representante y líder de proyecto",
             "institucion": "AgroSimBiótica",
             "fecha": [
@@ -350,7 +373,8 @@
             ]
         },
         {
-            "titulo": "Corfo 20CV-140127 “Ingrediente de alta biodisponibilidad a base de arándano, topinambur, y miel para nutraceúticos”. Arantruf Ltda.  Duración del proyecto 2020-2021",
+            "id": 24,
+            "proyecto": "Corfo 20CV-140127 “Ingrediente de alta biodisponibilidad a base de arándano, topinambur, y miel para nutraceúticos”. Arantruf Ltda.  Duración del proyecto 2020-2021",
             "cargo": "Responsable del análisis tecno-económico.",
             "institucion": "Fraunhofer Chile Research",
             "fecha": [
@@ -367,7 +391,8 @@
             ]
         },
         {
-            "titulo": "Corfo 19SN-123426 “Caracterización y valorización del ajo negro chilote como base para llegar al mercado internacional“. Agrícola Patricio Varas EIRL. 2017-2021.",
+            "id": 25,
+            "proyecto": "Corfo 19SN-123426 “Caracterización y valorización del ajo negro chilote como base para llegar al mercado internacional“. Agrícola Patricio Varas EIRL. 2017-2021.",
             "cargo": "Responsable del análisis tecno-económico.",
             "institucion": "Fraunhofer Chile Research",
             "fecha": [
@@ -384,7 +409,8 @@
             ]
         },
         {
-            "titulo": "Corfo-18COTE-89580 “Valorización de nueces chilenas no exportables mediante el desarrollo de una pasta con antioxidantes microencapsulados del pelón y/o hojas del nogal”.  Duración del proyecto 2018-2019.",
+            "id": 26,
+            "proyecto": "Corfo-18COTE-89580 “Valorización de nueces chilenas no exportables mediante el desarrollo de una pasta con antioxidantes microencapsulados del pelón y/o hojas del nogal”.  Duración del proyecto 2018-2019.",
             "cargo": "Responsable del análisis tecnoeconómico y de mercado.",
             "institucion": "Fraunhofer Chile Research",
             "fecha": [
@@ -401,7 +427,8 @@
             ]
         },
         {
-            "titulo": "ELAC2015/T03-0663 “BIOCODE: Towards a novel and sustainable biorefinery concept based on green technologies for main commercial grain crop residues”. Financiadora Conicyt.",
+            "id": 27,
+            "proyecto": "ELAC2015/T03-0663 “BIOCODE: Towards a novel and sustainable biorefinery concept based on green technologies for main commercial grain crop residues”. Financiadora Conicyt.",
             "cargo": "Participación en el desarrollo del paquete de trabajo que involucró análisis tecno-económico y de análisis de ciclo de vida.",
             "institucion": "Fraunhofer Chile Research",
             "fecha": [
@@ -419,7 +446,8 @@
             ]
         },
         {
-            "titulo": "Corfo-15CONTEC-48011 Valorización del orujo de uva para el desarrollo de ingredientes de alto valor para la formulación de alimentos saludables. Duración del proyecto 2016-2017.",
+            "id": 28,
+            "proyecto": "Corfo-15CONTEC-48011 Valorización del orujo de uva para el desarrollo de ingredientes de alto valor para la formulación de alimentos saludables. Duración del proyecto 2016-2017.",
             "cargo": "Responsable del análisis tecnoeconómico y de mercado. ",
             "institucion": "Fraunhofer Chile Research",
             "fecha": [
@@ -436,7 +464,8 @@
             ]
         },
         {
-            "titulo": "ELAC2014/BES-0171 project “SCREAM Screening marine microalgae and terrestrial bacteria; in search of novel compounds of potential medicinal and other industrial values”. Financiadora Fraunhofer-Gesellschaft.  Duración desde el 1 de mayo de 2016 al 30 de abril de 2019.",
+            "id": 29,
+            "proyecto": "ELAC2014/BES-0171 project “SCREAM Screening marine microalgae and terrestrial bacteria; in search of novel compounds of potential medicinal and other industrial values”. Financiadora Fraunhofer-Gesellschaft.  Duración desde el 1 de mayo de 2016 al 30 de abril de 2019.",
             "cargo": "Participación en el desarrollo del paquete de trabajo que involucró caracterización bioquímica y bioactividad de los extractos, además de ser responsable del análisis tecnoeconómico y de mercado.",
             "institucion": "Fraunhofer Chile Research",
             "fecha": [
@@ -455,7 +484,8 @@
             ]
         },
         {
-            "titulo": "FP7 project 613513 “DISCO: From DISCOvery to products: A next generation pipeline for the sustainable generation of high-value plant products”.  Duración desde el 01-12-2013 al 30-11-2015. http://www.disco-fp7.eu/",
+            "id": 30,
+            "proyecto": "FP7 project 613513 “DISCO: From DISCOvery to products: A next generation pipeline for the sustainable generation of high-value plant products”.  Duración desde el 01-12-2013 al 30-11-2015. http://www.disco-fp7.eu/",
             "cargo": "Responsable del paquete de trabajo de revalorización de residuos mediante digestión anaerobia, además de ser responsable del análisis tecnoeconómico y de mercado.",
             "institucion": "Fraunhofer Chile Research",
             "fecha": [
@@ -474,7 +504,8 @@
             ]
         },
         {
-            "titulo": "Tesis de magíster y doctorado en el marco del Proyecto #09CEII-6991 CORFO",
+            "id": 31,
+            "proyecto": "Tesis de magíster y doctorado en el marco del Proyecto #09CEII-6991 CORFO",
             "cargo": "Desarrollo de investigación con foco en biorefinería para la revalorización de residuos. Foco en producción de biogás desde residuos lignocelulósicos derivados de actividades agrícolas y municipales.",
             "institucion": "Fraunhofer Chile Research",
             "fecha": [
@@ -492,7 +523,8 @@
             ]
         },
         {
-            "titulo": "FONDEF D07I1045 \"Desarrollo de un proceso biotecnológico para la revalorización de descartes de la industria de procesamiento de berries\". Financiadora Conicyt. ",
+            "id": 32,
+            "proyecto": "FONDEF D07I1045 \"Desarrollo de un proceso biotecnológico para la revalorización de descartes de la industria de procesamiento de berries\". Financiadora Conicyt. ",
             "cargo": "Participación en la caracterización bioquímica y bioactividad de los extractos. ",
             "institucion": "Centro Regional de Estudios Saludables - CREAS",
             "fecha": [
@@ -511,7 +543,8 @@
     ],
     "educacion": [
         {
-            "titulo": "Doctorado (c) en Ciencias de la Ingeniería con mención en Ingeniería Bioquímica",
+            "id": 33,
+            "educacion": "Doctorado (c) en Ciencias de la Ingeniería con mención en Ingeniería Bioquímica",
             "descripcion": "“Establecimiento de un cultivo en suspensión de células de T. officinale para la producción de α-amirina y lupeol. Pontificia institucion Católica de Valparaíso, Chile. Examen de titulación pendiente.”",
             "fecha": [
                 "2017",
@@ -526,7 +559,8 @@
             ]
         },
         {
-            "titulo": "Magíster en Ciencias de la Ingeniería con mención en Ingeniería Bioquímica",
+            "id": 34,
+            "educacion": "Magíster en Ciencias de la Ingeniería con mención en Ingeniería Bioquímica",
             "descripcion": "“Evaluación del cultivo de diente de león común (Taraxacum officinale) para la extracción de látex e inulina desde sus raíces y revalorización de sus residuos.” [Nota de aprobación 6.0 mención Cum laude].”",
             "fecha": [
                 "2012",
@@ -542,7 +576,8 @@
             ]
         },
         {
-            "titulo": "Ingeniero Civil Bioquímico",
+            "id": 35,
+            "educacion": "Ingeniero Civil Bioquímico",
             "descripcion": "“Estudio de la cinética de degradación de lodos provenientes de una planta de tratamiento de aguas residuales urbanas y evaluación de un sistema de pre-hidrólisis térmica de lodo biológico.” [Nota de aprobación 7.0].”",
             "fecha": [
                 "2010",
@@ -557,7 +592,8 @@
             ]
         },
         {
-            "titulo": "Doctorado (c) en proyectos con mención en medio ambiente",
+            "id": 36,
+            "educacion": "Doctorado (c) en proyectos con mención en medio ambiente",
             "descripcion": "“Creación de un modelo computacional utilizando una base de datos construida a partir de información proveniente del sector frutícola, con el cual se permita cuantificar su impacto en términos sociales, ambientales y económicos, con el fin de promover la circularidad del sector.”",
             "fecha": [
                 "2023",
@@ -572,7 +608,8 @@
             ]
         },
         {
-            "titulo": "Magíster en Mecanismo de Desarrollo Limpio y Eficiencia Energética.",
+            "id": 37,
+            "educacion": "Magíster en Mecanismo de Desarrollo Limpio y Eficiencia Energética.",
             "descripcion": "“Diseño de un modelo de simbiosis industrial como herramienta para promover acciones de mitigación y adaptación al cambio climático desde el sector agroindustrial”",
             "fecha": [
                 "2023",
@@ -589,7 +626,8 @@
             ]
         },
         {
-            "titulo": "Master en Comunicación Empresarial y Corporativa • Master en Big Data y Business Intelligence • Master en dirección Comercial y Marketing • Master en Innovación y Emprendimiento • Master en Marketing Digital y eCommerce • MBA en Administración y Dirección de Empresas",
+            "id": 38,
+            "educacion": "Master en Comunicación Empresarial y Corporativa • Master en Big Data y Business Intelligence • Master en dirección Comercial y Marketing • Master en Innovación y Emprendimiento • Master en Marketing Digital y eCommerce • MBA en Administración y Dirección de Empresas",
             "descripcion": "",
             "fecha": [
                 "2023",
@@ -611,6 +649,7 @@
     ],
     "publicaciones": [
         {
+            "id": 39,
             "titulo": "Revisora revista Waste Management con foco en artículos de sostenibilidad, valorización de residuos, biorefinería y análisis técnico económico de procesos industriales",
             "fecha": [
                 "2023"
@@ -625,6 +664,7 @@
             "link": null
         },
         {
+            "id": 40,
             "titulo": "Martínez, M.E.; Jorquera, L.; Poirrier, P.; Díaz, K.; Chamy, R. Effect of Inoculum Size and Age, and Sucrose Concentration on Cell Growth to Promote Metabolites Production in Cultured Taraxacum officinale (Weber) Cells. Plants 2023, 12, 1116. ",
             "fecha": [
                 "2023"
@@ -637,6 +677,7 @@
             ]
         },
         {
+            "id": 41,
             "titulo": "Martínez, M.; Rodríguez, A.; Gea, T.; Font, X. A Simplified Techno-Economic Analysis for Sophorolipid Production in a Solid-State Fermentation Process. Energies 2022, 15, 4077. ",
             "fecha": [
                 "2022"
@@ -648,6 +689,7 @@
             ]
         },
         {
+            "id": 42,
             "titulo": "Martínez, M.E.; Jorquera, L.; Poirrier, P.; Díaz, K.; Chamy, R. Assessment of Plant Growth Regulators and Carbon Sources on the Germination and Growth Process of Dandelion (Taraxacum officinale G.H. Weber ex Wiggers) under In Vitro Conditions. Horticulturae 2021, 7, 486. ",
             "fecha": [
                 "2021"
@@ -660,6 +702,7 @@
             ]
         },
         {
+            "id": 43,
             "titulo": "María Martinez; Lorena Jorquera; Paola Poirrier; Katy Díaz; Rolando Chamy. Effect of the Carbon Source and Plant Growth Regulators (PGRs) in the Induction and Maintenance of an In Vitro Callus Culture of Taraxacum officinale (L) Weber Ex F.H. Wigg. Agronomy 2021, 11, 1181. ",
             "fecha": [
                 "2021"
@@ -672,6 +715,7 @@
             ]
         },
         {
+            "id": 44,
             "titulo": "María Martínez, Carlos Ramos, Paola Poirrier, Rolando Chamy. 2020. Influence of substrate concentration and bicarbonate addition on the anaerobic digestion of an inulin-rich substrate as the ending stage in a dandelion biorefinery scheme. Process Biochemistry. Process Biochemistry. Vol 98,  211-216",
             "fecha": [
                 "2020"
@@ -683,6 +727,7 @@
             ]
         },
         {
+            "id": 45,
             "titulo": "Valorization of Tomato Waste for Energy Production. María E. Martínez Valenzuela; Franko Restović. In Tomato chemistry, Industrial Processing and Product Development, pp. 247-258. Food Chemistry, Function and Analysis Series. The Royal Society of Chemistry. United Kingdom. 2019. doi: 10.1039/9781788016247-00245. ISBN: 978-1-78801-396-3",
             "fecha": [
                 "2019"
@@ -693,6 +738,7 @@
             ]
         },
         {
+            "id": 46,
             "titulo": "María Eugenia Martínez, Paola Poirrier, Dirk Prüfer, Christian Schulze, Gronover, Lorena Jorquera, Perla Ferrer, Katy Díaz, Rolando Chamy. 2018. Kinetics and Modelling of cell growth for potential anthocyanin induction in cultures of Taraxacum officinale G.H. Weber ex Wiggers (Dandelion) in vitro. Electronic Journal of Biotechnology. Vol 36, 15-23. doi:10.1016/j.ejbt.2018.08.006",
             "fecha": [
                 "2018"
@@ -705,6 +751,7 @@
             ]
         },
         {
+            "id": 47,
             "titulo": "Marilise Nogueira, Eugenia M. A. Enfissi, Maria E. Martínez Valenzuela, Guillaume N. Menard, Richard L. Driller, Peter J. Eastmond, Wolfgang Schuch, Gerhard Sandmann, and Paul D. Fraser. 2017, 'Engineering of tomato for the sustainable production of ketocarotenoids and its evaluation in aquaculture feed'. Proceedings of the National Academy of Sciences of the United States of America. Vol 114 (41), 10876–10881. doi: 10.1073/pnas.1708349114",
             "fecha": [
                 "2017"
@@ -715,6 +762,7 @@
             ]
         },
         {
+            "id": 48,
             "titulo": "Martinez, M., Driller, L., Chamy, R., Schuch, W., Nogueira, M., Fraser, P. 2017. Biogas potential of residues generated by the tomato processing industry under different substrate and inoculum conditions. Acta Horticulturae 1159, 151-158. doi: 10.17660/ActaHortic.2017.1159.23",
             "fecha": [
                 "2017"
@@ -722,6 +770,7 @@
             "link": "https://www.ishs.org/ishs-article/1159_23"
         },
         {
+            "id": 49,
             "titulo": "Taraxacum Genus: A Review of Its Potential Antibacterial and Antifungal Activity. María E. Martínez Valenzuela; Lorena Jorquera Martínez; Katy Díaz Peralta; Rolando Chamy Maggi. In Herbal Medicine. INTECHOPEN. 2019. doi: 10.5772/intechopen.69412. ISBN: 978-1-78984-783-3",
             "fecha": [
                 "2019"
@@ -734,6 +783,7 @@
             ]
         },
         {
+            "id": 50,
             "titulo": "Taraxacum Genus: Extract Experimental Approaches. María E. Martínez Valenzuela; Katy Díaz Peralta; Lorena Jorquera Martínez; Rolando Chamy Maggi. In Herbal Medicine. INTECHOPEN. 2018. doi: 10.5772/intechopen.72849. ISBN: 978-1-78984-783-3",
             "fecha": [
                 "2018"
@@ -746,6 +796,7 @@
             ]
         },
         {
+            "id": 51,
             "titulo": "Martínez, M.; Poirrier, P.; Chamy, R.; Prüfer, D.; Schulze-Gronover, C.; Jorquera, L.; Ruiz, G. 2015. Taraxacum officinale and related species-An ethnopharmacological review and its potential as a commercial medicinal plant. J Ethnopharmacol. Vol 169, 244-262. doi: 10.1016/j.jep.2015.03.067",
             "fecha": [
                 "2015"
@@ -758,6 +809,7 @@
             ]
         },
         {
+            "id": 52,
             "titulo": "Cerda, A.; Martínez, M.; Soto, C.; Poirrier, P.; Pérez-Correa, J.; Vergara-Salinas, J.; Zúñiga, M. 2013. The enhancement of antioxidant compounds extracted from Thymus vulgaris using enzymes and the effect of extracting solvent. Food Chemistry. Vol 139, 138-143. doi: 10.1016/j.foodchem.2012.12.044",
             "fecha": [
                 "2012"
@@ -765,6 +817,7 @@
             "link": "https://www.sciencedirect.com/science/article/abs/pii/S0308814613000137"
         },
         {
+            "id": 53,
             "titulo": "Cerda, A.; Martínez, M.; Soto, C.; Zúñiga, M.; Poirrier, P. 2013. Methanisation of spent maqui berry pomace via enzymatic treatment. Renewable Energy. Vol 87, 326–331. doi.org/10.1016/j.renene.2015.10.027",
             "fecha": [
                 "2015"
@@ -772,6 +825,7 @@
             "link": "https://www.sciencedirect.com/science/article/abs/pii/S0960148115303803"
         },
         {
+            "id": 54,
             "titulo": "Presentación en el Proceedings book of International Conference “Plant Nutrition, Growth & Environment Interactions III con el trabajo titulado “Taraxacum officinale seed germination under in vitro conditions” Viena, Austria.",
             "fecha": [
                 "2017"
@@ -784,6 +838,7 @@
             ]
         },
         {
+            "id": 55,
             "titulo": "Presentación Plant Molecular Physiology con el trabajo titulado “Anthocyanin induction from Taraxacum officinale callus”. Viena, Austria.",
             "fecha": [
                 "2017"
@@ -796,6 +851,7 @@
             ]
         },
         {
+            "id": 56,
             "titulo": "Presentación en el Proceedings book of Plant Cells in vitro: Theory and Practice con el trabajo titulado “Adaptation of a callus culture of T. officinale - high PGR concentrations. Viena, Austria.",
             "fecha": [
                 "2016"
@@ -808,6 +864,7 @@
             ]
         },
         {
+            "id": 57,
             "titulo": "Presentación en el 5th Global Nephrologists Annual Meeting con el trabajo titulado “Taraxacum officinale as a bioactive source with antimicrobial properties useful for urinary tract infections. Valencia, España. ",
             "fecha": [
                 "2016"
@@ -820,6 +877,7 @@
             ]
         },
         {
+            "id": 58,
             "titulo": "Presentación en el Proceedings book of 2016 World Congress on In Vitro Biology con el trabajo titulado \"Development of dandelion weed as a platform for triterpenes production\".  San Diego, California, USA.",
             "fecha": [
                 "2016"
@@ -834,6 +892,7 @@
     ],
     "presentaciones": [
         {
+            "id": 59,
             "titulo": " “FROM LAB TO MARKET. Retos en el escalado y comercialización de la fermentación en estado sólido”, VII edición de las Jornadas de la Red Española de Compostaje.",
             "fecha": [
                 "10·01·2022"
@@ -844,6 +903,7 @@
             ]
         },
         {
+            "id": 60,
             "titulo": " LCAFood2020 con el trabajo titulado “Life Cycle Analysis of a demonstrative Solar-Urban Agriculture Pilot for lettuce production in a mid-income area of Central Chile”. Berlín, Alemania.",
             "fecha": [
                 "10·01·2020"
@@ -853,6 +913,7 @@
             ]
         },
         {
+            "id": 61,
             "titulo": "Presentación en 3rd International Society of Industrial Ecology Americas Conference - ISIE Americas 2020 con el trabajo titulado “Solar Urban Agriculture - A case study for Santiago” Organizado por la International Society of Industrial Ecology (ISIE), Lima, Perú.",
             "fecha": [
                 "07·01·2020"
@@ -862,6 +923,7 @@
             ]
         },
         {
+            "id": 62,
             "titulo": "Presentación en IWA Conference on Algal Technologies and Stabilization Ponds for Wastewater Treatment and Resource Recovery con el trabajo titulado “Biorefinery of Chlorella protothecoides focused on lutein recovery”. Organizado por la Universidad de Valladolid y el International Water Association (IWA). Valladolid, España. ",
             "fecha": [
                 "07·01·2019"
@@ -872,6 +934,7 @@
             ]
         },
         {
+            "id": 63,
             "titulo": "Presentación en el 5th Latin American Congress on Biorefineries con el trabajo titulado “BIOCODE: Towards a novel and sustainable biorefinery concept based on green technologies for main commercial grain crop residues”. Organizado por la Unidad de Desarrollo Tecnológico de la Universidad de Concepción (UDT-UC) y el Centro de Biotecnología de la Universidad de Concepción. Concepción, Chile.",
             "fecha": [
                 "01·01·2019"
@@ -882,6 +945,7 @@
             ]
         },
         {
+            "id": 64,
             "titulo": "Presentación en el 12th World Processing Tomato Congress and the 14th ISHS Symposium on the Processing Tomato con el trabajo titulado “Biogas productivity potential of agro-industrial biomasses, generated by the tomato processing industry”, Santiago, Chile.",
             "fecha": [
                 "03·01·2016"
@@ -892,6 +956,7 @@
             ]
         },
         {
+            "id": 65,
             "titulo": "Presentación en el 14th World Congress on Anaerobic Digestion con el trabajo titulado “Biogas potential of residues generated by the tomato processing industry under different substrate and inoculum conditions\". Viña del Mar, Chile",
             "fecha": [
                 "11·01·2015"
@@ -902,6 +967,7 @@
             ]
         },
         {
+            "id": 66,
             "titulo": "Presentación en el 3er Iberoamerican Biorefinery Congress (CIAB), 4to Latinoamerican Congress on Biorefineries and in the 2nd International Symposium of Lignocellulosic Materials con el trabajo titulado \"Impact of Organizado por la Unidad de Desarrollo Tecnológico de la Universidad de Concepción (UDT-UC). Concepción, Chile.",
             "fecha": [
                 "11·01·2015"
@@ -912,6 +978,7 @@
             ]
         },
         {
+            "id": 67,
             "titulo": "Presentación en el XXXII Congreso Interamericano de Ingeniería Sanitaria y Ambiental AIDIS con el trabajo titulado \"Efecto del inóculo en la etapa de arranque de digestores anaerobios para la degradación de lodos provenientes de plantas de tratamiento de aguas residuales urbanas.” Punta Cana, República Dominicana.",
             "fecha": [
                 "10·01·2010"
@@ -922,6 +989,7 @@
             ]
         },
         {
+            "id": 68,
             "titulo": "Presentación en el XXXII Congreso Interamericano de Ingeniería Sanitaria y Ambiental AIDIS con el trabajo titulado \"Evaluación de la solubilización mediante tratamiento enzimático de los residuos generados durante la extracción de bioactivos desde pomaza de berries.” Punta Cana, República Dominicana.",
             "fecha": [
                 "10·01·2010"
@@ -932,6 +1000,7 @@
             ]
         },
         {
+            "id": 69,
             "titulo": "Presentación en XVIII Congreso Nacional de la Asociación de Ingeniería Sanitaria y Ambiental AIDIS con el trabajo titulado “Determinación de las Cinéticas de Degradación Anaerobia de Distintos Tipos de Lodos Provenientes de PTAR Mediante Digestión Anaerobia Mesófila”. Pucón, Chile.",
             "fecha": [
                 "11·01·2009"
@@ -942,6 +1011,7 @@
             ]
         },
         {
+            "id": 70,
             "titulo": "Presentación en XXXI Congreso Interamericano de Ingeniería Sanitaria y Ambiental AIDIS con el trabajo titulado “Evaluación y Diseño de un Pre-tratamiento Térmico Aplicado a Lodos biológicos provenientes de Plantas de Tratamiento de Aguas Residuales Urbanas”. Santiago, Chile.",
             "fecha": [
                 "10·01·2008"
@@ -952,6 +1022,7 @@
             ]
         },
         {
+            "id": 71,
             "titulo": "Presentación en V Taller y Simposio de Digestión Anaerobia con el trabajo titulado “Evaluación y Diseño de un Pre-tratamiento Térmico Aplicado a Lodos biológicos provenientes de Plantas de Tratamiento de Aguas Residuales Urbanas”. Isla de Pascua, Chile.",
             "fecha": [
                 "10·01·2008"
@@ -964,6 +1035,7 @@
     ],
     "diplomados": [
         {
+            "id": 72,
             "titulo": "Data Science - Machine Learning, Inteligencia Artificial, Deep Learning",
             "instituto": "Instituto de Estadística, Pontificia Universidad Católica de Valparaíso",
             "fecha": [
@@ -979,6 +1051,7 @@
             ]
         },
         {
+            "id": 73,
             "titulo": "Gestión, Control y Evaluación de Emisiones Atmosféricas de Olor",
             "instituto": "Núcleo de Biotecnología de Curauma, Pontificia Universidad Católica de Valparaíso",
             "fecha": [
@@ -992,6 +1065,7 @@
             ]
         },
         {
+            "id": 74,
             "titulo": "Diploma Superior en Cambio Climático: Desafíos éticos para las políticas públicas",
             "instituto": "Red CLACSO de Posgrados en Ciencias Sociales. Consejo Latinoamericano de Ciencias Sociales, Argentina",
             "fecha": [
@@ -1007,6 +1081,7 @@
             ]
         },
         {
+            "id": 75,
             "titulo": "Análisis de Ciclo de Vida",
             "instituto": "Universidad Nacional Andrés Bello",
             "fecha": [
@@ -1023,6 +1098,7 @@
             ]
         },
         {
+            "id": 76,
             "titulo": "Evaluación y gestión medioambiental en la empresa",
             "instituto": "Universidad del Mar",
             "fecha": [
@@ -1039,6 +1115,7 @@
     ],
     "cursos": [
         {
+            "id": 77,
             "titulo": "Curso de innovación de Formulación de Proyectos de FIA",
             "institucion": "Fundación para la Innovación Agraria",
             "fecha": [
@@ -1054,6 +1131,7 @@
             ]
         },
         {
+            "id": 78,
             "titulo": "Ciclo de Paneles AbreAlcaldías<",
             "institucion": "Fundación Ciudadanía_ Inteligente",
             "fecha": [
@@ -1067,6 +1145,7 @@
             ]
         },
         {
+            "id": 79,
             "titulo": "Conoce las herramientas de IA perfectas para tu negocio, ¡y aplícalas! ",
             "institucion": "Desafío Latam y Pymes en Línea",
             "fecha": [
@@ -1081,6 +1160,7 @@
             ]
         },
         {
+            "id": 80,
             "titulo": "Especialización en Data Science",
             "institucion": "Academia Desafío Latam. Santiago, Chile",
             "fecha": [
@@ -1095,6 +1175,7 @@
             ]
         },
         {
+            "id": 81,
             "titulo": "Postítulo en Mecanismo de Desarrollo Limpio y Eficiencia Energética ",
             "institucion": "Pontificia Universidad Católica de Valparaíso",
             "fecha": [
@@ -1110,6 +1191,7 @@
             ]
         },
         {
+            "id": 82,
             "titulo": "Curso “Programa PhD+: Fortalecimiento de las capacidades de innovación y emprendimiento de los programas de doctorado de la PUCV”. ",
             "institucion": "Pontificia Universidad Católica de Valparaíso",
             "fecha": [
@@ -1123,6 +1205,7 @@
             ]
         },
         {
+            "id": 83,
             "titulo": "Programa “Transferencia para el Fortalecimiento de Capacidades para el Acceso a la Justicia Ambiental”. ",
             "institucion": "ONG FIMA ",
             "fecha": [
@@ -1136,6 +1219,7 @@
             ]
         },
         {
+            "id": 84,
             "titulo": "Bootcamp: Llevando los agronegocios sostenibles al siguiente nivel",
             "institucion": "Centro Agronómico Tropical de Investigación y Enseñanza (CATIE).",
             "fecha": [
@@ -1150,6 +1234,7 @@
             ]
         },
         {
+            "id": 85,
             "titulo": "Introducción a la Gestión de Energía del programa Gestiona Energía MiPyMes. ",
             "institucion": "Ministerio de Energía",
             "fecha": [
@@ -1163,6 +1248,7 @@
             ]
         },
         {
+            "id": 86,
             "titulo": "Curso Moda Sostenible",
             "institucion": "Facultad de Diseño. Universidad del Desarrollo",
             "fecha": [
@@ -1177,6 +1263,7 @@
             ]
         },
         {
+            "id": 87,
             "titulo": "Facilitador de simbiosis industrial. Acercando la simbiosis industrial a las empresas - proyecto INSIGHT Programa Erasmus+ 2019-1-BE01-KA202-050439.",
             "institucion": "INSIGHT",
             "fecha": [
@@ -1192,6 +1279,7 @@
             ]
         },
         {
+            "id": 88,
             "titulo": "Ley de Protección de Humedales Urbanos",
             "institucion": "Academia de Formación Ambiental Adriana Hoffmann. Ministerio del Medio Ambiente",
             "fecha": [
@@ -1207,6 +1295,7 @@
             ]
         },
         {
+            "id": 89,
             "titulo": "Tecnologías del Hidrógeno",
             "institucion": "Academia de Formación Ambiental Adriana Hoffmann. Ministerio del Medio Ambiente",
             "fecha": [
@@ -1221,6 +1310,7 @@
             ]
         },
         {
+            "id": 90,
             "titulo": "Plan de Prevención y Descontaminación Atmosférica para las Comunas de Concón, Quintero y Puchuncaví. ",
             "institucion": "Academia de Formación Ambiental Adriana Hoffmann. Ministerio del Medio Ambiente",
             "fecha": [
@@ -1235,6 +1325,7 @@
             ]
         },
         {
+            "id": 91,
             "titulo": "Aprendiendo sobre la correcta gestión de los Residuos de Aparatos Eléctricos y Electrónicos (RAEE) (cursando)",
             "institucion": "Academia de Formación Ambiental Adriana Hoffmann. Ministerio del Medio Ambiente",
             "fecha": [
@@ -1250,6 +1341,7 @@
             ]
         },
         {
+            "id": 92,
             "titulo": "Rol de los Municipios durante la Implementación de la Responsabilidad Extendida del Productor (REP) de Envases y Embalajes (cursando)",
             "institucion": "Academia de Formación Ambiental Adriana Hoffmann. Ministerio del Medio Ambiente",
             "fecha": [
@@ -1265,6 +1357,7 @@
             ]
         },
         {
+            "id": 93,
             "titulo": "Bioinformática: Análisis y gestión de datos Biológicos",
             "institucion": "Instituto de Química - Pontificia Universidad Católica de Valparaíso",
             "fecha": [
@@ -1279,6 +1372,7 @@
             ]
         },
         {
+            "id": 94,
             "titulo": "Curso de Biomimesis – Innovación inspirada en la naturaleza",
             "institucion": "Circularmente",
             "fecha": [
@@ -1293,6 +1387,7 @@
             ]
         },
         {
+            "id": 95,
             "titulo": "Estrategias de gestión de organizaciones sin fines de lucro",
             "institucion": "Simón de Cirene",
             "fecha": [
@@ -1305,6 +1400,7 @@
             ]
         },
         {
+            "id": 96,
             "titulo": "Deep Learning para Bioinformática",
             "institucion": "OMICS LAB SPA",
             "fecha": [
@@ -1319,6 +1415,7 @@
             ]
         },
         {
+            "id": 97,
             "titulo": "Machine Learning para Bioinformática",
             "institucion": "OMICS LAB SPA",
             "fecha": [
@@ -1333,6 +1430,7 @@
             ]
         },
         {
+            "id": 98,
             "titulo": "Escuela de Economía Circular Online",
             "institucion": "Negocio Redondo",
             "fecha": [
@@ -1346,6 +1444,7 @@
             ]
         },
         {
+            "id": 99,
             "titulo": "Introducción al Ecodiseño",
             "institucion": "Negocio Redondo",
             "fecha": [
@@ -1359,6 +1458,7 @@
             ]
         },
         {
+            "id": 100,
             "titulo": "Curso-Taller Bases de datos nacionales de Análisis de Ciclo de Vida (ACV). ",
             "institucion": "Pontificia Universidad Católica del Perú. Lima, Perú. Organizado en conjunto con Red Peruana Ciclo de Vida y Ecología Industrial (PELCAN) y el Programa de las Naciones Unidas para el Medio Ambiente (PNUMA).  ",
             "fecha": [
@@ -1372,6 +1472,7 @@
             ]
         },
         {
+            "id": 101,
             "titulo": "Curso-Taller Análisis de Ciclo de Vida y modelado en Simapro",
             "institucion": "Facultad de Ciencias e Ingeniería – Pontificia Universidad Católica del Perú. Lima, Perú. Organizado en conjunto con Red Peruana Ciclo de Vida y Ecología Industrial (PELCAN). ",
             "fecha": [
@@ -1385,6 +1486,7 @@
             ]
         },
         {
+            "id": 102,
             "titulo": "Taller “GRI 306: Waste 2020 - A waste standard for the post-pandemic world” y taller “Waste reporting: a gateway to the circular transition”. ",
             "institucion": "GRI Sustainability Reporting Standards.",
             "fecha": [
@@ -1398,6 +1500,7 @@
             ]
         },
         {
+            "id": 103,
             "titulo": " “De la Biomasa a la Energía Renovable: Dendroenergía en Argentina”",
             "institucion": "Núcleo de Capacitación en Políticas Públicas. Oficina Regional de la FAO para América Latina y el Caribe. ",
             "fecha": [
@@ -1411,6 +1514,7 @@
             ]
         },
         {
+            "id": 104,
             "titulo": "Biogás de biomasa como fuente de Energía Renovables no Convencionales. Producción, Distribución, Uso e Impactos”. ",
             "institucion": "Organizado por la Red-Biogás-Chile. Pontificia Universidad Católica de Valparaíso, Chile",
             "fecha": [
@@ -1425,6 +1529,7 @@
             ]
         },
         {
+            "id": 105,
             "titulo": "Redes de ANID “U-CENET, Base de Datos para el Análisis Ambiental de la Economía Circular a nivel Urbano” ",
             "institucion": "Centro de Investigaciones para la Sustentabilidad de la Universidad Andrés Bello (CIS-UNAB) y el Instituto de Ciencia y Tecnología Ambiental de la Universidad Autónoma de Barcelona (ICTA-UAB). ",
             "fecha": [
@@ -1439,6 +1544,7 @@
             ]
         },
         {
+            "id": 106,
             "titulo": "Desarrolladora Full Stack",
             "institucion": "Talento Digital para Chile",
             "fecha": [
@@ -1452,6 +1558,7 @@
             ]
         },
         {
+            "id": 107,
             "titulo": "“Cambio climático: bases e introducción a herramientas virtuales para\npropuestas de adaptación y mitigación\"",
             "institucion": "Universidad Alberto Hurtado",
             "fecha": [
@@ -1466,6 +1573,7 @@
             ]
         },
         {
+            "id": 108,
             "titulo": "Máster de Innovación Ambiental",
             "institucion": "Learning by Helping, Playground",
             "fecha": [
@@ -1479,6 +1587,7 @@
             ]
         },
         {
+            "id": 109,
             "titulo": "Analytics and Big Data - Machine Learning Scientist.\nAnalytics and Big Data - Data Scientist.\nSoftware Development Engineer - Software Development Engineer\nSoftware Development Engineer - DevOps Engineer.\nSoftware Development Engineer - Application Developer.\nCloud Architect - Solutions Architect.\nBig Data - Data Integration Specialist.\nOperations/Support Engineering - Cloud Computing 101.\nOperations/Support Engineering - Cloud Support Associate.\nOperations/Support Engineering - Cloud Support Engineer.",
             "institucion": "AWS Educate ",
             "fecha": [
@@ -1493,6 +1602,7 @@
             ]
         },
         {
+            "id": 110,
             "titulo": "Introducción al análisis de información estadística censal con REDATAM",
             "institucion": "Escuela de Invierno INE-UAysén ",
             "fecha": [
@@ -1505,6 +1615,7 @@
             ]
         },
         {
+            "id": 111,
             "titulo": "Estadísticas en la nube con Python",
             "institucion": "DUOC UC. ",
             "fecha": [
@@ -1517,6 +1628,7 @@
             ]
         },
         {
+            "id": 112,
             "titulo": "Taller CIRCULAR DESIGN THINKING – REACCIONA POR EL CLIMA",
             "institucion": "CORFO",
             "fecha": [
@@ -1529,6 +1641,7 @@
             ]
         },
         {
+            "id": 113,
             "titulo": "Agenda Ambiental. Webinar “ODS 4: herramientas para tu proyecto educativo.” ",
             "institucion": null,
             "fecha": [
@@ -1542,6 +1655,7 @@
             ]
         },
         {
+            "id": 114,
             "titulo": "Curso Introducción HTML5 Programa 1000 mujeres",
             "institucion": "Innovacién. Santiago, Chile.",
             "fecha": [
@@ -1554,6 +1668,7 @@
             ]
         },
         {
+            "id": 115,
             "titulo": "Introducción al Pensamiento de Ciclo de Vida",
             "institucion": "Life Cycle Initiative. UN Environment Programme.",
             "fecha": [
@@ -1567,6 +1682,7 @@
             ]
         },
         {
+            "id": 116,
             "titulo": "Curso Aplicaciones TIC para profesores y Curso Introducción al Big Data. ",
             "institucion": "EduAbierta, Universidad de Chile.",
             "fecha": [
@@ -1579,6 +1695,7 @@
             ]
         },
         {
+            "id": 117,
             "titulo": "Programa de Fortalecimiento Premio Latinoamérica Verde en Alianza para la Acción hacia una Economía Verde (PAGE) de las Naciones Unidas. Proyecto “Agricultura Urbana Solar”. Premio Latinoamérica Verde, VIII versión 2020. Puesto 322/500 ",
             "institucion": null,
             "fecha": [
@@ -1592,6 +1709,7 @@
             ]
         },
         {
+            "id": 118,
             "titulo": "“Metodología de la Empresa Saludable 5Z”\n“Inteligencia Emocional: Emociones, Sentimientos y Cambio de Conducta” “Cultura de seguridad y salud”\n“Toxicología laboral, Liderazgo Organizacional”\n“Auditor líder en ISO 45001:2018 - Sistemas de gestión”\n“Perito ergónomo: Ergónomo forense”\n“Efectividad personal para la Prevención del Estrés”",
             "institucion": "Centre Específic de Recerca per a la Millora i Innovació de les Empreses” (CERpIE) - Universitat Politécnica de Catalunya. ",
             "fecha": [
@@ -1603,6 +1721,7 @@
             ]
         },
         {
+            "id": 119,
             "titulo": "Curso “Analista Web Ed 4”. ",
             "institucion": "Plataforma Conecta Empleo - Fundación Teléfonica-SENCE.  ",
             "fecha": [
@@ -1615,6 +1734,7 @@
             ]
         },
         {
+            "id": 120,
             "titulo": "Taller Data Science. ",
             "institucion": "Academia Desafío Latam. Santiago, Chile",
             "fecha": [
@@ -1628,6 +1748,7 @@
             ]
         },
         {
+            "id": 121,
             "titulo": "Taller “Control de versiones con GIT”. ",
             "institucion": "Academia Desafío Latam. Santiago, Chile",
             "fecha": [
@@ -1641,6 +1762,7 @@
             ]
         },
         {
+            "id": 122,
             "titulo": "Taller “Innova tu Asignatura”, ",
             "institucion": "Universidad de Los Andes ",
             "fecha": [
@@ -1652,6 +1774,7 @@
             ]
         },
         {
+            "id": 123,
             "titulo": "Taller “Propiedad Intelectual en la Sociedad del Conocimiento”",
             "institucion": "Instituto Nacional de Propiedad Industrial (INAPI). ",
             "fecha": [
@@ -1664,6 +1787,7 @@
             ]
         },
         {
+            "id": 124,
             "titulo": "Jornada “Procesos de Innovación”",
             "institucion": "INNSPIRAL. Santiago",
             "fecha": [
@@ -1675,6 +1799,7 @@
             ]
         },
         {
+            "id": 125,
             "titulo": "Curso @RISK and the DecisionTools Suite software",
             "institucion": "Palisade. Santiago, Chile. ",
             "fecha": [
@@ -1688,6 +1813,7 @@
             ]
         },
         {
+            "id": 126,
             "titulo": "Curso UMBERTO LCA+ software ",
             "institucion": "iFu Institut für Umweltinformatik Hamburg GmbH, Hamburgo, Alemania",
             "fecha": [
@@ -1701,6 +1827,7 @@
             ]
         },
         {
+            "id": 127,
             "titulo": "Taller de Educación Financiera I. ",
             "institucion": "Pontifica Universidad Católica de Valparaíso, Chile. ",
             "fecha": [
@@ -1713,6 +1840,7 @@
             ]
         },
         {
+            "id": 128,
             "titulo": "Curso SuperPro Designer and SchedulePro softwares",
             "institucion": "Mannheim University of Applied Sciences (Hochschule Mannheim), Mannheim, Alemania. ",
             "fecha": [
@@ -1727,6 +1855,7 @@
             ]
         },
         {
+            "id": 129,
             "titulo": "taller “Buenas prácticas y uso de herramientas para facilitar la gestión de la Propiedad Intelectual en la investigación”. ",
             "institucion": "Fraunhofer Chile Research y  por la Pontificia Universidad Católica de Valparaíso, Chile. ",
             "fecha": [
@@ -1739,6 +1868,7 @@
             ]
         },
         {
+            "id": 130,
             "titulo": "Curso \"Extracción y recuperación de compuestos bioactivos por tecnologías emergentes\" dictado por Dr. Andrés Maure, Universidad de Vigo, España.",
             "institucion": "Escuela de Ingeniería Bioquímica, Pontificia Universidad Católica de Valparaíso",
             "fecha": [
@@ -1751,6 +1881,7 @@
             ]
         },
         {
+            "id": 131,
             "titulo": "Taller Oficial de Aseguramiento de la Calidad. Sernapesca.\nAnálisis de puntos críticos (HACCP), Procedimientos Operacionales de Saneamiento (POS) y Buenas Prácticas de Manufactura (BPM). ",
             "institucion": "SCI Certificaciones - Laboratorio Silob, Valparaíso, Chile",
             "fecha": [
@@ -1764,6 +1895,7 @@
             ]
         },
         {
+            "id": 132,
             "titulo": "Taller  Auditor Interno ISO 9001-2008",
             "institucion": "SCI Certificaciones - Laboratorio Silob, Valparaíso, Chile",
             "fecha": [
@@ -1776,6 +1908,7 @@
             ]
         },
         {
+            "id": 133,
             "titulo": "Samsung Innovation Campus: Mujeres en Big Data. \n1) Comprender Python para usuarios de Excel \n2) Extraer transformar cargar - Data Ingestion \n3) Proyectos innovadores basados en datos\n4 ) Base de datos - SQL y NoSQL\n5) Introducción a estadística con R\n6) Visualización de datos con R",
             "institucion": "ONG Innovacién",
             "fecha": [
@@ -1793,6 +1926,7 @@
             ]
         },
         {
+            "id": 134,
             "titulo": "Tecnologías del hidrógeno",
             "institucion": "SEREMI de energía",
             "fecha": [
@@ -1810,6 +1944,7 @@
     ],
     "seminarios": [
         {
+            "id": 135,
             "titulo": "The Biorefinery as a Multi-Platform for Energy and Biomaterials",
             "institucion": "Organizado por el SIADEB y el Centro de Biotecnología de la Universidad de Concepción. Workshop on Sustainable Use of Biomass in Chile”. Organizado por Karlsruhe Institute of Technology, KIT, (Alemania) y la Unidad de Desarrollo Tecnológico de la Universidad de Concepción (UDT-UC). Concepción, Chile",
             "fecha": [
@@ -1821,6 +1956,7 @@
             ]
         },
         {
+            "id": 136,
             "titulo": " “Biogás Como Fuente de ERNC: Oportunidades y Desafíos”.",
             "institucion": "Organizado por Escuela de Ingeniería Bioquímica, Pontificia Universidad Católica de Valparaíso",
             "fecha": [
@@ -1832,6 +1968,7 @@
             ]
         },
         {
+            "id": 137,
             "titulo": "1st International Conference LIFE2018",
             "institucion": "University of Agricultural Sciences and Veterinary Medicine (USAMV) Cluj-Napoca, Rumanía. ",
             "fecha": [
@@ -1842,6 +1979,7 @@
             ]
         },
         {
+            "id": 138,
             "titulo": "Participación en la Conferencia internacional “Optimal processes for the treatment of lignocellulosic material for bioethanol production”",
             "institucion": "Organizado por la Facultad de Ciencias Forestales y de la Conservación de la Naturaleza. Universidad de Chile. Santiago, Chile.",
             "fecha": [
@@ -1853,6 +1991,7 @@
             ]
         },
         {
+            "id": 139,
             "titulo": "Asistencia al Seminario internacional “BioEconomía: Oportunidades en Chile” realizado por InvestChile.",
             "institucion": "Corporación de Fomento de la Producción (CORFO). Santiago, Chile.",
             "fecha": [
@@ -1864,6 +2003,7 @@
             ]
         },
         {
+            "id": 140,
             "titulo": "Asistencia al Seminario internacional “Huella de Carbono Como Herramienta de Competitividad en el Sector Productivo Chileno”",
             "institucion": "Organizado por Centro de Gestión y Fortalecimiento para el Mecanismo de Desarrollo Limpio, CGF-MDL. Valparaíso, Chile.",
             "fecha": [
@@ -1875,6 +2015,7 @@
             ]
         },
         {
+            "id": 141,
             "titulo": "III Conferencia ACV Chile. Red Chilena de Análisis de Ciclo de Vida: Herramientas para una economía circular, Pucón.",
             "institucion": null,
             "fecha": [
@@ -1887,17 +2028,21 @@
     ],
     "premios": [
         {
+            "id": 142,
             "titulo": "Programa The Lift ganador AGS"
         },
         {
+            "id": 143,
             "titulo": "Programa CREA y DESARROLLA del DIE. PUCV"
         },
         {
+            "id": 144,
             "titulo": "Distinción premio “Carmen Gloria Arévalo” que se otorga a un titulado entre quienes hayan obtenido la más alta calificación en su memoria de título realizada en la modalidad experimental (2010). Pontificia Universidad Católica de Valparaíso, Chile."
         }
     ],
     "vinculaciones": [
         {
+            "id": 145,
             "titulo": "Convenio Municipio Verde ONG Fima",
             "institucion": "Departamento de Medio Ambiente de la \nIlustre Municipalidad de Quintero",
             "tags": [
@@ -1908,6 +2053,7 @@
             ]
         },
         {
+            "id": 146,
             "titulo": "Convenio ValpoXclima Pontificia Universidad Católica de Valparaíso, a través de la Dirección de Innovación de la Vicerrectoría de Investigación, Creación e Innovación (VINCI), “Valparaíso por el clima: Torneo de innovación y emprendimiento estudiantil frente a la crisis climática”, 22VIR-215521,",
             "institucion": "Departamento de Medio Ambiente de la \nIlustre Municipalidad de Quintero",
             "tags": [
@@ -1921,6 +2067,7 @@
             ]
         },
         {
+            "id": 147,
             "titulo": "Convenio proyecto Fondef ID23I10249, denominado “Desarrollo de un vehículo para la recolección eficiente y autónoma de residuos en playas",
             "institucion": "Departamento de Medio Ambiente de la \nIlustre Municipalidad de Quintero",
             "tags": [
@@ -1931,6 +2078,7 @@
             ]
         },
         {
+            "id": 148,
             "titulo": "Consorcio Science Up compuesto por las Universidades Pontificia Universidad Católica de Valparaíso, Universidad de Santiago de Chile y Universidad Católica del Norte, abrió el 25 de abril 2022 la Convocatoria al “Primer Concurso del Programa VINCULAB”. Proyecto “Recolección y Limpieza Eficiente de Basura en Playa”, en adelante el “Proyecto\", al Programa “VINCULAB”, siendo adjudicado con fecha 16 de agosto de 2022, asignándosele el código interno VLAB22-02 para el seguimiento y control durante su ejecución.",
             "institucion": "Departamento de Medio Ambiente de la \nIlustre Municipalidad de Quintero",
             "tags": [
@@ -1943,6 +2091,7 @@
     ],
     "empresas": [
         {
+            "id": 149,
             "titulo": "Lazo SpA",
             "cargo": "Socia cofundadora",
             "descripcion": "Consultora de Negocios Sustentables.\nLazo SpA es una empresa de derecho privado que nace el 2021 para promover negocios en línea con la sostenibilidad, y priorizando los Objetivos de Desarrollo Sostenible (ODS), y en particular los ODS 9 Industria, Innovación e Infraestructura; ODS 12 Producción y Consumo Responsable; ODS 11 Ciudades y Comunidades Sostenibles; ODS 13 Acción por el Clima, y ODS 17 Alianzas para lograr los objetivos. De igual manera, la empresa se compromete con fomentar en las empresas las políticas de sostenibilidad nacionales en favor del cumplimiento de las obligaciones adquiridas para el Acuerdo de París el 9 de abril del 2020 en su Contribución Determinada a Nivel Nacional",
@@ -1960,6 +2109,7 @@
             ]
         },
         {
+            "id": 150,
             "titulo": "Up Foods SpA ",
             "cargo": "Socia cofundadora",
             "descripcion": "spin off como empresa elaboradora de alimentos en base a bagazo de cerveza, con foco en producción sostenible en línea con la economía circular, con sede en el Maule,",
@@ -1977,6 +2127,7 @@
             ]
         },
         {
+            "id": 151,
             "titulo": "ASB Innobiotics SpA",
             "cargo": "Socia cofundadora",
             "descripcion": "Empresa de prototipaje on-demand para emprendimientos digitales.\n•\tDesarrollo de aplicaciones web (Java, Javascript)\n\n•\tServicios UX/UI y back end\n\n•\tReportabilidad de variables en plataforma web\n\n•\tDeployment de servidores en Amazon Web Service, Heroku y Vercel\n\n•\tManejo de bases de datos SQL y NoSQL (PgAdmin (Postgres), DBeaver, MySQl, Compass (MongoDB)\n\n•\tPrueba de prototipos en baja con Raspebrry Pi\n\nDirector Tecnológico – Felipe Zapata Soto. Java Full Stack developer (LinkedIn)",
@@ -1988,6 +2139,7 @@
             ]
         },
         {
+            "id": 152,
             "titulo": "Retrocicla SpA",
             "cargo": "Socia cofundadora",
             "descripcion": null,
@@ -2007,119 +2159,145 @@
     ],
     "servicios": [
         {
+            "id": 153,
             "titulo": "Desarrollo de hojas de ruta en economía circular, incluyendo diagnóstico situacional, co-creación, priorización e implementación de iniciativas de economía circular en línea con las políticas públicas y los Objetivos de Desarrollo Sostenible de la Agenda 2030.",
             "tags": [
                 "economía_circular"
             ]
         },
         {
+            "id": 154,
             "titulo": "Postulación, ejecución y rendición de proyectos con foco en sostenibilidad para fondos concursables públicos y privados. Especialización en fondos CORFO de las Gerencia de Emprendimiento y Gerencia de Innovación."
         }
     ],
     "competencias": [
         {
+            "id": 155,
             "titulo": "Enfoque metódico",
             "descripcion": "Capacidad demostrada para abordar proyectos de manera organizada y estructurada, garantizando la eficiencia en la ejecución."
         },
         {
+            "id": 156,
             "titulo": "Pensamiento analítico",
             "descripcion": "Habilidad para descomponer problemas complejos en elementos manejables y tomar decisiones basadas en datos y evidencia."
         },
         {
+            "id": 157,
             "titulo": "Habilidad de planificación",
             "descripcion": "Destreza en la planificación estratégica, estableciendo objetivos claros y desarrollando rutas efectivas para alcanzarlos."
         },
         {
+            "id": 158,
             "titulo": "Paciencia y Reflexión",
             "descripcion": "Actitud paciente y reflexiva que facilita la toma de decisiones informadas y el manejo de desafíos con calma."
         },
         {
+            "id": 159,
             "titulo": "Liderazgo de proyectos",
             "descripcion": "Experiencia en liderar proyectos e iniciativas, demostrando habilidades de coordinación, gestión de equipos y recursos."
         },
         {
+            "id": 160,
             "titulo": "Comunicación efectivia",
             "descripcion": "Capacidad para comunicar ideas y resultados de manera clara y persuasiva, esencial para la colaboración y presentación de proyectos."
         },
         {
+            "id": 161,
             "titulo": "Orientación a la sostenibilidad",
             "descripcion": "Compromiso firme con la sostenibilidad y la responsabilidad ambiental, con un enfoque en la búsqueda de soluciones sostenibles."
         },
         {
+            "id": 162,
             "titulo": "Adaptabilidad",
             "descripcion": "Habilidad para adaptarse a entornos cambiantes y flexibilidad para enfrentar una variedad de proyectos y desafíos."
         },
         {
+            "id": 163,
             "titulo": "Trabajo en equipo",
             "descripcion": "Competencia en trabajar de manera efectiva en equipos multidisciplinarios, fomentando la colaboración y el logro de objetivos compartidos."
         },
         {
+            "id": 164,
             "titulo": "Resolución de problemas",
             "descripcion": "Habilidad para identificar y resolver problemas técnicos y científicos complejos, aplicando un enfoque analítico."
         },
         {
+            "id": 165,
             "titulo": "Toma de decisiones",
             "descripcion": "Enfoque basado en datos que respalda la toma de decisiones fundamentadas en evidencia y análisis exhaustivos."
         },
         {
+            "id": 166,
             "titulo": "Ética profesional",
             "descripcion": "Compromiso con la integridad y la ética en el trabajo, especialmente en proyectos relacionados con la sostenibilidad y la responsabilidad social."
         },
         {
+            "id": 167,
             "titulo": "Gestión de tiempo",
             "descripcion": "Habilidad para administrar eficazmente el tiempo, cumplir plazos y mantener la productividad en proyectos y tareas."
         },
         {
+            "id": 168,
             "titulo": "Curiosidad y aprendizaje continuo",
             "descripcion": "Actitud de aprendizaje constante y disposición para mantenerse actualizado en las últimas tendencias y tecnologías."
         },
         {
+            "id": 169,
             "titulo": "Empatía y colaboración",
             "descripcion": "Capacidad para comprender y colaborar efectivamente con colegas y colaboradores, fomentando un entorno de trabajo armonioso."
         }
     ],
     "herramientas": [
         {
+            "id": 170,
             "titulo": "Desarrolladora Full Stack",
             "tipo": "desarrollo web",
             "nivel": "Junior"
         },
         {
+            "id": 171,
             "titulo": "R",
             "tipo": "programación",
             "nivel": "Intermedio"
         },
         {
+            "id": 172,
             "titulo": "Python (Python Software Foundation)",
             "tipo": "programación",
             "nivel": "Intermedio"
         },
         {
+            "id": 173,
             "titulo": "@RISK and Decision Tool Suite (Palisade Corporation, USA)",
             "tipo": "análisis de riesgos",
             "nivel": "Intermedio"
         },
         {
+            "id": 174,
             "titulo": "eSankey! (iFu Hamburg, Germany)",
             "tipo": "Diagramas de ingeniería",
             "nivel": "Intermedio"
         },
         {
+            "id": 175,
             "titulo": "UMBERTO LCA+ (iFu Hamburg, Germany)",
             "tipo": "Análisis de ciclo de vida",
             "nivel": "Intermedio"
         },
         {
+            "id": 176,
             "titulo": "Simapro (PRÉ Consultants, The Netherlands)",
             "tipo": "Análisis de ciclo de vida",
             "nivel": "Intermedio"
         },
         {
+            "id": 177,
             "titulo": "SuperPro Design (Intelligent Inc., USA)",
             "tipo": "Análisis técnico-económico",
             "nivel": "Avanzado"
         },
         {
+            "id": 178,
             "titulo": "KNIME Analytic software ",
             "tipo": null,
             "nivel": "Básico"
@@ -2127,30 +2305,37 @@
     ],
     "idiomas": [
         {
+            "id": 179,
             "idioma": "Español",
             "descripcion": "Lengua materna"
         },
         {
+            "id": 180,
             "idioma": "Inglés",
             "descripcion": "Intermediate level in speaking and writing"
         },
         {
+            "id": 181,
             "idioma": "Inglés",
             "descripcion": "GRE test: Verbal 520 points, Mathematics 730 points."
         },
         {
+            "id": 182,
             "idioma": "Inglés",
             "descripcion": "Cambridge English Test C1 - Effective Proficiency."
         },
         {
+            "id": 183,
             "idioma": "Inglés",
             "descripcion": "TOEIC 900 points. Level 2+."
         },
         {
+            "id": 184,
             "idioma": "Inglés",
             "descripcion": "Cursando Business English Program. ENEB - Escuela de Negocios Europea de Barcelona. España."
         },
         {
+            "id": 185,
             "idioma": "Alemán",
             "descripcion": "Nivel B1 Deutscher Akademischer Austausch Dienst (DAAD) "
         }
