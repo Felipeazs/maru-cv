@@ -14,7 +14,7 @@
     >
         <label
             for="my_modal_6"
-            class="btn btn-xs bg-transparent text-gray-300 border-2 border-slate-800 hover:bg-black"
+            class="btn btn-xs bg-transparent text-white border-2 border-slate-800 hover:bg-black"
             use:tooltipy={{ content: "preview cv", placement: "left" }}>p</label
         >
         <input type="checkbox" id="my_modal_6" class="modal-toggle" />

@@ -76,7 +76,7 @@
                                 </span>
                             {/if}
                             <div
-                                class="flex md:flex-col justify-center items-center min-w-[105px] md:min-h-[50px] p-1 border-2 border-[rgba(13,60,85,0.8)] rounded-lg"
+                                class="flex flex-row-reverse md:flex-col justify-center items-center min-w-[105px] md:min-h-[50px] p-1 border-2 border-[rgba(13,60,85,0.8)] rounded-lg"
                             >
                                 {#if item.fecha}
                                     <p>{item.fecha[0]}</p>
@@ -100,12 +100,17 @@
                                         item.logo ? "w-[80%]" : "w-full"
                                     }`}
                                 >
-                                    <p class="py-1">
-                                        {item.titulo?.split("|").join("\n") ??
-                                            item.proyecto ??
-                                            item.educacion ??
-                                            ""}
-                                    </p>
+                                    <div class="py-1">
+                                        {#each item.educacion?.split("|") ?? [] as ed}
+                                            <p>{ed}</p>
+                                        {/each}
+                                        {#each item.titulo?.split("|") ?? [] as title}
+                                            <p>{title}</p>
+                                        {/each}
+                                        {#each item.proyecto?.split("|") ?? [] as pro}
+                                            <p>{pro}</p>
+                                        {/each}
+                                    </div>
                                     <p class="text-sm text-slate-500 italic">
                                         {item.cargo ?? ""}
                                     </p>

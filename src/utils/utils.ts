@@ -108,6 +108,8 @@ export const allItems = <T>(items: T) => {
             item.iconos = []
             item.social = []
 
+            item.educacion?.split("|").join("\n")
+
             item.sociales?.forEach((social: { nombre: string }) => {
                 switch (social.nombre) {
                     case 'linkedin':

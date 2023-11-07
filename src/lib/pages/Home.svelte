@@ -19,7 +19,6 @@
     import data from "../cv-store";
     import Tags from "../UI/Tags.svelte";
     import Sidebar from "../UI/Sidebar.svelte";
-    import PreviewPdf from "../UI/PreviewPDF.svelte";
 
     $: selectedItems = $data[selection];
     $: title = transform_title(selection);
