@@ -18,7 +18,11 @@
             {#each pdfItems as ed (ed.id)}
                 {#if ed.educacion}
                     <tr>
-                        <td>{ed.educacion}</td>
+                        <td>
+                            {#each ed.educacion?.split("|") ?? [] as eds}
+                                <p>{eds}</p>
+                            {/each}
+                        </td>
                         <td>{ed.institucion}</td>
                         <td
                             >{ed.fecha[1]} - {ed.fecha[0] === "2023"
