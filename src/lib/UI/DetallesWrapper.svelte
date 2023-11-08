@@ -107,7 +107,7 @@
                             >
                                 <div
                                     class={`${
-                                        item.logo ? "w-[80%]" : "w-full"
+                                        item.logo ? "w-full md:w-[80%]" : "w-full"
                                     }`}
                                 >
                                     <div class="py-1">
