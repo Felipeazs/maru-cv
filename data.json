@@ -86,7 +86,7 @@
             "fecha": [
                 "2023"
             ],
-            "descripcion": "Programa Comuna Energética del Ministerio de la Agencia de Sostenibilidad Energética Programa HuellaChile del Ministerio de Medio Ambiente. Implementación de iniciativas de economía circular y área de cambio climático de acuerdo con el Compromiso Municipio Verde-ONG FIMA y la Guía metodológica para orientar la transición hacia una economía circular. Ciudad Circular, Facultad Ciencias de la Vida, Universidad Andrés Bello Implementación de iniciativas educativas para funcionarios municipales y para la comunidad en línea con la Ley 21455 Ley Marco de Cambio Climático Contraparte municipal para el reporte del Plan de Acción Nacional de Cambio Climático 2017-2022 (PANCC)",
+            "descripcion": "・Programa Comuna Energética del Ministerio de la Agencia de Sostenibilidad Energética.|・Programa HuellaChile del Ministerio de Medio Ambiente.|・Implementación de iniciativas de economía circular y área de cambio climático de acuerdo con el Compromiso Municipio Verde-ONG FIMA y la Guía metodológica para orientar la transición hacia una economía circular|・Ciudad Circular, Facultad Ciencias de la Vida, Universidad Andrés Bello.|・Implementación de iniciativas educativas para funcionarios municipales y para la comunidad en línea con la Ley 21455 Ley Marco de Cambio Climático.|・Contraparte municipal para el reporte del Plan de Acción Nacional de Cambio Climático 2017-2022 (PANCC)",
             "especialidad": "sostenibilidad",
             "tags": [
                 "municipalidad",
@@ -627,7 +627,7 @@
         },
         {
             "id": 38,
-            "educacion": "Master en Comunicación Empresarial y Corporativa | Master en Big Data y Business Intelligence | Master en dirección Comercial y Marketing | Master en Innovación y Emprendimiento | Master en Marketing Digital y eCommerce | MBA en Administración y Dirección de Empresas",
+            "educacion": "・Master en Comunicación Empresarial y Corporativa.|・Master en Big Data y Business Intelligence.|・Master en dirección Comercial y Marketing.|・Master en Innovación y Emprendimiento.|・Master en Marketing Digital y eCommerce.|・MBA en Administración y Dirección de Empresas",
             "descripcion": "",
             "fecha": [
                 "2023",
@@ -1590,7 +1590,7 @@
         },
         {
             "id": 109,
-            "titulo": "Analytics and Big Data - Machine Learning Scientist.|Analytics and Big Data - Data Scientist.|Software Development Engineer - Software Development Engineer|Software Development Engineer - DevOps Engineer.|Software Development Engineer - Application Developer.|Cloud Architect - Solutions Architect.|Big Data - Data Integration Specialist.|Operations/Support Engineering - Cloud Computing 101.|Operations/Support Engineering - Cloud Support Associate.|Operations/Support Engineering - Cloud Support Engineer.",
+            "titulo": "・Analytics and Big Data - Machine Learning Scientist.|・Analytics and Big Data - Data Scientist.|・Software Development Engineer - Software Development Engineer.|・Software Development Engineer - DevOps Engineer.|・Software Development Engineer - Application Developer.|・Cloud Architect - Solutions Architect.|・Big Data - Data Integration Specialist.|・Operations/Support Engineering - Cloud Computing 101.|・Operations/Support Engineering - Cloud Support Associate.|・Operations/Support Engineering - Cloud Support Engineer.",
             "institucion": "AWS Educate ",
             "fecha": [
                 "2021"
@@ -1712,7 +1712,7 @@
         },
         {
             "id": 118,
-            "titulo": "Metodología de la Empresa Saludable 5Z|Inteligencia Emocional: Emociones, Sentimientos y Cambio de Conducta|Cultura de seguridad y salud|Toxicología laboral, Liderazgo Organizacional|Auditor líder en ISO 45001:2018 - Sistemas de gestión|Perito ergónomo: Ergónomo forense|Efectividad personal para la Prevención del Estrés",
+            "titulo": "・Metodología de la Empresa Saludable 5Z.|・Inteligencia Emocional: Emociones, Sentimientos y Cambio de Conducta.|・Cultura de seguridad y salud.|・Toxicología laboral, Liderazgo Organizacional.|・Auditor líder en ISO 45001:2018 - Sistemas de gestión.|・Perito ergónomo: Ergónomo forense.|・Efectividad personal para la Prevención del Estrés",
             "institucion": "Centre Específic de Recerca per a la Millora i Innovació de les Empreses” (CERpIE) - Universitat Politécnica de Catalunya. ",
             "fecha": [
                 "2020"
@@ -1858,7 +1858,7 @@
         },
         {
             "id": 129,
-            "titulo": "taller “Buenas prácticas y uso de herramientas para facilitar la gestión de la Propiedad Intelectual en la investigación”. ",
+            "titulo": "Taller “Buenas prácticas y uso de herramientas para facilitar la gestión de la Propiedad Intelectual en la investigación”. ",
             "institucion": "Fraunhofer Chile Research y  por la Pontificia Universidad Católica de Valparaíso, Chile. ",
             "fecha": [
                 "2012"
@@ -1884,7 +1884,7 @@
         },
         {
             "id": 131,
-            "titulo": "Taller Oficial de Aseguramiento de la Calidad. Sernapesca.\nAnálisis de puntos críticos (HACCP), Procedimientos Operacionales de Saneamiento (POS) y Buenas Prácticas de Manufactura (BPM). ",
+            "titulo": "・Taller Oficial de Aseguramiento de la Calidad. Sernapesca.|・Análisis de puntos críticos (HACCP), Procedimientos Operacionales de Saneamiento (POS) y Buenas Prácticas de Manufactura (BPM). ",
             "institucion": "SCI Certificaciones - Laboratorio Silob, Valparaíso, Chile",
             "fecha": [
                 "2008"
@@ -1911,7 +1911,7 @@
         },
         {
             "id": 133,
-            "titulo": "Samsung Innovation Campus: Mujeres en Big Data.|Comprender Python para usuarios de Excel|Extraer transformar cargar - Data Ingestion|Proyectos innovadores basados en datos|Base de datos - SQL y NoSQL|Introducción a estadística con R|Visualización de datos con R",
+            "titulo": "・Samsung Innovation Campus: Mujeres en Big Data.|・Comprender Python para usuarios de Excel.|・Extraer transformar cargar - Data Ingestion.|・Proyectos innovadores basados en datos.|・Base de datos - SQL y NoSQL.|・Introducción a estadística con R.|・Visualización de datos con R",
             "institucion": "ONG Innovacién",
             "fecha": [
                 "2023"
@@ -2096,7 +2096,7 @@
             "id": 149,
             "titulo": "Lazo SpA",
             "cargo": "Socia cofundadora",
-            "descripcion": "Consultora de Negocios Sustentables.\nLazo SpA es una empresa de derecho privado que nace el 2021 para promover negocios en línea con la sostenibilidad, y priorizando los Objetivos de Desarrollo Sostenible (ODS), y en particular los ODS 9 Industria, Innovación e Infraestructura; ODS 12 Producción y Consumo Responsable; ODS 11 Ciudades y Comunidades Sostenibles; ODS 13 Acción por el Clima, y ODS 17 Alianzas para lograr los objetivos. De igual manera, la empresa se compromete con fomentar en las empresas las políticas de sostenibilidad nacionales en favor del cumplimiento de las obligaciones adquiridas para el Acuerdo de París el 9 de abril del 2020 en su Contribución Determinada a Nivel Nacional",
+            "descripcion": "Consultora de Negocios Sustentables.|Lazo SpA es una empresa de derecho privado que nace el 2021 para promover negocios en línea con la sostenibilidad, y priorizando los Objetivos de Desarrollo Sostenible (ODS), y en particular los ODS 9 Industria, Innovación e Infraestructura; ODS 12 Producción y Consumo Responsable; ODS 11 Ciudades y Comunidades Sostenibles; ODS 13 Acción por el Clima, y ODS 17 Alianzas para lograr los objetivos. De igual manera, la empresa se compromete con fomentar en las empresas las políticas de sostenibilidad nacionales en favor del cumplimiento de las obligaciones adquiridas para el Acuerdo de París el 9 de abril del 2020 en su Contribución Determinada a Nivel Nacional",
             "sociales": [
                 {
                     "nombre": "linkedin",
@@ -2132,7 +2132,7 @@
             "id": 151,
             "titulo": "ASB Innobiotics SpA",
             "cargo": "Socia cofundadora",
-            "descripcion": "Empresa de prototipaje on-demand para emprendimientos digitales.\n•\tDesarrollo de aplicaciones web (Java, Javascript)\n\n•\tServicios UX/UI y back end\n\n•\tReportabilidad de variables en plataforma web\n\n•\tDeployment de servidores en Amazon Web Service, Heroku y Vercel\n\n•\tManejo de bases de datos SQL y NoSQL (PgAdmin (Postgres), DBeaver, MySQl, Compass (MongoDB)\n\n•\tPrueba de prototipos en baja con Raspebrry Pi\n\nDirector Tecnológico – Felipe Zapata Soto. Java Full Stack developer (LinkedIn)",
+            "descripcion": "Empresa de prototipaje on-demand para emprendimientos digitales.|・Desarrollo de aplicaciones web (Java, Javascript).|・Servicios UX/UI y back end.|・Reportabilidad de variables en plataforma web.|・Deployment de servidores en Amazon Web Service, Heroku y Vercel.|・Manejo de bases de datos SQL y NoSQL (PgAdmin (Postgres), DBeaver, MySQl, Compass (MongoDB).|・Prueba de prototipos en baja con Raspebrry Pi.|・Director Tecnológico – Felipe Zapata Soto. Java Full Stack developer (LinkedIn)",
             "sociales": null,
             "tags": [
                 "economía_circular",

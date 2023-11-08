@@ -127,16 +127,18 @@
                                             item.instituto ??
                                             ""}
                                     </p>
-                                    <div class="flex flex-col text-sm py-2">
-                                        {#if item.descripcion}
+                                    {#if item.descripcion}
+                                        <div class="flex flex-col text-sm py-2">
                                             <p class="text-xs text-gray-400">
                                                 descripción:
                                             </p>
-                                            <p class="text-gray-600">
-                                                {item.descripcion}
-                                            </p>
-                                        {/if}
-                                    </div>
+                                            {#each item.descripcion.split("|") ?? [] as desc}
+                                                <p class="text-gray-600">
+                                                    {desc}
+                                                </p>
+                                            {/each}
+                                        </div>
+                                    {/if}
                                     {#if item.social.length}
                                         <p class="text-xs text-gray-400 py-1">
                                             rr.ss:
