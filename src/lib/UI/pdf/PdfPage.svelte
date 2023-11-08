@@ -50,7 +50,7 @@
                 {#if exp.empresa}
                     <tr>
                         <td>{exp.empresa}</td>
-                        <td>{exp.especialidad.replace(/_/g, " ")}</td>
+                        <td>{exp.especialidad?.replace(/_/g, " ")}</td>
                         <td>{exp.titulo}</td>
                         <td />
                         <td>{exp.fecha[1] ?? exp.fecha[0]}</td>
@@ -83,7 +83,7 @@
                 {#if pr.proyecto}
                     <tr>
                         <td>{pr.proyecto}</td>
-                        <td>{pr.especialidad.replace(/_/g, " ")}</td>
+                        <td>{pr.especialidad?.replace(/_/g, " ")}</td>
                         <td />
                         <td>{pr.fecha[1] ?? pr.fecha[0]}</td>
                         <td

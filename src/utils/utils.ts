@@ -61,7 +61,7 @@ import bioenergy from '/images/bioenergy.svg'
 import linkedin from '/images/linkedin.svg'
 
 export const sorting_items = <T extends Record<string, any>>(items: T[], year: number, especialidad: string): T[] => {
-    let sortedItems: T[] = items.sort((a, b) => Number(new Date(b.fecha ? b.fecha[0] : 0)) - Number(new Date(a.fecha ? a.fecha[0] : 0)))
+    let sortedItems: T[] = items.sort((a, b) => Number(new Date(b.fecha ? b.fecha[0]?.split("/")[1] ?? b.fecha[0] : 0)) - Number(new Date(a.fecha ? a.fecha[0]?.split("/")[1] ?? a.fecha[0] : 0)))
 
     if (especialidad !== 'todas') {
         sortedItems = items.filter((si) => si.especialidad === especialidad)

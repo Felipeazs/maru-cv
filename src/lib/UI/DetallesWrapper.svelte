@@ -84,7 +84,12 @@
                                 class="flex flex-row-reverse md:flex-col justify-center items-center min-w-[105px] md:min-h-[50px] p-1 border-2 border-[rgba(13,60,85,0.8)] rounded-lg"
                             >
                                 {#if item.fecha}
-                                    <p>{item.fecha[0]}</p>
+                                    <p>
+                                        {item.empresa &&
+                                        item.fecha[0] === "2023"
+                                            ? "presente"
+                                            : item.fecha[0]}
+                                    </p>
                                     <span>{item.fecha[1] ? "・" : ""}</span>
                                     <p>{item.fecha[1] ?? ""}</p>
                                 {:else}

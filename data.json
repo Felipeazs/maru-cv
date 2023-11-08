@@ -2,10 +2,11 @@
     "experiencias": [
         {
             "id": 1,
-            "titulo": "Gerente técnico-comercial y líder de proyectos en EC y cambio climático.",
+            "titulo": "Gerente técnico-comercial y líder de proyectos en economía circular y cambio climático.",
             "empresa": "Consultora Técnica Sustrend SpA",
             "fecha": [
-                "2023"
+                "08/2023",
+                "05/2023"
             ],
             "descripcion": "",
             "especialidad": "sostenibilidad",
@@ -20,7 +21,8 @@
             "titulo": "Gerente general",
             "empresa": "Consultora Técnica Sustrend SpA",
             "fecha": [
-                "2023"
+                "2023",
+                "08/2023"
             ],
             "descripcion": "",
             "especialidad": "sostenibilidad",
@@ -36,7 +38,8 @@
             "titulo": "Investigadora senior ・ Área de sostenibilidad industrial",
             "empresa": "Centro de Biotecnología de Sistemas, Univerdidad Nacional Andrés Bello (CSB-UNAB)",
             "fecha": [
-                "2022"
+                "12/2022",
+                "01/2022"
             ],
             "descripcion": "",
             "especialidad": "sostenibilidad",
@@ -51,8 +54,8 @@
             "titulo": "Investigadora senior ・ Área de Agroalimentos e Ingredientes",
             "empresa": "Fraunhofer Chile Research, Centro de Biotecnología de Sistemas FCR-CSB",
             "fecha": [
-                "2021",
-                "2010"
+                "12/2021",
+                "08/2010"
             ],
             "descripcion": "",
             "especialidad": "sostenibilidad",
@@ -68,7 +71,7 @@
             "empresa": "Consultora de Negocios Sustentables Lazo SpA",
             "fecha": [
                 "2023",
-                "2021"
+                "12/2021"
             ],
             "descripcion": "",
             "especialidad": "sostenibilidad",
@@ -84,7 +87,8 @@
             "titulo": "Profesional educación ambiental",
             "empresa": "Departamento de Medio Ambiente de la Ilustre Municipalidad de Quintero",
             "fecha": [
-                "2023"
+                "2023",
+                "02/2023"
             ],
             "descripcion": "・Programa Comuna Energética del Ministerio de la Agencia de Sostenibilidad Energética.|・Programa HuellaChile del Ministerio de Medio Ambiente.|・Implementación de iniciativas de economía circular y área de cambio climático de acuerdo con el Compromiso Municipio Verde-ONG FIMA y la Guía metodológica para orientar la transición hacia una economía circular|・Ciudad Circular, Facultad Ciencias de la Vida, Universidad Andrés Bello.|・Implementación de iniciativas educativas para funcionarios municipales y para la comunidad en línea con la Ley 21455 Ley Marco de Cambio Climático.|・Contraparte municipal para el reporte del Plan de Acción Nacional de Cambio Climático 2017-2022 (PANCC)",
             "especialidad": "sostenibilidad",
@@ -115,7 +119,8 @@
             "titulo": "Profesional freelance proyectos de ingeniería",
             "empresa": "Núcleo Biotecnología de Curauma, Pontificia Universidad Católica de Valparaíso",
             "fecha": [
-                "2023"
+                "07/2023",
+                "06/2023"
             ],
             "descripcion": "Apoyo en puesta en marcha y diseño de experimentos para la implementación de diversos pretratamientos para la digestión anaerobia de lodos en la Planta de Tratamiento de Aguas Residuales La Farfana en Santiago, Chile.",
             "especialidad": "sostenibilidad",
@@ -159,7 +164,7 @@
             "empresa": "AGS Innobiotics SpA",
             "fecha": [
                 "2023",
-                "2022"
+                "09/2022"
             ],
             "descripcion": "",
             "especialidad": "sostenibilidad",
@@ -180,7 +185,7 @@
             "empresa": "Up Foods",
             "fecha": [
                 "2023",
-                "2022"
+                "12/2022"
             ],
             "descripcion": "",
             "especialidad": "sostenibilidad",
@@ -200,8 +205,8 @@
             "titulo": "Socia fundadora y CSO",
             "empresa": "Retrocicla",
             "fecha": [
-                "2022",
-                "2021"
+                "12/2022",
+                "01/2021"
             ],
             "descripcion": "",
             "especialidad": "sostenibilidad",
@@ -235,8 +240,8 @@
             "titulo": "Práctica profesional (3 meses) y Asistente en el Departamento de Calidad, Grupo Alimentos. ",
             "empresa": "Laboratorios Silob",
             "fecha": [
-                "2008",
-                "2007"
+                "05/2008",
+                "01/2007"
             ],
             "descripcion": "",
             "especialidad": "ciencias_de_la_ingeniería",
@@ -895,7 +900,7 @@
             "id": 59,
             "titulo": " “FROM LAB TO MARKET. Retos en el escalado y comercialización de la fermentación en estado sólido”, VII edición de las Jornadas de la Red Española de Compostaje.",
             "fecha": [
-                "10·01·2022"
+                "10/01/2022"
             ],
             "tags": [
                 "valorización_de_recursos",
@@ -906,7 +911,7 @@
             "id": 60,
             "titulo": " LCAFood2020 con el trabajo titulado “Life Cycle Analysis of a demonstrative Solar-Urban Agriculture Pilot for lettuce production in a mid-income area of Central Chile”. Berlín, Alemania.",
             "fecha": [
-                "10·01·2020"
+                "10/01/2020"
             ],
             "tags": [
                 "análisis_de_ciclo_de_vida"
@@ -916,7 +921,7 @@
             "id": 61,
             "titulo": "Presentación en 3rd International Society of Industrial Ecology Americas Conference - ISIE Americas 2020 con el trabajo titulado “Solar Urban Agriculture - A case study for Santiago” Organizado por la International Society of Industrial Ecology (ISIE), Lima, Perú.",
             "fecha": [
-                "07·01·2020"
+                "07/01/2020"
             ],
             "tags": [
                 "análisis_de_ciclo_de_vida"
@@ -926,7 +931,7 @@
             "id": 62,
             "titulo": "Presentación en IWA Conference on Algal Technologies and Stabilization Ponds for Wastewater Treatment and Resource Recovery con el trabajo titulado “Biorefinery of Chlorella protothecoides focused on lutein recovery”. Organizado por la Universidad de Valladolid y el International Water Association (IWA). Valladolid, España. ",
             "fecha": [
-                "07·01·2019"
+                "07/01/2019"
             ],
             "tags": [
                 "ciencias_biológicas",
@@ -937,7 +942,7 @@
             "id": 63,
             "titulo": "Presentación en el 5th Latin American Congress on Biorefineries con el trabajo titulado “BIOCODE: Towards a novel and sustainable biorefinery concept based on green technologies for main commercial grain crop residues”. Organizado por la Unidad de Desarrollo Tecnológico de la Universidad de Concepción (UDT-UC) y el Centro de Biotecnología de la Universidad de Concepción. Concepción, Chile.",
             "fecha": [
-                "01·01·2019"
+                "01/01/2019"
             ],
             "tags": [
                 "biorefinería",
@@ -948,7 +953,7 @@
             "id": 64,
             "titulo": "Presentación en el 12th World Processing Tomato Congress and the 14th ISHS Symposium on the Processing Tomato con el trabajo titulado “Biogas productivity potential of agro-industrial biomasses, generated by the tomato processing industry”, Santiago, Chile.",
             "fecha": [
-                "03·01·2016"
+                "03/01/2016"
             ],
             "tags": [
                 "biorefinería",
@@ -959,7 +964,7 @@
             "id": 65,
             "titulo": "Presentación en el 14th World Congress on Anaerobic Digestion con el trabajo titulado “Biogas potential of residues generated by the tomato processing industry under different substrate and inoculum conditions\". Viña del Mar, Chile",
             "fecha": [
-                "11·01·2015"
+                "11/01/2015"
             ],
             "tags": [
                 "biorefinería",
@@ -970,7 +975,7 @@
             "id": 66,
             "titulo": "Presentación en el 3er Iberoamerican Biorefinery Congress (CIAB), 4to Latinoamerican Congress on Biorefineries and in the 2nd International Symposium of Lignocellulosic Materials con el trabajo titulado \"Impact of Organizado por la Unidad de Desarrollo Tecnológico de la Universidad de Concepción (UDT-UC). Concepción, Chile.",
             "fecha": [
-                "11·01·2015"
+                "11/01/2015"
             ],
             "tags": [
                 "biorefinería",
@@ -981,7 +986,7 @@
             "id": 67,
             "titulo": "Presentación en el XXXII Congreso Interamericano de Ingeniería Sanitaria y Ambiental AIDIS con el trabajo titulado \"Efecto del inóculo en la etapa de arranque de digestores anaerobios para la degradación de lodos provenientes de plantas de tratamiento de aguas residuales urbanas.” Punta Cana, República Dominicana.",
             "fecha": [
-                "10·01·2010"
+                "10/01/2010"
             ],
             "tags": [
                 "biorefinería",
@@ -992,7 +997,7 @@
             "id": 68,
             "titulo": "Presentación en el XXXII Congreso Interamericano de Ingeniería Sanitaria y Ambiental AIDIS con el trabajo titulado \"Evaluación de la solubilización mediante tratamiento enzimático de los residuos generados durante la extracción de bioactivos desde pomaza de berries.” Punta Cana, República Dominicana.",
             "fecha": [
-                "10·01·2010"
+                "10/01/2010"
             ],
             "tags": [
                 "biorefinería",
@@ -1003,7 +1008,7 @@
             "id": 69,
             "titulo": "Presentación en XVIII Congreso Nacional de la Asociación de Ingeniería Sanitaria y Ambiental AIDIS con el trabajo titulado “Determinación de las Cinéticas de Degradación Anaerobia de Distintos Tipos de Lodos Provenientes de PTAR Mediante Digestión Anaerobia Mesófila”. Pucón, Chile.",
             "fecha": [
-                "11·01·2009"
+                "11/01/2009"
             ],
             "tags": [
                 "biorefinería",
@@ -1014,7 +1019,7 @@
             "id": 70,
             "titulo": "Presentación en XXXI Congreso Interamericano de Ingeniería Sanitaria y Ambiental AIDIS con el trabajo titulado “Evaluación y Diseño de un Pre-tratamiento Térmico Aplicado a Lodos biológicos provenientes de Plantas de Tratamiento de Aguas Residuales Urbanas”. Santiago, Chile.",
             "fecha": [
-                "10·01·2008"
+                "10/01/2008"
             ],
             "tags": [
                 "biorefinería",
@@ -1025,7 +1030,7 @@
             "id": 71,
             "titulo": "Presentación en V Taller y Simposio de Digestión Anaerobia con el trabajo titulado “Evaluación y Diseño de un Pre-tratamiento Térmico Aplicado a Lodos biológicos provenientes de Plantas de Tratamiento de Aguas Residuales Urbanas”. Isla de Pascua, Chile.",
             "fecha": [
-                "10·01·2008"
+                "10/01/2008"
             ],
             "tags": [
                 "biorefinería",
