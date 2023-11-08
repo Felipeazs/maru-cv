@@ -85,8 +85,7 @@
                             >
                                 {#if item.fecha}
                                     <p>
-                                        {item.empresa &&
-                                        item.fecha[0] === "2023"
+                                        {item.empresa && item.fecha[0] === "2023"
                                             ? "presente"
                                             : item.fecha[0]}
                                     </p>
