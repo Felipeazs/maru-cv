@@ -1,6 +1,5 @@
 <script lang="ts">
     import { fade } from "svelte/transition";
-    import { tooltipy } from "../UI/tooltip/tooltip";
 
     import PdfPage from "./pdf/PdfPage.svelte";
 
@@ -9,13 +8,13 @@
 
 {#if pdfItems.length}
     <div
-        class="absolute bottom-0 right-0 z-30"
+        class="absolute bottom-1 right-1 z-30"
         transition:fade={{ delay: 0, duration: 200 }}
     >
         <label
             for="my_modal_6"
-            class="btn btn-xs bg-transparent text-white border-2 border-slate-800 hover:bg-black"
-            use:tooltipy={{ content: "preview cv", placement: "left" }}>p</label
+            class="btn btn-xs bg-transparent text-white border-2 border-slate-500 hover:bg-black lowercase"
+            >preview cv</label
         >
         <input type="checkbox" id="my_modal_6" class="modal-toggle" />
         <div class="modal">

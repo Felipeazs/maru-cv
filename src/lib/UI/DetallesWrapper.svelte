@@ -50,11 +50,8 @@
 
         const final = p.substring(initIndex, lastIndex + 1);
 
-        if (!final) {
-            return (new_p = []);
-        }
-
-        new_p = [p1, final, p2];
+        if (!final) return new_p;
+        else new_p = [p1, final, p2];
 
         return new_p;
     };
