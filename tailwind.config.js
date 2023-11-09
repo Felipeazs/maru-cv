@@ -13,7 +13,7 @@ export default {
                 white: '#F3F3F3',
                 crema: '#F0FFF5',
                 cafe: '#CB6C2D',
-                gris: '#4E5762'
+                gris: '#394455'
             },
         },
     },

@@ -18,13 +18,13 @@
     <div class="collapse p-1 collapse-arrow">
         <input type="checkbox" class="p-1" />
         <div
-            class="collapse-title text-xl uppercase font-bold bg-yellow text-black"
+            class="collapse-title text-xl uppercase font-bold bg-yellow text-crema"
         >
             Contacto
         </div>
         <div class="collapse-content p-0">
             <div
-                class="flex flex-col justify-around items-start gap-5 py-5 bg-gris border-yellow border-[1px] rounded-2xl rounded-t-none w-full px-3"
+                class="flex flex-col justify-around items-start text-black bg-crema gap-5 py-5 border-crema border-[1px] rounded-2xl rounded-t-none w-full px-3"
             >
                 <p class="uppercase font-semibold text-center md:hidden">
                     maría eugenia martínez valenzuela
@@ -92,7 +92,7 @@
                         ? "🇬🇧"
                         : "🇩🇪"}
                 </p>
-                <p class="text-crema w-2/3">
+                <p class="text-slate-300 w-2/3">
                     {i.descripcion ?? ""}
                 </p>
             </div>
@@ -101,9 +101,9 @@
     <CollapsableWrapper title="herramientas">
         {#each herramientas as hs}
             <div class="py-2">
-                <p class="text-crema">{hs.titulo ?? ""}</p>
+                <p class="text-white">{hs.titulo ?? ""}</p>
                 <p class="text-slate-400">{hs.tipo ?? ""}</p>
-                <p class="text-gris">
+                <p class="text-white">
                     nivel {hs.nivel.toLowerCase() ?? ""}
                 </p>
             </div>
@@ -114,11 +114,11 @@
         {#each competencias as cs}
             <div class="flex flex-col">
                 <div class="flex flex-row gap-3">
-                    <p class="text-md text-crema">
+                    <p class="text-md text-white">
                         {cs.titulo ?? ""}
                     </p>
                 </div>
-                <p class="text-slate-400">
+                <p class="text-slate-300">
                     {cs.descripcion ?? ""}
                 </p>
             </div>

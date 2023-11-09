@@ -36,8 +36,6 @@
         if (item.educacion || item.proyecto || item.empresa) {
             pdfItems = [...pdfItems, item];
         }
-
-        console.log(pdfItems);
     };
 
     const transformTitle = (p: string) => {
