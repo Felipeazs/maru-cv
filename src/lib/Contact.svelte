@@ -13,7 +13,7 @@
 </script>
 
 <div
-    class="flex flex-col md:w-1/2 lg:w-full gap-3 items-center text-white text-sm bg-[rgba(78,87,98,1)] p-3"
+    class="flex flex-col md:w-1/2 lg:w-full gap-1 items-center text-white text-sm lg:bg-black p-3 pt-0"
 >
     <div class="collapse p-1 collapse-arrow">
         <input type="checkbox" class="p-1" />
@@ -24,7 +24,7 @@
         </div>
         <div class="collapse-content p-0">
             <div
-                class="flex flex-col justify-around items-start gap-5 py-5 border-yellow border-[1px] rounded-2xl rounded-t-none w-full px-3"
+                class="flex flex-col justify-around items-start gap-5 py-5 bg-gris border-yellow border-[1px] rounded-2xl rounded-t-none w-full px-3"
             >
                 <p class="uppercase font-semibold text-center md:hidden">
                     maría eugenia martínez valenzuela

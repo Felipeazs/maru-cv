@@ -66,6 +66,7 @@
                 on:tag-click={tagHandler}
             />
         {/if}
+
+        <UpButton />
     </div>
-    <UpButton />
 </main>

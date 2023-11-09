@@ -3,6 +3,9 @@ export default {
     content: ['./src/**/*.{html,js,svelte,ts}'],
     theme: {
         extend: {
+            backgroundImage: {
+                bg3: "url('/images/hero3.png')"
+            },
             colors: {
                 black: '#2A1206',
                 licorice: "#1A0F06",

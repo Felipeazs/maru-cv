@@ -12,7 +12,7 @@
         </div>
         <div class="collapse-content p-0">
             <div
-                class="flex flex-col gap-1 py-5 border-crema border-[1px] rounded-2xl rounded-t-none w-full px-3"
+                class="flex flex-col bg-gris gap-1 py-5 border-crema border-[1px] rounded-2xl rounded-t-none w-full px-3"
             >
                 <slot />
             </div>
