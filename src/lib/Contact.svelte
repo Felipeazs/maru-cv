@@ -13,7 +13,7 @@
 </script>
 
 <div
-    class="flex flex-col md:w-1/2 lg:w-full gap-1 items-center text-white text-sm lg:bg-black p-3 pt-0"
+    class="flex flex-col md:w-1/2 lg:w-full gap-1 items-center text-white text-sm lg:bg-transparent p-3 pt-0"
 >
     <div class="collapse p-1 collapse-arrow">
         <input type="checkbox" class="p-1" />
