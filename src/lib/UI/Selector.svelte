@@ -9,6 +9,7 @@
 
     const rubros = [
         { value: "todos", opcion: "Todos" },
+        { value: "empresas", opcion: "Empresas" },
         { value: "perfil", opcion: "Perfil" },
         { value: "experiencias", opcion: "Experiencia laboral" },
         { value: "proyectos", opcion: "Proyectos" },
@@ -20,7 +21,6 @@
         { value: "seminarios", opcion: "Seminarios" },
         { value: "premios", opcion: "Premios" },
         { value: "vinculaciones", opcion: "Vinculaciones" },
-        { value: "empresas", opcion: "Empresas" },
         { value: "servicios", opcion: "Servicios" },
     ];
 

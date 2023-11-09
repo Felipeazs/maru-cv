@@ -1,4 +1,72 @@
 {
+    "empresas": [
+        {
+            "id": 149,
+            "titulo": "Lazo SpA",
+            "cargo": "Socia cofundadora",
+            "descripcion": "Consultora de Negocios Sustentables.|Lazo SpA es una empresa de derecho privado que nace el 2021 para promover negocios en línea con la sostenibilidad, y priorizando los Objetivos de Desarrollo Sostenible (ODS), y en particular los ODS 9 Industria, Innovación e Infraestructura; ODS 12 Producción y Consumo Responsable; ODS 11 Ciudades y Comunidades Sostenibles; ODS 13 Acción por el Clima, y ODS 17 Alianzas para lograr los objetivos. De igual manera, la empresa se compromete con fomentar en las empresas las políticas de sostenibilidad nacionales en favor del cumplimiento de las obligaciones adquiridas para el Acuerdo de París el 9 de abril del 2020 en su Contribución Determinada a Nivel Nacional",
+            "sociales": [
+                {
+                    "nombre": "linkedin",
+                    "link": "https://www.linkedin.com/company/lazo-consultora-de-negocios-sustentables/",
+                    "icono": ""
+                }
+            ],
+            "tags": [
+                "negocios",
+                "sostenibilidad",
+                "ingeniería"
+            ]
+        },
+        {
+            "id": 150,
+            "titulo": "Up Foods SpA ",
+            "cargo": "Socia cofundadora",
+            "descripcion": "spin off como empresa elaboradora de alimentos en base a bagazo de cerveza, con foco en producción sostenible en línea con la economía circular, con sede en el Maule,",
+            "sociales": [
+                {
+                    "nombre": "linkedin",
+                    "link": "https://www.linkedin.com/company/UpFoods/",
+                    "icono": ""
+                }
+            ],
+            "tags": [
+                "economía_circular",
+                "valorización_de_recursos",
+                "alimentos"
+            ]
+        },
+        {
+            "id": 151,
+            "titulo": "ASB Innobiotics SpA",
+            "cargo": "Socia cofundadora",
+            "descripcion": "Empresa de prototipaje on-demand para emprendimientos digitales.|・Desarrollo de aplicaciones web (Java, Javascript).|・Servicios UX/UI y back end.|・Reportabilidad de variables en plataforma web.|・Deployment de servidores en Amazon Web Service, Heroku y Vercel.|・Manejo de bases de datos SQL y NoSQL (PgAdmin (Postgres), DBeaver, MySQl, Compass (MongoDB).|・Prueba de prototipos en baja con Raspebrry Pi.|・Director Tecnológico – Felipe Zapata Soto. Java Full Stack developer (LinkedIn)",
+            "sociales": null,
+            "tags": [
+                "economía_circular",
+                "valorización_de_recursos",
+                "agroindustria"
+            ]
+        },
+        {
+            "id": 152,
+            "titulo": "Retrocicla SpA",
+            "cargo": "Socia cofundadora",
+            "descripcion": null,
+            "sociales": [
+                {
+                    "nombre": "linkedin",
+                    "link": "https://www.linkedin.com/company/retrocicla-spa/",
+                    "icono": ""
+                }
+            ],
+            "tags": [
+                "economía_circular",
+                "textil",
+                "valorización_de_recursos"
+            ]
+        }
+    ],
     "experiencias": [
         {
             "id": 1,
@@ -2093,74 +2161,6 @@
                 "actividad_municipal",
                 "convenio",
                 "gestión_ambiental"
-            ]
-        }
-    ],
-    "empresas": [
-        {
-            "id": 149,
-            "titulo": "Lazo SpA",
-            "cargo": "Socia cofundadora",
-            "descripcion": "Consultora de Negocios Sustentables.|Lazo SpA es una empresa de derecho privado que nace el 2021 para promover negocios en línea con la sostenibilidad, y priorizando los Objetivos de Desarrollo Sostenible (ODS), y en particular los ODS 9 Industria, Innovación e Infraestructura; ODS 12 Producción y Consumo Responsable; ODS 11 Ciudades y Comunidades Sostenibles; ODS 13 Acción por el Clima, y ODS 17 Alianzas para lograr los objetivos. De igual manera, la empresa se compromete con fomentar en las empresas las políticas de sostenibilidad nacionales en favor del cumplimiento de las obligaciones adquiridas para el Acuerdo de París el 9 de abril del 2020 en su Contribución Determinada a Nivel Nacional",
-            "sociales": [
-                {
-                    "nombre": "linkedin",
-                    "link": "https://www.linkedin.com/company/lazo-consultora-de-negocios-sustentables/",
-                    "icono": ""
-                }
-            ],
-            "tags": [
-                "negocios",
-                "sostenibilidad",
-                "ingeniería"
-            ]
-        },
-        {
-            "id": 150,
-            "titulo": "Up Foods SpA ",
-            "cargo": "Socia cofundadora",
-            "descripcion": "spin off como empresa elaboradora de alimentos en base a bagazo de cerveza, con foco en producción sostenible en línea con la economía circular, con sede en el Maule,",
-            "sociales": [
-                {
-                    "nombre": "linkedin",
-                    "link": "https://www.linkedin.com/company/UpFoods/",
-                    "icono": ""
-                }
-            ],
-            "tags": [
-                "economía_circular",
-                "valorización_de_recursos",
-                "alimentos"
-            ]
-        },
-        {
-            "id": 151,
-            "titulo": "ASB Innobiotics SpA",
-            "cargo": "Socia cofundadora",
-            "descripcion": "Empresa de prototipaje on-demand para emprendimientos digitales.|・Desarrollo de aplicaciones web (Java, Javascript).|・Servicios UX/UI y back end.|・Reportabilidad de variables en plataforma web.|・Deployment de servidores en Amazon Web Service, Heroku y Vercel.|・Manejo de bases de datos SQL y NoSQL (PgAdmin (Postgres), DBeaver, MySQl, Compass (MongoDB).|・Prueba de prototipos en baja con Raspebrry Pi.|・Director Tecnológico – Felipe Zapata Soto. Java Full Stack developer (LinkedIn)",
-            "sociales": null,
-            "tags": [
-                "economía_circular",
-                "valorización_de_recursos",
-                "agroindustria"
-            ]
-        },
-        {
-            "id": 152,
-            "titulo": "Retrocicla SpA",
-            "cargo": "Socia cofundadora",
-            "descripcion": null,
-            "sociales": [
-                {
-                    "nombre": "linkedin",
-                    "link": "https://www.linkedin.com/company/retrocicla-spa/",
-                    "icono": ""
-                }
-            ],
-            "tags": [
-                "economía_circular",
-                "textil",
-                "valorización_de_recursos"
             ]
         }
     ],
