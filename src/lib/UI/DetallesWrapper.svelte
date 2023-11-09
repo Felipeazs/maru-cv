@@ -5,6 +5,7 @@
     import { tooltipy } from "./tooltip/tooltip";
     import { sorting_items } from "../../utils/utils";
     import check from "/images/check.svg";
+    import { init } from "svelte/internal";
 
     const dispatch = createEventDispatcher();
 
@@ -37,6 +38,25 @@
         if (item.educacion || item.proyecto || item.empresa) {
             pdfItems = [...pdfItems, item];
         }
+    };
+
+    const transformTitle = (p: string) => {
+        let new_p = [];
+        const initIndex = p.indexOf("“");
+        const lastIndex = p.indexOf("”");
+
+        const p1 = p.substring(0, initIndex);
+        const p2 = p.substring(lastIndex + 1);
+
+        const final = p.substring(initIndex, lastIndex + 1);
+
+        if (!final) {
+            return (new_p = []);
+        }
+
+        new_p = [p1, final, p2];
+
+        return new_p;
     };
 </script>
 
@@ -107,7 +127,9 @@
                             >
                                 <div
                                     class={`${
-                                        item.logo ? "w-full md:w-[80%]" : "w-full"
+                                        item.logo
+                                            ? "w-full md:w-[80%]"
+                                            : "w-full"
                                     }`}
                                 >
                                     <div class="py-1">
@@ -115,10 +137,33 @@
                                             <p>{ed}</p>
                                         {/each}
                                         {#each item.titulo?.split("|") ?? [] as title}
-                                            <p>{title}</p>
+                                            <p class="">
+                                                {transformTitle(title)[0] ??
+                                                    title}
+                                                <span class="italic"
+                                                    >{transformTitle(
+                                                        title
+                                                    )[1] ?? ""}</span
+                                                >
+                                                <span
+                                                    >{transformTitle(
+                                                        title
+                                                    )[2] ?? ""}</span
+                                                >
+                                            </p>
                                         {/each}
                                         {#each item.proyecto?.split("|") ?? [] as pro}
-                                            <p>{pro}</p>
+                                            <p class="">
+                                                {transformTitle(pro)[0] ?? pro}
+                                                <span class="italic"
+                                                    >{transformTitle(pro)[1] ??
+                                                        ""}</span
+                                                >
+                                                <span
+                                                    >{transformTitle(pro)[2] ??
+                                                        ""}</span
+                                                >
+                                            </p>
                                         {/each}
                                     </div>
                                     <p class="text-sm text-slate-500 italic">
