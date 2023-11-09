@@ -12,7 +12,9 @@
     const { competencias, idiomas, herramientas } = $data;
 </script>
 
-<div class="flex flex-col gap-3 items-center text-white text-sm bg-gris p-3">
+<div
+    class="flex flex-col md:w-1/2 lg:w-full gap-3 items-center text-white text-sm bg-[rgba(78,87,98,1)] p-3"
+>
     <div class="collapse p-1 collapse-arrow">
         <input type="checkbox" class="p-1" />
         <div

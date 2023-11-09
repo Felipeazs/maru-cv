@@ -8,9 +8,9 @@
 </script>
 
 <div
-    class="relative z-20 top-0 h-full m-auto lg:fixed lg:right-[3%] overflow-auto flex flex-col md:flex-row lg:flex-col w-full lg:w-[25%] justify-center bg-licorice text-black items-center"
+    class="relative z-20 top-0 lg:right-0 h-full m-auto lg:fixed overflow-auto flex flex-col md:flex-row md:items-start lg:items-center md:bg-crema lg:flex-col w-full lg:w-[35%] xl:w-[25%] justify-center lg:bg-gris text-black items-center"
 >
-    <div class="relative h-full">
+    <div class="relative h-full md:w-1/2">
         <img
             src={maru}
             class="h-full w-full overflow-visible md:overflow-x-hidden lg:overflow-visible text-white object-cover"
