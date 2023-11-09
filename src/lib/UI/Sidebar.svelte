@@ -11,7 +11,9 @@
 <div
     class="relative z-30 top-0 lg:right-0 h-full m-auto lg:fixed overflow-auto flex flex-col md:flex-row md:items-start lg:items-center lg:flex-col w-full lg:w-[35%] xl:w-[25%] justify-center text-black items-center bg-transparent"
 >
-    <div class="relative h-1/3 w-1/2 md:w-1/3 lg:h-full lg:w-full bg-transparent">
+    <div
+        class="relative h-1/3 w-1/2 md:w-1/3 lg:h-full lg:w-full bg-transparent"
+    >
         <img
             src={maru}
             class="h-full w-full overflow-visible md:overflow-x-hidden lg:overflow-visible text-white object-cover"

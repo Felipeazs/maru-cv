@@ -38,7 +38,7 @@
 <div id="btn-section" class="fixed bottom-20 right-[3%] lg:right-[26%] z-10">
     <button
         class="btn btn-sm bg-crema border-2 border-gris hover:bg-crema hover:border-yellow transition ease-in-out delay-75 hover:scale-110"
-        use:tooltipy={{ content: "subir" }}
+        use:tooltipy={{ content: "temario" }}
         on:click={upHandler}
     >
         <img src={up} width={20} height={"auto"} alt="up" />
