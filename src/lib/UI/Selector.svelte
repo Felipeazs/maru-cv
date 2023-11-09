@@ -58,7 +58,7 @@
 </script>
 
 <div
-    class="relative z-10 m-auto w-[90%] md:w-[70%] lg:w-[55%] xl:w-[45%] top-[50px] lg:m-0 lg:left-[150px]"
+    class="relative z-10 m-auto w-[90%] left-0 lg:left-11 lg:w-[58%] xl:w-[45%] top-[50px] lg:m-0 xl:left-32"
     id="selector-ref"
 >
     <div class="flex flex-row justify-between">
@@ -72,7 +72,7 @@
         <label class="flex flex-col w-full md:w-[200px]">
             Selecciona un tema
             <select
-                class="select select-bordered select-sm min-w-[200px] text-black"
+                class="select select-bordered select-sm min-w-[100px] text-black"
                 bind:value={selection}
                 on:change={resetValues}
             >
@@ -84,7 +84,7 @@
         <label class="flex flex-col w-full md:w-[200px]">
             Año
             <select
-                class="select select-bordered select-sm min-w-[150px] text-black"
+                class="select select-bordered select-sm min-w-[100px] text-black"
                 bind:value={anio}
             >
                 {#each anios as anio}
@@ -95,7 +95,7 @@
         <label class="flex flex-col w-full md:w-[200px]">
             Especialidad
             <select
-                class="select select-bordered select-sm min-w-[200px] text-black"
+                class="select select-bordered select-sm min-w-[100px] text-black"
                 bind:value={especialidad}
             >
                 {#each especialidades as esp}
