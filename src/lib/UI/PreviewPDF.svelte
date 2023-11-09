@@ -21,7 +21,7 @@
         >
         <input type="checkbox" id="my_modal_6" class="modal-toggle" />
         <div class="modal">
-            <div class="modal-box max-w-[1000px]">
+            <div class="modal-box max-w-[90%]">
                 <PdfPage bind:pdfItems />
             </div>
             <label class="modal-backdrop" for="my_modal_6">Close</label>

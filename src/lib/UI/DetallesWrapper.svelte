@@ -4,8 +4,6 @@
 
     import { tooltipy } from "./tooltip/tooltip";
     import { sorting_items } from "../../utils/utils";
-    import check from "/images/check.svg";
-    import { init } from "svelte/internal";
 
     const dispatch = createEventDispatcher();
 
@@ -38,6 +36,8 @@
         if (item.educacion || item.proyecto || item.empresa) {
             pdfItems = [...pdfItems, item];
         }
+
+        console.log(pdfItems);
     };
 
     const transformTitle = (p: string) => {
@@ -86,15 +86,17 @@
                                 : "z-10 bg-[#fff] text-md text-black font-bold border-2 border-[rgba(78,87,98,0.8)] rounded-lg hover:cursor-auto"}
                             on:click={() => badgeHandler(item)}
                         >
-                            {#if pdfItems.find((p) => p.id === item.id)}
+                            {#if pdfItems.some((p) => p.id === item.id)}
                                 <span
-                                    class="indicator-item badge badge-secondary bg-yellow border-yellow"
+                                    class="indicator-item text-crema align-baseline badge badge-secondary bg-yellow border-yellow shadow-sm shadow-black"
                                     transition:fade={{
                                         delay: 0,
                                         duration: 100,
                                     }}
                                 >
-                                    <img src={check} alt="check" width={12} />
+                                    {pdfItems.findIndex(
+                                        (p) => p.id === item.id
+                                    ) + 1}
                                 </span>
                             {/if}
                             <div
