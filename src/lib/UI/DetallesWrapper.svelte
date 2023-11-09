@@ -82,7 +82,7 @@
                             class={item.educacion ||
                             item.proyecto ||
                             item.empresa
-                                ? "indicator z-10 bg-[#fff] text-md text-black font-bold border-2 border-[rgba(78,87,98,0.8)] rounded-lg hover:cursor-pointer transition ease-in-out delay-75 hover:scale-110 hover:border-yellow"
+                                ? "indicator z-10 bg-[#fff] text-md text-black font-bold border-2 border-[rgba(78,87,98,0.8)] rounded-lg hover:cursor-pointer hover:border-yellow"
                                 : "z-10 bg-[#fff] text-md text-black font-bold border-2 border-[rgba(78,87,98,0.8)] rounded-lg hover:cursor-auto"}
                             on:click={() => badgeHandler(item)}
                         >
