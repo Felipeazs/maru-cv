@@ -75,7 +75,7 @@
                     >
                         {#if i !== filteredItems.length - 1}
                             <div
-                                class="absolute hidden md:inline-block z-0 top-10 left-[5%] bg-[rgba(13,60,85,0.1)] h-full pl-[3px]"
+                                class="absolute hidden md:inline-block z-0 top-10 left-[5%] bg-[rgba(225,172,91,0.2)] h-full pl-[3px]"
                             />
                         {/if}
                         <button

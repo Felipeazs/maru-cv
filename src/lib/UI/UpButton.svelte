@@ -35,7 +35,7 @@
 
 <div id="btn-section" class="fixed bottom-20 right-[3%] lg:right-[29%] z-10">
     <button
-        class="btn btn-sm bg-[#fff] border-2 border-[rgba(13,60,85,0.8)] hover:border-[#fff] transition ease-in-out delay-75 hover:scale-110"
+        class="btn btn-sm bg-crema border-2 border-gris hover:bg-crema hover:border-yellow transition ease-in-out delay-75 hover:scale-110"
         on:click={upHandler}
     >
         <img src={up} width={20} height={"auto"} alt="up" />

@@ -36,7 +36,7 @@
         <p class="w-max font-semibold text-black">tags:</p>
         {#each tags as tag, i}
             <button
-                class="relative w-max bg-black border-2 border-gray-300 rounded-md justify-center items-center px-4 py-1 transition ease-in-out delay-75 hover:scale-110 hover:text-red-500"
+                class="relative w-max bg-crema border-2 border-gris rounded-md justify-center items-center px-4 py-1 transition ease-in-out delay-75 hover:scale-110 hover:border-yellow"
                 use:tooltipy={{
                     content: tag.nombre.replace(/_/g, " "),
                     placement: "right",
@@ -46,7 +46,7 @@
             >
                 <img src={tag.icono} width={20} alt="icono" />
                 <span
-                    class="absolute top-0 right-1 text-white p-0 m-0 lowercase text-[10px]"
+                    class="absolute top-0 right-1 text-black p-0 m-0 lowercase text-[10px]"
                     >✕</span
                 >
             </button>
