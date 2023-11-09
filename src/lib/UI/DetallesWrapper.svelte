@@ -82,8 +82,8 @@
                             class={item.educacion ||
                             item.proyecto ||
                             item.empresa
-                                ? "indicator z-10 bg-[#fff] text-md text-black font-bold rounded-lg hover:cursor-pointer transition ease-in-out delay-75 hover:scale-110"
-                                : "z-10 bg-[#fff] text-md text-black font-bold rounded-lg hover:cursor-auto"}
+                                ? "indicator z-10 bg-[#fff] text-md text-black font-bold border-2 border-[rgba(13,60,85,0.8)] rounded-lg hover:cursor-pointer transition ease-in-out delay-75 hover:scale-110 hover:border-yellow"
+                                : "z-10 bg-[#fff] text-md text-black font-bold border-2 border-[rgba(13,60,85,0.8)] rounded-lg hover:cursor-auto"}
                             on:click={() => badgeHandler(item)}
                         >
                             {#if pdfItems.find((p) => p.id === item.id)}
@@ -98,7 +98,7 @@
                                 </span>
                             {/if}
                             <div
-                                class="flex flex-row-reverse md:flex-col justify-center items-center min-w-[105px] md:min-h-[50px] p-1 border-2 border-[rgba(13,60,85,0.8)] rounded-lg hover:border-yellow"
+                                class="flex flex-row-reverse md:flex-col justify-center items-center min-w-[105px] md:min-h-[50px]"
                             >
                                 {#if item.fecha}
                                     <p>

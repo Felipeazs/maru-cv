@@ -1,5 +1,8 @@
 <script lang="ts">
     import { fade } from "svelte/transition";
+    import { tooltipy } from "./tooltip/tooltip";
+
+    import trash from "/images/trash.svg";
 
     import PdfPage from "./pdf/PdfPage.svelte";
 
@@ -8,12 +11,12 @@
 
 {#if pdfItems.length}
     <div
-        class="absolute bottom-1 right-1 z-30"
+        class="absolute bottom-1 right-1 z-30 flex flex-row items-center gap-2"
         transition:fade={{ delay: 0, duration: 200 }}
     >
         <label
             for="my_modal_6"
-            class="btn btn-xs bg-transparent text-white border-2 border-slate-500 hover:bg-black lowercase"
+            class="btn btn-xs bg-transparent text-white border-2 border-slate-500 hover:bg-transparent hover:border-yellow lowercase transition ease-in-out delay-75 hover:scale-110"
             >preview cv</label
         >
         <input type="checkbox" id="my_modal_6" class="modal-toggle" />
@@ -23,5 +26,12 @@
             </div>
             <label class="modal-backdrop" for="my_modal_6">Close</label>
         </div>
+        <button
+            class="btn btn-xs bg-transparent border-2 border-gris hover:bg-transparent hover:border-yellow transition ease-in-out delay-75 hover:scale-110"
+            use:tooltipy={{ content: "limpiar cv" }}
+            on:click={() => (pdfItems = [])}
+        >
+            <img src={trash} alt="el" width={15} height={15} />
+        </button>
     </div>
 {/if}

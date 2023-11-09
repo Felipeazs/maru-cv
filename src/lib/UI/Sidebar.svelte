@@ -16,7 +16,9 @@
             class="h-full w-full overflow-visible md:overflow-x-hidden lg:overflow-visible text-white object-cover"
             alt="foto_perfil"
         />
-        <PreviewPdf bind:pdfItems />
+        <div>
+            <PreviewPdf bind:pdfItems />
+        </div>
     </div>
 
     <Contact />
