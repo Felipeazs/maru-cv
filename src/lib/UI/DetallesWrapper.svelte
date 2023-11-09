@@ -75,20 +75,20 @@
                     >
                         {#if i !== filteredItems.length - 1}
                             <div
-                                class="absolute hidden md:inline-block z-0 top-10 left-[5%] bg-[rgba(225,172,91,0.2)] h-full pl-[3px]"
+                                class="absolute hidden md:inline-block z-0 top-10 left-[5%] bg-[rgba(78,87,98,0.2)] h-full pl-[3px]"
                             />
                         {/if}
                         <button
                             class={item.educacion ||
                             item.proyecto ||
                             item.empresa
-                                ? "indicator z-10 bg-[#fff] text-md text-black font-bold rounded-lg hover:bg-[rgba(13,60,85,0.8)] hover:text-white hover:cursor-pointer"
+                                ? "indicator z-10 bg-[#fff] text-md text-black font-bold rounded-lg hover:cursor-pointer transition ease-in-out delay-75 hover:scale-110"
                                 : "z-10 bg-[#fff] text-md text-black font-bold rounded-lg hover:cursor-auto"}
                             on:click={() => badgeHandler(item)}
                         >
                             {#if pdfItems.find((p) => p.id === item.id)}
                                 <span
-                                    class="indicator-item badge badge-secondary"
+                                    class="indicator-item badge badge-secondary bg-yellow border-yellow"
                                     transition:fade={{
                                         delay: 0,
                                         duration: 100,
@@ -98,7 +98,7 @@
                                 </span>
                             {/if}
                             <div
-                                class="flex flex-row-reverse md:flex-col justify-center items-center min-w-[105px] md:min-h-[50px] p-1 border-2 border-[rgba(13,60,85,0.8)] rounded-lg"
+                                class="flex flex-row-reverse md:flex-col justify-center items-center min-w-[105px] md:min-h-[50px] p-1 border-2 border-[rgba(13,60,85,0.8)] rounded-lg hover:border-yellow"
                             >
                                 {#if item.fecha}
                                     <p>
