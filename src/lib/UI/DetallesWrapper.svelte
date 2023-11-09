@@ -247,7 +247,7 @@
                                 <div
                                     class="flex flex-col justify-center items-baseline text-xs text-gray-400 pb-3"
                                 >
-                                    <p class="text-center">tags:</p>
+                                    <p class="text-center">categorías:</p>
                                     <div
                                         class="flex flex-row flex-wrap gap-1 py-1"
                                     >
