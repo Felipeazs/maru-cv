@@ -1,7 +1,7 @@
 <script lang="ts">
 </script>
 
-<hero class="flex relative h-[700px] z-30">
+<hero class="flex relative h-[800px] z-30">
     <div
         class="absolute flex top-[20%] lg:top-[28%] xl:top-[65%] left-0 flex-row flex-wrap gap-5 justify-center xl:justify-between items-start px-[5%] w-full"
     >
