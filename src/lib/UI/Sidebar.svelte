@@ -26,7 +26,7 @@
     <Contact />
 </div>
 <div
-    class="absolute z-20 top-0 lg:right-0 h-full m-auto lg:fixed overflow-auto flex flex-col md:flex-row md:items-start lg:items-center lg:flex-col w-full lg:w-[35%] xl:w-[25%] justify-center text-black items-center bg-gris"
+    class="absolute z-20 h-full top-[45%] md:top-[25%] lg:top-0 lg:right-0 lg:h-full m-auto lg:fixed overflow-auto flex flex-col md:flex-row md:items-start lg:items-center lg:flex-col w-full lg:w-[35%] xl:w-[25%] justify-center text-black items-center bg-gris"
 >
-    <div class="absolute top-0 bg-black w-full h-1/3" />
+    <div class="absolute top-0 bg-black w-full h-2/3 lg:h-1/3" />
 </div>

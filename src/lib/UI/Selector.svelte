@@ -58,7 +58,7 @@
 </script>
 
 <div
-    class="relative z-10 m-auto w-[90%] left-0 lg:left-11 lg:w-[58%] xl:w-[45%] top-[50px] lg:m-0 xl:left-32"
+    class="relative z-10 m-auto w-[90%] left-0 lg:left-11 lg:w-[58%] xl:w-[45%] top-[50px] md:top-[90px] lg:top-[50px] lg:m-0 xl:left-32"
     id="selector-ref"
 >
     <div class="flex flex-row justify-between">
