@@ -23,7 +23,7 @@
                                 <p>{eds}</p>
                             {/each}
                         </td>
-                        <td>{ed.institucion}</td>
+                        <td>{ed.institucion ?? ""}</td>
                         <td
                             >{ed.fecha[1]} - {ed.fecha[0] === "2023"
                                 ? "presente"
@@ -53,9 +53,9 @@
             {#each pdfItems as exp (exp.id)}
                 {#if exp.empresa}
                     <tr>
-                        <td>{exp.empresa}</td>
-                        <td>{exp.especialidad?.replace(/_/g, " ")}</td>
-                        <td>{exp.titulo}</td>
+                        <td>{exp.empresa ?? ""}</td>
+                        <td>{exp.especialidad?.replace(/_/g, " ") ?? ""}</td>
+                        <td>{exp.titulo ?? ""}</td>
                         <td />
                         <td>{exp.fecha[1] ?? exp.fecha[0]}</td>
                         <td
@@ -86,8 +86,8 @@
             {#each pdfItems as pr (pr.id)}
                 {#if pr.proyecto}
                     <tr>
-                        <td>{pr.proyecto}</td>
-                        <td>{pr.especialidad?.replace(/_/g, " ")}</td>
+                        <td>{pr.proyecto ?? ""}</td>
+                        <td>{pr.especialidad?.replace(/_/g, " ") ?? ""}</td>
                         <td />
                         <td>{pr.fecha[1] ?? pr.fecha[0]}</td>
                         <td
