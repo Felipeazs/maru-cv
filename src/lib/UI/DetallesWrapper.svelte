@@ -150,8 +150,14 @@
                                 >
                                     <div class="py-1">
                                         {#if item.educacion}
-                                            {#each item?.educacion as ed}
-                                                <p>{ed}</p>
+                                            {#each item.educacion[0]?.split("|") as ed}
+                                                <div
+                                                    class="flex flex-row gap-1 items-baseline justify-between"
+                                                >
+                                                    <p class="w-full">
+                                                        {ed}
+                                                    </p>
+                                                </div>
                                             {/each}
                                         {/if}
                                         {#if item.titulo}
@@ -179,8 +185,15 @@
                                             {/each}
                                         {/if}
                                         {#if item.proyecto}
-                                            {#each item.proyecto as pro}
-                                                <p>{pro}</p>{/each}
+                                            {#each item.proyecto[0]?.split("|") as pro}
+                                                <div
+                                                    class="flex flex-row gap-1 items-baseline justify-between"
+                                                >
+                                                    <p class="w-full">
+                                                        {pro}
+                                                    </p>
+                                                </div>
+                                            {/each}
                                         {/if}
                                     </div>
                                     <p class="text-sm text-slate-500 italic">
@@ -202,7 +215,9 @@
                                                 descripción:
                                             </p>
                                             {#each item.descripcion.split("|") ?? [] as desc}
-                                                <p class="text-gray-900">
+                                                <p
+                                                    class="flex felx-col text-gray-900"
+                                                >
                                                     {desc}
                                                 </p>
                                             {/each}
