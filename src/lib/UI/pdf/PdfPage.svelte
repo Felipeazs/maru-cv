@@ -69,7 +69,7 @@
         </tbody>
     </table>
     <h4>
-        IV. Proyectos del ámbito del a Investigación y/o Desarrollo u otro en
+        IV. Proyectos del ámbito de la Investigación y/o Desarrollo u otro en
         los que el prefesional ha participado
     </h4>
     <table class="table table-fixed">

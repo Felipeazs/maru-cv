@@ -14,6 +14,8 @@
     export let title: string;
     export let pdfItems = [];
 
+    let now = new Date().getFullYear().toString();
+
     let filteredItems = [];
     $: items = sorting_items(items, anio, especialidad);
     $: if (tags?.length) {
@@ -38,20 +40,21 @@
         }
     };
 
-    const transformTitle = (p: string) => {
-        let new_p = [];
-        const initIndex = p.indexOf("“");
-        const lastIndex = p.indexOf("”");
+    const verHandler = (id: number) => {
+        const element = document.getElementById(`mas-${id}`);
+        const title = document.getElementById(`mas-title-${id}`);
 
-        const p1 = p.substring(0, initIndex);
-        const p2 = p.substring(lastIndex + 1);
-
-        const final = p.substring(initIndex, lastIndex + 1);
-
-        if (!final) return new_p;
-        else new_p = [p1, final, p2];
-
-        return new_p;
+        const isHidden = element.getAttribute("class") === "hidden";
+        if (isHidden) {
+            element.setAttribute(
+                "class",
+                "inline-block text-sm text-gris rounded-lg bg-[#fff] p-2 border-white border-2"
+            );
+            title.innerText = "ver menos";
+        } else {
+            element.setAttribute("class", "hidden");
+            title.innerText = "ver más...";
+        }
     };
 </script>
 
@@ -101,14 +104,14 @@
                                 class="flex flex-row-reverse md:flex-col justify-center items-center min-w-[105px] md:min-h-[50px]"
                             >
                                 {#if item.fecha}
-                                    <p>
-                                        {item.empresa &&
-                                        item.fecha[0] === "2023"
-                                            ? "presente"
-                                            : item.fecha[0]}
-                                    </p>
-                                    <span>{item.fecha[1] ? "・" : ""}</span>
-                                    <p>{item.fecha[1] ?? ""}</p>
+                                    {#each item.fecha[0]?.split("|") as fecha, i}
+                                        <p>
+                                            {fecha === now ? "presente" : fecha}
+                                        </p>
+                                        {#if i < item.fecha[0]?.split("|").length - 1}
+                                            ・
+                                        {/if}
+                                    {/each}
                                 {:else}
                                     {i + 1}
                                 {/if}
@@ -130,38 +133,39 @@
                                     }`}
                                 >
                                     <div class="py-1">
-                                        {#each item.educacion?.split("|") ?? [] as ed}
-                                            <p>{ed}</p>
-                                        {/each}
-                                        {#each item.titulo?.split("|") ?? [] as title}
-                                            <p class="">
-                                                {transformTitle(title)[0] ??
-                                                    title}
-                                                <span class="italic"
-                                                    >{transformTitle(
-                                                        title
-                                                    )[1] ?? ""}</span
+                                        {#if item.educacion}
+                                            {#each item?.educacion as ed}
+                                                <p>{ed}</p>
+                                            {/each}
+                                        {/if}
+                                        {#if item.titulo}
+                                            {#each item.titulo as title, i}
+                                                <div
+                                                    class="flex flex-row flex-wrap gap-1 items-baseline justify-between"
                                                 >
-                                                <span
-                                                    >{transformTitle(
-                                                        title
-                                                    )[2] ?? ""}</span
-                                                >
-                                            </p>
-                                        {/each}
-                                        {#each item.proyecto?.split("|") ?? [] as pro}
-                                            <p class="">
-                                                {transformTitle(pro)[0] ?? pro}
-                                                <span class="italic"
-                                                    >{transformTitle(pro)[1] ??
-                                                        ""}</span
-                                                >
-                                                <span
-                                                    >{transformTitle(pro)[2] ??
-                                                        ""}</span
-                                                >
-                                            </p>
-                                        {/each}
+                                                    <p class="w-max">
+                                                        {item.titulo.length > 1
+                                                            ? "・"
+                                                            : ""}
+                                                        {title}
+                                                    </p>
+                                                    {#if item.fecha?.length > 1}
+                                                        <p
+                                                            class="text-xs text-gray-400 min-w-[107px] text-start"
+                                                        >
+                                                            {item.fecha[i]
+                                                                .split("|")
+                                                                .reverse()
+                                                                .join(" - ")}
+                                                        </p>
+                                                    {/if}
+                                                </div>
+                                            {/each}
+                                        {/if}
+                                        {#if item.proyecto}
+                                            {#each item.proyecto as pro}
+                                                <p>{pro}</p>{/each}
+                                        {/if}
                                     </div>
                                     <p class="text-sm text-slate-500 italic">
                                         {item.cargo ?? ""}
@@ -175,7 +179,9 @@
                                             ""}
                                     </p>
                                     {#if item.descripcion}
-                                        <div class="flex flex-col text-sm py-2">
+                                        <div
+                                            class="flex flex-col items-start text-sm py-2 gap-1"
+                                        >
                                             <p class="text-xs text-gray-400">
                                                 descripción:
                                             </p>
@@ -184,6 +190,41 @@
                                                     {desc}
                                                 </p>
                                             {/each}
+                                            {#if item.mas}
+                                                <button
+                                                    id={`mas-title-${item.id}`}
+                                                    class="btn btn-xs btn-gray text-gray-500 font-normal lowercase"
+                                                    on:click={() =>
+                                                        verHandler(item.id)}
+                                                >
+                                                    ver más...
+                                                </button>
+                                                <span
+                                                    id={`mas-${item.id}`}
+                                                    class="hidden"
+                                                >
+                                                    {#each item.mas[0].split("|") as mas}
+                                                        <p>{mas}</p>
+                                                        <br />
+                                                    {/each}
+                                                </span>
+                                            {/if}
+                                        </div>
+                                    {/if}
+                                    {#if item.aptitudes}
+                                        <div
+                                            class="flex flex-col justify-center items-baseline text-xs text-gray-400 py-1"
+                                        >
+                                            <p class="text-center">
+                                                aptitudes:
+                                            </p>
+                                            <div
+                                                class="flex flex-row flex-wrap gap-1 py-1 text-gray-500"
+                                            >
+                                                {item?.aptitudes
+                                                    ?.join(" ・ ")
+                                                    .replace(/_/g, " ")}
+                                            </div>
                                         </div>
                                     {/if}
                                     {#if item.social.length}
