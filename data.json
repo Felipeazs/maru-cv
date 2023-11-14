@@ -35,7 +35,7 @@
             "cargo": "Socia cofundadora, Chief Strategy Officer (CSO)",
             "descripcion": "spin off como empresa elaboradora de alimentos en base a bagazo de cerveza, con foco en producción sostenible en línea con la economía circular, con sede en el Maule.",
             "mas": [
-                "Somos Upfood! una foodtech liderada por mujeres y desarrollamos productos alimenticios a partir de sub-ingredientes de la industria cervecera ¡Hacemos upcycling food y economía circular! Bagán es nuestro primer producto 🌱🍺| ¡Conoce a Up Foods, una empresa revolucionaria en la industria de alimentos! 🌱 En Up Foods estamos comprometidos con la innovación y la sostenibilidad, aprovechando los recursos de manera inteligente para crear soluciones deliciosas y respetuosas con el medio ambiente ♻️ |Nuestros productos están diseñados para los mercados emergentes, ofreciendo opciones alimenticias saludables y deliciosas. 😋 Estamos impulsando el cambio en la industria de alimentos, demostrando que se pueden obtener sabores excepcionales mientras se protege nuestro planeta.| 🌍 Únete a nosotros en este emocionante viaje hacia un futuro más sostenible y nutricionalmente rico. Juntos, estamos creando un mundo donde la comida es más que solo nutrición, es una declaración de responsabilidad y sabor."
+                "Somos Upfood! una foodtech liderada por mujeres y desarrollamos productos alimenticios a partir de sub-ingredientes de la industria cervecera ¡Hacemos upcycling food y economía circular! Bagán es nuestro primer producto 🌱🍺.| ¡Conoce a Up Foods, una empresa revolucionaria en la industria de alimentos! 🌱. En Up Foods estamos comprometidos con la innovación y la sostenibilidad, aprovechando los recursos de manera inteligente para crear soluciones deliciosas y respetuosas con el medio ambiente ♻️. |Nuestros productos están diseñados para los mercados emergentes, ofreciendo opciones alimenticias saludables y deliciosas. 😋 Estamos impulsando el cambio en la industria de alimentos, demostrando que se pueden obtener sabores excepcionales mientras se protege nuestro planeta.| 🌍 Únete a nosotros en este emocionante viaje hacia un futuro más sostenible y nutricionalmente rico. Juntos, estamos creando un mundo donde la comida es más que solo nutrición, es una declaración de responsabilidad y sabor."
             ],
             "aptitudes": [
                 "estrategia_corporativa",
@@ -62,7 +62,10 @@
                 "ASB Innobiotics SpA"
             ],
             "cargo": "Socia cofundadora",
-            "descripcion": "Empresa de prototipaje on-demand para emprendimientos digitales.|・Desarrollo de aplicaciones web (Java, Javascript).|・Servicios UX/UI y back end.|・Reportabilidad de variables en plataforma web.|・Deployment de servidores en Amazon Web Service, Heroku y Vercel.|・Manejo de bases de datos SQL y NoSQL (PgAdmin (Postgres), DBeaver, MySQl, Compass (MongoDB).|・Prueba de prototipos en baja con Raspebrry Pi.|・Director Tecnológico – Felipe Zapata Soto. Java Full Stack developer (LinkedIn)",
+            "descripcion": "Empresa de prototipaje on-demand para emprendimientos digitales.",
+            "mas": [
+                "・Desarrollo de aplicaciones web (Java, Javascript).|・Servicios UX/UI y back end.|・Reportabilidad de variables en plataforma web.|・Deployment de servidores en Amazon Web Service, Heroku y Vercel.|・Manejo de bases de datos SQL y NoSQL (PgAdmin (Postgres), DBeaver, MySQl, Compass (MongoDB).|・Prueba de prototipos en baja con Raspebrry Pi.|・Director Tecnológico – Felipe Zapata Soto. Java Full Stack developer (LinkedIn)"
+            ],
             "sociales": null,
             "tags": [
                 "economía_circular",
@@ -75,7 +78,7 @@
             "titulo": [
                 "Retrocicla SpA"
             ],
-            "cargo": "Socia cofundadora",
+            "cargo": "Socia cofundadora, Directora de finanzas 💰",
             "descripcion": null,
             "sociales": [
                 {
@@ -97,7 +100,7 @@
             "titulo": [
                 "Gerente general",
                 "Gerente técnico-comercial",
-                "Líder de proyectos en economía circular y cambio climático."
+                "Líder de proyectos en economía circular y cambio climático"
             ],
             "empresa": "Consultora Técnica Sustrend SpA",
             "fecha": [
@@ -136,7 +139,7 @@
             ],
             "descripcion": "・Formular y liderar la postulación de nuevos proyectos para el área Gestión Ambiental del Centro de Biotecnología de Sistemas UNAB. |・Gestionar y cumplir los objetivos técnicos/financieros planteados en los proyectos que tienen a cargo. |・Crear y mantener relaciones de colaboración con sus pares en UNAB y otras universidades, otras empresas de I + D y/o clientes. |・Participar en la gestión de los resultados científicos obtenidos para su apropiabilidad y/o difusión científica.",
             "mas": [
-                "Competencias técnicas: |1. Formulación de presupuestos de proyectos/contratos |2. Manejo de herramientas de análisis y simulación in silico para gestión ambiental (análisis de ciclo de vida, análisis tecnoeconómico y escenarios de sensibilidad, otros). |3. Tratamiento de residuos líquidos y sólidos. |4. Conocimiento de normativas y tendencias relacionadas con Economía Circular, Simbiosis Industrial y valorización de residuos. |5. Otras tecnologías emergentes relacionadas con la gestión ambiental"
+                "Competencias técnicas: |・Formulación de presupuestos de proyectos/contratos |・Manejo de herramientas de análisis y simulación in silico para gestión ambiental (análisis de ciclo de vida, análisis tecnoeconómico y escenarios de sensibilidad, otros). |・Tratamiento de residuos líquidos y sólidos. |・Conocimiento de normativas y tendencias relacionadas con Economía Circular, Simbiosis Industrial y valorización de residuos. |・Otras tecnologías emergentes relacionadas con la gestión ambiental"
             ],
             "aptitudes": [
                 "gestión_de_la_innovación",
@@ -164,7 +167,20 @@
             "fecha": [
                 "12/2021|08/2010"
             ],
-            "descripcion": "",
+            "descripcion": "Desarrollo de evaluaciones técnico-económicos y ambientales, incluyendo Análisis de Ciclo de Vida y estudios de mercado. Enfoque en revalorización de residuos.",
+            "mas": [
+                " Proyectos:|・ELAC2015/T03-0663 “BIOCODE: Towards a novel and sustainable biorefinery concept based on green technologies for main commercial grain crop residues”. Financiadora Conicyt, Participación en el desarrollo del paquete de trabajo que involucró análisis tecnoeconómico y de análisis de ciclo de vida. Duración desde el 01 de enero de 2017 a 30 de junio de 2019.|・ELAC2014/BES-0171 project “SCREAM Screening marine microalgae and terrestrial bacteria; in search of novel compounds of potential medicinal and other industrial values”. Financiadora Fraunhofer-Gesellschaft. Participación en el desarrollo del paquete de trabajo que involucró caracterización bioquímica y bioactividad de los extractos, además de ser responsable del análisis tecnoeconómico y de mercado. Duración desde el 1 de mayo de 2016 al 30 de abril de 2019.|・Corfo-15CONTEC-48011 “Valorización del orujo de uva para el desarrollo de ingredientes de alto valor para la formulación de alimentos saludables”. Responsable del análisis tecnoeconómico y de mercado. Duración del proyecto 2016-2017.|・Corfo-18COTE-89580 “Valorización de nueces chilenas no exportables mediante el desarrollo de una pasta con antioxidantes microencapsulados del pelón y/o hojas del nogal”. Responsable del análisis tecnoeconómico y de mercado. Duración del proyecto 2018-2019.|・FP7 project 613513 “DISCO: From DISCOvery to products: A next generation pipeline for the sustainable generation of high-value plant products”. Responsable del paquete de trabajo de revalorización de residuos mediante digestión anaerobia, además de ser responsable del análisis tecnoeconómico y de mercado. Duración desde el 01-12-2013 al 30-11-2015. http://www.disco-fp7.eu/ "
+            ],
+            "aptitudes": [
+                "gestión_de_la_innovación",
+                "pensamiento_crítico",
+                "educación_científica",
+                "tratamiento_de_residuos",
+                "investigación_de_mercado",
+                "ciencias_ambientales",
+                "gestión_de_proyectos",
+                "investigación"
+            ],
             "especialidad": "sostenibilidad",
             "tags": [
                 "ingeniería",
@@ -217,7 +233,7 @@
             "fecha": [
                 "2010|2009"
             ],
-            "descripcion": "",
+            "descripcion": "FONDEF D07I1045 “Desarrollo de un proceso biotecnológico para la revalorización de descartes de la industria de procesamiento de berries”. Financiadora Conicyt. Participación en la caracterización bioquímica y bioactividad de los extractos.",
             "especialidad": "sostenibilidad",
             "tags": [
                 "ingeniería",
@@ -345,7 +361,7 @@
             ],
             "empresa": "Pontificia Universidad Católica de Valparaíso",
             "fecha": [
-                "2023|2022"
+                "2013|2010"
             ],
             "descripcion": "",
             "especialidad": "educación",

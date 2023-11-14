@@ -48,13 +48,29 @@
         if (isHidden) {
             element.setAttribute(
                 "class",
-                "inline-block text-sm text-gris rounded-lg bg-[#fff] p-2 border-white border-2"
+                "inline-block text-sm text-gray-900 mt-2"
             );
             title.innerText = "ver menos";
         } else {
             element.setAttribute("class", "hidden");
             title.innerText = "ver más...";
         }
+    };
+
+    const transformTitle = (p: string) => {
+        let new_p = [];
+        const initIndex = p.indexOf("“");
+        const lastIndex = p.indexOf("”");
+
+        const p1 = p.substring(0, initIndex);
+        const p2 = p.substring(lastIndex + 1);
+
+        const final = p.substring(initIndex, lastIndex + 1);
+
+        if (!final) return new_p;
+        else new_p = [p1, final, p2];
+
+        return new_p;
     };
 </script>
 
@@ -141,9 +157,9 @@
                                         {#if item.titulo}
                                             {#each item.titulo as title, i}
                                                 <div
-                                                    class="flex flex-row flex-wrap gap-1 items-baseline justify-between"
+                                                    class="flex flex-row gap-1 items-baseline justify-between"
                                                 >
-                                                    <p class="w-max">
+                                                    <p class="max-w-[80%]">
                                                         {item.titulo.length > 1
                                                             ? "・"
                                                             : ""}
@@ -171,7 +187,7 @@
                                         {item.cargo ?? ""}
                                     </p>
                                     <p
-                                        class="text-sm text-slate-500 font-semibold"
+                                        class="text-sm text-slate-500 font-semibold pb-3"
                                     >
                                         {item.empresa ??
                                             item.institucion ??
@@ -180,34 +196,35 @@
                                     </p>
                                     {#if item.descripcion}
                                         <div
-                                            class="flex flex-col items-start text-sm py-2 gap-1"
+                                            class="flex flex-col items-start text-sm py-2"
                                         >
                                             <p class="text-xs text-gray-400">
                                                 descripción:
                                             </p>
                                             {#each item.descripcion.split("|") ?? [] as desc}
-                                                <p class="text-gray-600">
+                                                <p class="text-gray-900">
                                                     {desc}
                                                 </p>
                                             {/each}
                                             {#if item.mas}
+                                                <span
+                                                    id={`mas-${item.id}`}
+                                                    class="hidden"
+                                                >
+                                                    {#each item.mas[0]?.split("|") ?? [] as mas}
+                                                        <p>
+                                                            {mas}
+                                                        </p>
+                                                    {/each}
+                                                </span>
                                                 <button
                                                     id={`mas-title-${item.id}`}
-                                                    class="btn btn-xs btn-gray text-gray-500 font-normal lowercase"
+                                                    class="btn btn-xs btn-gray text-gray-500 font-normal lowercase mt-1"
                                                     on:click={() =>
                                                         verHandler(item.id)}
                                                 >
                                                     ver más...
                                                 </button>
-                                                <span
-                                                    id={`mas-${item.id}`}
-                                                    class="hidden"
-                                                >
-                                                    {#each item.mas[0].split("|") as mas}
-                                                        <p>{mas}</p>
-                                                        <br />
-                                                    {/each}
-                                                </span>
                                             {/if}
                                         </div>
                                     {/if}
@@ -219,7 +236,7 @@
                                                 aptitudes:
                                             </p>
                                             <div
-                                                class="flex flex-row flex-wrap gap-1 py-1 text-gray-500"
+                                                class="flex flex-row flex-wrap gap-1 py-1 text-gray-900"
                                             >
                                                 {item?.aptitudes
                                                     ?.join(" ・ ")
