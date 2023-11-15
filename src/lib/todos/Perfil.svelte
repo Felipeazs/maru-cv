@@ -5,42 +5,29 @@
 <RubroWrapper title="perfil">
     <div>
         <p>
-            Soy un profesional altamente comprometido y apasionado por la
-            excelencia técnica. Mi carrera se ha caracterizado por una búsqueda
-            constante de conocimiento y un enfoque metódico en la aplicación de
-            habilidades técnicas avanzadas en diversas áreas. A lo largo de mi
-            trayecto profesional, he adquirido una sólida base en ingeniería y
-            ciencias, respaldada por una amplia experiencia práctica en el
-            diseño y simulación de procesos industriales, así como en el uso de
-            herramientas de análisis de datos de vanguardia.
+            Soy un tipo de persona prudente y metódica, que se ocupa de abordar
+            las cuestiones de una manera organizada y ordenada. Tengo una
+            afinidad por la estructura y soy eficaz para encontrar las formas
+            más eficientes y efectivas de lograr un objetivo. Tengo una
+            naturaleza analítica, y una actitud paciente y reflexiva, que en
+            conjunto me dan una gran capacidad de planificación.
         </p>
 
         <p>
-            Mi compromiso con la sostenibilidad y la innovación ha sido una
-            constante en mi carrera, lo que se refleja en mi experiencia en la
-            gestión de proyectos orientados a la revalorización de residuos, la
-            evaluación de la huella de carbono y el análisis de ciclo de vida.
-            Además, mi formación y experiencia me han permitido liderar
-            proyectos de investigación y desarrollo tanto a nivel nacional como
-            internacional, buscando soluciones innovadoras y sostenibles para
-            desafíos contemporáneos.
-        </p>
-
-        <p>
-            Mi habilidad para trabajar con técnicas cromatográficas de
-            laboratorio, realizar ensayos de toxicidad, medir el potencial de
-            biogás y aplicar análisis de datos avanzados mediante Big Data y
-            Machine Learning, me posiciona como un profesional versátil y
-            capacitado para abordar una amplia gama de proyectos técnicos y
-            científicos.
-        </p>
-
-        <p>
-            En este currículum, presentaré mi historial de logros técnicos y mi
-            capacidad demostrada para enfrentar desafíos técnicos complejos.
-            Estoy entusiasmado por la oportunidad de contribuir con mis
-            habilidades técnicas y mi pasión por la innovación a proyectos
-            futuros que busquen marcar una diferencia significativa en el mundo.
+            Actividades principales de los últimos 5 años - Diseño y simulación
+            con uso de programas computacionales especializados de procesos
+            industriales para la revalorización de residuos. - Asesoramiento en
+            proyectos de industria ambiental y alimentaria en el ámbito de las
+            evaluaciones económicas, de riesgo y ambientales, con foco en Huella
+            de Carbono y Análisis de Ciclo de Vida. - Desarrollo de proyectos y
+            postulación a diversas convocatorias nacionales e internacionales en
+            I+D+i. - Elaboración de estudios de mercado. - Experiencia práctica
+            en técnicas cromatográficas de laboratorio en HPLC (UV/VIS, DAD,
+            FT-IR), GC (MS) y TECAN. Caracterización proximal de alimentos y
+            actividad antioxidante in vitro. Caracterización de biomasas y
+            ensayos de toxicidad y medición de potencial de biogás. Cultivo de
+            células vegetales. - Análisis de datos mediante herramientas de Big
+            Data y Machine Learning.
         </p>
     </div>
 </RubroWrapper>
