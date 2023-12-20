@@ -7,6 +7,7 @@
             ],
             "cargo": "Socia cofundadora",
             "descripcion": "Lazo SpA es una empresa de derecho privado que nace el 2021 para promover negocios en línea con la sostenibilidad, y priorizando los Objetivos de Desarrollo Sostenible (ODS), y en particular los ODS 9 Industria, Innovación e Infraestructura; ODS 12 Producción y Consumo Responsable; ODS 11 Ciudades y Comunidades Sostenibles; ODS 13 Acción por el Clima, y ODS 17 Alianzas para lograr los objetivos. De igual manera, la empresa se compromete con fomentar en las empresas las políticas de sostenibilidad nacionales en favor del cumplimiento de las obligaciones adquiridas para el Acuerdo de París el 9 de abril del 2020 en su Contribución Determinada a Nivel Nacional",
+            "imagen": "/images/lazo.jpeg",
             "aptitudes": [
                 "economía_circular",
                 "simbiosis_industrial",
@@ -37,6 +38,7 @@
             "mas": [
                 "Somos Upfood! una foodtech liderada por mujeres y desarrollamos productos alimenticios a partir de sub-ingredientes de la industria cervecera ¡Hacemos upcycling food y economía circular! Bagán es nuestro primer producto 🌱🍺.| ¡Conoce a Up Foods, una empresa revolucionaria en la industria de alimentos! 🌱. En Up Foods estamos comprometidos con la innovación y la sostenibilidad, aprovechando los recursos de manera inteligente para crear soluciones deliciosas y respetuosas con el medio ambiente ♻️. |Nuestros productos están diseñados para los mercados emergentes, ofreciendo opciones alimenticias saludables y deliciosas. 😋 Estamos impulsando el cambio en la industria de alimentos, demostrando que se pueden obtener sabores excepcionales mientras se protege nuestro planeta.| 🌍 Únete a nosotros en este emocionante viaje hacia un futuro más sostenible y nutricionalmente rico. Juntos, estamos creando un mundo donde la comida es más que solo nutrición, es una declaración de responsabilidad y sabor."
             ],
+            "imagen": "/images/upfoods.jpeg",
             "aptitudes": [
                 "estrategia_corporativa",
                 "consultoría_de_estrategia",
@@ -66,6 +68,7 @@
             "mas": [
                 "・Desarrollo de aplicaciones web (Java, Javascript).|・Servicios UX/UI y back end.|・Reportabilidad de variables en plataforma web.|・Deployment de servidores en Amazon Web Service, Heroku y Vercel.|・Manejo de bases de datos SQL y NoSQL (PgAdmin (Postgres), DBeaver, MySQl, Compass (MongoDB).|・Prueba de prototipos en baja con Raspebrry Pi.|・Director Tecnológico – Felipe Zapata Soto. Java Full Stack developer (LinkedIn)"
             ],
+            "imagen": "/images/asb.jpeg",
             "sociales": null,
             "tags": [
                 "economía_circular",
@@ -80,6 +83,7 @@
             ],
             "cargo": "Socia cofundadora, Directora de finanzas 💰",
             "descripcion": null,
+            "imagen": "/images/retrocicla.png",
             "sociales": [
                 {
                     "nombre": "linkedin",
@@ -1395,7 +1399,7 @@
             "logo": "/images/ci.png",
             "certificado": null,
             "tags": [
-                "actividad_municipal",
+                "municipalidad",
                 "participación_ciudadana"
             ]
         },
@@ -1479,7 +1483,7 @@
             "logo": "/images/fima.png",
             "certificado": null,
             "tags": [
-                "actividad_municipal",
+                "municipalidad",
                 "participación_ciudadana"
             ]
         },
@@ -1564,7 +1568,7 @@
             "certificado": "https://drive.google.com/file/d/1wScfU-_rkQgftIBd3rRg28JwYE47PTBe/view?usp=drive_link",
             "especialidad": "sostenibilidad",
             "tags": [
-                "actividad_municipal",
+                "municipalidad",
                 "sostenibilidad",
                 "humedales_urbanos"
             ]
@@ -1599,7 +1603,7 @@
             "certificado": null,
             "especialidad": "sostenibilidad",
             "tags": [
-                "actividad_municipal",
+                "municipalidad",
                 "sostenibilidad"
             ]
         },
@@ -1616,7 +1620,7 @@
             "certificado": null,
             "especialidad": "sostenibilidad",
             "tags": [
-                "actividad_municipal",
+                "municipalidad",
                 "sostenibilidad",
                 "ley_rep"
             ]
@@ -1634,7 +1638,7 @@
             "certificado": null,
             "especialidad": "sostenibilidad",
             "tags": [
-                "actividad_municipal",
+                "municipalidad",
                 "sostenibilidad",
                 "ley_rep"
             ]
@@ -2305,7 +2309,7 @@
             "tags": [
                 "hidrógeno_verde",
                 "tecnología",
-                "actividad_municipal"
+                "municipalidad"
             ]
         }
     ],
@@ -2436,7 +2440,7 @@
             "institucion": "Departamento de Medio Ambiente de la \nIlustre Municipalidad de Quintero",
             "tags": [
                 "ong",
-                "actividad_municipal",
+                "municipalidad",
                 "convenio",
                 "gestión_ambiental"
             ]
@@ -2449,7 +2453,7 @@
             "institucion": "Departamento de Medio Ambiente de la \nIlustre Municipalidad de Quintero",
             "tags": [
                 "universidad",
-                "actividad_municipal",
+                "municipalidad",
                 "convenio",
                 "gestión_ambiental",
                 "educación",
@@ -2465,7 +2469,7 @@
             "institucion": "Departamento de Medio Ambiente de la \nIlustre Municipalidad de Quintero",
             "tags": [
                 "universidad",
-                "actividad_municipal",
+                "municipalidad",
                 "convenio",
                 "gestión_ambiental"
             ]
@@ -2478,7 +2482,7 @@
             "institucion": "Departamento de Medio Ambiente de la \nIlustre Municipalidad de Quintero",
             "tags": [
                 "universidad",
-                "actividad_municipal",
+                "municipalidad",
                 "convenio",
                 "gestión_ambiental"
             ]

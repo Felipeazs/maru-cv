@@ -1,6 +1,9 @@
 <script lang="ts">
-    import { transform_title } from "../../utils/utils";
+    import { transform_title, extract_tags } from "../../utils/utils";
 
+    import data from "../cv-store";
+    import Tags from "../UI/Tags.svelte";
+    import Sidebar from "../UI/Sidebar.svelte";
     import DetallesWrapper from "../UI/DetallesWrapper.svelte";
     import Hero from "../UI/Hero.svelte";
     import Selector from "../UI/Selector.svelte";
@@ -13,16 +16,14 @@
     let anio: number = 0;
     let especialidad: string = "todas";
     let tags: { icono: string; nombre: string }[] = [];
+    let alltags: { icono: string; nombre: string }[] = [];
     let items = [];
     let pdfItems = [];
-
-    import data from "../cv-store";
-    import Tags from "../UI/Tags.svelte";
-    import Sidebar from "../UI/Sidebar.svelte";
 
     $: selectedItems = $data[selection];
     $: title = transform_title(selection);
     $: if (selectedItems) items = selectedItems;
+    $: alltags = extract_tags($data);
 
     const tagHandler = (event: Event) => {
         const tag_selected = Object((event as MouseEvent).detail);
@@ -39,7 +40,13 @@
 <main>
     <Hero />
     <Sidebar bind:pdfItems />
-    <Selector bind:selection bind:anio bind:especialidad />
+    <Selector
+        bind:selection
+        bind:anio
+        bind:especialidad
+        bind:alltags
+        on:tag-click={tagHandler}
+    />
     <div
         class="relative w-[95%] md:w-[87%] xl:w-[95%] m-auto h-full pt-[330px] md:pt-[200px] xl:pt-[120px] mb-32 lg:-ml-20 xl:ml-20"
     >

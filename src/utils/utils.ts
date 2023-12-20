@@ -13,6 +13,7 @@ import ai from '/images/ai.svg'
 import data from '/images/data.svg'
 import learning from '/images/learning.svg'
 import muni from '/images/muni.svg'
+import money from '/images/money.svg'
 import adn from '/images/adn.svg'
 import circular from '/images/circular.svg'
 import cartera from '/images/cartera.svg'
@@ -60,6 +61,8 @@ import food from '/images/food.svg'
 import bioenergy from '/images/bioenergy.svg'
 import linkedin from '/images/linkedin.svg'
 
+import type { DataTypes } from '../lib/cv-store'
+
 export const sorting_items = <T extends Record<string, any>>(items: T[], year: number, especialidad: string): T[] => {
     let sortedItems: T[] = items.sort((a, b) => Number(new Date(b.fecha ? b.fecha[0]?.split("/")[1] ?? b.fecha[0] : 0)) - Number(new Date(a.fecha ? a.fecha[0]?.split("/")[1] ?? a.fecha[0] : 0)))
 
@@ -95,7 +98,29 @@ export const transform_title = (title: string): string => {
     return new_title
 }
 
-export const allItems = <T>(items: T) => {
+export const extract_tags = (items: DataTypes) => {
+    let all_tag_items = []
+    for (const d in items) {
+        if (d !== 'idiomas' && d !== 'competencias' && d !== 'herramientas') {
+            all_tag_items = [...all_tag_items, items[d].flatMap((i: { tags: string }) => i.tags)]
+        }
+    }
+
+    let all_tags = []
+    all_tag_items.forEach((ati) => {
+        if (ati) all_tags = [...all_tags, ...ati]
+    })
+
+    const uniqueTags = [...new Set(all_tags.filter(at => at !== undefined))]
+    let fullTags = []
+    uniqueTags.map(ut => {
+        fullTags = [...fullTags, tag_image(ut)]
+    })
+
+    return fullTags
+}
+
+export const allItems = (items: DataTypes) => {
     let all = []
     for (const d in items) {
         if (d !== 'idiomas' && d !== 'competencias' && d !== 'herramientas') {
@@ -118,220 +143,7 @@ export const allItems = <T>(items: T) => {
 
             item.tags?.sort((a: string, b: string) => a.localeCompare(b))
             item.tags?.forEach((tag: string) => {
-                switch (tag) {
-                    case 'ingeniería':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: gear }]
-                        break
-                    case 'sostenibilidad':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: recycle }]
-                        break
-                    case 'cambio_climático':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: climate }]
-                        break
-                    case 'dirección_de_empresas':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: manager }]
-                        break
-                    case 'innovación':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: bulb }]
-                        break
-                    case 'vinculación_con_el_medio':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: town }]
-                        break
-                    case 'agroindustria':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: truck }]
-                        break
-                    case 'municipalidad':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: muni }]
-                        break
-                    case 'inteligencia_artificial':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: ai }]
-                        break
-                    case 'data_science':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: data }]
-                        break
-                    case 'machine_learning':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: learning }]
-                        break
-                    case 'ciencias_biológicas':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: adn }]
-                        break
-                    case 'economía_circular':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: circular }]
-                        break
-                    case 'emprendimiento':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: cartera }]
-                        break
-                    case 'CORFO':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: muni }]
-                        break
-                    case 'FONDEF':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: muni }]
-                        break
-                    case 'valorización_de_recursos':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: resources }]
-                        break
-                    case 'biogás':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: gas }]
-                        break
-                    case 'análisis_técnico_económico':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: analisis }]
-                        break
-                    case 'herramientas_digitales':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: digital }]
-                        break
-                    case 'simbiosis_industrial':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: simbiosis }]
-                        break
-                    case 'biorefinería':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: refineria }]
-                        break
-                    case 'fondo_europeo':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: fondo }]
-                        break
-                    case 'análisis_de_ciclo_de_vida':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: ciclo }]
-                        break
-                    case 'microalgas':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: algas }]
-                        break
-                    case 'laboratorio':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: lab }]
-                        break
-                    case 'eficiencia_energética':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: energy }]
-                        break
-                    case 'comunicación':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: communication }]
-                        break
-                    case 'big_data':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: bigdata }]
-                        break
-                    case 'marketing':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: marketing }]
-                        break
-                    case 'cultivo_celular':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: cell }]
-                        break
-                    case 'taraxacum':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: flower }]
-                        break
-                    case 'bioingeniería':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: biotech }]
-                        break
-                    case 'células_vegetales':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: cell }]
-                        break
-                    case 'artículo_corto':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: articulo }]
-                        break
-                    case 'gestión_ambiental':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: ambiental }]
-                        break
-                    case 'actividad_municipal':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: muni }]
-                        break
-                    case 'participación_ciudadana':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: people }]
-                        break
-                    case 'textil':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: yarn }]
-                        break
-                    case 'humedales_urbanos':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: humedal }]
-                        break
-                    case 'hidrógeno_verde':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: hidrogeno }]
-                        break
-                    case 'ley_rep':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: ley }]
-                        break
-                    case 'bioinformática':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: bioinfo }]
-                        break
-                    case 'software':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: software }]
-                        break
-                    case 'estadística':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: stats }]
-                        break
-                    case 'programación':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: prog }]
-                        break
-                    case 'biomimesis':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: modeling }]
-                        break
-                    case 'social':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: people }]
-                        break
-                    case 'tecnología':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: tech }]
-                        break
-                    case 'deep_learning':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: deep }]
-                        break
-                    case 'ecodiseño':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: eco }]
-                        break
-                    case 'gri_reporting':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: report }]
-                        break
-                    case 'ods':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: ods }]
-                        break
-                    case 'educación':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: education }]
-                        break
-                    case 'administración_de_empresas':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: manager }]
-                        break
-                    case 'análisis_de_riesgos':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: risk }]
-                        break
-                    case 'finanzas':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: wallet }]
-                        break
-                    case 'procesos_industriales':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: industry }]
-                        break
-                    case 'propiedad_intelectual':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: right }]
-                        break
-                    case 'auditoría':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: audit }]
-                        break
-                    case 'alimentos':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: food }]
-                        break
-                    case 'empresa':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: cartera }]
-                        break
-                    case 'bioenergía':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: bioenergy }]
-                        break
-                    case 'bioetanol':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: bioetanol }]
-                        break
-                    case 'huella_de_carbono':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: huella }]
-                        break
-                    case 'bioeconomía':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: wallet }]
-                        break
-                    case 'negocios':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: cartera }]
-                        break
-                    case 'ong':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: ong }]
-                        break
-                    case 'universidad':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: education }]
-                        break
-                    case 'convenio':
-                        item.iconos = [...item.iconos, { nombre: tag, icono: contrato }]
-                        break
-                    default:
-                        item.iconos = [...item.iconos, { nombre: tag, icono: '' }]
-                }
+                item.iconos = [...item.iconos, tag_image(tag)]
             })
         })
     })
@@ -339,7 +151,7 @@ export const allItems = <T>(items: T) => {
     return all
 }
 
-export const extractTitles = <T>(items: T) => {
+export const extractTitles = (items: DataTypes) => {
     let titles = []
     for (const d in items) {
         if (d !== 'idiomas' && d !== 'competencias' && d !== 'herramientas') {
@@ -347,4 +159,221 @@ export const extractTitles = <T>(items: T) => {
         }
     }
     return titles
+}
+
+const tag_image = (tag: string) => {
+    let returnTagImage: { nombre: string, icono: string } = { nombre: tag, icono: '' }
+    switch (tag) {
+        case 'ingeniería':
+            returnTagImage.icono = gear
+            break
+        case 'sostenibilidad':
+            returnTagImage.icono = recycle
+            break
+        case 'cambio_climático':
+            returnTagImage.icono = climate
+            break
+        case 'dirección_de_empresas':
+            returnTagImage.icono = manager
+            break
+        case 'innovación':
+            returnTagImage.icono = bulb
+            break
+        case 'vinculación_con_el_medio':
+            returnTagImage.icono = town
+            break
+        case 'agroindustria':
+            returnTagImage.icono = truck
+            break
+        case 'municipalidad':
+            returnTagImage.icono = muni
+            break
+        case 'inteligencia_artificial':
+            returnTagImage.icono = ai
+            break
+        case 'data_science':
+            returnTagImage.icono = data
+            break
+        case 'machine_learning':
+            returnTagImage.icono = learning
+            break
+        case 'ciencias_biológicas':
+            returnTagImage.icono = adn
+            break
+        case 'economía_circular':
+            returnTagImage.icono = circular
+            break
+        case 'emprendimiento':
+            returnTagImage.icono = cartera
+            break
+        case 'CORFO':
+            returnTagImage.icono = money
+            break
+        case 'FONDEF':
+            returnTagImage.icono = money
+            break
+        case 'valorización_de_recursos':
+            returnTagImage.icono = resources
+            break
+        case 'biogás':
+            returnTagImage.icono = gas
+            break
+        case 'análisis_técnico_económico':
+            returnTagImage.icono = analisis
+            break
+        case 'herramientas_digitales':
+            returnTagImage.icono = digital
+            break
+        case 'simbiosis_industrial':
+            returnTagImage.icono = simbiosis
+            break
+        case 'biorefinería':
+            returnTagImage.icono = refineria
+            break
+        case 'fondo_europeo':
+            returnTagImage.icono = fondo
+            break
+        case 'análisis_de_ciclo_de_vida':
+            returnTagImage.icono = ciclo
+            break
+        case 'microalgas':
+            returnTagImage.icono = algas
+            break
+        case 'laboratorio':
+            returnTagImage.icono = lab
+            break
+        case 'eficiencia_energética':
+            returnTagImage.icono = energy
+            break
+        case 'comunicación':
+            returnTagImage.icono = communication
+            break
+        case 'big_data':
+            returnTagImage.icono = bigdata
+            break
+        case 'marketing':
+            returnTagImage.icono = marketing
+            break
+        case 'cultivo_celular':
+            returnTagImage.icono = cell
+            break
+        case 'taraxacum':
+            returnTagImage.icono = flower
+            break
+        case 'bioingeniería':
+            returnTagImage.icono = biotech
+            break
+        case 'células_vegetales':
+            returnTagImage.icono = cell
+            break
+        case 'artículo_corto':
+            returnTagImage.icono = articulo
+            break
+        case 'gestión_ambiental':
+            returnTagImage.icono = ambiental
+            break
+        case 'participación_ciudadana':
+            returnTagImage.icono = people
+            break
+        case 'textil':
+            returnTagImage.icono = yarn
+            break
+        case 'humedales_urbanos':
+            returnTagImage.icono = humedal
+            break
+        case 'hidrógeno_verde':
+            returnTagImage.icono = hidrogeno
+            break
+        case 'ley_rep':
+            returnTagImage.icono = ley
+            break
+        case 'bioinformática':
+            returnTagImage.icono = bioinfo
+            break
+        case 'software':
+            returnTagImage.icono = software
+            break
+        case 'estadística':
+            returnTagImage.icono = stats
+            break
+        case 'programación':
+            returnTagImage.icono = prog
+            break
+        case 'biomimesis':
+            returnTagImage.icono = modeling
+            break
+        case 'social':
+            returnTagImage.icono = people
+            break
+        case 'tecnología':
+            returnTagImage.icono = tech
+            break
+        case 'deep_learning':
+            returnTagImage.icono = deep
+            break
+        case 'ecodiseño':
+            returnTagImage.icono = eco
+            break
+        case 'gri_reporting':
+            returnTagImage.icono = report
+            break
+        case 'ods':
+            returnTagImage.icono = ods
+            break
+        case 'educación':
+            returnTagImage.icono = education
+            break
+        case 'administración_de_empresas':
+            returnTagImage.icono = manager
+            break
+        case 'análisis_de_riesgos':
+            returnTagImage.icono = risk
+            break
+        case 'finanzas':
+            returnTagImage.icono = wallet
+            break
+        case 'procesos_industriales':
+            returnTagImage.icono = industry
+            break
+        case 'propiedad_intelectual':
+            returnTagImage.icono = right
+            break
+        case 'auditoría':
+            returnTagImage.icono = audit
+            break
+        case 'alimentos':
+            returnTagImage.icono = food
+            break
+        case 'empresa':
+            returnTagImage.icono = cartera
+            break
+        case 'bioenergía':
+            returnTagImage.icono = bioenergy
+            break
+        case 'bioetanol':
+            returnTagImage.icono = bioetanol
+            break
+        case 'huella_de_carbono':
+            returnTagImage.icono = huella
+            break
+        case 'bioeconomía':
+            returnTagImage.icono = wallet
+            break
+        case 'negocios':
+            returnTagImage.icono = cartera
+            break
+        case 'ong':
+            returnTagImage.icono = ong
+            break
+        case 'universidad':
+            returnTagImage.icono = education
+            break
+        case 'convenio':
+            returnTagImage.icono = contrato
+            break
+        default:
+            returnTagImage.icono = ''
+    }
+
+    return returnTagImage
 }

@@ -8,4 +8,6 @@ const customCV = {
     subscribe: cv.subscribe,
 }
 
+export type DataTypes = (typeof data)
+
 export default customCV

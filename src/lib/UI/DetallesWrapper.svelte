@@ -76,7 +76,7 @@
 
 {#if filteredItems.length > 0}
     <div
-        class="relative z-10 flex flex-col gap-[2.5rem] w-[90%] lg:w-[75%] m-auto xl:m-0 bg-crema top-16 py-[2%] px-[2%] lg:px-[10%]"
+        class="relative z-0 flex flex-col gap-[2.5rem] w-[90%] lg:w-[75%] m-auto xl:m-0 bg-crema top-16 py-[2%] px-[2%] lg:px-[10%]"
     >
         <div class="flex flex-col gap-2">
             <div class="sticky top-0 pt-[50px] z-20 bg-crema">
@@ -128,6 +128,14 @@
                                             ・
                                         {/if}
                                     {/each}
+                                {:else if item.imagen}
+                                    <img
+                                        src={item.imagen}
+                                        width={150}
+                                        height={150}
+                                        alt="logo empresa"
+                                        class="rounded-md"
+                                    />
                                 {:else}
                                     {i + 1}
                                 {/if}
