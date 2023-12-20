@@ -117,7 +117,7 @@ export const extract_tags = (items: DataTypes) => {
         fullTags = [...fullTags, tag_image(ut)]
     })
 
-    return fullTags
+    return fullTags.sort((a, b) => a.nombre.localeCompare(b.nombre))
 }
 
 export const allItems = (items: DataTypes) => {

@@ -59,22 +59,6 @@
             title.innerText = "ver más...";
         }
     };
-
-    const transformTitle = (p: string) => {
-        let new_p = [];
-        const initIndex = p.indexOf("“");
-        const lastIndex = p.indexOf("”");
-
-        const p1 = p.substring(0, initIndex);
-        const p2 = p.substring(lastIndex + 1);
-
-        const final = p.substring(initIndex, lastIndex + 1);
-
-        if (!final) return new_p;
-        else new_p = [p1, final, p2];
-
-        return new_p;
-    };
 </script>
 
 {#if filteredItems.length > 0}
