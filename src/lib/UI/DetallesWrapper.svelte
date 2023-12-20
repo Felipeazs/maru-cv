@@ -16,7 +16,6 @@
 
     let sc = [];
     $: sc = selectedtags.map((s) => s.nombre);
-    $: console.log(sc);
 
     let now = new Date().getFullYear().toString();
 

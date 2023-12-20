@@ -30,10 +30,14 @@
 
         if (!selectedtags.some((t) => t.nombre === tag_selected.nombre)) {
             selectedtags = [...selectedtags, tag_selected];
-
-            const section = document.querySelector("#tag-ref");
-            section.scrollIntoView(true);
+        } else {
+            selectedtags = selectedtags.filter(
+                (s) => s.nombre !== tag_selected.nombre
+            );
         }
+
+        const section = document.querySelector("#tag-ref");
+        section.scrollIntoView(true);
     };
 </script>
 
