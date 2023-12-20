@@ -323,8 +323,8 @@
                                         {#each item.iconos as tag}
                                             <button
                                                 class={sc.includes(tag.nombre)
-                                                    ? "btn btn-xs btn-light p-1 lowercase text-xs text-white bg-yellow"
-                                                    : "btn btn-xs btn-light p-1 lowercase text-xs text-slate-600"}
+                                                    ? "btn btn-xs btn-light lowercase text-xs text-white bg-yellow"
+                                                    : "btn btn-xs btn-light lowercase text-xs text-slate-600"}
                                                 on:click={() =>
                                                     dispatch("tag-click", tag)}
                                             >

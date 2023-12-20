@@ -34,8 +34,8 @@
             {#each alltags as tag}
                 <button
                     class={sc.includes(tag.nombre)
-                        ? "btn btn-xs btn-light p-1 lowercase text-xs bg-yellow text-white"
-                        : "btn btn-xs btn-light p-1 lowercase text-xs text-slate-600"}
+                        ? "btn btn-xs btn-light lowercase text-xs bg-yellow text-white"
+                        : "btn btn-xs btn-light lowercase text-xs text-slate-600"}
                     on:click={() => collapsableTagHandler(tag)}
                 >
                     <img src={tag.icono} width={16} height={"auto"} alt="tag" />
