@@ -64,41 +64,23 @@ import linkedin from '/images/linkedin.svg'
 import type { DataTypes } from '../lib/cv-store'
 
 export const sorting_items = <T extends Record<string, any>>(items: T[], year: number, especialidad: string): T[] => {
+    let sortedItems: T[] = items.sort((a, b) => {
+        let rFechaA = ''
+        let rFechaB = ''
 
-    let sortedItems: T[] = items
-        .map(i => {
-            if (i.fecha) {
-                const fecha = i.fecha[0].split("|")[0]
+        if (a.fecha && b.fecha) {
+            const fechaA = a.fecha[0].split('|')[0]
+            const fechaB = b.fecha[0].split('|')[0]
 
-                if (fecha.includes("/")) new Date(fecha.split("/")[0] + "/01/" + fecha.split("/")[1])
-                else new Date(fecha)
-            }
+            if (fechaA.includes('/')) rFechaA = fechaA.split('/').join('/01/')
+            else rFechaA = fechaA
 
-            return i
-        })
-        .sort((a, b) => {
-            let rFechaA = ''
-            let rFechaB = ''
+            if (fechaB.includes('/')) rFechaB = fechaB.split('/').join('/01/')
+            else rFechaB = fechaB
+        }
 
-            if (a.fecha && b.fecha) {
-                if (new Date(a.fecha) && new Date(b.fecha)) {
-                    rFechaA = a.fecha
-                    rFechaB = b.fecha
-                } else {
-                    const fechaA = a.fecha[0].split("|")[0]
-                    const fechaB = b.fecha[0].split("|")[0]
-
-                    if (fechaA.includes("/")) rFechaA = fechaA.split("/")[0] + "/01/" + fechaA.split("/")[1]
-                    else rFechaA = fechaA
-
-                    if (fechaB.includes("/")) rFechaB = fechaB.split("/")[0] + "/01/" + fechaB.split("/")[1]
-                    else rFechaB = fechaB
-
-                }
-            }
-
-            return Number(new Date(rFechaB)) - Number(new Date(rFechaA))
-        })
+        return Number(new Date(rFechaB)) - Number(new Date(rFechaA))
+    })
 
     if (especialidad !== 'todas') {
         sortedItems = items.filter((si) => si.especialidad === especialidad)
@@ -145,9 +127,9 @@ export const extract_tags = (items: DataTypes) => {
         if (ati) all_tags = [...all_tags, ...ati]
     })
 
-    const uniqueTags = [...new Set(all_tags.filter(at => at !== undefined))]
+    const uniqueTags = [...new Set(all_tags.filter((at) => at !== undefined))]
     let fullTags = []
-    uniqueTags.map(ut => {
+    uniqueTags.map((ut) => {
         fullTags = [...fullTags, tag_image(ut)]
     })
 
@@ -196,7 +178,7 @@ export const extractTitles = (items: DataTypes) => {
 }
 
 const tag_image = (tag: string) => {
-    let returnTagImage: { nombre: string, icono: string } = { nombre: tag, icono: '' }
+    let returnTagImage: { nombre: string; icono: string } = { nombre: tag, icono: '' }
     switch (tag) {
         case 'ingeniería':
             returnTagImage.icono = gear

@@ -2497,8 +2497,12 @@
             "titulo": [
                 "Convenio Municipio Verde ONG Fima"
             ],
+            "fecha": [
+                "09/2023"
+            ],
             "especialidad": "sector_público",
             "institucion": "Departamento de Medio Ambiente de la \nIlustre Municipalidad de Quintero",
+            "descripcion": "El Compromiso Municipio Verde es un documento de libre suscripción elaborado por ONG FIMA y FES que consta de 10 puntos para avanzar en la gestión ambiental, con lo que busca ser una hoja de ruta para el desarrollo de medidas sustentables en las comuna",
             "tags": [
                 "ong",
                 "municipalidad",
@@ -2509,16 +2513,13 @@
         {
             "id": 146,
             "titulo": [
-                "Convenio ValpoXclima Pontificia Universidad Católica de Valparaíso, a través de la Dirección de Innovación de la Vicerrectoría de Investigación, Creación e Innovación (VINCI), “Valparaíso por el clima: Torneo de innovación y emprendimiento estudiantil frente a la crisis climática”, 22VIR-215521,"
+                "Convenio ValpoXclima"
             ],
-            "institucion": "Departamento de Medio Ambiente de la \nIlustre Municipalidad de Quintero",
+            "institucion": "Pontificia Universidad Católica de Valparaíso, a través de la Dirección de Innovación de la Vicerrectoría de Investigación, Creación e Innovación (VINCI)",
+            "descripcion": "“Valparaíso por el clima: Torneo de innovación y emprendimiento estudiantil frente a la crisis climática”, 22VIR-215521",
             "especialidad": "sector_público",
             "tags": [
-                "universidad",
-                "municipalidad",
-                "convenio",
-                "gestión_ambiental",
-                "educación",
+                "cambio_climático",
                 "emprendimiento",
                 "innovación"
             ]
@@ -2526,9 +2527,12 @@
         {
             "id": 147,
             "titulo": [
-                "Convenio proyecto Fondef ID23I10249, denominado “Desarrollo de un vehículo para la recolección eficiente y autónoma de residuos en playas"
+                "Convenio proyecto Fondef ID23I10249, “Desarrollo de un vehículo para la recolección eficiente y autónoma de residuos en playas”"
             ],
-            "institucion": "Departamento de Medio Ambiente de la \nIlustre Municipalidad de Quintero",
+            "fecha": [
+                "07/2023"
+            ],
+            "institucion": "Pontificia Universidad Católica de Valparaíso",
             "especialidad": "sector_público",
             "tags": [
                 "universidad",
@@ -2540,15 +2544,58 @@
         {
             "id": 148,
             "titulo": [
-                "Consorcio Science Up compuesto por las Universidades Pontificia Universidad Católica de Valparaíso, Universidad de Santiago de Chile y Universidad Católica del Norte, abrió el 25 de abril 2022 la Convocatoria al “Primer Concurso del Programa VINCULAB”. Proyecto “Recolección y Limpieza Eficiente de Basura en Playa”, en adelante el “Proyecto\", al Programa “VINCULAB”, siendo adjudicado con fecha 16 de agosto de 2022, asignándosele el código interno VLAB22-02 para el seguimiento y control durante su ejecución."
+                "Convenio Concurso del Programa VINCULAB en apoyo al proyecto “Recolección y Limpieza Eficiente de Basura en Playa”, VLAB22-02"
             ],
-            "institucion": "Departamento de Medio Ambiente de la \nIlustre Municipalidad de Quintero",
+            "fecha": [
+                "04/2022"
+            ],
+            "institucion": "Consorcio Science Up compuesto por las Universidades Pontificia Universidad Católica de Valparaíso",
             "especialidad": "sector_público",
             "tags": [
                 "universidad",
                 "municipalidad",
                 "convenio",
                 "gestión_ambiental"
+            ]
+        },
+        {
+            "id": 186,
+            "titulo": [
+                "Convenio Corporación Sistema de Gestión Envases y Embalajes Resimple"
+            ],
+            "fecha": [
+                "10/2023"
+            ],
+            "institucion": "",
+            "especialidad": "",
+            "tags": []
+        },
+        {
+            "id": 187,
+            "titulo": [
+                "Convenio Municipios comprometidos con Supera el Plástico / Fundación Basura"
+            ],
+            "fecha": [
+                "11/2023"
+            ],
+            "institucion": "I. Municipalidad de Quintero",
+            "especialidad": "",
+            "tags": []
+        },
+        {
+            "id": 188,
+            "titulo": [
+                "Contraparte convenio “Programa transferencia de Formación cuidadana en Medio Ambiente de la Región de Valparaíso”"
+            ],
+            "fecha": [
+                "12/2023"
+            ],
+            "institucion": "Gobierno Regional de Valparaíso y Fundación para el Desarrollo Sustentable TERRAM",
+            "especialidad": "",
+            "tags": [
+                "municipalidad",
+                "sostenibilidad",
+                "educación"
             ]
         }
     ],
