@@ -120,11 +120,11 @@
                                 </span>
                             {/if}
                             <div
-                                class="flex flex-row-reverse md:flex-col justify-center items-center min-w-[105px] md:min-h-[50px]"
+                                class="flex flex-row-reverse md:flex-col justify-center items-center min-w-[120px] max-w-[170px] md:min-h-[50px] md:max-h-[150px]"
                             >
                                 {#if item.fecha}
                                     {#each item.fecha[0]?.split("|") as fecha, i}
-                                        <p>
+                                        <p class="px-1">
                                             {fecha === now ? "presente" : fecha}
                                         </p>
                                         {#if i < item.fecha[0]?.split("|").length - 1}
@@ -134,10 +134,10 @@
                                 {:else if item.imagen}
                                     <img
                                         src={item.imagen}
-                                        width={150}
-                                        height={150}
+                                        width={120}
+                                        height={120}
                                         alt="logo empresa"
-                                        class="rounded-md"
+                                        class="rounded-md w-[120px] h-[120px] object-contain bg-[#13733B]"
                                     />
                                 {:else}
                                     {i + 1}
