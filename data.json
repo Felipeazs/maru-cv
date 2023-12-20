@@ -220,7 +220,7 @@
                 "2023|02/2023"
             ],
             "descripcion": "・Programa Comuna Energética del Ministerio de la Agencia de Sostenibilidad Energética.|・Programa HuellaChile del Ministerio de Medio Ambiente.|・Implementación de iniciativas de economía circular y área de cambio climático de acuerdo con el Compromiso Municipio Verde-ONG FIMA y la Guía metodológica para orientar la transición hacia una economía circular|・Ciudad Circular, Facultad Ciencias de la Vida, Universidad Andrés Bello.|・Implementación de iniciativas educativas para funcionarios municipales y para la comunidad en línea con la Ley 21455 Ley Marco de Cambio Climático.|・Contraparte municipal para el reporte del Plan de Acción Nacional de Cambio Climático 2017-2022 (PANCC)",
-            "especialidad": "sostenibilidad",
+            "especialidad": "sector_público",
             "tags": [
                 "municipalidad",
                 "sostenibilidad",
@@ -1398,6 +1398,7 @@
             ],
             "logo": "/images/ci.png",
             "certificado": null,
+            "especialidad": "sector_público",
             "tags": [
                 "municipalidad",
                 "participación_ciudadana"
@@ -1482,6 +1483,7 @@
             ],
             "logo": "/images/fima.png",
             "certificado": null,
+            "especialidad": "sector_público",
             "tags": [
                 "municipalidad",
                 "participación_ciudadana"
@@ -1562,11 +1564,11 @@
             ],
             "institucion": "Academia de Formación Ambiental Adriana Hoffmann. Ministerio del Medio Ambiente",
             "fecha": [
-                "2023"
+                "05/2023"
             ],
             "logo": "/images/ah.png",
             "certificado": "https://drive.google.com/file/d/1wScfU-_rkQgftIBd3rRg28JwYE47PTBe/view?usp=drive_link",
-            "especialidad": "sostenibilidad",
+            "especialidad": "sector_público",
             "tags": [
                 "municipalidad",
                 "sostenibilidad",
@@ -1597,11 +1599,11 @@
             ],
             "institucion": "Academia de Formación Ambiental Adriana Hoffmann. Ministerio del Medio Ambiente",
             "fecha": [
-                "2023"
+                "07/2023"
             ],
             "logo": "/images/ah.png",
-            "certificado": null,
-            "especialidad": "sostenibilidad",
+            "certificado": "https://drive.google.com/file/d/1ibem2KlnnPMqtigYDg7bEsWdXaqY0yjN/view?usp=drive_link",
+            "especialidad": "sector_público",
             "tags": [
                 "municipalidad",
                 "sostenibilidad"
@@ -1618,7 +1620,7 @@
             ],
             "logo": "/images/ah.png",
             "certificado": null,
-            "especialidad": "sostenibilidad",
+            "especialidad": "sector_público",
             "tags": [
                 "municipalidad",
                 "sostenibilidad",
@@ -1632,11 +1634,11 @@
             ],
             "institucion": "Academia de Formación Ambiental Adriana Hoffmann. Ministerio del Medio Ambiente",
             "fecha": [
-                "2023"
+                "08/2023"
             ],
             "logo": "/images/ah.png",
-            "certificado": null,
-            "especialidad": "sostenibilidad",
+            "certificado": "https://drive.google.com/file/d/1dzfjOQIN-c15LoCdygGlAEyn-DkWQZP6/view?usp=drive_link",
+            "especialidad": "sector_público",
             "tags": [
                 "municipalidad",
                 "sostenibilidad",
@@ -2305,7 +2307,7 @@
             ],
             "logo": "/images/me.png",
             "certificado": "https://drive.google.com/file/d/1D8kSowKrVeGbMw_nNJ7q0sr-1Ll2YPcp/view?usp=drive_link",
-            "especialidad": "sostenibilidad",
+            "especialidad": "sector_público",
             "tags": [
                 "hidrógeno_verde",
                 "tecnología",
@@ -2437,6 +2439,7 @@
             "titulo": [
                 "Convenio Municipio Verde ONG Fima"
             ],
+            "especialidad": "sector_público",
             "institucion": "Departamento de Medio Ambiente de la \nIlustre Municipalidad de Quintero",
             "tags": [
                 "ong",
@@ -2451,6 +2454,7 @@
                 "Convenio ValpoXclima Pontificia Universidad Católica de Valparaíso, a través de la Dirección de Innovación de la Vicerrectoría de Investigación, Creación e Innovación (VINCI), “Valparaíso por el clima: Torneo de innovación y emprendimiento estudiantil frente a la crisis climática”, 22VIR-215521,"
             ],
             "institucion": "Departamento de Medio Ambiente de la \nIlustre Municipalidad de Quintero",
+            "especialidad": "sector_público",
             "tags": [
                 "universidad",
                 "municipalidad",
@@ -2467,6 +2471,7 @@
                 "Convenio proyecto Fondef ID23I10249, denominado “Desarrollo de un vehículo para la recolección eficiente y autónoma de residuos en playas"
             ],
             "institucion": "Departamento de Medio Ambiente de la \nIlustre Municipalidad de Quintero",
+            "especialidad": "sector_público",
             "tags": [
                 "universidad",
                 "municipalidad",
@@ -2480,6 +2485,7 @@
                 "Consorcio Science Up compuesto por las Universidades Pontificia Universidad Católica de Valparaíso, Universidad de Santiago de Chile y Universidad Católica del Norte, abrió el 25 de abril 2022 la Convocatoria al “Primer Concurso del Programa VINCULAB”. Proyecto “Recolección y Limpieza Eficiente de Basura en Playa”, en adelante el “Proyecto\", al Programa “VINCULAB”, siendo adjudicado con fecha 16 de agosto de 2022, asignándosele el código interno VLAB22-02 para el seguimiento y control durante su ejecución."
             ],
             "institucion": "Departamento de Medio Ambiente de la \nIlustre Municipalidad de Quintero",
+            "especialidad": "sector_público",
             "tags": [
                 "universidad",
                 "municipalidad",
@@ -2702,7 +2708,7 @@
         {
             "id": 185,
             "idioma": "Alemán",
-            "descripcion": "Nivel B1 Deutscher Akademischer Austausch Dienst (DAAD) "
+            "descripcion": "Nivel B1 Deutscher Akademischer Austausch Dienst (DAAD)"
         }
     ]
 }

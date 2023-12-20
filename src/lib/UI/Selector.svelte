@@ -48,6 +48,7 @@
         { value: "dirección_de_empresas", opcion: "Dirección de empresas" },
         { value: "educación", opcion: "Educación" },
         { value: "sostenibilidad", opcion: "Sostenibilidad" },
+        { value: "sector_público", opcion: "Sector público" },
     ];
 
     const resetValues = () => {
