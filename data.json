@@ -831,7 +831,7 @@
         {
             "id": 39,
             "titulo": [
-                "Revisora revista Waste Management con foco en artículos de sostenibilidad, valorización de residuos, biorefinería y análisis técnico económico de procesos industriales"
+                "Editora/Revisora revista Waste Management con foco en artículos de sostenibilidad, valorización de residuos, biorefinería y análisis técnico económico de procesos industriales"
             ],
             "fecha": [
                 "2023"
@@ -2335,6 +2335,41 @@
                 "hidrógeno_verde",
                 "tecnología",
                 "municipalidad"
+            ]
+        },
+        {
+            "id": 153,
+            "titulo": [
+                "Incorporación del cambio climático en el ordenamiento territorial de Chile"
+            ],
+            "institucion": "Academia de la Capacitación Municipal y Regional de la SUBDERE",
+            "fecha": [
+                "12/2023"
+            ],
+            "logo": "",
+            "certificado": "https://drive.google.com/file/d/1cOBZ5DLn-fJc9uub13LqXPHKi5CRTbjk/view?usp=sharing",
+            "especialidad": "sector_público",
+            "tags": [
+                "municipalidad",
+                "cambio_climático"
+            ]
+        },
+        {
+            "id": 154,
+            "titulo": [
+                "Curso de innovación y formulación de proyectos"
+            ],
+            "institucion": "Fundación para la innovación agraria y ejecutada por la Universidad de Concepción a través de la Facultad de Ingeniería (IITE)",
+            "fecha": [
+                "11/2023"
+            ],
+            "logo": "",
+            "certificado": "https://drive.google.com/file/d/1qSwyKsE0LDBuYXCqVIh0K1WE6DJPtdLJ/view?usp=sharing",
+            "especialidad": "sector_público",
+            "tags": [
+                "economía_circular",
+                "agroindustria",
+                "innovación"
             ]
         }
     ],
