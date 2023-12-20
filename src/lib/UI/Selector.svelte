@@ -7,6 +7,7 @@
     export let anio: number = 0;
     export let especialidad: string = "todas";
     export let alltags = [];
+    export let selectedtags = [];
 
     $: anio = 0;
 
@@ -126,7 +127,7 @@
                 >
             </button>
             <div class="relative w-[100px] z-20">
-                <AllTags bind:alltags on:tag-click />
+                <AllTags bind:alltags bind:selectedtags on:tag-click />
             </div>
         </div>
     </div>

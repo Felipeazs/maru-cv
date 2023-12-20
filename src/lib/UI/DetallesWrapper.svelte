@@ -9,18 +9,22 @@
 
     export let anio: number;
     export let especialidad: string;
-    export let tags: { icono: string; nombre: string }[];
+    export let selectedtags: { icono: string; nombre: string }[];
     export let items: any[] = [];
     export let title: string;
     export let pdfItems = [];
+
+    let sc = [];
+    $: sc = selectedtags.map((s) => s.nombre);
+    $: console.log(sc);
 
     let now = new Date().getFullYear().toString();
 
     let filteredItems = [];
     $: items = sorting_items(items, anio, especialidad);
-    $: if (tags?.length) {
+    $: if (selectedtags?.length) {
         filteredItems = items;
-        tags.forEach((t) => {
+        selectedtags.forEach((t) => {
             filteredItems = [
                 ...filteredItems.filter((i) => i.tags?.includes(t.nombre)),
             ];
@@ -334,7 +338,9 @@
                                     >
                                         {#each item.iconos as tag}
                                             <button
-                                                class="btn btn-xs btn-light p-1 lowercase text-xs text-slate-600"
+                                                class={sc.includes(tag.nombre)
+                                                    ? "btn btn-xs btn-light p-1 lowercase text-xs text-white bg-yellow"
+                                                    : "btn btn-xs btn-light p-1 lowercase text-xs text-slate-600"}
                                                 on:click={() =>
                                                     dispatch("tag-click", tag)}
                                             >

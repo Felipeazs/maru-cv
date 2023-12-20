@@ -4,6 +4,11 @@
     const dispatch = createEventDispatcher();
 
     export let alltags = [];
+    export let selectedtags = [];
+
+    let sc = [];
+    $: sc = selectedtags.map((s) => s.nombre);
+
     let isCollapsed = false;
 
     const collapsableTagHandler = (tag: object) => {
@@ -26,10 +31,11 @@
     <div class="collapse-title text-sm py-2 font-medium">Categorias</div>
     <div class="collapse-content bg-base-100">
         <div class="flex flex-row flex-wrap gap-1 py-1 z-20">
-            <button on:click={() => console.log("test")}>test</button>
             {#each alltags as tag}
                 <button
-                    class="btn btn-xs btn-light p-1 lowercase text-xs text-slate-600"
+                    class={sc.includes(tag.nombre)
+                        ? "btn btn-xs btn-light p-1 lowercase text-xs bg-yellow text-white"
+                        : "btn btn-xs btn-light p-1 lowercase text-xs text-slate-600"}
                     on:click={() => collapsableTagHandler(tag)}
                 >
                     <img src={tag.icono} width={16} height={"auto"} alt="tag" />

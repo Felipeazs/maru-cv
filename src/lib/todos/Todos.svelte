@@ -9,7 +9,7 @@
     export let selection: string;
     export let anio: number;
     export let especialidad: string;
-    export let tags: { icono: string; nombre: string }[];
+    export let selectedtags: { icono: string; nombre: string }[];
     export let pdfItems = [];
 
     let foundItems = [];
@@ -18,7 +18,7 @@
     $: foundItems = allItems($data);
 </script>
 
-{#if selection === "todos" && !tags.length && especialidad === "todas" && anio === 0}
+{#if selection === "todos" && !selectedtags.length && especialidad === "todas" && anio === 0}
     <Perfil />
 {/if}
 {#each foundItems as items, i}
@@ -26,7 +26,7 @@
         title={titulos[i]}
         {anio}
         {especialidad}
-        {tags}
+        {selectedtags}
         bind:items
         bind:pdfItems
         on:tag-click

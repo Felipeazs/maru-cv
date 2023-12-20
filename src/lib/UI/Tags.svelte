@@ -3,7 +3,7 @@
 
     import { tooltipy } from "../UI/tooltip/tooltip";
 
-    export let tags = [];
+    export let selectedtags = [];
 
     $: window.addEventListener("scroll", () => {
         const section = document.getElementById("tags-section");
@@ -21,20 +21,20 @@
     });
 
     const limpiarTag = (i: number) => {
-        tags = tags.filter((_, index) => index !== i);
+        selectedtags = selectedtags.filter((_, index) => index !== i);
 
         const section = document.querySelector("#tag-ref");
         section.scrollIntoView(true);
     };
 </script>
 
-{#if tags.length}
+{#if selectedtags.length}
     <div
         class="flex flex-row flex-wrap gap-1 h-min justify-center items-center p-2 mx-3 mt-16 md:fixed md:z-50 md:right-[10%] md:bottom-[75px] lg:m-0 lg:left-10 lg:top-80 lg:w-min lg:h-min bg-[#fff] border-4 border-crema rounded-md"
-        id="tags-section"
+        id="selectedtags-section"
     >
         <p class="w-max text-sm font-semibold text-black">filtros:</p>
-        {#each tags as tag, i}
+        {#each selectedtags as tag, i}
             <button
                 class="relative w-max bg-crema border-2 border-gris rounded-md justify-center items-center px-4 py-1 transition ease-in-out delay-75 hover:scale-110 hover:border-yellow"
                 use:tooltipy={{

@@ -15,7 +15,7 @@
     let selection: string = "todos";
     let anio: number = 0;
     let especialidad: string = "todas";
-    let tags: { icono: string; nombre: string }[] = [];
+    let selectedtags: { icono: string; nombre: string }[] = [];
     let alltags: { icono: string; nombre: string }[] = [];
     let items = [];
     let pdfItems = [];
@@ -28,8 +28,8 @@
     const tagHandler = (event: Event) => {
         const tag_selected = Object((event as MouseEvent).detail);
 
-        if (!tags.some((t) => t.nombre === tag_selected.nombre)) {
-            tags = [...tags, tag_selected];
+        if (!selectedtags.some((t) => t.nombre === tag_selected.nombre)) {
+            selectedtags = [...selectedtags, tag_selected];
 
             const section = document.querySelector("#tag-ref");
             section.scrollIntoView(true);
@@ -45,19 +45,20 @@
         bind:anio
         bind:especialidad
         bind:alltags
+        bind:selectedtags
         on:tag-click={tagHandler}
     />
     <div
         class="relative w-[95%] md:w-[87%] xl:w-[95%] m-auto h-full pt-[330px] md:pt-[200px] xl:pt-[120px] mb-32 lg:-ml-20 xl:ml-20"
     >
-        <Tags bind:tags />
+        <Tags bind:selectedtags />
         {#if selectedItems && selection !== "perfil"}
             <DetallesWrapper
                 bind:title
                 bind:anio
                 bind:especialidad
                 bind:items
-                bind:tags
+                bind:selectedtags
                 bind:pdfItems
                 on:tag-click={tagHandler}
             />
@@ -68,7 +69,7 @@
                 bind:anio
                 bind:especialidad
                 bind:selection
-                bind:tags
+                bind:selectedtags
                 bind:pdfItems
                 on:tag-click={tagHandler}
             />
