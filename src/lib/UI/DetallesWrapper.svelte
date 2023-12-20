@@ -323,7 +323,8 @@
                                         target="_blank"
                                         id="link-ref"
                                     >
-                                        {item.link ? "📄" : "🔖"}</a
+                                        {(item.link || item.certificado) &&
+                                            "🔗"}</a
                                     >
                                 {/if}
                             </div>

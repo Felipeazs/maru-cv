@@ -1910,7 +1910,17 @@
         {
             "id": 109,
             "titulo": [
-                "・Analytics and Big Data - Machine Learning Scientist.|・Analytics and Big Data - Data Scientist.|・Software Development Engineer - Software Development Engineer.|・Software Development Engineer - DevOps Engineer.|・Software Development Engineer - Application Developer.|・Cloud Architect - Solutions Architect.|・Big Data - Data Integration Specialist.|・Operations/Support Engineering - Cloud Computing 101.|・Operations/Support Engineering - Cloud Support Associate.|・Operations/Support Engineering - Cloud Support Engineer."
+                "Analytics and Big Data",
+                "Machine Learning Scientist",
+                "Analytics and Big Data - Data Scientist",
+                "Software Development Engineer - Software Development Engineer",
+                "Software Development Engineer - DevOps Engineer",
+                "Software Development Engineer - Application Developer",
+                "Cloud Architect - Solutions Architect",
+                "Big Data - Data Integration Specialist",
+                "Operations/Support Engineering - Cloud Computing 101",
+                "Operations/Support Engineering - Cloud Support Associate",
+                "Operations/Support Engineering - Cloud Support Engineer"
             ],
             "institucion": "AWS Educate ",
             "fecha": [
@@ -2050,7 +2060,13 @@
         {
             "id": 118,
             "titulo": [
-                "・Metodología de la Empresa Saludable 5Z.|・Inteligencia Emocional: Emociones, Sentimientos y Cambio de Conducta.|・Cultura de seguridad y salud.|・Toxicología laboral, Liderazgo Organizacional.|・Auditor líder en ISO 45001:2018 - Sistemas de gestión.|・Perito ergónomo: Ergónomo forense.|・Efectividad personal para la Prevención del Estrés"
+                "Metodología de la Empresa Saludable 5Z",
+                "Inteligencia Emocional: Emociones, Sentimientos y Cambio de Conducta",
+                "Cultura de seguridad y salud",
+                "Toxicología laboral, Liderazgo Organizacional",
+                "Auditor líder en ISO 45001:2018 - Sistemas de gestión",
+                "Perito ergónomo: Ergónomo forense",
+                "Efectividad personal para la Prevención del Estrés"
             ],
             "institucion": "Centre Específic de Recerca per a la Millora i Innovació de les Empreses” (CERpIE) - Universitat Politécnica de Catalunya. ",
             "fecha": [
@@ -2248,7 +2264,8 @@
         {
             "id": 131,
             "titulo": [
-                "・Taller Oficial de Aseguramiento de la Calidad. Sernapesca.|・Análisis de puntos críticos (HACCP), Procedimientos Operacionales de Saneamiento (POS) y Buenas Prácticas de Manufactura (BPM). "
+                "Taller Oficial de Aseguramiento de la Calidad. Sernapesca", 
+                "Análisis de puntos críticos (HACCP), Procedimientos Operacionales de Saneamiento (POS) y Buenas Prácticas de Manufactura (BPM). "
             ],
             "institucion": "SCI Certificaciones - Laboratorio Silob, Valparaíso, Chile",
             "fecha": [
@@ -2279,7 +2296,13 @@
         {
             "id": 133,
             "titulo": [
-                "・Samsung Innovation Campus: Mujeres en Big Data.|・Comprender Python para usuarios de Excel.|・Extraer transformar cargar - Data Ingestion.|・Proyectos innovadores basados en datos.|・Base de datos - SQL y NoSQL.|・Introducción a estadística con R.|・Visualización de datos con R"
+                "Samsung Innovation Campus: Mujeres en Big Data",
+                "Comprender Python para usuarios de Excel",
+                "Extraer transformar cargar - Data Ingestion",
+                "Proyectos innovadores basados en datos",
+                "Base de datos - SQL y NoSQL",
+                "Introducción a estadística con R",
+                "Visualización de datos con R"
             ],
             "institucion": "ONG Innovacién",
             "fecha": [
