@@ -60,6 +60,7 @@ import audit from '/images/audit.svg'
 import food from '/images/food.svg'
 import bioenergy from '/images/bioenergy.svg'
 import linkedin from '/images/linkedin.svg'
+import instagram from '/images/instagram.svg'
 
 import type { DataTypes } from '../lib/cv-store'
 
@@ -69,14 +70,8 @@ export const sorting_items = <T extends Record<string, any>>(items: T[], year: n
         let rFechaB = ''
 
         if (a.fecha && b.fecha) {
-            const fechaA = a.fecha[0].split('|')[0]
-            const fechaB = b.fecha[0].split('|')[0]
-
-            if (fechaA.includes('/')) rFechaA = fechaA.split('/').join('/01/')
-            else rFechaA = fechaA
-
-            if (fechaB.includes('/')) rFechaB = fechaB.split('/').join('/01/')
-            else rFechaB = fechaB
+            rFechaA = a.fecha[0].split('|')[0].split('/').join('/01/')
+            rFechaB = b.fecha[0].split('|')[0].split('/').join('/01/')
         }
 
         return Number(new Date(rFechaB)) - Number(new Date(rFechaA))
@@ -153,6 +148,10 @@ export const allItems = (items: DataTypes) => {
                 switch (social.nombre) {
                     case 'linkedin':
                         item.social = [...item.social, { ...social, icono: linkedin }]
+                        break;
+                    case 'instagram':
+                        item.social = [...item.social, { ...social, icono: instagram }]
+                        break;
                     default:
                 }
             })

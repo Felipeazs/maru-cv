@@ -36,7 +36,7 @@
             "cargo": "Socia cofundadora, Chief Strategy Officer (CSO)",
             "descripcion": "spin off como empresa elaboradora de alimentos en base a bagazo de cerveza, con foco en producción sostenible en línea con la economía circular, con sede en el Maule.",
             "mas": [
-                "Somos Upfood! una foodtech liderada por mujeres y desarrollamos productos alimenticios a partir de sub-ingredientes de la industria cervecera ¡Hacemos upcycling food y economía circular! Bagán es nuestro primer producto 🌱🍺.| ¡Conoce a Up Foods, una empresa revolucionaria en la industria de alimentos! 🌱. En Up Foods estamos comprometidos con la innovación y la sostenibilidad, aprovechando los recursos de manera inteligente para crear soluciones deliciosas y respetuosas con el medio ambiente ♻️. |Nuestros productos están diseñados para los mercados emergentes, ofreciendo opciones alimenticias saludables y deliciosas. 😋 Estamos impulsando el cambio en la industria de alimentos, demostrando que se pueden obtener sabores excepcionales mientras se protege nuestro planeta.| 🌍 Únete a nosotros en este emocionante viaje hacia un futuro más sostenible y nutricionalmente rico. Juntos, estamos creando un mundo donde la comida es más que solo nutrición, es una declaración de responsabilidad y sabor."
+                "Somos Upfood! una foodtech liderada por mujeres y desarrollamos productos alimenticios a partir de sub-ingredientes de la industria cervecera ¡Hacemos upcycling food y economía circular! Bagán es nuestro primer producto 🌱🍺.| ¡Conoce a Up Foods, una empresa revolucionaria en la industria de alimentos! 🌱. En Up Foods estamos comprometidos con la innovación y la sostenibilidad, aprovechando los recursos de manera inteligente para crear soluciones deliciosas y respetuosas con el medio ambiente ♻️."
             ],
             "imagen": "/images/upfoods.jpeg",
             "aptitudes": [
@@ -50,6 +50,11 @@
                     "nombre": "linkedin",
                     "link": "https://www.linkedin.com/company/UpFoods/",
                     "icono": ""
+                },
+                {
+                    "nombre": "instagram",
+                    "link": "https://www.instagram.com/bagan.cl/",
+                    "icono": ""
                 }
             ],
             "tags": [
@@ -61,15 +66,26 @@
         {
             "id": 151,
             "titulo": [
-                "ASB Innobiotics SpA"
+                "AGS Innobiotics SpA"
             ],
-            "cargo": "Socia cofundadora",
-            "descripcion": "Empresa de prototipaje on-demand para emprendimientos digitales.",
+            "cargo": "Socia cofundadora y CSO",
+            "descripcion": "La plataforma AgroSimbiótica es el primer proyecto de la empresa, y es la primera plataforma de Simbiosis Industrial y Economía Circular para residuos orgánicos, como forma de potenciar nuevos modelos de negocios y oportunidades en torno al aprovechamiento de recursos agrícolas que actualmente se desperdician en vertederos.",
             "mas": [
-                "・Desarrollo de aplicaciones web (Java, Javascript).|・Servicios UX/UI y back end.|・Reportabilidad de variables en plataforma web.|・Deployment de servidores en Amazon Web Service, Heroku y Vercel.|・Manejo de bases de datos SQL y NoSQL (PgAdmin (Postgres), DBeaver, MySQl, Compass (MongoDB).|・Prueba de prototipos en baja con Raspebrry Pi.|・Director Tecnológico – Felipe Zapata Soto. Java Full Stack developer (LinkedIn)"
+                "Servicios: |・Desarrollo de aplicaciones web (Java, Javascript).|・Servicios UX/UI y back end.|・Reportabilidad de variables en plataforma web.|・Deployment de servidores en Amazon Web Service, Heroku y Vercel.|・Manejo de bases de datos SQL y NoSQL (PgAdmin (Postgres), DBeaver, MySQl, Compass (MongoDB).|・Prueba de prototipos en baja con Raspebrry Pi.|・Director Tecnológico – Felipe Zapata Soto. Java Full Stack developer (LinkedIn)"
             ],
             "imagen": "/images/asb.jpeg",
-            "sociales": null,
+            "sociales": [
+                {
+                    "nombre": "linkedin",
+                    "link": "https://www.linkedin.com/company/agrosimbi%C3%B3tica/",
+                    "icono": ""
+                },
+                {
+                    "nombre": "instagram",
+                    "link": "https://www.instagram.com/agrosimbiotica/",
+                    "icono": ""
+                }
+            ],
             "tags": [
                 "economía_circular",
                 "valorización_de_recursos",
@@ -82,13 +98,18 @@
                 "Retrocicla SpA"
             ],
             "cargo": "Socia cofundadora, Directora de finanzas 💰",
-            "descripcion": null,
+            "descripcion": "Somos un emprendimiento liderado por mujeres que quieren cambiar la industria textil por medio de la economía circular. Nuestra labor es apoyar a los emprendimientos de upcycler y crear conciencia medioambiental en los jóvenes.",
             "imagen": "/images/retrocicla.jpeg",
             "sociales": [
                 {
                     "nombre": "linkedin",
                     "link": "https://www.linkedin.com/company/retrocicla-spa/",
                     "icono": ""
+                },
+                {
+                    "nombre": "instagram",
+                    "link": "https://www.instagram.com/retrocicla/",
+                    "incono": ""
                 }
             ],
             "tags": [
@@ -195,13 +216,13 @@
         {
             "id": 5,
             "titulo": [
-                "Socia fundadora"
+                "Socia fundadora y CEO"
             ],
             "empresa": "Consultora de Negocios Sustentables Lazo SpA",
             "fecha": [
                 "2023|12/2021"
             ],
-            "descripcion": "",
+            "descripcion": "Lazo SpA es una empresa de derecho privado que nace el 2021 para promover negocios en línea con la sostenibilidad, y priorizando los Objetivos de Desarrollo Sostenible (ODS), y en particular los ODS 9 Industria, Innovación e Infraestructura; ODS 12 Producción y Consumo Responsable; ODS 11 Ciudades y Comunidades Sostenibles; ODS 13 Acción por el Clima, y ODS 17 Alianzas para lograr los objetivos. De igual manera, la empresa se compromete con fomentar en las empresas las políticas de sostenibilidad nacionales en favor del cumplimiento de las obligaciones adquiridas para el Acuerdo de París el 9 de abril del 2020 en su Contribución Determinada a Nivel Nacional",
             "especialidad": "sostenibilidad",
             "tags": [
                 "ingeniería",
@@ -217,9 +238,9 @@
             ],
             "empresa": "Departamento de Medio Ambiente de la Ilustre Municipalidad de Quintero",
             "fecha": [
-                "2023|02/2023"
+                "2023|02/2022"
             ],
-            "descripcion": "・Programa Comuna Energética del Ministerio de la Agencia de Sostenibilidad Energética.|・Programa HuellaChile del Ministerio de Medio Ambiente.|・Implementación de iniciativas de economía circular y área de cambio climático de acuerdo con el Compromiso Municipio Verde-ONG FIMA y la Guía metodológica para orientar la transición hacia una economía circular|・Ciudad Circular, Facultad Ciencias de la Vida, Universidad Andrés Bello.|・Implementación de iniciativas educativas para funcionarios municipales y para la comunidad en línea con la Ley 21455 Ley Marco de Cambio Climático.|・Contraparte municipal para el reporte del Plan de Acción Nacional de Cambio Climático 2017-2022 (PANCC)",
+            "descripcion": "・Programa Comuna Energética del Ministerio de la Agencia de Sostenibilidad Energética.|・Programa HuellaChile del Ministerio de Medio Ambiente.|・Implementación de iniciativas de economía circular y área de cambio climático de acuerdo con el Compromiso Municipio Verde-ONG FIMA y la Guía metodológica para orientar la transición hacia una economía circular|・Ciudad Circular, Facultad Ciencias de la Vida, Universidad Andrés Bello.|・Implementación de iniciativas educativas para funcionarios municipales y para la comunidad en línea con la Ley 21455 Ley Marco de Cambio Climático.|・Contraparte municipal para el reporte del Plan de Acción Nacional de Cambio Climático 2017-2022 (PANCC). |・Contraparte para el proyecto Hoja de ruta para reconversión productiva de la zona Quinter-Puchuncaví - Fundación Chile 10/2023.",
             "especialidad": "sector_público",
             "tags": [
                 "municipalidad",
@@ -301,7 +322,10 @@
             "fecha": [
                 "2023|09/2022"
             ],
-            "descripcion": "",
+            "descripcion": "Empresa de prototipaje on-demand para emprendimientos digitales.",
+            "mas": [
+                "・Desarrollo de aplicaciones web (Java, Javascript).|・Servicios UX/UI y back end.|・Reportabilidad de variables en plataforma web.|・Deployment de servidores en Amazon Web Service, Heroku y Vercel.|・Manejo de bases de datos SQL y NoSQL (PgAdmin (Postgres), DBeaver, MySQl, Compass (MongoDB).|・Prueba de prototipos en baja con Raspebrry Pi.|・Director Tecnológico – Felipe Zapata Soto. Java Full Stack developer (LinkedIn)"
+            ],
             "especialidad": "sostenibilidad",
             "tags": [
                 "ingeniería",
@@ -317,13 +341,16 @@
         {
             "id": 12,
             "titulo": [
-                "Socia fundadora y CSO"
+                "Socia fundadora y CGO"
             ],
             "empresa": "Up Foods",
             "fecha": [
                 "2023|12/2022"
             ],
-            "descripcion": "",
+            "descripcion": "spin off como empresa elaboradora de alimentos en base a bagazo de cerveza, con foco en producción sostenible en línea con la economía circular, con sede en el Maule.",
+            "mas": [
+                "Somos Upfood! una foodtech liderada por mujeres y desarrollamos productos alimenticios a partir de sub-ingredientes de la industria cervecera ¡Hacemos upcycling food y economía circular! Bagán es nuestro primer producto 🌱🍺.| ¡Conoce a Up Foods, una empresa revolucionaria en la industria de alimentos! 🌱. En Up Foods estamos comprometidos con la innovación y la sostenibilidad, aprovechando los recursos de manera inteligente para crear soluciones deliciosas y respetuosas con el medio ambiente ♻️."
+            ],
             "especialidad": "sostenibilidad",
             "tags": [
                 "ingeniería",
@@ -339,7 +366,7 @@
         {
             "id": 13,
             "titulo": [
-                "Socia fundadora y CSO"
+                "Socia fundadora y CFO"
             ],
             "empresa": "Retrocicla",
             "fecha": [
@@ -376,7 +403,7 @@
         {
             "id": 15,
             "titulo": [
-                "Práctica profesional (3 meses) y Asistente en el Departamento de Calidad, Grupo Alimentos. "
+                "Práctica profesional y Asistente en el Departamento de Calidad, Grupo Alimentos. "
             ],
             "empresa": "Laboratorios Silob",
             "fecha": [
@@ -2596,6 +2623,22 @@
                 "municipalidad",
                 "sostenibilidad",
                 "educación"
+            ]
+        },
+        {
+            "id": 189,
+            "titulo": [
+                "Convenio Programa Comuna Energética"
+            ],
+            "fecha": [
+                ""
+            ],
+            "institucion": "Agencia de Sostenibilidad y Ministerio de Energía",
+            "especialidad": "",
+            "tags": [
+                "municipalidad",
+                "sostenibilidad",
+                "eficiencia_energética"
             ]
         }
     ],

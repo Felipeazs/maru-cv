@@ -263,7 +263,7 @@
                                                 href={social.link}
                                                 target="_blank"
                                                 type="button"
-                                                class="btn btn-xs w-max"
+                                                class="btn btn-xs w-max mx-1"
                                             >
                                                 <img
                                                     src={social.icono}

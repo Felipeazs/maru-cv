@@ -3,7 +3,7 @@
 </script>
 
 <!-- <Navbar /> -->
-<main>
+<main class="">
     <slot />
 </main>
 <Footer />
