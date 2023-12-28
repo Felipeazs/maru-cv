@@ -8,6 +8,16 @@
             "cargo": "Socia cofundadora",
             "descripcion": "Lazo SpA es una empresa de derecho privado que nace el 2021 para promover negocios en línea con la sostenibilidad, y priorizando los Objetivos de Desarrollo Sostenible (ODS), y en particular los ODS 9 Industria, Innovación e Infraestructura; ODS 12 Producción y Consumo Responsable; ODS 11 Ciudades y Comunidades Sostenibles; ODS 13 Acción por el Clima, y ODS 17 Alianzas para lograr los objetivos. De igual manera, la empresa se compromete con fomentar en las empresas las políticas de sostenibilidad nacionales en favor del cumplimiento de las obligaciones adquiridas para el Acuerdo de París el 9 de abril del 2020 en su Contribución Determinada a Nivel Nacional",
             "imagen": "/images/lazo.jpeg",
+            "financiamiento": [
+                {
+                    "fecha": [
+                        "2022"
+                    ],
+                    "titulo": "Súmate a Innovar",
+                    "institucion": ["CORFO"],
+                    "diploma": null
+                }
+            ],
             "aptitudes": [
                 "economía_circular",
                 "simbiosis_industrial",
@@ -39,6 +49,74 @@
                 "Somos Upfood! una foodtech liderada por mujeres y desarrollamos productos alimenticios a partir de sub-ingredientes de la industria cervecera ¡Hacemos upcycling food y economía circular! Bagán es nuestro primer producto 🌱🍺.| ¡Conoce a Up Foods, una empresa revolucionaria en la industria de alimentos! 🌱. En Up Foods estamos comprometidos con la innovación y la sostenibilidad, aprovechando los recursos de manera inteligente para crear soluciones deliciosas y respetuosas con el medio ambiente ♻️."
             ],
             "imagen": "/images/upfoods.jpeg",
+            "financiamiento": [
+                {
+                    "fecha": [
+                        "2023"
+                    ],
+                    "titulo": "Semilla Inicia “Bagán” 22INI2-238658",
+                    "institucion": [
+                        "CORFO"
+                    ],
+                    "diploma": null
+                },
+                {
+                    "fecha": [
+                        "2023"
+                    ],
+                    "titulo": "Ganador Laboratorio de Financimiento Climático",
+                    "institucion": [
+                        "Musur Consultores",
+                        "Ministerio del Medio Ambiente"
+                    ],
+                    "diploma": "https://drive.google.com/file/d/1zo3DR7jqHzqmpdT1qICec5r2zCexbmlT/view?usp=drive_link"
+                },
+                {
+                    "fecha": [
+                        "2023"
+                    ],
+                    "titulo": "Beneficiario Programa de Difusión Tecnológica para la Agroindustria del Maule",
+                    "institucion": [
+                        "Maule Alimenta",
+                        "CORFO"
+                    ],
+                    "diploma": null
+                },
+                {
+                    "fecha": [
+                        "2023"
+                    ],
+                    "titulo": "Ganador Growing up: ejecuta tu idea 2023",
+                    "institucion": [
+                        "Consorcio Science Up",
+                        "Vicerrectoría de Investigación, Creación e Innovación",
+                        "Pontificia Universidad Católica de Valparaíso"
+                    ],
+                    "diploma": null
+                },
+                {
+                    "fecha": [
+                        "2023"
+                    ],
+                    "titulo": "Finalista Mejor Emprendimiento del Año PUCV 2023",
+                    "institucion": [
+                        "Dirección de Innovación PUCV",
+                        "Pontificia Universidad Católica de Valparaíso"
+                    ],
+                    "diploma": null
+                },
+                {
+                    "fecha": [
+                        "2022"
+                    ],
+                    "titulo": "Ganador Torneo Lift me Up 7",
+                    "institucion": [
+                        "The Lift",
+                        "Pontificia Universidad Católica de Valparaíso"
+                    ],
+                    "diploma": "https://drive.google.com/file/d/1re0M3cIBFqzq715GppPl6tgbb3SzCco3/view?usp=sharing"
+                }
+            ],
             "aptitudes": [
                 "estrategia_corporativa",
                 "consultoría_de_estrategia",
@@ -74,6 +152,38 @@
                 "Servicios: |・Desarrollo de aplicaciones web (Java, Javascript).|・Servicios UX/UI y back end.|・Reportabilidad de variables en plataforma web.|・Deployment de servidores en Amazon Web Service, Heroku y Vercel.|・Manejo de bases de datos SQL y NoSQL (PgAdmin (Postgres), DBeaver, MySQl, Compass (MongoDB).|・Prueba de prototipos en baja con Raspebrry Pi.|・Director Tecnológico – Felipe Zapata Soto. Java Full Stack developer (LinkedIn)"
             ],
             "imagen": "/images/asb.jpeg",
+            "financiamiento": [
+                {
+                    "fecha": [
+                        "2021"
+                    ],
+                    "titulo": "Ganador Torneo Lift me Up 6",
+                    "institucion": [
+                        "The Lift", "Pontificia Universidad Católica de Valparaíso"
+                    ],
+                    "diploma": null
+                },
+                {
+                    "fecha": [
+                        "2021"
+                    ],
+                    "titulo": "Ganador Concurso CREA",
+                    "institucion": [
+                        "Dirección de Innovación y Emprendimiento", "Pontificia Universidad Católica de Valparaíso"
+                    ],
+                    "diploma": null
+                },
+                {
+                    "fecha": [
+                        "2021"
+                    ],
+                    "titulo": "Ganador Concurso DESARROLLA",
+                    "institucion": [
+                        "Dirección de Innovación y Emprendimiento", "Pontificia Universidad Católica de Valparaíso"
+                    ],
+                    "diploma": null
+                }
+            ],
             "sociales": [
                 {
                     "nombre": "linkedin",
@@ -100,6 +210,18 @@
             "cargo": "Socia cofundadora, Directora de finanzas 💰",
             "descripcion": "Somos un emprendimiento liderado por mujeres que quieren cambiar la industria textil por medio de la economía circular. Nuestra labor es apoyar a los emprendimientos de upcycler y crear conciencia medioambiental en los jóvenes.",
             "imagen": "/images/retrocicla.jpeg",
+            "financiamiento": [
+                {
+                    "fecha": [
+                        "2021"
+                    ],
+                    "titulo": "Semilla Inicia 21INI-162476",
+                    "institucion": [
+                        "CORFO"
+                    ],
+                    "diploma": null
+                }
+            ],
             "sociales": [
                 {
                     "nombre": "linkedin",

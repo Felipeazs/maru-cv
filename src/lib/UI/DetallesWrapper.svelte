@@ -1,25 +1,30 @@
 <script lang="ts">
-    import { createEventDispatcher } from "svelte";
     import { fade } from "svelte/transition";
 
-    import { tooltipy } from "./tooltip/tooltip";
     import { sorting_items } from "../../utils/utils";
+    import type { DataTypes } from "../cv-store";
 
-    const dispatch = createEventDispatcher();
+    import Aptitudes from "../detalles/aptitudes.svelte";
+    import Sociales from "../detalles/Sociales.svelte";
+    import Descripcion from "../detalles/Descripcion.svelte";
+    import Logo from "../detalles/Logo.svelte";
+    import Certificados from "../detalles/Certificados.svelte";
+    import Categorias from "../detalles/Categorias.svelte";
+    import Fecha from "../detalles/Fecha.svelte";
+    import Educacion from "../detalles/Educacion.svelte";
+    import Titulo from "../detalles/Titulo.svelte";
+    import Proyecto from "../detalles/Proyecto.svelte";
+    import Subtitulos from "../detalles/Subtitulos.svelte";
+    import Financiamiento from "../detalles/Financiamiento.svelte";
 
     export let anio: number;
     export let especialidad: string;
     export let selectedtags: { icono: string; nombre: string }[];
-    export let items: any[] = [];
+    export let items: DataTypes[] = [];
     export let title: string;
     export let pdfItems = [];
 
-    let sc = [];
-    $: sc = selectedtags.map((s) => s.nombre);
-
-    let now = new Date().getFullYear().toString();
-
-    let filteredItems = [];
+    let filteredItems: any[] = [];
     $: items = sorting_items(items, anio, especialidad);
     $: if (selectedtags?.length) {
         filteredItems = items;
@@ -42,23 +47,6 @@
             pdfItems = [...pdfItems, item];
         }
     };
-
-    const verHandler = (id: number) => {
-        const element = document.getElementById(`mas-${id}`);
-        const title = document.getElementById(`mas-title-${id}`);
-
-        const isHidden = element.getAttribute("class") === "hidden";
-        if (isHidden) {
-            element.setAttribute(
-                "class",
-                "inline-block text-sm text-gray-900 mt-2"
-            );
-            title.innerText = "ver menos";
-        } else {
-            element.setAttribute("class", "hidden");
-            title.innerText = "ver más...";
-        }
-    };
 </script>
 
 {#if filteredItems.length > 0}
@@ -73,11 +61,11 @@
                 <div class="divider-2 opacity-60" />
             </div>
             <div class="flex flex-col gap-8 pt-10">
-                {#each filteredItems as item, i (item.id)}
+                {#each filteredItems as item, index (item.id)}
                     <div
                         class="relative flex flex-col md:flex-row gap-5 md:gap-10 items-start"
                     >
-                        {#if i !== filteredItems.length - 1}
+                        {#if index !== filteredItems.length - 1}
                             <div
                                 class="absolute hidden md:inline-block z-0 top-10 left-[5%] bg-[rgba(78,87,98,0.2)] h-full pl-[3px]"
                             />
@@ -99,34 +87,11 @@
                                     }}
                                 >
                                     {pdfItems.findIndex(
-                                        (p) => p.id === item.id
+                                        (p) => p.id === item.id,
                                     ) + 1}
                                 </span>
                             {/if}
-                            <div
-                                class="flex flex-row-reverse md:flex-col justify-center items-center min-w-[120px] max-w-[170px] md:min-h-[50px] md:max-h-[150px]"
-                            >
-                                {#if item.fecha}
-                                    {#each item.fecha[0]?.split("|") as fecha, i}
-                                        <p class="px-1">
-                                            {fecha === now ? "presente" : fecha}
-                                        </p>
-                                        {#if i < item.fecha[0]?.split("|").length - 1}
-                                            ・
-                                        {/if}
-                                    {/each}
-                                {:else if item.imagen}
-                                    <img
-                                        src={item.imagen}
-                                        width={120}
-                                        height={120}
-                                        alt="logo empresa"
-                                        class="rounded-md w-[120px] h-[120px] object-contain bg-[#13733B]"
-                                    />
-                                {:else}
-                                    {i + 1}
-                                {/if}
-                            </div>
+                            <Fecha bind:item />
                         </button>
                         <div class="w-full">
                             <div
@@ -144,207 +109,24 @@
                                     }`}
                                 >
                                     <div class="py-1">
-                                        {#if item.educacion}
-                                            {#each item.educacion[0]?.split("|") as ed}
-                                                <div
-                                                    class="flex flex-row gap-1 items-baseline justify-between"
-                                                >
-                                                    <p class="w-full">
-                                                        {ed}
-                                                    </p>
-                                                </div>
-                                            {/each}
-                                        {/if}
-                                        {#if item.titulo}
-                                            {#each item.titulo as title, i}
-                                                <div
-                                                    class="flex flex-row gap-1 items-baseline justify-between"
-                                                >
-                                                    <p class="max-w-[80%]">
-                                                        {item.titulo.length > 1
-                                                            ? "・"
-                                                            : ""}
-                                                        {title}
-                                                    </p>
-                                                    {#if item.fecha?.length > 1}
-                                                        <p
-                                                            class="text-xs text-gray-400 min-w-[107px] text-start"
-                                                        >
-                                                            {item.fecha[i]
-                                                                .split("|")
-                                                                .reverse()
-                                                                .join(" - ")}
-                                                        </p>
-                                                    {/if}
-                                                </div>
-                                            {/each}
-                                        {/if}
-                                        {#if item.proyecto}
-                                            {#each item.proyecto[0]?.split("|") as pro}
-                                                <div
-                                                    class="flex flex-row gap-1 items-baseline justify-between"
-                                                >
-                                                    <p class="w-full">
-                                                        {pro}
-                                                    </p>
-                                                </div>
-                                            {/each}
-                                        {/if}
+                                        <Educacion bind:item />
+                                        <Titulo bind:item />
+                                        <Proyecto bind:item />
                                     </div>
-                                    <p class="text-sm text-slate-500 italic">
-                                        {item.cargo ?? ""}
-                                    </p>
-                                    <p
-                                        class="text-sm text-slate-500 font-semibold pb-3"
-                                    >
-                                        {item.empresa ??
-                                            item.institucion ??
-                                            item.instituto ??
-                                            ""}
-                                    </p>
-                                    {#if item.descripcion}
-                                        <div
-                                            class="flex flex-col items-start text-sm py-2"
-                                        >
-                                            <p class="text-xs text-gray-400">
-                                                descripción:
-                                            </p>
-                                            {#each item.descripcion.split("|") ?? [] as desc}
-                                                <p
-                                                    class="flex felx-col text-gray-900"
-                                                >
-                                                    {desc}
-                                                </p>
-                                            {/each}
-                                            {#if item.mas}
-                                                <span
-                                                    id={`mas-${item.id}`}
-                                                    class="hidden"
-                                                >
-                                                    {#each item.mas[0]?.split("|") ?? [] as mas}
-                                                        <p>
-                                                            {mas}
-                                                        </p>
-                                                    {/each}
-                                                </span>
-                                                <button
-                                                    id={`mas-title-${item.id}`}
-                                                    class="btn btn-xs btn-gray text-gray-500 font-normal lowercase mt-1"
-                                                    on:click={() =>
-                                                        verHandler(item.id)}
-                                                >
-                                                    ver más...
-                                                </button>
-                                            {/if}
-                                        </div>
-                                    {/if}
-                                    {#if item.aptitudes}
-                                        <div
-                                            class="flex flex-col justify-center items-baseline text-xs text-gray-400 py-1"
-                                        >
-                                            <p class="text-center">
-                                                aptitudes:
-                                            </p>
-                                            <div
-                                                class="flex flex-row flex-wrap gap-1 py-1 text-gray-900"
-                                            >
-                                                {item?.aptitudes
-                                                    ?.join(" ・ ")
-                                                    .replace(/_/g, " ")}
-                                            </div>
-                                        </div>
-                                    {/if}
-                                    {#if item.social.length}
-                                        <p class="text-xs text-gray-400 py-1">
-                                            rr.ss:
-                                        </p>
-                                        {#each item?.social as social}
-                                            <a
-                                                href={social.link}
-                                                target="_blank"
-                                                type="button"
-                                                class="btn btn-xs w-max mx-1"
-                                            >
-                                                <img
-                                                    src={social.icono}
-                                                    alt={social.nombre}
-                                                    width={15}
-                                                />
-                                            </a>
-                                        {/each}
-                                    {/if}
+                                    <Subtitulos bind:item />
+                                    <Descripcion bind:item />
+                                    <Financiamiento bind:item/>
+                                    <Aptitudes bind:item />
+                                    <Sociales bind:item />
                                 </div>
-                                <div
-                                    class={`${
-                                        item.logo
-                                            ? "flex justify-center w-[15%]"
-                                            : ""
-                                    }`}
-                                >
-                                    {#if item.logo}
-                                        <img
-                                            src={item.logo}
-                                            alt={item.institucion ?? ""}
-                                            class="object-contain"
-                                        />
-                                    {/if}
-                                </div>
+                                <Logo bind:item />
                             </div>
-                            <div class="flex flex-row gap-1 items-center py-1">
-                                {#if item.link || item.certificado}
-                                    <p class="text-xs text-gray-400">
-                                        {item.link
-                                            ? "publicación"
-                                            : "certificado"}:
-                                    </p>
-                                    <a
-                                        use:tooltipy={{
-                                            content: item.link
-                                                ? "ver publicación"
-                                                : "ver certificado",
-                                        }}
-                                        href={item.link || item.certificado}
-                                        target="_blank"
-                                        id="link-ref"
-                                    >
-                                        {(item.link || item.certificado) &&
-                                            "🔗"}</a
-                                    >
-                                {/if}
-                            </div>
-                            {#if item.tags}
-                                <div
-                                    class="flex flex-col justify-center items-baseline text-xs text-gray-400 pb-3"
-                                >
-                                    <p class="text-center">categorías:</p>
-                                    <div
-                                        class="flex flex-row flex-wrap gap-1 py-1"
-                                    >
-                                        {#each item.iconos as tag}
-                                            <button
-                                                class={sc.includes(tag.nombre)
-                                                    ? "btn btn-xs btn-light lowercase text-xs text-white bg-yellow"
-                                                    : "btn btn-xs btn-light lowercase text-xs text-slate-600"}
-                                                on:click={() =>
-                                                    dispatch("tag-click", tag)}
-                                            >
-                                                <img
-                                                    src={tag.icono}
-                                                    width={16}
-                                                    height={"auto"}
-                                                    alt="tag"
-                                                />
-                                                <p>
-                                                    {tag.nombre.replace(
-                                                        /_/g,
-                                                        " "
-                                                    )}
-                                                </p>
-                                            </button>
-                                        {/each}
-                                    </div>
-                                </div>
-                            {/if}
+                            <Certificados bind:item />
+                            <Categorias
+                                bind:item
+                                bind:selectedtags
+                                on:tag-click
+                            />
                             <hr class="w-full" />
                         </div>
                     </div>
