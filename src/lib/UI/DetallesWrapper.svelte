@@ -51,7 +51,8 @@
 
 {#if filteredItems.length > 0}
     <div
-        class="relative z-0 flex flex-col gap-[2.5rem] w-[90%] lg:w-[75%] m-auto xl:m-0 bg-crema top-16 py-[2%] px-[2%] lg:px-[10%]"
+        class="relative z-0 flex flex-col gap-[2.5rem] w-[90%] lg:w-[75%] m-auto xl:m-0 bg-crema
+        top-16 py-[2%] px-[2%] lg:px-[10%]"
     >
         <div class="flex flex-col gap-2">
             <div class="sticky top-0 pt-[50px] z-20 bg-crema">
@@ -67,7 +68,8 @@
                     >
                         {#if index !== filteredItems.length - 1}
                             <div
-                                class="absolute hidden md:inline-block z-0 top-10 left-[5%] bg-[rgba(78,87,98,0.2)] h-full pl-[3px]"
+                                class="absolute hidden md:inline-block z-0 top-10 left-[5%]
+                                bg-[rgba(78,87,98,0.2)] h-full pl-[3px]"
                             />
                         {/if}
                         <button
@@ -80,7 +82,8 @@
                         >
                             {#if pdfItems.some((p) => p.id === item.id)}
                                 <span
-                                    class="indicator-item text-crema align-baseline badge badge-secondary bg-yellow border-yellow shadow-sm shadow-black"
+                                    class="indicator-item text-crema align-baseline badge
+                                    badge-secondary bg-yellow border-yellow shadow-sm shadow-black"
                                     transition:fade={{
                                         delay: 0,
                                         duration: 100,
@@ -115,7 +118,7 @@
                                     </div>
                                     <Subtitulos bind:item />
                                     <Descripcion bind:item />
-                                    <Financiamiento bind:item/>
+                                    <Financiamiento bind:item />
                                     <Aptitudes bind:item />
                                     <Sociales bind:item />
                                 </div>

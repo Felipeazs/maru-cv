@@ -32,7 +32,7 @@
             selectedtags = [...selectedtags, tag_selected];
         } else {
             selectedtags = selectedtags.filter(
-                (s) => s.nombre !== tag_selected.nombre
+                (s) => s.nombre !== tag_selected.nombre,
             );
         }
 
