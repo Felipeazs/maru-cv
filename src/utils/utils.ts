@@ -70,12 +70,25 @@ export const sorting_items = <T extends Record<string, any>>(items: T[], year: n
         let rFechaB = ''
 
         if (a.fecha && b.fecha) {
-            rFechaA = a.fecha[0].split('|')[0].split('/').join('/01/')
-            rFechaB = b.fecha[0].split('|')[0].split('/').join('/01/')
+            if (a.fecha[0].includes('|')) {
+                rFechaA = a.fecha[0].split('|')[0].split('/').join('/01/')
+            } else {
+                rFechaA = a.fecha[0].split('/').join('/01/')
+            }
+
+            if (b.fecha[0].includes('|')) {
+                rFechaB = b.fecha[0].split('|')[0].split('/').join('/01/')
+            } else {
+                rFechaB = b.fecha[0].split('/').join('/01/')
+            }
         }
+
+        console.log('a', rFechaA, 'b', rFechaB)
 
         return Number(new Date(rFechaB)) - Number(new Date(rFechaA))
     })
+
+    console.log(sortedItems)
 
     if (especialidad !== 'todas') {
         sortedItems = items.filter((si) => si.especialidad === especialidad)

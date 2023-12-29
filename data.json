@@ -2664,6 +2664,7 @@
             "titulo": [
                 "Convenio ValpoXclima"
             ],
+            "fecha": ["01/2022"],
             "institucion": "Pontificia Universidad Católica de Valparaíso, a través de la Dirección de Innovación de la Vicerrectoría de Investigación, Creación e Innovación (VINCI)",
             "descripcion": "“Valparaíso por el clima: Torneo de innovación y emprendimiento estudiantil frente a la crisis climática”, 22VIR-215521",
             "especialidad": "sector_público",
@@ -2753,9 +2754,25 @@
                 "Convenio Programa Comuna Energética"
             ],
             "fecha": [
-                ""
+                "01/2022"
             ],
             "institucion": "Agencia de Sostenibilidad y Ministerio de Energía",
+            "especialidad": "",
+            "tags": [
+                "municipalidad",
+                "sostenibilidad",
+                "eficiencia_energética"
+            ]
+        },
+        {
+            "id": 190,
+            "titulo": [
+                "Convenio Fundación Terram - “Programa Formación ciudadana en medio ambiente de la región de Valparaíso” código Bip 40046329"
+            ],
+            "fecha": [
+                "01/2024"
+            ],
+            "institucion": "I. Municipalidad de Quintero",
             "especialidad": "",
             "tags": [
                 "municipalidad",

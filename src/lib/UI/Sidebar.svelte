@@ -2,7 +2,6 @@
     import Contact from "../Contact.svelte";
     import PreviewPdf from "./PreviewPDF.svelte";
 
-    // import maru from "/images/maru.webp";
     import maru from "/images/maru2.png";
 
     export let pdfItems: any[];
