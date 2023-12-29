@@ -83,8 +83,6 @@ export const sorting_items = <T extends Record<string, any>>(items: T[], year: n
             }
         }
 
-        console.log('a', rFechaA, 'b', rFechaB)
-
         return Number(new Date(rFechaB)) - Number(new Date(rFechaA))
     })
 
