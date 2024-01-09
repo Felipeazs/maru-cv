@@ -15,7 +15,6 @@
     import Proyecto from "../detalles/Proyecto.svelte";
     import Subtitulos from "../detalles/Subtitulos.svelte";
     import Financiamiento from "../detalles/Financiamiento.svelte";
-    import Aptitudes from "../detalles/Aptitudes.svelte";
 
     export let anio: number;
     export let especialidad: string;
@@ -119,7 +118,6 @@
                                     <Subtitulos bind:item />
                                     <Descripcion bind:item />
                                     <Financiamiento bind:item />
-                                    <Aptitudes bind:item />
                                     <Sociales bind:item />
                                 </div>
                                 <Logo bind:item />
