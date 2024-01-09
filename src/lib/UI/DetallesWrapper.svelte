@@ -4,7 +4,7 @@
     import { sorting_items } from "../../utils/utils";
     import type { DataTypes } from "../cv-store";
 
-    import Aptitudes from "../detalles/aptitudes.svelte";
+    import Aptitudes from "../detalles/Aptitudes.svelte";
     import Sociales from "../detalles/Sociales.svelte";
     import Descripcion from "../detalles/Descripcion.svelte";
     import Logo from "../detalles/Logo.svelte";

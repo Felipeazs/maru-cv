@@ -3,7 +3,7 @@
 </script>
 
 <RubroWrapper title="perfil">
-    <div>
+    <div class="">
         <p>
             Soy un tipo de persona prudente y metódica, que se ocupa de abordar
             las cuestiones de una manera organizada y ordenada. Tengo una

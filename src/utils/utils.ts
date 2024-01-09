@@ -86,8 +86,6 @@ export const sorting_items = <T extends Record<string, any>>(items: T[], year: n
         return Number(new Date(rFechaB)) - Number(new Date(rFechaA))
     })
 
-    console.log(sortedItems)
-
     if (especialidad !== 'todas') {
         sortedItems = items.filter((si) => si.especialidad === especialidad)
     }
