@@ -4,7 +4,6 @@
     import { sorting_items } from "../../utils/utils";
     import type { DataTypes } from "../cv-store";
 
-    import Aptitudes from "../detalles/Aptitudes.svelte";
     import Sociales from "../detalles/Sociales.svelte";
     import Descripcion from "../detalles/Descripcion.svelte";
     import Logo from "../detalles/Logo.svelte";
@@ -16,6 +15,7 @@
     import Proyecto from "../detalles/Proyecto.svelte";
     import Subtitulos from "../detalles/Subtitulos.svelte";
     import Financiamiento from "../detalles/Financiamiento.svelte";
+    import Aptitudes from "../detalles/Aptitudes.svelte";
 
     export let anio: number;
     export let especialidad: string;
