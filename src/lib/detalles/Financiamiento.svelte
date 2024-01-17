@@ -64,7 +64,7 @@
         {#if item.financiamiento.length > 1}
             <button
                 id={`mas-f-button-${item.id}`}
-                class="tooltip btn btn-xs btn-gray text-gray-500 font-normal lowercase mt-1"
+                class="tooltip btn btn-xs btn-ghost text-gray-500 font-normal lowercase mt-1"
                 data-tip="ver más"
                 on:click={() => verHandler(item.id)
                 }

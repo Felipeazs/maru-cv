@@ -2223,7 +2223,7 @@
             ],
             "certificado": null,
             "tags": [
-                "administración_de_empresas"
+                "empresa"
             ]
         },
         {
@@ -2360,7 +2360,7 @@
             "certificado": null,
             "tags": [
                 "finanzas",
-                "administración_de_empresas"
+                "empresa"
             ]
         },
         {
@@ -2519,6 +2519,64 @@
                 "economía_circular",
                 "agroindustria",
                 "innovación"
+            ]
+        },
+        {
+            "id": 191,
+            "titulo": [
+                "Ventas iniciales",
+                "Formulación de proyecto SSAF-I",
+                "Formualción inicial de proyectos",
+                "Contabilidad",
+                "Fuentes de financiamiento",
+                "Principios de finanzas",
+                "Pitch inicial",
+                "Branding",
+                "Taller de pitch",
+                "Modelo de negocio",
+                "Ecosistema de innovación y emprendimiento",
+                "Desarrollo de clientes",
+                "Validación comercial temprana",
+                "Mercado y competencia",
+                "Bases de innovación"
+            ],
+            "institucion": "Chrysalis",
+            "fecha": [
+                "2021"
+            ],
+            "logo": "",
+            "certificado": null,
+            "especialidad": "dirección_de_empresas",
+            "tags": [
+                "empresa",
+                "emprendimiento",
+                "viaje_del_emprendedor"
+            ]
+        },
+        {
+            "id": 192,
+            "titulo": [
+                "Plan de expanción internacional 1",
+                "Due dilligence",
+                "Optimización de costos",
+                "Directorio 1",
+                "Directorio 2",
+                "Ingreso de capital",
+                "Estategias financieras y levantamiento de capital",
+                "Contabilidad",
+                "Talento, creación, reclutamiento y retención"
+            ],
+            "institucion": "DINN USCS",
+            "fecha": [
+                "2022"
+            ],
+            "logo": "",
+            "certificado": null,
+            "especialidad": "dirección_de_empresas",
+            "tags": [
+                "empresa",
+                "emprendimiento",
+                "viaje_del_emprendedor"
             ]
         }
     ],
@@ -2717,7 +2775,7 @@
                 "10/2023"
             ],
             "institucion": "",
-            "especialidad": "",
+            "especialidad": "sector_público",
             "tags": []
         },
         {
@@ -2729,7 +2787,7 @@
                 "11/2023"
             ],
             "institucion": "I. Municipalidad de Quintero",
-            "especialidad": "",
+            "especialidad": "sector_público",
             "tags": []
         },
         {

@@ -347,7 +347,7 @@ const tag_image = (tag: string) => {
         case 'educación':
             returnTagImage.icono = education
             break
-        case 'administración_de_empresas':
+        case 'viaje_del_emprendedor':
             returnTagImage.icono = manager
             break
         case 'análisis_de_riesgos':
