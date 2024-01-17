@@ -2072,6 +2072,7 @@
                 "Operations/Support Engineering - Cloud Support Engineer"
             ],
             "institucion": "AWS Educate ",
+            "logo": "/images/aws.png",
             "fecha": [
                 "2021"
             ],
@@ -2544,7 +2545,7 @@
             "fecha": [
                 "2021"
             ],
-            "logo": "",
+            "logo": "/images/chrysalis.png",
             "certificado": null,
             "especialidad": "dirección_de_empresas",
             "tags": [
@@ -2566,11 +2567,11 @@
                 "Contabilidad",
                 "Talento, creación, reclutamiento y retención"
             ],
-            "institucion": "DINN USCS",
+            "institucion": "DINN UCSS",
             "fecha": [
                 "2022"
             ],
-            "logo": "",
+            "logo": "/images/ucsc.png",
             "certificado": null,
             "especialidad": "dirección_de_empresas",
             "tags": [

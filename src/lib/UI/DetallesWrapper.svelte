@@ -99,7 +99,7 @@
                             <div
                                 class={`${
                                     item.logo
-                                        ? "flex flex-col md:flex-row gap-5 md:gap-10 pb-3"
+                                        ? "flex flex-col gap-5 md:flex-row md:gap-1 md:items-start pb-3"
                                         : "flex flex-row"
                                 }`}
                             >
