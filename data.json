@@ -6,18 +6,12 @@
                 "Lazo SpA"
             ],
             "cargo": "Socia cofundadora",
-            "descripcion": "Lazo SpA es una empresa de derecho privado que nace el 2021 para promover negocios en línea con la sostenibilidad, y priorizando los Objetivos de Desarrollo Sostenible (ODS), y en particular los ODS 9 Industria, Innovación e Infraestructura; ODS 12 Producción y Consumo Responsable; ODS 11 Ciudades y Comunidades Sostenibles; ODS 13 Acción por el Clima, y ODS 17 Alianzas para lograr los objetivos. De igual manera, la empresa se compromete con fomentar en las empresas las políticas de sostenibilidad nacionales en favor del cumplimiento de las obligaciones adquiridas para el Acuerdo de París el 9 de abril del 2020 en su Contribución Determinada a Nivel Nacional",
-            "imagen": "/images/lazo.jpeg",
-            "financiamiento": [
-                {
-                    "fecha": [
-                        "2022"
-                    ],
-                    "titulo": "Súmate a Innovar",
-                    "institucion": ["CORFO"],
-                    "diploma": null
-                }
+            "descripcion": "Como empresa de servicios de ingeniería y consultoría, desempeñamos un papel esencial en el proyecto al ofrecer asesoramiento técnico en áreas como la ingeniería de alimentos y la sostenibilidad. Esto implica que nuestros profesionales están dedicados a desarrollar y validar procesos y productos para transformar el residuo cervecero en ingredientes nutricionales y crear formulaciones de alimentos eficientes.",
+            "mas": [
+                "Súmate a Innovar (2021) “Generación de una estrategia de valorización de residuos orgánicos de la industria cervecera artesanal mediante el desarrollo de un paté vegano” código 22SNM-201521, del cual nace Up Foods SpA – spin off como empresa elaboradora de alimentos en base a bagazo de cerveza, con foco en producción sostenible en línea con la economía circular, con sede en el Maule, la cual se adjudicó el fondo Semilla Inicia 22INI2-238658 de la Gerencia de Emprendimiento de CORFO con el proyecto Bagán! - pasta untable con bagazo revalorizado como ingrediente principal, de etiqueta limpia y libre de sellos.| También somos parte de proyectos de investigación y desarrollo que buscan mejorar productos y procesos con nuestro socio Anfiteatro, investigando a fondo cómo podemos transformar el residuo cervecero y crear alimentos innovadores a través de diversos fondos concursables:|・ANID FONDEF ID22I10292 “Aplicación de una tecnología enzimática para la recuperación de biomoléculas de alto potencial comercial a partir del aprovechamiento integral del bagazo cervecero”;|・CORFO Innova región código 23IR-246428 “Escalamiento y validación de una hamburguesa vegana como alternativa a la valorización del bagazo de cerveza para el fortalecimiento de la economía regional sustentable”.| ・CORFO Súmate a Innovar “Desarrollo de una línea de productos innovadores congelados como alternativa de valorización del bagazo de cerveza.” código 21SN2-200648."
             ],
+            "imagen": "/images/lazo.jpeg",
+            "financiamiento": null,
             "aptitudes": [
                 "economía_circular",
                 "simbiosis_industrial",
@@ -159,7 +153,8 @@
                     ],
                     "titulo": "Ganador Torneo Lift me Up 6",
                     "institucion": [
-                        "The Lift", "Pontificia Universidad Católica de Valparaíso"
+                        "The Lift",
+                        "Pontificia Universidad Católica de Valparaíso"
                     ],
                     "diploma": null
                 },
@@ -169,7 +164,8 @@
                     ],
                     "titulo": "Ganador Concurso CREA",
                     "institucion": [
-                        "Dirección de Innovación y Emprendimiento", "Pontificia Universidad Católica de Valparaíso"
+                        "Dirección de Innovación y Emprendimiento",
+                        "Pontificia Universidad Católica de Valparaíso"
                     ],
                     "diploma": null
                 },
@@ -179,7 +175,8 @@
                     ],
                     "titulo": "Ganador Concurso DESARROLLA",
                     "institucion": [
-                        "Dirección de Innovación y Emprendimiento", "Pontificia Universidad Católica de Valparaíso"
+                        "Dirección de Innovación y Emprendimiento",
+                        "Pontificia Universidad Católica de Valparaíso"
                     ],
                     "diploma": null
                 }
@@ -1918,6 +1915,7 @@
             "fecha": [
                 "2020"
             ],
+            "logo": "/images/pucv.png",
             "certificado": null,
             "especialidad": "sostenibilidad",
             "tags": [
@@ -1934,6 +1932,7 @@
             "fecha": [
                 "2020"
             ],
+            "logo": "/images/pucv.png",
             "certificado": null,
             "especialidad": "sostenibilidad",
             "tags": [
@@ -2386,10 +2385,11 @@
             "titulo": [
                 "Taller “Buenas prácticas y uso de herramientas para facilitar la gestión de la Propiedad Intelectual en la investigación.”"
             ],
-            "institucion": "Fraunhofer Chile Research y  por la Pontificia Universidad Católica de Valparaíso, Chile. ",
+            "institucion": "Fraunhofer Chile Research y por la Pontificia Universidad Católica de Valparaíso, Chile. ",
             "fecha": [
                 "2012"
             ],
+            "logo": "/images/pucv.png",
             "certificado": null,
             "tags": [
                 "propiedad_intelectual",
@@ -2405,6 +2405,7 @@
             "fecha": [
                 "2010"
             ],
+            "logo": "/images/pucv.png",
             "certificado": null,
             "tags": [
                 "ciencias_biológicas",
@@ -2723,7 +2724,9 @@
             "titulo": [
                 "Convenio ValpoXclima"
             ],
-            "fecha": ["10/2023"],
+            "fecha": [
+                "10/2023"
+            ],
             "institucion": "Pontificia Universidad Católica de Valparaíso, a través de la Dirección de Innovación de la Vicerrectoría de Investigación, Creación e Innovación (VINCI)",
             "descripcion": "“Valparaíso por el clima: Torneo de innovación y emprendimiento estudiantil frente a la crisis climática”, 22VIR-215521",
             "especialidad": "sector_público",
