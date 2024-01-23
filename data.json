@@ -2724,7 +2724,7 @@
         {
             "id": "v1",
             "titulo": [
-                "Convenio Municipio Verde ONG Fima"
+                "Municipio Verde ONG Fima"
             ],
             "fecha": [
                 "09/2023"
@@ -2751,6 +2751,7 @@
             "descripcion": "“Valparaíso por el clima: Torneo de innovación y emprendimiento estudiantil frente a la crisis climática”, 22VIR-215521",
             "especialidad": "sector_público",
             "tags": [
+                "convenio",
                 "cambio_climático",
                 "emprendimiento",
                 "innovación"
@@ -2759,7 +2760,7 @@
         {
             "id": "v3",
             "titulo": [
-                "Convenio proyecto Fondef ID23I10249, “Desarrollo de un vehículo para la recolección eficiente y autónoma de residuos en playas”"
+                "Proyecto Fondef ID23I10249, “Desarrollo de un vehículo para la recolección eficiente y autónoma de residuos en playas”"
             ],
             "fecha": [
                 "07/2023"
@@ -2767,6 +2768,7 @@
             "institucion": "Pontificia Universidad Católica de Valparaíso",
             "especialidad": "sector_público",
             "tags": [
+                "convenio",
                 "universidad",
                 "municipalidad",
                 "convenio",
@@ -2776,7 +2778,7 @@
         {
             "id": "v4",
             "titulo": [
-                "Convenio Concurso del Programa VINCULAB en apoyo al proyecto “Recolección y Limpieza Eficiente de Basura en Playa”, VLAB22-02"
+                "Concurso del Programa VINCULAB en apoyo al proyecto “Recolección y Limpieza Eficiente de Basura en Playa”, VLAB22-02"
             ],
             "fecha": [
                 "04/2022"
@@ -2793,21 +2795,24 @@
         {
             "id": "v5",
             "titulo": [
-                "Convenio Corporación Sistema de Gestión Envases y Embalajes Resimple"
+                "Corporación Sistema de Gestión Envases y Embalajes Resimple"
             ],
+            "institucion": "Corporacion Resimple",
             "fecha": [
                 "10/2023"
             ],
-            "institucion": "",
             "especialidad": "sector_público",
             "tags": [
-                "ley_rep", "municipalidad", "economía_circular"
+                "ley_rep",
+                "municipalidad",
+                "economía_circular",
+                "convenio"
             ]
         },
         {
             "id": "v6",
             "titulo": [
-                "Convenio Municipios comprometidos con Supera el Plástico / Fundación Basura"
+                "Municipios comprometidos con Supera el Plástico / Fundación Basura"
             ],
             "fecha": [
                 "11/2023"
@@ -2815,13 +2820,16 @@
             "institucion": "I. Municipalidad de Quintero",
             "especialidad": "sector_público",
             "tags": [
-                "ley_rep", "municipalidad", "economía_circular"
+                "ley_rep",
+                "municipalidad",
+                "economía_circular",
+                "convenio"
             ]
         },
         {
             "id": "v7",
             "titulo": [
-                "Convenio Programa Comuna Energética"
+                "Programa Comuna Energética"
             ],
             "fecha": [
                 "10/2023"
@@ -2831,13 +2839,14 @@
             "tags": [
                 "municipalidad",
                 "sostenibilidad",
-                "eficiencia_energética"
+                "eficiencia_energética",
+                "convenio"
             ]
         },
         {
             "id": "v8",
             "titulo": [
-                "Convenio Fundación Terram - “Programa Formación ciudadana en medio ambiente de la región de Valparaíso” código Bip 40046329"
+                "Fundación Terram - “Programa Formación ciudadana en medio ambiente de la región de Valparaíso” código Bip 40046329"
             ],
             "fecha": [
                 "01/2024|12/2023"
@@ -2848,13 +2857,14 @@
                 "municipalidad",
                 "sostenibilidad",
                 "eficiencia_energética",
-                "educación"
+                "educación",
+                "convenio"
             ]
         },
         {
             "id": "v9",
             "titulo": [
-                "Convenio Programa Regional: “Transferencia para el Fortalecimiento de Capacidades para el Acceso a la Justicia Ambiental.”"
+                "Programa Regional: “Transferencia para el Fortalecimiento de Capacidades para el Acceso a la Justicia Ambiental.”"
             ],
             "institucion": "ONG FIMA; Gobierno Regional Valparaíso ",
             "fecha": [
@@ -2863,7 +2873,8 @@
             "especialidad": "sector_público",
             "tags": [
                 "municipalidad",
-                "participación_ciudadana"
+                "participación_ciudadana",
+                "convenio"
             ]
         }
     ],
