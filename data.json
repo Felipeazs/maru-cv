@@ -2584,7 +2584,9 @@
         },
         {
             "id": "c63",
-            "titulo": ["Programa de entrenamiento para innovación"],
+            "titulo": [
+                "Programa de entrenamiento para innovación"
+            ],
             "certificado": "https://drive.google.com/file/d/1uDB47zcIf8HGIEENH9VG5xE4Gu0BoZ5Y/view?usp=drive_link",
             "fecha": [
                 "2021"
@@ -2798,7 +2800,9 @@
             ],
             "institucion": "",
             "especialidad": "sector_público",
-            "tags": []
+            "tags": [
+                "ley_rep", "municipalidad", "economía_circular"
+            ]
         },
         {
             "id": "v6",
@@ -2810,7 +2814,9 @@
             ],
             "institucion": "I. Municipalidad de Quintero",
             "especialidad": "sector_público",
-            "tags": []
+            "tags": [
+                "ley_rep", "municipalidad", "economía_circular"
+            ]
         },
         {
             "id": "v7",
@@ -2821,7 +2827,7 @@
                 "10/2023"
             ],
             "institucion": "Agencia de Sostenibilidad y Ministerio de Energía",
-            "especialidad": "",
+            "especialidad": "sector_público",
             "tags": [
                 "municipalidad",
                 "sostenibilidad",
@@ -2837,12 +2843,27 @@
                 "01/2024|12/2023"
             ],
             "institucion": "Gobierno Regional de Valparaíso y Fundación para el Desarrollo Sustentable TERRAM",
-            "especialidad": "",
+            "especialidad": "sector_público",
             "tags": [
                 "municipalidad",
                 "sostenibilidad",
                 "eficiencia_energética",
                 "educación"
+            ]
+        },
+        {
+            "id": "v9",
+            "titulo": [
+                "Convenio Programa Regional: “Transferencia para el Fortalecimiento de Capacidades para el Acceso a la Justicia Ambiental.”"
+            ],
+            "institucion": "ONG FIMA; Gobierno Regional Valparaíso ",
+            "fecha": [
+                "04/2023"
+            ],
+            "especialidad": "sector_público",
+            "tags": [
+                "municipalidad",
+                "participación_ciudadana"
             ]
         }
     ],
