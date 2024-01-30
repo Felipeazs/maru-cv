@@ -1543,6 +1543,7 @@
             "fecha": [
                 "2023"
             ],
+            "descripcion": "el cual es programa que forma a funcionarios y funcionarias municipales en estrategias y herramientas para la construcción de políticas públicas participativas en los ejes de medio ambiente, interculturalidad y/o equidad de género.",
             "logo": "/images/ci.png",
             "certificado": null,
             "especialidad": "sector_público",
@@ -1622,7 +1623,7 @@
         {
             "id": "c7",
             "titulo": [
-                "Convenio Programa Regional: “Transferencia para el Fortalecimiento de Capacidades para el Acceso a la Justicia Ambiental.”"
+                "“Transferencia para el Fortalecimiento de Capacidades para el Acceso a la Justicia Ambiental.”"
             ],
             "institucion": "ONG FIMA; Gobierno Regional Valparaíso ",
             "fecha": [
@@ -2731,7 +2732,10 @@
             ],
             "especialidad": "sector_público",
             "institucion": "Departamento de Medio Ambiente de la \nIlustre Municipalidad de Quintero",
-            "descripcion": "El Compromiso Municipio Verde es un documento de libre suscripción elaborado por ONG FIMA y FES que consta de 10 puntos para avanzar en la gestión ambiental, con lo que busca ser una hoja de ruta para el desarrollo de medidas sustentables en las comuna",
+            "descripcion": "El Compromiso Municipio Verde es un documento de libre suscripción elaborado por ONG FIMA y FES que consta de 10 puntos para avanzar en la gestión ambiental, con lo que busca ser una hoja de ruta para el desarrollo de medidas sustentables en las comuna. Este compromiso fue suscrito por la municipalidad en diciembre del año 2022.",
+            "mas": [
+                "Las actividades de capacitación a funcionarios municipales del año 2023 para las comunas suscritas al compromiso contemplaron:| • Taller de plásticos de un solo uso (26 julio 02023).| • Seminario Oportunidades y Desafíos de los Planes de Acción Comunal de Cambio Climático (06 septiembre 2023)| • Lanzamiento Ordenanza tipo sobre Humedales Urbanos (Octubre 2023)| • Seminario virtual Municipio Verde: Municipios y Ley REP (19 octubre 2023)| • Encuentro Municipios: Eventos Climáticos Extremos (22 Noviembre 2023)"
+            ],
             "tags": [
                 "ong",
                 "municipalidad",
@@ -2748,7 +2752,7 @@
                 "10/2023"
             ],
             "institucion": "Pontificia Universidad Católica de Valparaíso, a través de la Dirección de Innovación de la Vicerrectoría de Investigación, Creación e Innovación (VINCI)",
-            "descripcion": "“Valparaíso por el clima: Torneo de innovación y emprendimiento estudiantil frente a la crisis climática”, 22VIR-215521",
+            "descripcion": "“Valparaíso por el clima: Torneo de innovación y emprendimiento estudiantil frente a la crisis climática”, 22VIR-215521, proyecto que tuvo como objetivo promover el desarrollo de habilidades y competencias emprendedoras en estudiantes de educación superior de la región de Valparaíso, que les permita convertirse en agentes de cambio y proponer soluciones innovadoras frente a la crisis climática que afecta a diferentes comunidades del territorio.",
             "especialidad": "sector_público",
             "tags": [
                 "convenio",
@@ -2766,6 +2770,7 @@
                 "07/2023"
             ],
             "institucion": "Pontificia Universidad Católica de Valparaíso",
+            "descripcion": "Esta iniciativa tiene como objetivo principal diseñar y construir un vehículo autónomo capaz de recolectar residuos de manera eficiente en las playas. Más información en https://fis.ucv.cl/academico-del-instituto-de-fisica-pucv-se-adjudico-proyecto-fondef-2023-que-busca-una-solucion-aplicada-a-la-limpieza-de-playas/. La participación en este proyecto se aprueba con el Decreto Alcaldicio Nº 002661 del 07 de agosto del 2023.",
             "especialidad": "sector_público",
             "tags": [
                 "convenio",
@@ -2818,6 +2823,10 @@
                 "11/2023"
             ],
             "institucion": "I. Municipalidad de Quintero",
+            "descripcion": "La coalición Supera el Plástico está conformada por las organizaciones Alianza Basura Cero, Ceus, Ecosur, ONG FIMA, Fundación Basura, Greenpeace, Oceana, Plastic Oceans Chile y Uno Punto Cinco. Junto a la Asociación Chilena de Municipalidades (AChM), lanzaron un programa para combatir la generación de estos desechos, los más encontrados en las playas del país.",
+            "mas": [
+                "La Ley 21.368, que regula la entrega de plásticos de un solo uso y las botellas plásticas, tiene como objetivo proteger al medioambiente a través de la disminución de residuos, limitando la entrega de productos de un solo uso (tales como vasos, tazas, cubiertos, bombillas, platos, envases, entre otros) utilizados en establecimientos de comida como restaurantes, fuentes de soda o cafeterías. Adicionalmente, indica que se fomentará el uso de productos retornables o reutilizables, y la ejecución de programas de educación ambiental a la ciudadanía y colaboración con municipios para su implementación. Esta ley comenzó a regir en agosto del 2021 y considera una puesta en marcha progresiva hasta agosto del 2024. Para la fiscalización, se indica a las Municipalidades como los entes encargados de velar por el cumplimiento de la ley. Sumado a ello, se le entrega a la ciudadanía un rol clave, ya que cualquier persona puede actuar como fiscalizador, reportando situaciones de incumplimiento ante los juzgados de policía local. La municipalidad suscribió el acuerdo #Superaelplástico de Fundación Basura con fecha 31 de agosto 2023, el cual compromete la realización de las siguientes acciones (actualmente en implementación):| 1. Generar un banner en su sitio web para que la ciudadanía pueda realizar de manera sencilla denuncias ante la detección de infracciones a esta ley.| 2. Capacitar a ﬁscalizadores municipales sobre esta ley y sus disposiciones. Estas serán impartidas con ayuda de nuestras organizaciones.| 3. Presentar un número mínimo de 05 denuncias mensuales por infracciones a la ley.| 4. Certiﬁcar un mínimo de 05 locales de expendio de alimentos que cumplan con la ley a través de un sello (calcomanía) que así lo acredite. Los sellos serán facilitados a cada municipio por nuestras organizaciones."
+            ],
             "especialidad": "sector_público",
             "tags": [
                 "ley_rep",
@@ -2835,6 +2844,10 @@
                 "10/2023"
             ],
             "institucion": "Agencia de Sostenibilidad y Ministerio de Energía",
+            "descripcion": "Convenio de colaboración para la elaboración de una estrategia energética local, en el marco del programa denominado “Comuna Energética” entre Agencia Chilena de Eficiencia Energética e Ilustre Municipalidad De Quintero",
+            "mas": [
+                "El Programa Comuna Energética es una iniciativa local en Chile que tiene como objetivo promover la transición energética hacia un desarrollo sostenible y con bajas emisiones de carbono en las comunas del país. Esta plataforma ofrece asistencia técnica y apoyo financiero a los municipios y comunidades que desean llevar a cabo proyectos y acciones relacionados con la energía limpia, la eficiencia energética y la reducción de las emisiones de gases de efecto invernadero. La asistencia técnica proporcionada por Comuna Energética puede incluir la asesoría en la planificación y ejecución de proyectos de energía renovable, la implementación de medidas de eficiencia energética en edificios públicos o privados, la promoción de la movilidad sostenible, y otras acciones destinadas a reducir el impacto ambiental y mejorar la calidad de vida en las comunas. Además de la asistencia técnica, Comuna Energética también ofrece apoyo financiero a través de diferentes mecanismos, como subvenciones, préstamos a tasas preferenciales o incentivos fiscales, para ayudar a los municipios y comunidades a financiar sus proyectos relacionados con la energía sostenible. La Estrategia Energética Local (EEL) la está desarrollando la consultora EBP Chile con plazo de entrega a junio 2024. Para su implementación comunal, se aprueba el Decreto Alcaldicio Nº 3839 del 20 de noviembre 2023 que establece el Programa Municipal para la implementación del Programa Comuna Energética a contar desde el año 2024 y con renovación anual."
+            ],
             "especialidad": "sector_público",
             "tags": [
                 "municipalidad",
@@ -2846,12 +2859,16 @@
         {
             "id": "v8",
             "titulo": [
-                "Fundación Terram - “Programa Formación ciudadana en medio ambiente de la región de Valparaíso” código Bip 40046329"
+                "Fundación Terram - “Programa Formación ciudadana en medio ambiente de la región de Valparaíso”"
             ],
             "fecha": [
                 "01/2024|12/2023"
             ],
             "institucion": "Gobierno Regional de Valparaíso y Fundación para el Desarrollo Sustentable TERRAM",
+            "descripcion": "Convenio Programa “Transferencia Formación Ciudadana en Medio Ambiente de la Región de Valparaíso” 2023-2024 es una actividad financiada con Recursos del Gobierno Regional de Valparaíso, cuyo código BIP: 40046329.",
+            "mas": [
+                "Este programa de Fundación Terram tiene el objetivo de crear, desarrollar e implementar un programa de formación y capacitación sobre educación cívica ambiental para habitantes de territorios vulnerables y zona de sacrificio de la región de Valparaíso, mediante la entrega de contenidos e insumos básicos en formatos accesibles didáctico y práctico. El propósito fundamental de esta iniciativa es promover una mayor comprensión y apreciación de los valores ambientales en territorios vulnerables y zonas de sacrificio. Además, busca aumentar el conocimiento acerca de cómo las actividades humanas afectan negativamente a estos lugares, generando problemas socioambientales. Asimismo, se enfoca en divulgar información sobre las herramientas de gestión ambiental disponibles en la normativa vigente y en las instituciones dedicadas a asuntos ambientales, y cómo aplicarlas en la práctica. A través de la provisión de recursos educativos prácticos, se busca empoderar a la ciudadanía y fomentar su participación activa en proyectos de gestión ambiental. Este enfoque también promueve la colaboración y el diálogo continuo con los habitantes de áreas vulnerables y zonas de sacrificio, fortaleciendo así la interacción entre todas las partes involucradas. El convenio y su respectivo decreto se encuentra en revisión y elaboración, respectivamente, por el departamento jurídico según información del Oficio Nº31/3 (2083/18.07.2023) del GORE. Se han sostenido dos reuniones entre el Departamento de Medio Ambiente, el Departamento de Educación Municipal y representantes de la Fundación para la ejecución de este proyecto en Quintero, en el segundo semestre 2024."
+            ],
             "especialidad": "sector_público",
             "tags": [
                 "municipalidad",
@@ -2869,6 +2886,10 @@
             "institucion": "ONG FIMA; Gobierno Regional Valparaíso ",
             "fecha": [
                 "04/2023"
+            ],
+            "descripcion": "Convenio Programa Regional “Transferencia para el Fortalecimiento de Capacidades para el Acceso a la Justicia Ambiental”",
+            "mas": [
+                "La iniciativa, tiene como fin la capacitación y asesoramiento a 12 municipios de la Región en acceso a la justicia en materia de reparación ambiental, para que estos puedan tomar un rol activo en la toma de acciones institucionales y/o jurídicas. Este proyecto es ejecutado por ONG FIMA con financiamiento del del Fondo Nacional de Desarrollo Regional del GORE de Valparaíso. El programa tiene una duración de 26 meses e incluye actividades tales como la capacitación de funcionarios municipales en derecho ambiental, talleres de empoderamiento jurídico ambiental para comunidades y organizaciones sociales de la Región de Valparaíso, y un diagnóstico sobre el estado de ecosistemas relevantes para la zona, así como la causalidad de los daños que se identifiquen en ellos. Para su ejecución en Quintero, se aprueba con el Decreto Alcaldicio Nº 1516 del 05 de mayo 2023, siendo capacitados 6 funcionarios de distintos departamentos en jornadas telemáticas y jornadas de empoderamiento presencial, finalizando con talleres abiertos a la comunidad."
             ],
             "especialidad": "sector_público",
             "tags": [

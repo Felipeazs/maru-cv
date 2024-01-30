@@ -28,7 +28,7 @@
 
 {#if item?.financiamiento?.length}
     <div class="flex flex-col items-start text-sm py-2">
-        <p class="text-xs text-gray-400">financiamiento:</p>
+        <p class="text-xs text-gray-400">trayectoria:</p>
         <div class="w-full">
             <div class="flex flex-col">
                 <div class="flex flex-row gap-2">
