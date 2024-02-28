@@ -31,7 +31,7 @@ export const config = {
             stretch: "normal"
         }
     ],
-    margin: [50, 0, 50, 0],
+    margin: [70, 0, 70, 0],
     autoPaging: "text",
     callback: function(doc: jsPDF) {
         var string = doc.output('datauristring');

@@ -55,6 +55,6 @@
 <style>
     #custom-pdf {
         width: 800px;
-        padding: 0 60px 0 60px;
+        padding: 0 70px 0 70px;
     }
 </style>
