@@ -6,6 +6,7 @@
     import Especializacion from "./Especializacion.svelte";
     import Experiencia from "./Experiencia.svelte";
     import HerramientasEIdiomas from "./HerramientasEIdiomas.svelte";
+    import InfoPersonal from "./InfoPersonal.svelte";
     import Presentaciones from "./Presentaciones.svelte";
     import Proyectos from "./Proyectos.svelte";
     import Publicaciones from "./Publicaciones.svelte";
@@ -38,23 +39,7 @@
     on:click={() => generatePDF("custom-pdf")}>descargar pdf</button
 >
 <div id="custom-pdf" class="font-raleway text-sm">
-    <h3 class="title uppercase text-center font-bold">
-        María Eugenia Martinez Valenzuela
-    </h3>
-
-    <div class="grid grid-cols-2 grid-rows-5 w-1/2 my-5">
-        <span>Nacionalidad:</span>
-        <span>Chilena</span>
-        <span>Celular:</span>
-        <span>+56 9 5257 0413</span>
-        <span>Email:</span>
-        <span>maria.martinez@lazofoods.cl</span>
-        <span>LinkedIn:</span>
-        <span>memartinezv</span>
-        <span>Google Scholar:</span>
-        <span>123</span>
-    </div>
-
+    <InfoPersonal />
     <Educacion bind:educaciones />
     <Especializacion />
     <Experiencia bind:experiencias />
@@ -70,10 +55,5 @@
     #custom-pdf {
         width: 800px;
         padding: 0 60px 0 60px;
-    }
-    .title {
-        padding: 20px;
-        text-align: center;
-        font-weight: bold;
     }
 </style>
