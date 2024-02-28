@@ -48,7 +48,7 @@
         >
         <input type="checkbox" id="my_modal_7" class="modal-toggle" />
         <div class="modal">
-            <div class="modal-box max-w-[55%] overflow-y-auto">
+            <div class="modal-box sm:min-w-[90%] lg:min-w-[70%] xl:min-w-[60%] overflow-y-auto">
                 <CustomPdf bind:pdfItems />
             </div>
             <label class="modal-backdrop" for="my_modal_7">Close</label>
