@@ -21,6 +21,7 @@
     let cursos: CursoTypes = [];
     let presentaciones: PresentacionTypes = [];
     let publicaciones: PublicacionTypes = [];
+
     $: educaciones = pdfItems.educacion;
     $: experiencias = pdfItems.experiencia;
     $: empresas = pdfItems.empresa;
