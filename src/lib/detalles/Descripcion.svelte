@@ -16,12 +16,12 @@
                 "class",
                 "inline-block text-sm text-gray-900 mt-2",
             );
-            image.setAttribute("src", close_eyes)
-            button.setAttribute("data-tip", "ver menos")
+            image.setAttribute("src", close_eyes);
+            button.setAttribute("data-tip", "ver menos");
         } else {
-            image.setAttribute("src", open_eyes)
+            image.setAttribute("src", open_eyes);
             element.setAttribute("class", "hidden");
-            button.setAttribute("data-tip", "ver más")
+            button.setAttribute("data-tip", "ver más");
         }
     };
 </script>
@@ -48,7 +48,7 @@
                 data-tip="ver más"
                 on:click={() => verHandler(item.id)}
             >
-                <img src={open_eyes} alt="ojos" id={`mas-image-${item.id}`}/>
+                <img src={open_eyes} alt="ojos" id={`mas-image-${item.id}`} />
             </button>
         {/if}
     </div>

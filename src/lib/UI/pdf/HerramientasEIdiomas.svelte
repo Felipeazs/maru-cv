@@ -17,7 +17,7 @@
 </div>
 <div class="my-8">
     <h3 class="uppercase font-bold">Idiomas</h3>
-    <div class="my-5">
+    <div class="flex flex-col gap-2 my-5">
         <p>Español: Lengua materna</p>
         <ul>
             Inglés: Intermedio level in speaking and writing
@@ -33,6 +33,8 @@
                 Europea de Barcelona, España
             </li>
         </ul>
+        <p>Alemán: Nivel B1 Deutcher Akademischer Ausctauch Dienst (DAAD) - Pontificia Universidad
+            Católica de Valparaíso, Chile.</p>
     </div>
 </div>
 
