@@ -1,5 +1,7 @@
 <script lang="ts">
-    export let educaciones: any[];
+    import type { EducacionTypes } from "../../cv-store";
+
+    export let educaciones: EducacionTypes;
 </script>
 
 {#if educaciones.length > 0}

@@ -1,5 +1,7 @@
 <script lang="ts">
-    export let cursos = [];
+    import type { CursoTypes } from "../../cv-store";
+
+    export let cursos: CursoTypes = [];
 </script>
 
 {#if cursos.length}

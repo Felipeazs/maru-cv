@@ -1,15 +1,18 @@
 <script lang="ts">
-    // javascript code here
-    export let proyectos = [];
+    import type { ProyectoTypes } from "../../cv-store";
+
+    export let proyectos: ProyectoTypes = [];
 </script>
 
 {#if proyectos.length}
     <div class="my-8">
-        <h3 class="uppercase font-bold">participación en proyectos y asesorías a empresas</h3>
+        <h3 class="uppercase font-bold">
+            participación en proyectos y asesorías a empresas
+        </h3>
         {#each proyectos as item}
             <div class="grid grid-cols-5 grid-auto-rows my-5">
                 <span class="row-span-2"
-                    >{item.fecha[0].split("|")[1] ?? ''} - {item.fecha[0].split(
+                    >{item.fecha[0].split("|")[1] ?? ""} - {item.fecha[0].split(
                         "|",
                     )[0]}</span
                 >

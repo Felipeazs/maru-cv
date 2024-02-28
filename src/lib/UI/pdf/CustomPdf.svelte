@@ -1,5 +1,5 @@
 <script lang="ts">
-    import type { PDFTypes } from "../../cv-store";
+    import type { CursoTypes, EducacionTypes, EmpresaTypes, ExperienciaTypes, PDFTypes, PresentacionTypes, ProyectoTypes, PublicacionTypes } from "../../cv-store";
     import Cursos from "./Cursos.svelte";
     import Educacion from "./Educacion.svelte";
     import Empresa from "./Empresa.svelte";
@@ -14,13 +14,13 @@
 
     export let pdfItems: PDFTypes;
 
-    let educaciones = [];
-    let experiencias = [];
-    let empresas = [];
-    let proyectos = [];
-    let cursos = [];
-    let presentaciones = [];
-    let publicaciones = [];
+    let educaciones: EducacionTypes = [];
+    let experiencias: ExperienciaTypes = [];
+    let empresas: EmpresaTypes = [];
+    let proyectos: ProyectoTypes = [];
+    let cursos: CursoTypes = [];
+    let presentaciones: PresentacionTypes = [];
+    let publicaciones: PublicacionTypes = [];
     $: educaciones = pdfItems.educacion;
     $: experiencias = pdfItems.experiencia;
     $: empresas = pdfItems.empresa;

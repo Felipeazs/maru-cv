@@ -1,6 +1,7 @@
 <script lang="ts">
-    // javascript code here
-    export let empresas = [];
+    import type { EmpresaTypes } from "../../cv-store";
+
+    export let empresas: EmpresaTypes = [];
 </script>
 
 {#if empresas.length}

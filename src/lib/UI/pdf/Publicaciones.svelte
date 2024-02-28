@@ -1,5 +1,7 @@
 <script lang="ts">
-    export let publicaciones = [];
+    import type { PublicacionTypes } from "../../cv-store";
+
+    export let publicaciones: PublicacionTypes = [];
 </script>
 
 {#if publicaciones.length}
