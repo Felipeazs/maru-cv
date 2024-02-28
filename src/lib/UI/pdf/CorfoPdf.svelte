@@ -1,14 +1,19 @@
 <script lang="ts">
-    import type { PDFTypes } from "../../cv-store";
+    import type {
+        EducacionTypes,
+        ExperienciaTypes,
+        PDFTypes,
+        ProyectoTypes,
+    } from "../../cv-store";
 
     export let pdfItems: PDFTypes;
 
-    let educacion = [];
-    let empresa = [];
-    let proyecto = [];
+    let educacion: EducacionTypes = [];
+    let experiencias: ExperienciaTypes = [];
+    let proyectos: ProyectoTypes = [];
     $: educacion = pdfItems.educacion;
-    $: empresa = pdfItems.empresa;
-    $: proyecto = pdfItems.proyecto;
+    $: experiencias = pdfItems.experiencia;
+    $: proyectos = pdfItems.proyecto;
 </script>
 
 <div id="pdf-source">
@@ -24,8 +29,8 @@
             </tr>
         </thead>
         <tbody>
-            {#each educacion as ed (ed.id)}
-                {#if ed.educacion}
+            {#if educacion.length}
+                {#each educacion as ed (ed.id)}
                     <tr>
                         <td>
                             {#each ed?.educacion[0]?.split("|") as eds}
@@ -33,14 +38,10 @@
                             {/each}
                         </td>
                         <td>{ed.institucion ?? ""}</td>
-                        <td
-                            >{ed.fecha[1]} - {ed.fecha[0] === "2023"
-                                ? "presente"
-                                : ed.fecha[0]}</td
-                        >
+                        <td>{ed.fecha[0].split("|").reverse().join(" - ")}</td>
                     </tr>
-                {/if}
-            {/each}
+                {/each}
+            {/if}
         </tbody>
     </table>
     <h4>
@@ -59,22 +60,31 @@
             </tr>
         </thead>
         <tbody>
-            {#each empresa as exp (exp.id)}
-                {#if exp.empresa}
+            {#if experiencias.length}
+                {#each experiencias as exp (exp.id)}
                     <tr>
-                        <td>{exp.empresa ?? ""}</td>
-                        <td>{exp.especialidad?.replace(/_/g, " ") ?? ""}</td>
-                        <td>{exp.titulo ?? ""}</td>
+                        <td>
+                            {exp.empresa}
+                        </td>
+                        <td>{exp.especialidad.replace(/_/g, " ")}</td>
+                        <td
+                            >{#each exp.titulo as titulo}
+                                <p>{titulo}</p>
+                            {/each}
+                        </td>
                         <td />
-                        <td>{exp.fecha[1] ?? exp.fecha[0]}</td>
+                        <td
+                            >{exp.fecha[0].split("|")[1] ??
+                                exp.fecha[0].split("|")[0]}</td
+                        >
                         <td
                             >{exp.fecha[0] === "2023"
                                 ? "presente"
-                                : exp.fecha[0]}</td
+                                : exp.fecha[0].split("|")[0]}</td
                         >
                     </tr>
-                {/if}
-            {/each}
+                {/each}
+            {/if}
         </tbody>
     </table>
     <h4>
@@ -92,11 +102,11 @@
             </tr>
         </thead>
         <tbody>
-            {#each proyecto as pr (pr.id)}
-                {#if pr.proyecto}
+            {#if proyectos.length}
+                {#each proyectos as pr (pr.id)}
                     <tr>
-                        <td>{pr.proyecto ?? ""}</td>
-                        <td>{pr.especialidad?.replace(/_/g, " ") ?? ""}</td>
+                        <td>{pr.proyecto}</td>
+                        <td>{pr.cargo}</td>
                         <td />
                         <td>{pr.fecha[1] ?? pr.fecha[0]}</td>
                         <td
@@ -105,8 +115,8 @@
                                 : pr.fecha[0]}</td
                         >
                     </tr>
-                {/if}
-            {/each}
+                {/each}
+            {/if}
         </tbody>
     </table>
 </div>
