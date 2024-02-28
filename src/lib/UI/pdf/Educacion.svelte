@@ -9,16 +9,15 @@
         <h3 class="font-bold uppercase">Formación profesional</h3>
         {#each educaciones as item}
             {#each item.educacion[0].split("|") as ed}
-                <div class="grid grid-cols-5 grid-rows-auto my-5">
-                    <span>Título:</span>
-                    <span class="col-span-4">{ed.split("・")[1] ?? ed}</span>
-                    <span class="">Año:</span>
-                    <span class="col-span-4"
-                        >{item.fecha[0].split("|")[1]} -
-                        {item.fecha[0].split("|")[0]}</span
+                <div class="grid grid-cols-9 grid-rows-auto my-5">
+                    <span class="col-span-2">Título</span>
+                    <span class="col-span-7">{ed.split("・")[1] ?? ed}</span>
+                    <span class="col-span-2">Año</span>
+                    <span class="col-span-7"
+                        >{item.fecha[0].split("|").reverse().join(" - ")}</span
                     >
-                    <span class="">Institución:</span>
-                    <span class="col-span-4 font-semibold"
+                    <span class="col-span-2">Institución</span>
+                    <span class="col-span-7 font-semibold"
                         >{item.institucion}</span
                     >
                 </div>

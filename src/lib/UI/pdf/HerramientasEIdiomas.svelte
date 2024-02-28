@@ -33,8 +33,10 @@
                 Europea de Barcelona, España
             </li>
         </ul>
-        <p>Alemán: Nivel B1 Deutcher Akademischer Ausctauch Dienst (DAAD) - Pontificia Universidad
-            Católica de Valparaíso, Chile.</p>
+        <p>
+            Alemán: Nivel B1 Deutcher Akademischer Ausctauch Dienst (DAAD) -
+            Pontificia Universidad Católica de Valparaíso, Chile.
+        </p>
     </div>
 </div>
 

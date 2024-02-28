@@ -1,5 +1,14 @@
 <script lang="ts">
-    import type { CursoTypes, EducacionTypes, EmpresaTypes, ExperienciaTypes, PDFTypes, PresentacionTypes, ProyectoTypes, PublicacionTypes } from "../../cv-store";
+    import type {
+        CursoTypes,
+        EducacionTypes,
+        EmpresaTypes,
+        ExperienciaTypes,
+        PDFTypes,
+        PresentacionTypes,
+        ProyectoTypes,
+        PublicacionTypes,
+    } from "../../cv-store";
     import Cursos from "./Cursos.svelte";
     import Educacion from "./Educacion.svelte";
     import Empresa from "./Empresa.svelte";

@@ -11,6 +11,7 @@
     export let pdfItems: PDFTypes;
 
     const resetPDF = () => {
+        console.log('reset pdf')
         pdfItems = {
             experiencia: [],
             empresa: [],
