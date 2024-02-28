@@ -1,7 +1,7 @@
 <script lang="ts">
     import { tooltipy } from "../UI/tooltip/tooltip";
 
-    export let item: any
+    export let item: any;
 </script>
 
 <div class="flex flex-row gap-1 items-center py-1">
@@ -15,6 +15,7 @@
             }}
             href={item.link || item.certificado}
             target="_blank"
+            rel="noreferrer"
             id="link-ref"
         >
             {(item.link || item.certificado) && "🔗"}</a

@@ -10,4 +10,15 @@ const customCV = {
 
 export type DataTypes = (typeof data)
 
+export interface PDFTypes {
+    experiencia: typeof data.experiencias;
+    empresa: typeof data.empresas;
+    educacion: typeof data.educacion;
+    proyecto: typeof data.proyectos;
+    curso: typeof data.cursos;
+    presentacion: typeof data.presentaciones;
+    publicacion: typeof data.publicaciones;
+    items: number;
+}
+
 export default customCV

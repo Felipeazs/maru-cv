@@ -1,5 +1,14 @@
 <script lang="ts">
-    export let pdfItems: any[];
+    import type { PDFTypes } from "../../cv-store";
+
+    export let pdfItems: PDFTypes;
+
+    let educacion = [];
+    let empresa = [];
+    let proyecto = [];
+    $: educacion = pdfItems.educacion;
+    $: empresa = pdfItems.empresa;
+    $: proyecto = pdfItems.proyecto;
 </script>
 
 <div id="pdf-source">
@@ -15,11 +24,11 @@
             </tr>
         </thead>
         <tbody>
-            {#each pdfItems as ed (ed.id)}
+            {#each educacion as ed (ed.id)}
                 {#if ed.educacion}
                     <tr>
                         <td>
-                            {#each ed.educacion?.split("|") ?? [] as eds}
+                            {#each ed?.educacion[0]?.split("|") as eds}
                                 <p>{eds}</p>
                             {/each}
                         </td>
@@ -50,7 +59,7 @@
             </tr>
         </thead>
         <tbody>
-            {#each pdfItems as exp (exp.id)}
+            {#each empresa as exp (exp.id)}
                 {#if exp.empresa}
                     <tr>
                         <td>{exp.empresa ?? ""}</td>
@@ -83,7 +92,7 @@
             </tr>
         </thead>
         <tbody>
-            {#each pdfItems as pr (pr.id)}
+            {#each proyecto as pr (pr.id)}
                 {#if pr.proyecto}
                     <tr>
                         <td>{pr.proyecto ?? ""}</td>

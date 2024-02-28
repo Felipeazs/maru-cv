@@ -26,7 +26,7 @@
             class="rounded-md w-[120px] h-[120px] object-contain bg-[#13733B]"
         />
     {:else}
-        {'🔧'}
+        {"🔧"}
     {/if}
 </div>
 

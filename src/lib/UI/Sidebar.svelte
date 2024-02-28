@@ -1,10 +1,11 @@
 <script lang="ts">
     import Contact from "../Contact.svelte";
+    import type { PDFTypes } from "../cv-store";
     import PreviewPdf from "./PreviewPDF.svelte";
 
     import maru from "/images/maru2.png";
 
-    export let pdfItems: any[];
+    export let pdfItems: PDFTypes;
 </script>
 
 <div

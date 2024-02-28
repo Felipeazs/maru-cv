@@ -1,7 +1,7 @@
 <script lang="ts">
     import { transform_title, extract_tags } from "../../utils/utils";
 
-    import data from "../cv-store";
+    import data, { type PDFTypes } from "../cv-store";
     import Tags from "../UI/Tags.svelte";
     import Sidebar from "../UI/Sidebar.svelte";
     import DetallesWrapper from "../UI/DetallesWrapper.svelte";
@@ -18,7 +18,16 @@
     let selectedtags: { icono: string; nombre: string }[] = [];
     let alltags: { icono: string; nombre: string }[] = [];
     let items = [];
-    let pdfItems = [];
+    let pdfItems: PDFTypes = {
+        experiencia: [],
+        empresa: [],
+        educacion: [],
+        proyecto: [],
+        curso: [],
+        presentacion: [],
+        publicacion: [],
+        items: 0,
+    };
 
     $: selectedItems = $data[selection];
     $: title = transform_title(selection);

@@ -2,6 +2,9 @@
 export default {
     content: ['./src/**/*.{html,js,svelte,ts}'],
     theme: {
+        fontFamily: {
+            'raleway': ['Raleway'],
+        },
         extend: {
             backgroundImage: {
                 bg3: "url('/images/hero3.png')"

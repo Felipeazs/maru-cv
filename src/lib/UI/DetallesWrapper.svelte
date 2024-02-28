@@ -2,7 +2,7 @@
     import { fade } from "svelte/transition";
 
     import { sorting_items } from "../../utils/utils";
-    import type { DataTypes } from "../cv-store";
+    import type { DataTypes, PDFTypes } from "../cv-store";
 
     import Sociales from "../detalles/Sociales.svelte";
     import Descripcion from "../detalles/Descripcion.svelte";
@@ -21,7 +21,16 @@
     export let selectedtags: { icono: string; nombre: string }[];
     export let items: DataTypes[] = [];
     export let title: string;
-    export let pdfItems = [];
+    export let pdfItems: PDFTypes;
+    const allowed = [
+        "educacion",
+        "proyecto",
+        "empresa",
+        "experiencia",
+        "curso",
+        "presentacion",
+        "publicacion",
+    ];
 
     let filteredItems: any[] = [];
     $: items = sorting_items(items, anio, especialidad);
@@ -37,13 +46,22 @@
     }
 
     const badgeHandler = (item: any) => {
-        if (pdfItems.some((p) => p.id === item.id)) {
-            pdfItems = pdfItems.filter((p) => p.id !== item.id);
-            return;
-        }
+        if (allowed.includes(item.tipo)) {
+            let itemPDF = pdfItems[item.tipo];
+            const isItem = itemPDF?.some((p: typeof item) => p.id === item.id);
+            if (isItem) {
+                pdfItems[item.tipo] = itemPDF.filter(
+                    (p: typeof item) => p.id !== item.id,
+                );
+                pdfItems.items--;
+            } else {
+                pdfItems = {
+                    ...pdfItems,
+                    [item.tipo]: [...itemPDF, item],
+                };
 
-        if (item.educacion || item.proyecto || item.empresa) {
-            pdfItems = [...pdfItems, item];
+                pdfItems.items++;
+            }
         }
     };
 </script>
@@ -72,14 +90,12 @@
                             />
                         {/if}
                         <button
-                            class={item.educacion ||
-                            item.proyecto ||
-                            item.empresa
+                            class={allowed.includes(item.tipo)
                                 ? "indicator z-10 bg-[#fff] text-md text-black font-bold border-2 border-[rgba(78,87,98,0.8)] rounded-lg hover:cursor-pointer hover:border-yellow"
                                 : "z-10 bg-[#fff] text-md text-black font-bold border-2 border-[rgba(78,87,98,0.8)] rounded-lg hover:cursor-auto"}
                             on:click={() => badgeHandler(item)}
                         >
-                            {#if pdfItems.some((p) => p.id === item.id)}
+                            {#if pdfItems[item.tipo]?.some((p) => p.id === item.id)}
                                 <span
                                     class="indicator-item text-crema align-baseline badge
                                     badge-secondary bg-yellow border-yellow shadow-sm shadow-black"
@@ -88,7 +104,7 @@
                                         duration: 100,
                                     }}
                                 >
-                                    {pdfItems.findIndex(
+                                    {pdfItems[item.tipo]?.findIndex(
                                         (p) => p.id === item.id,
                                     ) + 1}
                                 </span>

@@ -3,14 +3,14 @@
 
     import Perfil from "./Perfil.svelte";
 
-    import data from "../cv-store";
+    import data, { type PDFTypes } from "../cv-store";
     import { allItems, extractTitles } from "../../utils/utils";
 
     export let selection: string;
     export let anio: number;
     export let especialidad: string;
     export let selectedtags: { icono: string; nombre: string }[];
-    export let pdfItems = [];
+    export let pdfItems: PDFTypes;
 
     let foundItems = [];
     let titulos = [];

@@ -1,5 +1,6 @@
 <script lang="ts">
     import RubroWrapper from "../UI/RubroWrapper.svelte";
+    import Especializacion from "../UI/pdf/Especializacion.svelte";
 </script>
 
 <RubroWrapper title="perfil">
@@ -29,5 +30,7 @@
             células vegetales. - Análisis de datos mediante herramientas de Big
             Data y Machine Learning.
         </p>
+
+        <Especializacion />
     </div>
 </RubroWrapper>

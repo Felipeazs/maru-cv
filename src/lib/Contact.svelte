@@ -75,7 +75,8 @@
                         }}
                         class="w-full text-lg text-start"
                         href="https://www.linkedin.com/in/memartinezv/"
-                        target="_blank">memartinezv 🔗</a
+                        target="_blank"
+                        rel="noreferrer">memartinezv 🔗</a
                     >
                 </div>
             </div>
@@ -89,8 +90,8 @@
                     {i.idioma === "Español"
                         ? "🇪🇸"
                         : i.idioma === "Inglés"
-                        ? "🇬🇧"
-                        : "🇩🇪"}
+                          ? "🇬🇧"
+                          : "🇩🇪"}
                 </p>
                 <p class="text-slate-300 w-2/3">
                     {i.descripcion ?? ""}
