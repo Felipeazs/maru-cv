@@ -7,8 +7,9 @@
 >
     <div class="flex flex-col gap-2">
         <div class="sticky top-0 pt-[50px] z-20 bg-crema">
-            <div class="uppercase font-bold text-[1.5rem] leading-[2rem]">
+            <div class="flex justify-between items-center uppercase font-bold text-[1.5rem] leading-[2rem]">
                 {title}
+                <input type="checkbox" />
             </div>
             <div class="divider-2 opacity-60" />
         </div>

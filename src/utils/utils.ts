@@ -118,10 +118,11 @@ export const transform_title = (title: string): string => {
     return new_title
 }
 
+const not_allowed = ['idiomas', 'competencias', 'herramientas']
 export const extract_tags = (items: DataTypes) => {
     let all_tag_items = []
     for (const d in items) {
-        if (d !== 'idiomas' && d !== 'competencias' && d !== 'herramientas') {
+        if (!not_allowed.includes(d)) {
             all_tag_items = [...all_tag_items, items[d].flatMap((i: { tags: string }) => i.tags)]
         }
     }
@@ -143,7 +144,7 @@ export const extract_tags = (items: DataTypes) => {
 export const allItems = (items: DataTypes) => {
     let all = []
     for (const d in items) {
-        if (d !== 'idiomas' && d !== 'competencias' && d !== 'herramientas') {
+        if (!not_allowed.includes(d)) {
             all = [...all, items[d]]
         }
     }
@@ -401,3 +402,15 @@ const tag_image = (tag: string) => {
 
     return returnTagImage
 }
+
+
+export const allowedElements = [
+    "perfil",
+    "educacion",
+    "proyecto",
+    "empresa",
+    "experiencia",
+    "curso",
+    "presentacion",
+    "publicacion",
+];

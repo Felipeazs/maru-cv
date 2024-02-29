@@ -1,4 +1,11 @@
 {
+    "perfil": [
+        {
+            "descripcion": "hola | hola2",
+            "tags": [],
+            "tipo": "perfil"
+        }
+    ],
     "empresas": [
         {
             "id": "e1",
@@ -7,9 +14,9 @@
                 "Lazo SpA"
             ],
             "cargo": "Socia cofundadora",
-            "descripcion": "Como empresa de servicios de ingeniería y consultoría, desempeñamos un papel esencial en el proyecto al ofrecer asesoramiento técnico en áreas como la ingeniería de alimentos y la sostenibilidad. Esto implica que nuestros profesionales están dedicados a desarrollar y validar procesos y productos para transformar el residuo cervecero en ingredientes nutricionales y crear formulaciones de alimentos eficientes.",
+            "descripcion": "Lazo SpA es una empresa de derecho privado que nace el 2021 para promover negocios en línea con la sostenibilidad, y priorizando los Objetivos de Desarrollo Sostenible (ODS), y en particular los ODS 9 Industria, Innovación e Infraestructura; ODS 12 Producción y Consumo Responsable; ODS 11 Ciudades y Comunidades Sostenibles; ODS 13 Acción por el Clima, y ODS 17 Alianzas para lograr los objetivos. De igual manera, la empresa se compromete con fomentar en las empresas las políticas de sostenibilidad nacionales en favor del cumplimiento de las obligaciones adquiridas para el Acuerdo de París el 9 de abril del 2020 en su Contribución Determinada a Nivel Nacional. ",
             "mas": [
-                "Súmate a Innovar (2021) “Generación de una estrategia de valorización de residuos orgánicos de la industria cervecera artesanal mediante el desarrollo de un paté vegano” código 22SNM-201521, del cual nace Up Foods SpA – spin off como empresa elaboradora de alimentos en base a bagazo de cerveza, con foco en producción sostenible en línea con la economía circular, con sede en el Maule, la cual se adjudicó el fondo Semilla Inicia 22INI2-238658 de la Gerencia de Emprendimiento de CORFO con el proyecto Bagán! - pasta untable con bagazo revalorizado como ingrediente principal, de etiqueta limpia y libre de sellos.| También somos parte de proyectos de investigación y desarrollo que buscan mejorar productos y procesos con nuestro socio Anfiteatro, investigando a fondo cómo podemos transformar el residuo cervecero y crear alimentos innovadores a través de diversos fondos concursables:|・ANID FONDEF ID22I10292 “Aplicación de una tecnología enzimática para la recuperación de biomoléculas de alto potencial comercial a partir del aprovechamiento integral del bagazo cervecero”;|・CORFO Innova región código 23IR-246428 “Escalamiento y validación de una hamburguesa vegana como alternativa a la valorización del bagazo de cerveza para el fortalecimiento de la economía regional sustentable”.| ・CORFO Súmate a Innovar “Desarrollo de una línea de productos innovadores congelados como alternativa de valorización del bagazo de cerveza.” código 21SN2-200648."
+                "Empresa asociada en proyecto FONDEF ID22I10292, denominado “Aplicación de una tecnología enzimática para la recuperación de biomoléculas de alto potencial comercial a partir del aprovechamiento integral del bagazo cervecero”, adjudicado por Centro Regional de Alimentos Saludables (CREAS). |Up Foods SpA – spin off como empresa elaboradora de alimentos en base a bagazo de cerveza, con foco en producción sostenible en línea con la economía circular, con sede en el Maule, adjudicación de proyecto Semilla Inicia 22INI2-238658 de la Gerencia de Emprendimiento de CORFO. Proyecto colaborativo con Centro Regional de Alimentos Saludables (CREAS) en proyecto Súmate a Innovar (2021) “Generación de una estrategia de valorización de residuos orgánicos de la industria cervecera artesanal mediante el desarrollo de un paté vegano” código 22SNM- 201521. | A cargo de la Dirección de Innovación de Inversiones Gastronómicas y Turísticas Anfiteatro. Ejecución proyecto Súmate a Innovar (2021) “Desarrollo de una línea de productos innovadores congelados como alternativa de valorización del bagazo de cerveza” código 21SN2-200648. Servicios de ingeniería para proyecto de innovación con HubTeb y La Universidad de Los Andes (2022)"
             ],
             "imagen": "/images/lazo.jpeg",
             "financiamiento": null,

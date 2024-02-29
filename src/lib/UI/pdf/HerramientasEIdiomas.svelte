@@ -9,7 +9,7 @@
         <p>Python (Python Software Foundation)</p>
         <p>@RISK and Decision Tool Suite (Palisade Corporation, USA)</p>
         <p>eSankey! (iFu Hamburg, Germany)</p>
-        <p>UNBERTO LCA+ (iFu Hamburg, Germany)</p>
+        <p>UMBERTO LCA+ (iFu Hamburg, Germany)</p>
         <p>Simapro (PRÉ Consultants, The Netherlands)</p>
         <p>SuperPro Design (Intelligent Inc., USA)</p>
         <p>KNIME Analytic Software</p>

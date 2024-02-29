@@ -3,34 +3,40 @@
     import Especializacion from "../UI/pdf/Especializacion.svelte";
 </script>
 
-<RubroWrapper title="perfil">
-    <div class="">
-        <p>
-            Soy un tipo de persona prudente y metódica, que se ocupa de abordar
-            las cuestiones de una manera organizada y ordenada. Tengo una
-            afinidad por la estructura y soy eficaz para encontrar las formas
-            más eficientes y efectivas de lograr un objetivo. Tengo una
-            naturaleza analítica, y una actitud paciente y reflexiva, que en
-            conjunto me dan una gran capacidad de planificación.
-        </p>
-
-        <p>
-            Actividades principales de los últimos 5 años - Diseño y simulación
-            con uso de programas computacionales especializados de procesos
-            industriales para la revalorización de residuos. - Asesoramiento en
-            proyectos de industria ambiental y alimentaria en el ámbito de las
-            evaluaciones económicas, de riesgo y ambientales, con foco en Huella
-            de Carbono y Análisis de Ciclo de Vida. - Desarrollo de proyectos y
-            postulación a diversas convocatorias nacionales e internacionales en
-            I+D+i. - Elaboración de estudios de mercado. - Experiencia práctica
-            en técnicas cromatográficas de laboratorio en HPLC (UV/VIS, DAD,
-            FT-IR), GC (MS) y TECAN. Caracterización proximal de alimentos y
-            actividad antioxidante in vitro. Caracterización de biomasas y
-            ensayos de toxicidad y medición de potencial de biogás. Cultivo de
-            células vegetales. - Análisis de datos mediante herramientas de Big
-            Data y Machine Learning.
-        </p>
-
-        <Especializacion />
-    </div>
-</RubroWrapper>
+<div class="flex flex-col gap-5">
+    <p>
+        Ingeniero Civil Bioquímico, con una Maestría en Ciencias de la
+        Ingeniería enfocada en Ingeniería Bioquímica. Poseo más de una década de
+        experiencia en la concepción y desarrollo de proyectos industriales
+        centrados en la Economía Circular, la Huella de Carbono y el Análisis de
+        Ciclo de Vida. He liderado la postulación y ejecución de proyectos de
+        investigación y desarrollo tanto a nivel nacional, a través de
+        instituciones como la Gerencia de Innovación CORFO y ANID, como
+        internacional, participando en programas como FP7 y Horizonte. Mis
+        habilidades incluyen el diseño y simulación de procesos industriales
+        utilizando software especializado, con un enfoque específico en la
+        valorización de residuos en la industria agroindustrial. Además, tengo
+        experiencia en la elaboración de estudios de viabilidad técnica y
+        económica, así como de análisis de mercado. Soy activo en la
+        colaboración público-privada para impulsar iniciativas de sostenibilidad
+        y también he estado involucrado en la enseñanza universitaria en áreas
+        relacionadas con las ciencias biológicas y la ingeniería de procesos.
+        Actualmente, lidero Lazo SpA Consultora de Negocios Sustentables y
+        participo en proyectos empresariales asociados a la sostenibilidad,
+        participando en procesos de incubación y desarrollo de nuevas empresas.
+    </p>
+    <p>
+        Tengo amplia experiencia en el diseño e implementación de hojas de ruta
+        en economía circular, incluyendo diagnósticos situacionales, co-creación
+        con partes interesadas y priorización de iniciativas alineadas con los
+        Objetivos de Desarrollo Sostenible (ODS) de la Agenda 2030. Además,
+        habilidad para facilitar talleres colaborativos y análisis
+        costo-beneficio para identificar y ejecutar acciones sostenibles, y
+        demostrada capacidad en la postulación, ejecución y rendición de
+        proyectos con enfoque en sostenibilidad para fondos concursables
+        públicos y privados. Cuento con experiencia en la elaboración de
+        propuestas claras y persuasivas, así como en la gestión eficiente de
+        recursos y la rendición de cuentas a financiadores y partes interesadas.
+    </p>
+    <Especializacion />
+</div>

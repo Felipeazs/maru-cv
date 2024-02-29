@@ -10,7 +10,6 @@
     import UpButton from "../UI/UpButton.svelte";
 
     import Todos from "../todos/Todos.svelte";
-    import Perfil from "../todos/Perfil.svelte";
 
     let selection: string = "todos";
     let anio: number = 0;
@@ -19,6 +18,7 @@
     let alltags: { icono: string; nombre: string }[] = [];
     let items = [];
     let pdfItems: PDFTypes = {
+        perfil: [],
         experiencia: [],
         empresa: [],
         educacion: [],
@@ -65,7 +65,7 @@
         class="relative w-[95%] md:w-[87%] xl:w-[95%] m-auto h-full pt-[330px] md:pt-[200px] xl:pt-[120px] mb-32 lg:-ml-20 xl:ml-20"
     >
         <Tags bind:selectedtags />
-        {#if selectedItems && selection !== "perfil"}
+        {#if selectedItems}
             <DetallesWrapper
                 bind:title
                 bind:anio
@@ -75,13 +75,10 @@
                 bind:pdfItems
                 on:tag-click={tagHandler}
             />
-        {:else if selection === "perfil"}
-            <Perfil />
         {:else}
             <Todos
                 bind:anio
                 bind:especialidad
-                bind:selection
                 bind:selectedtags
                 bind:pdfItems
                 on:tag-click={tagHandler}

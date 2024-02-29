@@ -2,7 +2,7 @@
     // javascript code here
 </script>
 
-<div class="my-8">
+<div class="">
     <h3 class="font-bold uppercase">Especialización en economía circular</h3>
     <h3 class="font-bold uppercase">facilitadora en simbiosis circular</h3>
     <div class="my-5">
@@ -62,24 +62,6 @@
                         Food Association.
                     </li>
                 </ul>
-            </li>
-        </ul>
-    </div>
-    <div class="my-5">
-        <ul>
-            Asesorías
-            <li class="list-inside p-2">
-                1. Desarrollo de hojas de ruta en economía circular, incluyendo
-                diagnóstico situacional, co-creación, priorización e
-                implementación de iniciativas de economía circular en línea con
-                las políticas y los Objetivos de Desarrollo Sostenible de la
-                Agenda 2030.
-            </li>
-            <li class="list-inside p-2">
-                2. Postulación, ejecución y rendición de proyectos con foco en
-                sostenibilidad para fondos concursables públicos y privados de
-                las Gerencia de Emprendimiento y Gerencia de Innovación de
-                CORFO.
             </li>
         </ul>
     </div>

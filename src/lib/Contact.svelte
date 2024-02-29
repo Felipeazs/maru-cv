@@ -3,10 +3,8 @@
 
     import CollapsableWrapper from "./UI/CollapsableWrapper.svelte";
 
-    import whatsapp from "/images/whatsapp.svg";
     import email from "/images/email.svg";
     import linkedin from "/images/linkedin.svg";
-    import phone from "/images/phone.svg";
 
     import data from "./cv-store";
     const { competencias, idiomas, herramientas } = $data;
@@ -29,27 +27,6 @@
                 <p class="uppercase font-semibold text-center md:hidden">
                     maría eugenia martínez valenzuela
                 </p>
-                <div class="flex flex-row gap-2 items-center w-full">
-                    <div class="w-1/3">
-                        <img src={phone} alt="phone" width={40} height={40} />
-                    </div>
-                    <a href="tel:+56952570413" class="w-full text-lg"
-                        >+56 9 5257 0413</a
-                    >
-                </div>
-                <div class="flex flex-row items-center gap-2 w-full">
-                    <div class="w-1/3">
-                        <img
-                            src={whatsapp}
-                            alt="whatsapp"
-                            width={40}
-                            height={40}
-                        />
-                    </div>
-                    <a class="w-full text-lg" href="http://wa.me/56952570413"
-                        >+56 9 5257 0413</a
-                    >
-                </div>
                 <div class="flex flex-row items-center gap-2 w-full">
                     <div class="w-1/3">
                         <img src={email} alt="email" width={40} height={40} />
