@@ -11,10 +11,18 @@
 
     const changeHandler = () => {
         if (info) {
+            pdfItems.items -= pdfItems[seccion].length;
             pdfItems[seccion] = [];
         } else {
+            pdfItems.items += pdfItems[seccion].length;
             pdfItems[seccion] = elements;
         }
+    };
+
+    const selectHandler = (event: any) => {
+        const isChecked = event.checked as HTMLInputElement;
+        if (isChecked) pdfItems.items++;
+        else pdfItems.items--;
     };
 
     let stitle: string;
@@ -28,7 +36,7 @@
 </script>
 
 <div class="collapse bg-base-200">
-    <input type="checkbox"/>
+    <input type="checkbox" />
     <h3 class="collapse-title font-semibold uppercase">{title}</h3>
     <div class="collapse-content">
         <div class="grid grid-cols-1 grid-rows-auto">
@@ -49,6 +57,7 @@
                         name={seccion}
                         value={e}
                         bind:group={pdfItems[seccion]}
+                        on:change={selectHandler}
                     />
                     {e[stitle][0].split("|").join(" ").split("・")[1] ??
                         e[stitle]}

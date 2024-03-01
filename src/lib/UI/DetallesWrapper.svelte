@@ -24,17 +24,6 @@
     export let title: string;
     export let pdfItems: PDFTypes;
 
-    const elementos = {
-        perfil: "perfil",
-        educación: "educacion",
-        proyectos: "proyecto",
-        empresas: "empresa",
-        experiencias: "experiencia",
-        cursos: "curso",
-        presentaciones: "presentacion",
-        publicaciones: "publicacion",
-    };
-
     let filteredItems: any[] = [];
     $: items = sorting_items(items, anio, especialidad);
     $: if (selectedtags?.length) {
@@ -71,6 +60,8 @@
     };
 
     const seleccionarTodoHandler = (title: string) => {
+        if (!allowedElements.includes(title)) return;
+
         const items = filteredItems.filter((fi) => fi.tipo === title);
 
         const isElement = pdfItems[title].length;
@@ -99,7 +90,8 @@
                     {#if allowedElements.includes(title)}
                         <input
                             type="checkbox"
-                            checked={pdfItems[elementos[title]]?.length
+                            checked={pdfItems[title]?.length ===
+                            filteredItems.length
                                 ? true
                                 : false}
                             class="tooltip"

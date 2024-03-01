@@ -40,6 +40,7 @@
     export let pdfItems: PDFTypes;
 
     let info = false;
+    $: pdfItems.items -= pdfItems.personal.length;
 
     $: if (info) {
         pdfItems.personal = elements;

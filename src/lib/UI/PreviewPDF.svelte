@@ -12,13 +12,18 @@
 
     const resetPDF = () => {
         pdfItems = {
-            experiencia: [],
-            empresa: [],
+            personal: [],
+            perfil: false,
+            formacion: [],
+            herramientas: [],
+            idiomas: [],
+            experiencias: [],
+            empresas: [],
             educacion: [],
-            proyecto: [],
-            curso: [],
-            presentacion: [],
-            publicacion: [],
+            proyectos: [],
+            cursos: [],
+            presentaciones: [],
+            publicaciones: [],
             items: 0,
         };
     };
@@ -48,7 +53,9 @@
         >
         <input type="checkbox" id="my_modal_7" class="modal-toggle" />
         <div class="modal">
-            <div class="modal-box sm:min-w-[90%] lg:min-w-[70%] xl:min-w-[60%] overflow-y-auto">
+            <div
+                class="modal-box sm:min-w-[90%] lg:min-w-[70%] xl:min-w-[60%] overflow-y-auto"
+            >
                 <CustomPdf bind:pdfItems />
             </div>
             <label class="modal-backdrop" for="my_modal_7">Close</label>
