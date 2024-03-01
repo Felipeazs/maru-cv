@@ -69,7 +69,6 @@
     <div id="custom-pdf" class="font-raleway text-sm">
         <InfoPersonal bind:personal />
         {#if perfil}
-            <h3 class="uppercase font-bold my-5">Resumen profesional</h3>
             <Perfil />
         {/if}
         <Formacion bind:formacion />

@@ -2,6 +2,7 @@
     import Especializacion from "../UI/pdf/Especializacion.svelte";
 </script>
 
+<h3 class="uppercase font-bold my-5">Resumen profesional</h3>
 <div class="flex flex-col gap-5">
     <p>
         Ingeniero Civil Bioquímico, con una Maestría en Ciencias de la

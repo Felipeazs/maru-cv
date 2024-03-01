@@ -23,6 +23,7 @@
     export let items: DataTypes[] = [];
     export let title: string;
     export let pdfItems: PDFTypes;
+
     const elementos = {
         perfil: "perfil",
         educación: "educacion",

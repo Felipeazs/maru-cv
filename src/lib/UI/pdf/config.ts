@@ -1,7 +1,6 @@
 import type { jsPDF, HTMLOptions } from "jspdf";
 
 export const config = {
-    filename: "CV_MariaEugeniaMartinez",
     fontFaces: [
         {
             src: [
@@ -33,13 +32,15 @@ export const config = {
     ],
     margin: [70, 0, 70, 0],
     autoPaging: "text",
+    filename: "maria_eugenia_martinez",
     callback: function(doc: jsPDF) {
-        var string = doc.output('datauristring');
-        var embed = "<embed width='100%' height='100%' src='" + string + "'/>"
-        var x = window.open();
-        x.document.open();
-        x.document.write(embed);
-        x.document.close();
-        // doc.save('previewer.pdf')
-    },
+        // var string = doc.output('datauristring');
+        // var embed = "<embed width='100%' height='100%' src='" + string + "'/>"
+        // var x = window.open();
+        // x.document.open();
+        // x.document.write(embed);
+        // x.document.close();
+
+        doc.save('maria_eugenia_martinez.pdf')
+    }
 } as HTMLOptions
