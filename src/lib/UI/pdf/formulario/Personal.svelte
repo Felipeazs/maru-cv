@@ -40,13 +40,24 @@
     export let pdfItems: PDFTypes;
 
     let info = false;
-    $: pdfItems.items -= pdfItems.personal.length;
 
-    $: if (info) {
-        pdfItems.personal = elements;
-    } else {
-        pdfItems.personal = [];
-    }
+    const changeHandler = () => {
+        if (info) {
+            pdfItems.personal = elements;
+            pdfItems.items += pdfItems.personal.length;
+        } else {
+            pdfItems.items -= pdfItems.personal.length;
+            pdfItems.personal = [];
+        }
+    };
+
+    const selectHandler = (event: any) => {
+        const isChecked = event.target.checked;
+        if (isChecked) pdfItems.items++;
+        else pdfItems.items--;
+
+        info = elements.length === pdfItems.personal.length ? true : false;
+    };
 </script>
 
 <div>
@@ -59,6 +70,7 @@
                 name="personal"
                 value={info}
                 bind:checked={info}
+                on:change={changeHandler}
             />
             Seleccionar todo
         </label>
@@ -69,6 +81,7 @@
                     name="personal"
                     value={ele}
                     bind:group={pdfItems.personal}
+                    on:change={selectHandler}
                 />
                 {ele.nombre}
             </label>

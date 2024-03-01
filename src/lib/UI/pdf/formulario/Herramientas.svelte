@@ -40,11 +40,23 @@
 
     let info = false;
 
-    $: if (info) {
-        pdfItems.herramientas = elements;
-    } else {
-        pdfItems.herramientas = [];
-    }
+    const changeHandler = () => {
+        if (info) {
+            pdfItems.herramientas = elements;
+            pdfItems.items += pdfItems.herramientas.length;
+        } else {
+            pdfItems.items -= pdfItems.herramientas.length;
+            pdfItems.herramientas = [];
+        }
+    };
+
+    const selectHandler = (event: any) => {
+        const isChecked = event.target.checked;
+        if (isChecked) pdfItems.items++;
+        else pdfItems.items--;
+
+        info = elements.length === pdfItems.herramientas.length ? true : false;
+    };
 </script>
 
 <div>
@@ -57,6 +69,7 @@
                 name="herramientas"
                 value={info}
                 bind:checked={info}
+                on:change={changeHandler}
             />
             Seleccionar todo
         </label>
@@ -67,6 +80,7 @@
                     name="herramientas"
                     value={ele}
                     bind:group={pdfItems.herramientas}
+                    on:change={selectHandler}
                 />
                 {ele.nombre}
             </label>

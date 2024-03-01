@@ -20,7 +20,7 @@
     };
 
     const selectHandler = (event: any) => {
-        const isChecked = event.checked as HTMLInputElement;
+        const isChecked = event.target.checked;
         if (isChecked) pdfItems.items++;
         else pdfItems.items--;
     };

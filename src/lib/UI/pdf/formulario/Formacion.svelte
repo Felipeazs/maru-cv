@@ -13,6 +13,12 @@
             value: "Magíster en Ciencias de la Ingeniería con mención en Ingeniería Bioquímica, 2012, Pontificia Universidad Católica de Valparaíso",
         },
     ];
+
+    const selectHandler = (event: any) => {
+        const isChecked = event.target.checked;
+        if (isChecked) pdfItems.items++;
+        else pdfItems.items--;
+    };
 </script>
 
 <div>
@@ -27,6 +33,7 @@
                     name="formacion"
                     value={e}
                     bind:group={pdfItems.formacion}
+                    on:change={selectHandler}
                 />
                 {e.nombre}
             </label>

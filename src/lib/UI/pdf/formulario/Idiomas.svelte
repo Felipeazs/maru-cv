@@ -20,11 +20,23 @@
 
     let info = false;
 
-    $: if (info) {
-        pdfItems.idiomas = elements;
-    } else {
-        pdfItems.idiomas = [];
-    }
+    const changeHandler = () => {
+        if (info) {
+            pdfItems.idiomas = elements;
+            pdfItems.items += pdfItems.idiomas.length;
+        } else {
+            pdfItems.items -= pdfItems.idiomas.length;
+            pdfItems.idiomas = [];
+        }
+    };
+
+    const selectHandler = (event: any) => {
+        const isChecked = event.target.checked;
+        if (isChecked) pdfItems.items++;
+        else pdfItems.items--;
+
+        info = elements.length === pdfItems.idiomas.length ? true : false;
+    };
 </script>
 
 <div>
@@ -37,6 +49,7 @@
                 name="idiomas"
                 value={info}
                 bind:checked={info}
+                on:change={changeHandler}
             />
             Seleccionar todo
         </label>
@@ -47,6 +60,7 @@
                     name="idiomas"
                     value={ele}
                     bind:group={pdfItems.idiomas}
+                    on:change={selectHandler}
                 />
                 {ele.nombre}
             </label>
