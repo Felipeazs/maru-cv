@@ -64,8 +64,8 @@
 
 <FormularioPdf bind:pdfItems />
 
-<div class="border-2">
-    <h3 class="text-center font-bold uppercase my-5">Preview CV</h3>
+<h3 class="text-center font-bold uppercase my-5">Preview CV</h3>
+<div class="border-2 w-[800px] m-auto py-8">
     <div id="custom-pdf" class="font-raleway text-sm">
         <InfoPersonal bind:personal />
         {#if perfil}
