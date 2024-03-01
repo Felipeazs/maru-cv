@@ -1,5 +1,4 @@
 <script lang="ts">
-    import RubroWrapper from "../UI/RubroWrapper.svelte";
     import Especializacion from "../UI/pdf/Especializacion.svelte";
 </script>
 

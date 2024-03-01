@@ -15,7 +15,6 @@
     import Proyecto from "../detalles/Proyecto.svelte";
     import Subtitulos from "../detalles/Subtitulos.svelte";
     import Financiamiento from "../detalles/Financiamiento.svelte";
-    import InfoPersonal from "./pdf/InfoPersonal.svelte";
     import Perfil from "../todos/Perfil.svelte";
 
     export let anio: number;
@@ -51,7 +50,9 @@
     const badgeHandler = (item: any) => {
         if (allowedElements.includes(item.tipo)) {
             let itemPDF = pdfItems[item.tipo];
+
             const isItem = itemPDF?.some((p: typeof item) => p.id === item.id);
+
             if (isItem) {
                 pdfItems[item.tipo] = itemPDF.filter(
                     (p: typeof item) => p.id !== item.id,
@@ -69,17 +70,16 @@
     };
 
     const seleccionarTodoHandler = (title: string) => {
-        const element = elementos[title];
-        const items = filteredItems.filter((fi) => fi.tipo === element);
+        const items = filteredItems.filter((fi) => fi.tipo === title);
 
-        const isElement = pdfItems[element].length;
+        const isElement = pdfItems[title].length;
 
-        if (isElement) {
-            pdfItems.items -= pdfItems[element].length;
-            pdfItems[elementos[title]] = [];
+        if (isElement > 0) {
+            pdfItems.items -= pdfItems[title].length;
+            pdfItems[title] = [];
         } else {
-            pdfItems = { ...pdfItems, [element]: items };
-            pdfItems.items += pdfItems[element].length;
+            pdfItems[title] = items;
+            pdfItems.items += pdfItems[title].length;
         }
     };
 </script>
@@ -95,10 +95,10 @@
                     class="flex justify-between items-center uppercase font-bold text-[1.5rem] leading-[2rem]"
                 >
                     {title}
-                    {#if allowedElements.includes(elementos[title])}
+                    {#if allowedElements.includes(title)}
                         <input
                             type="checkbox"
-                            checked={pdfItems[elementos[title]].length
+                            checked={pdfItems[elementos[title]]?.length
                                 ? true
                                 : false}
                             class="tooltip"

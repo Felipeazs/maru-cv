@@ -12,8 +12,8 @@
     let experiencias: ExperienciaTypes = [];
     let proyectos: ProyectoTypes = [];
     $: educacion = pdfItems.educacion;
-    $: experiencias = pdfItems.experiencia;
-    $: proyectos = pdfItems.proyecto;
+    $: experiencias = pdfItems.experiencias;
+    $: proyectos = pdfItems.proyectos;
 </script>
 
 <div id="pdf-source">
@@ -33,7 +33,7 @@
                 {#each educacion as ed (ed.id)}
                     <tr>
                         <td>
-                            {#each ed?.educacion[0]?.split("|") as eds}
+                            {#each ed?.titulo[0]?.split("|") as eds}
                                 <p>{eds}</p>
                             {/each}
                         </td>

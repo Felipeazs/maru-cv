@@ -9,12 +9,15 @@
         ProyectoTypes,
         PublicacionTypes,
     } from "../../cv-store";
+    import Perfil from "../../todos/Perfil.svelte";
     import Cursos from "./Cursos.svelte";
     import Educacion from "./Educacion.svelte";
     import Empresa from "./Empresa.svelte";
-    import Especializacion from "./Especializacion.svelte";
     import Experiencia from "./Experiencia.svelte";
-    import HerramientasEIdiomas from "./HerramientasEIdiomas.svelte";
+    import Formacion from "./Formacion.svelte";
+    import FormularioPdf from "./FormularioPDF.svelte";
+    import Herramientas from "./Herramientas.svelte";
+    import Idiomas from "./Idiomas.svelte";
     import InfoPersonal from "./InfoPersonal.svelte";
     import Presentaciones from "./Presentaciones.svelte";
     import Proyectos from "./Proyectos.svelte";
@@ -23,6 +26,9 @@
 
     export let pdfItems: PDFTypes;
 
+    let personal: { nombre: string; value: string }[] = [];
+    let perfil: boolean;
+    let formacion: { nombre: string; value: string }[] = [];
     let educaciones: EducacionTypes = [];
     let experiencias: ExperienciaTypes = [];
     let empresas: EmpresaTypes = [];
@@ -30,14 +36,21 @@
     let cursos: CursoTypes = [];
     let presentaciones: PresentacionTypes = [];
     let publicaciones: PublicacionTypes = [];
+    let herramientas: { nombre: string; value: string }[] = [];
+    let idiomas: { nombre: string; value: string }[] = [];
 
+    $: personal = pdfItems.personal;
+    $: perfil = pdfItems.perfil;
+    $: formacion = pdfItems.formacion;
     $: educaciones = pdfItems.educacion;
-    $: experiencias = pdfItems.experiencia;
-    $: empresas = pdfItems.empresa;
-    $: proyectos = pdfItems.proyecto;
-    $: cursos = pdfItems.curso;
-    $: presentaciones = pdfItems.presentacion;
-    $: publicaciones = pdfItems.publicacion;
+    $: experiencias = pdfItems.experiencias;
+    $: empresas = pdfItems.empresas;
+    $: proyectos = pdfItems.proyectos;
+    $: cursos = pdfItems.cursos;
+    $: presentaciones = pdfItems.presentaciones;
+    $: publicaciones = pdfItems.publicaciones;
+    $: herramientas = pdfItems.herramientas;
+    $: idiomas = pdfItems.idiomas;
 
     const generatePDF = (element: string) => {
         pdfMaker(element);
@@ -48,17 +61,28 @@
     class="btn btn-sm btn-primary"
     on:click={() => generatePDF("custom-pdf")}>descargar pdf</button
 >
-<div id="custom-pdf" class="font-raleway text-sm">
-    <InfoPersonal />
-    <Educacion bind:educaciones />
-    <Especializacion />
-    <Experiencia bind:experiencias />
-    <Empresa bind:empresas />
-    <Proyectos bind:proyectos />
-    <Cursos bind:cursos />
-    <Presentaciones bind:presentaciones />
-    <Publicaciones bind:publicaciones />
-    <HerramientasEIdiomas />
+
+<FormularioPdf bind:pdfItems />
+
+<div class="border-2">
+    <h3 class="text-center font-bold uppercase my-5">Preview CV</h3>
+    <div id="custom-pdf" class="font-raleway text-sm">
+        <InfoPersonal bind:personal />
+        {#if perfil}
+            <h3 class="uppercase font-bold my-5">Resumen profesional</h3>
+            <Perfil />
+        {/if}
+        <Formacion bind:formacion />
+        <Experiencia bind:experiencias />
+        <Empresa bind:empresas />
+        <Proyectos bind:proyectos />
+        <Cursos bind:cursos />
+        <Presentaciones bind:presentaciones />
+        <Publicaciones bind:publicaciones />
+        <Educacion bind:educaciones />
+        <Herramientas bind:herramientas />
+        <Idiomas bind:idiomas />
+    </div>
 </div>
 
 <style>

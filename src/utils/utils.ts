@@ -407,10 +407,10 @@ const tag_image = (tag: string) => {
 export const allowedElements = [
     "perfil",
     "educacion",
-    "proyecto",
-    "empresa",
-    "experiencia",
-    "curso",
-    "presentacion",
-    "publicacion",
+    "proyectos",
+    "empresas",
+    "experiencias",
+    "cursos",
+    "presentaciones",
+    "publicaciones",
 ];

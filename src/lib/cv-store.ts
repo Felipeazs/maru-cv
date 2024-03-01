@@ -10,7 +10,6 @@ const customCV = {
 
 export type DataTypes = (typeof data)
 
-export type PerfilTypes = typeof data.perfil
 export type EmpresaTypes = typeof data.empresas
 export type ExperienciaTypes = typeof data.experiencias
 export type EducacionTypes = typeof data.educacion
@@ -20,14 +19,18 @@ export type PresentacionTypes = typeof data.presentaciones
 export type PublicacionTypes = typeof data.publicaciones
 
 export interface PDFTypes {
-    perfil: PerfilTypes,
-    experiencia: ExperienciaTypes;
-    empresa: EmpresaTypes;
+    personal: { nombre: string, value: string }[]
+    perfil: boolean,
+    formacion: { nombre: string, value: string }[]
+    experiencias: ExperienciaTypes;
+    empresas: EmpresaTypes;
     educacion: EducacionTypes
-    proyecto: ProyectoTypes
-    curso: CursoTypes
-    presentacion: PresentacionTypes
-    publicacion: PublicacionTypes
+    proyectos: ProyectoTypes
+    cursos: CursoTypes
+    presentaciones: PresentacionTypes
+    publicaciones: PublicacionTypes
+    herramientas: { nombre: string, value: string }[]
+    idiomas: { nombre: string, value: string }[]
     items: number;
 }
 

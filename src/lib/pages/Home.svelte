@@ -18,14 +18,18 @@
     let alltags: { icono: string; nombre: string }[] = [];
     let items = [];
     let pdfItems: PDFTypes = {
-        perfil: [],
-        experiencia: [],
-        empresa: [],
+        personal: [],
+        perfil: false,
+        formacion: [],
+        experiencias: [],
+        empresas: [],
         educacion: [],
-        proyecto: [],
-        curso: [],
-        presentacion: [],
-        publicacion: [],
+        proyectos: [],
+        cursos: [],
+        presentaciones: [],
+        publicaciones: [],
+        herramientas: [],
+        idiomas: [],
         items: 0,
     };
 

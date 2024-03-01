@@ -16,8 +16,8 @@
                 </span>
                 <span class="col-span-7 font-semibold">{item.cargo}</span>
                 <span class="col-span-7">
-                    {#each item.proyecto as proyecto}
-                        {proyecto}
+                    {#each item.titulo as titulo}
+                        {titulo}
                     {/each}
                 </span>
             </div>
@@ -27,3 +27,4 @@
 
 <style>
 </style>
+

@@ -6,9 +6,9 @@
 
 {#if educaciones.length > 0}
     <div class="my-8">
-        <h3 class="font-bold uppercase">Formación profesional</h3>
+        <h3 class="font-bold uppercase">Educación</h3>
         {#each educaciones as item}
-            {#each item.educacion[0].split("|") as ed}
+            {#each item.titulo[0].split("|") as ed}
                 <div class="grid grid-cols-9 grid-rows-auto my-5">
                     <span class="col-span-2">Título</span>
                     <span class="col-span-7">{ed.split("・")[1] ?? ed}</span>
