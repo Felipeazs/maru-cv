@@ -2887,6 +2887,194 @@
             "fecha": [
                 "2010"
             ]
+        },
+        {
+            "id": "o2",
+            "tipo": "premio",
+            "titulo": [
+                "Desarrrolla - IMPULSA 2024"
+            ],
+            "cargo": "Proyecto seleccionado",
+            "institucion": "Pontificia Universidad Católica de Valparaíso",
+            "fecha": [
+                "2024"
+            ],
+            "tags": [
+                "up foods",
+                "fibrup",
+                "emprendimiento",
+                "innovación",
+                "sostenibilidad"
+            ]
+        },
+        {
+            "id": "o3",
+            "tipo": "premio",
+            "titulo": [
+                "Potencia Startup UDD Ventures 2024"
+            ],
+            "cargo": "Proyecto seleccionado",
+            "institucion": "UDD Ventures",
+            "fecha": [
+                "2024"
+            ],
+            "tags": [
+                "up foods",
+                "triplets",
+                "emprendimiento",
+                "innovación",
+                "sostenibilidad"
+            ]
+        },
+        {
+            "id": "o4",
+            "tipo": "premio",
+            "titulo": [
+                "Mujeres que inspiran"
+            ],
+            "institucion": "Banco de Chile",
+            "fecha": [
+                "2024"
+            ],
+            "tags": [
+                "up foods",
+                "fibrup",
+                "emprendimiento",
+                "innovación",
+                "sostenibilidad"
+            ]
+        },
+        {
+            "id": "o5",
+            "tipo": "premio",
+            "titulo": [
+                "Práctica de mentoría con Welukan-MDI"
+            ],
+            "cargo": "Proyecto seleccionado",
+            "institucion": "Mentores de impacto + Welukan",
+            "fecha": [
+                "2024"
+            ],
+            "tags": [
+                "up foods",
+                "bagán",
+                "emprendimiento",
+                "innovación",
+                "sostenibilidad"
+            ]
+
+        },
+        {
+            "id": "o6",
+            "tipo": "premio",
+            "titulo": [
+                "WomanPower"
+            ],
+            "institucion": "APTA",
+            "fecha": [
+                "2024"
+            ],
+            "tags": [
+                "up foods",
+                "triplets",
+                "emprendimiento",
+                "innovación",
+                "sostenibilidad"
+            ]
+        },
+        {
+            "id": "o7",
+            "tipo": "premio",
+            "titulo": [
+                "Mentorías Gratuitio con la Red Mentores de la UST"
+            ],
+            "institucion": "UST/Red mentores",
+            "fecha": [
+                "2024"
+            ],
+            "tags": [
+                "up foods",
+                "bagán",
+                "emprendimiento",
+                "innovación",
+                "sostenibilidad"
+            ]
+        },
+        {
+            "id": "o8",
+            "tipo": "premio",
+            "titulo": [
+                "Mujerers X Talento Digital"
+            ],
+            "cargo": "seleccionada",
+            "institucion": "Talento Digital",
+            "fecha": [
+                "2024"
+            ],
+            "tags": [
+                "up foods",
+                "triplets",
+                "emprendimiento",
+                "innovación",
+                "sostenibilidad"
+            ]
+        },
+        {
+            "id": "o9",
+            "tipo": "premio",
+            "titulo": [
+                "I3 Mujer: Inicia, Innova, Impacta"
+            ],
+            "cargo": "seleccionada",
+            "institucion": "Mujeres del Pacífico",
+            "fecha": [
+                "2024"
+            ],
+            "tags": [
+                "up foods",
+                "bagán",
+                "emprendimiento",
+                "innovación",
+                "sostenibilidad"
+            ]
+        },
+        {
+            "id": "o10",
+            "tipo": "premio",
+            "titulo": [
+                "Programa Mujer Acelera tu Impacto Internacional!"
+            ],
+            "cargo": "seleccionada",
+            "institucion": "Austral Solutions",
+            "fecha": [
+                "2024"
+            ],
+            "tags": [
+                "up foods",
+                "bagán",
+                "emprendimiento",
+                "innovación",
+                "sostenibilidad"
+            ]
+        },
+        {
+            "id": "o11",
+            "tipo": "premio",
+            "titulo": [
+                "Programa Nacional de Incubación MOVEIncuba"
+            ],
+            "cargo": "seleccionada",
+            "institucion": "AIEP",
+            "fecha": [
+                "2024"
+            ],
+            "tags": [
+                "up foods",
+                "triplets",
+                "emprendimiento",
+                "innovación",
+                "sostenibilidad"
+            ]
         }
     ],
     "vinculaciones": [
@@ -3038,7 +3226,8 @@
                 "Fundación Terram - “Programa Formación ciudadana en medio ambiente de la región de Valparaíso”"
             ],
             "fecha": [
-                "01/2024|12/2023"
+                "01/2024|12/2023",
+                ""
             ],
             "institucion": "Gobierno Regional de Valparaíso y Fundación para el Desarrollo Sustentable TERRAM",
             "descripcion": "Convenio Programa “Transferencia Formación Ciudadana en Medio Ambiente de la Región de Valparaíso” 2023-2024 es una actividad financiada con Recursos del Gobierno Regional de Valparaíso, cuyo código BIP: 40046329.",

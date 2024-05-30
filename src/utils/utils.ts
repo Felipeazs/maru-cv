@@ -1,3 +1,4 @@
+import none from '/images/none.svg'
 import contrato from '/images/contrato.svg'
 import ong from '/images/ong.svg'
 import huella from '/images/huella.svg'
@@ -398,8 +399,14 @@ const tag_image = (tag: string) => {
         case 'convenio':
             returnTagImage.icono = contrato
             break
+        case 'up foods':
+            returnTagImage.icono = food
+            break
+        case 'triplets':
+            returnTagImage.icono = deep
+            break
         default:
-            returnTagImage.icono = ''
+            returnTagImage.icono = none 
     }
 
     return returnTagImage

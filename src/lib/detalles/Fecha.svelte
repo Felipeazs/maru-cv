@@ -9,14 +9,20 @@
     md:min-h-[100px] md:max-h-[150px]"
 >
     {#if item.fecha}
-        {#each item.fecha[0]?.split("|") as fecha, inf}
+        {#if item.fecha.length > 1}
+            {#each item.fecha[0]?.split("|") as fecha, inf}
+                <p class="px-1">
+                    {fecha === now ? "presente" : fecha}
+                </p>
+                {#if inf < item.fecha[0]?.split("|").length - 1}
+                    ・
+                {/if}
+            {/each}
+        {:else}
             <p class="px-1">
-                {fecha === now ? "presente" : fecha}
+                {item.fecha}
             </p>
-            {#if inf < item.fecha[0]?.split("|").length - 1}
-                ・
-            {/if}
-        {/each}
+        {/if}
     {:else if item.imagen}
         <img
             src={item.imagen}
