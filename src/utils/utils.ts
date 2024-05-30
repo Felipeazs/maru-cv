@@ -63,6 +63,7 @@ import linkedin from '/images/linkedin.svg'
 import instagram from '/images/instagram.svg'
 
 import type { DataTypes } from '../lib/cv-store'
+import dataset from '../../data.json'
 
 export const sorting_items = <T extends Record<string, any>>(items: T[], year: number, especialidad: string): T[] => {
     let sortedItems: T[] = items.sort((a, b) => {
@@ -101,6 +102,7 @@ export const sorting_items = <T extends Record<string, any>>(items: T[], year: n
 
 export const transform_title = (title: string): string => {
     let new_title: string
+
     switch (title) {
         case 'experiencia_laboral':
             new_title = 'experiecia laboral'
@@ -118,7 +120,7 @@ export const transform_title = (title: string): string => {
     return new_title
 }
 
-const not_allowed = ['idiomas', 'competencias', 'herramientas']
+const not_allowed = ['personal', 'idiomas', 'competencias', 'herramientas']
 export const extract_tags = (items: DataTypes) => {
     let all_tag_items = []
     for (const d in items) {
@@ -414,3 +416,52 @@ export const allowedElements = [
     "presentaciones",
     "publicaciones",
 ];
+
+export const elements = {
+    personal: [
+        {
+            nombre: "Nacionalidad",
+            value: "Chilena",
+        },
+        {
+            nombre: "Email",
+            value: "maria.martinez@lazofoods.cl",
+        },
+        {
+            nombre: "Celular",
+            value: "+56 9 5257 0413",
+        },
+        { nombre: "LinkedIn", value: "memartinezv" },
+        {
+            nombre: "Google Scholar",
+            value: "María Eugenia Martínez Valenzuela",
+        },
+        {
+            nombre: "ORCID",
+            value: "0000-0001-8455-7356",
+        },
+        {
+            nombre: "Scopus Author ID",
+            value: "57213207712",
+        },
+        {
+            nombre: "Reseacher ID",
+            value: "HDM-3938-2022",
+        },
+        {
+            nombre: "CV Online",
+            value: "https://maru-cv.vercel.app",
+        },
+    ],
+    formacion: [
+        {
+            nombre: "Profesión",
+            value: "Ingeniero Civil Bioquímico, 2010, Pontificia Universidad Católica de Valparaíso.",
+        },
+        {
+            nombre: "Grados académicos",
+            value: "Magíster en Ciencias de la Ingeniería con mención en Ingeniería Bioquímica, 2012, Pontificia Universidad Católica de Valparaíso",
+        },
+    ],
+    herramientas: dataset.herramientas
+}

@@ -1,16 +1,21 @@
 <script lang="ts">
     import type {
+        AnaliticaTypes,
+        BecaTypes,
         CursoTypes,
         EducacionTypes,
         EmpresaTypes,
         ExperienciaTypes,
+        HerramientasTypes,
         PDFTypes,
+        PremioTypes,
         PresentacionTypes,
         ProyectoTypes,
         PublicacionTypes,
     } from "../../cv-store";
     import Perfil from "../../todos/Perfil.svelte";
     import Cursos from "./Cursos.svelte";
+    import DisplayElements from "./DisplayElements.svelte";
     import Educacion from "./Educacion.svelte";
     import Empresa from "./Empresa.svelte";
     import Experiencia from "./Experiencia.svelte";
@@ -36,7 +41,10 @@
     let cursos: CursoTypes = [];
     let presentaciones: PresentacionTypes = [];
     let publicaciones: PublicacionTypes = [];
-    let herramientas: { nombre: string; value: string }[] = [];
+    let herramientas: HerramientasTypes = [];
+    let analiticas: AnaliticaTypes = [];
+    let premios: PremioTypes = [];
+    let becas: BecaTypes = [];
     let idiomas: { nombre: string; value: string }[] = [];
 
     $: personal = pdfItems.personal;
@@ -50,6 +58,9 @@
     $: presentaciones = pdfItems.presentaciones;
     $: publicaciones = pdfItems.publicaciones;
     $: herramientas = pdfItems.herramientas;
+    $: analiticas = pdfItems.analitica;
+    $: premios = pdfItems.premios;
+    $: becas = pdfItems.becas;
     $: idiomas = pdfItems.idiomas;
 
     const generatePDF = (element: string) => {
@@ -79,7 +90,7 @@
         <Presentaciones bind:presentaciones />
         <Publicaciones bind:publicaciones />
         <Educacion bind:educaciones />
-        <Herramientas bind:herramientas />
+        <DisplayElements bind:pdfItems tipo="herramientas" />
         <Idiomas bind:idiomas />
     </div>
 </div>

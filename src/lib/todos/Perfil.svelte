@@ -5,25 +5,26 @@
 <h3 class="uppercase font-bold my-5">Resumen profesional</h3>
 <div class="flex flex-col gap-5">
     <p>
-        Ingeniero Civil Bioquímico, con una Maestría en Ciencias de la
-        Ingeniería enfocada en Ingeniería Bioquímica. Poseo más de una década de
-        experiencia en la concepción y desarrollo de proyectos industriales
-        centrados en la Economía Circular, la Huella de Carbono y el Análisis de
-        Ciclo de Vida. He liderado la postulación y ejecución de proyectos de
-        investigación y desarrollo tanto a nivel nacional, a través de
-        instituciones como la Gerencia de Innovación CORFO y ANID, como
-        internacional, participando en programas como FP7 y Horizonte. Mis
-        habilidades incluyen el diseño y simulación de procesos industriales
-        utilizando software especializado, con un enfoque específico en la
-        valorización de residuos en la industria agroindustrial. Además, tengo
-        experiencia en la elaboración de estudios de viabilidad técnica y
-        económica, así como de análisis de mercado. Soy activo en la
-        colaboración público-privada para impulsar iniciativas de sostenibilidad
-        y también he estado involucrado en la enseñanza universitaria en áreas
-        relacionadas con las ciencias biológicas y la ingeniería de procesos.
-        Actualmente, lidero Lazo SpA Consultora de Negocios Sustentables y
-        participo en proyectos empresariales asociados a la sostenibilidad,
-        participando en procesos de incubación y desarrollo de nuevas empresas.
+        Ingeniero Civil Bioquímico, con un Magíster y una candidatura a Doctor
+        en Ciencias de la Ingeniería con mención en Ingeniería Bioquímica. Poseo
+        más de una década de experiencia en el desarrollo de proyectos
+        industriales centrados en la Economía Circular, Huella de Carbono y
+        Análisis de Ciclo de Vida. He participado y liderado la postulación y
+        ejecución de proyectos de investigación y desarrollo tanto a nivel
+        nacional, a través de instituciones como la Gerencia de Innovación CORFO
+        y ANID, como internacional, participando en programas como FP7 y
+        Horizonte. Mis habilidades incluyen el diseño y simulación de procesos
+        industriales utilizando softwares especializados, con un enfoque
+        específico en la valorización de residuos en la industria
+        agroindustrial. Además, tengo experiencia en la elaboración de estudios
+        de viabilidad técnica y económica, así como de análisis de mercado. Soy
+        activo en la colaboración público-privada para impulsar iniciativas de
+        educación en sostenibilidad a nivel municipal y también he estado
+        involucrado en la enseñanza universitaria en áreas relacionadas con las
+        ciencias biológicas y la ingeniería de procesos. Soy socia fundadora de
+        Lazo SpA Consultora de Negocios Sustentables y participo en proyectos
+        empresariales asociados a la sostenibilidad, participando en procesos de
+        incubación y desarrollo de nuevas empresas.
     </p>
     <p>
         Tengo amplia experiencia en el diseño e implementación de hojas de ruta

@@ -1,7 +1,63 @@
 {
+    "personal": [
+        {
+            "id": "pe1",
+            "nombre": "Nacionalidad",
+            "titulo": "Chilena",
+            "tipo": "personal"
+        },
+        {
+            "id": "pe2",
+            "nombre": "Email",
+            "titulo": "maria.martinez@lazofoods.cl",
+            "tipo": "personal"
+        },
+        {
+            "id": "pe3",
+            "nombre": "Celular",
+            "titulo": "+56 9 5257 0413",
+            "tipo": "personal"
+        },
+        {
+            "id": "pe4",
+            "nombre": "LinkedIn",
+            "titulo": "memartinezv",
+            "tipo": "personal"
+        },
+        {
+            "id": "pe5",
+            "nombre": "Google Scholar",
+            "titulo": "María Eugenia Martínez Valenzuela",
+            "tipo": "personal"
+        },
+        {
+            "id": "pe6",
+            "nombre": "ORCID",
+            "titulo": "0000-0001-8455-7356",
+            "tipo": "personal"
+        },
+        {
+            "id": "pe7",
+            "nombre": "Scopus Author ID",
+            "titulo": "57213207712",
+            "tipo": "personal"
+        },
+        {
+            "id": "pe8",
+            "nombre": "Reseacher ID",
+            "titulo": "HDM-3938-2022",
+            "tipo": "personal"
+        },
+        {
+            "id": "pe9",
+            "nombre": "CV Online",
+            "titulo": "https://maru-cv.vercel.app",
+            "tipo": "personal"
+        }
+    ],
     "perfil": [
         {
-            "descripcion": "Ingeniero Civil Bioquímico, con una Maestría en Ciencias de la Ingeniería enfocada en Ingeniería Bioquímica. Poseo más de una década de experiencia en la concepción y desarrollo de proyectos industriales centrados en la Economía Circular, la Huella de Carbono y el Análisis de Ciclo de Vida. He liderado la postulación y ejecución de proyectos de investigación y desarrollo tanto a nivel nacional, a través de instituciones como la Gerencia de Innovación CORFO y ANID, como internacional, participando en programas como FP7 y Horizonte. Mis habilidades incluyen el diseño y simulación de procesos industriales utilizando software especializado, con un enfoque específico en la valorización de residuos en la industria agroindustrial. Además, tengo experiencia en la elaboración de estudios de viabilidad técnica y económica, así como de análisis de mercado. Soy activo en la colaboración público-privada para impulsar iniciativas de sostenibilidad y también he estado involucrado en la enseñanza universitaria en áreas relacionadas con las ciencias biológicas y la ingeniería de procesos. Actualmente, lidero Lazo SpA Consultora de Negocios Sustentables y participo en proyectos empresariales asociados a la sostenibilidad, participando en procesos de incubación y desarrollo de nuevas empresas. || Tengo amplia experiencia en el diseño e implementación de hojas de ruta en economía circular, incluyendo diagnósticos situacionales, co-creación con partes interesadas y priorización de iniciativas alineadas con los Objetivos de Desarrollo Sostenible (ODS) de la Agenda 2030. Además, habilidad para facilitar talleres colaborativos y análisis costo-beneficio para identificar y ejecutar acciones sostenibles, y demostrada capacidad en la postulación, ejecución y rendición de proyectos con enfoque en sostenibilidad para fondos concursables públicos y privados. Cuento con experiencia en la elaboración de propuestas claras y persuasivas, así como en la gestión eficiente de recursos y la rendición de cuentas a financiadores y partes interesadas.",
+            "descripcion": "Ingeniero Civil Bioquímico, con un Magíster y una candidatura a Doctor en Ciencias de la Ingeniería con mención en Ingeniería Bioquímica. Poseo más de una década de experiencia en el desarrollo de proyectos industriales centrados en la Economía Circular, Huella de Carbono y Análisis de Ciclo de Vida. He participado y liderado la postulación y ejecución de proyectos de investigación y desarrollo tanto a nivel nacional, a través de instituciones como la Gerencia de Innovación CORFO y ANID, como internacional, participando en programas como FP7 y Horizonte. Mis habilidades incluyen el diseño y simulación de procesos industriales utilizando softwares especializados, con un enfoque específico en la valorización de residuos en la industria agroindustrial. Además, tengo experiencia en la elaboración de estudios de viabilidad técnica y económica, así como de análisis de mercado. Soy activo en la colaboración público-privada para impulsar iniciativas de educación en sostenibilidad a nivel municipal y también he estado involucrado en la enseñanza universitaria en áreas relacionadas con las ciencias biológicas y la ingeniería de procesos. Soy socia fundadora de Lazo SpA Consultora de Negocios Sustentables y participo en proyectos empresariales asociados a la sostenibilidad, participando en procesos de incubación y desarrollo de nuevas empresas. Tengo amplia experiencia en el diseño e implementación de hojas de ruta en economía circular, incluyendo diagnósticos situacionales, co-creación con partes interesadas y priorización de iniciativas alineadas con los Objetivos de Desarrollo Sostenible (ODS) de la Agenda 2030. Además, habilidad para facilitar talleres colaborativos y análisis costo-beneficio para identificar y ejecutar acciones sostenibles, y demostrada capacidad en la postulación, ejecución y rendición de proyectos con enfoque en sostenibilidad para fondos concursables públicos y privados. Cuento con experiencia en la elaboración de propuestas claras y persuasivas, así como en la gestión eficiente de recursos y la rendición de cuentas a financiadores y partes interesadas.",
             "asesorias": "",
             "tags": [],
             "tipo": "perfil"
@@ -15,9 +71,9 @@
                 "Lazo SpA"
             ],
             "cargo": "Socia cofundadora",
-            "descripcion": "Lazo SpA es una empresa de derecho privado que nace el 2021 para promover negocios en línea con la sostenibilidad, y priorizando los Objetivos de Desarrollo Sostenible (ODS), y en particular los ODS 9 Industria, Innovación e Infraestructura; ODS 12 Producción y Consumo Responsable; ODS 11 Ciudades y Comunidades Sostenibles; ODS 13 Acción por el Clima, y ODS 17 Alianzas para lograr los objetivos. De igual manera, la empresa se compromete con fomentar en las empresas las políticas de sostenibilidad nacionales en favor del cumplimiento de las obligaciones adquiridas para el Acuerdo de París el 9 de abril del 2020 en su Contribución Determinada a Nivel Nacional. ",
+            "descripcion": "Lazo SpA es una empresa de derecho privado que nace el 2021 para promover negocios en línea con la sostenibilidad, y priorizando los Objetivos de Desarrollo Sostenible (ODS), y en particular los ODS 9 Industria, Innovación e Infraestructura; ODS 12 Producción y Consumo Responsable; ODS 11 Ciudades y Comunidades Sostenibles; ODS 13 Acción por el Clima, y ODS 17 Alianzas para lograr los objetivos. De igual manera, la empresa se compromete con fomentar en las empresas las políticas de sostenibilidad nacionales en favor del cumplimiento de las obligaciones adquiridas para el Acuerdo de París el 9 de abril del 2020 en su Contribución Determinada a Nivel Nacional.",
             "mas": [
-                "Empresa asociada en proyecto FONDEF ID22I10292, denominado “Aplicación de una tecnología enzimática para la recuperación de biomoléculas de alto potencial comercial a partir del aprovechamiento integral del bagazo cervecero”, adjudicado por Centro Regional de Alimentos Saludables (CREAS). |Up Foods SpA – spin off como empresa elaboradora de alimentos en base a bagazo de cerveza, con foco en producción sostenible en línea con la economía circular, con sede en el Maule, adjudicación de proyecto Semilla Inicia 22INI2-238658 de la Gerencia de Emprendimiento de CORFO. Proyecto colaborativo con Centro Regional de Alimentos Saludables (CREAS) en proyecto Súmate a Innovar (2021) “Generación de una estrategia de valorización de residuos orgánicos de la industria cervecera artesanal mediante el desarrollo de un paté vegano” código 22SNM- 201521. | A cargo de la Dirección de Innovación de Inversiones Gastronómicas y Turísticas Anfiteatro. Ejecución proyecto Súmate a Innovar (2021) “Desarrollo de una línea de productos innovadores congelados como alternativa de valorización del bagazo de cerveza” código 21SN2-200648. Servicios de ingeniería para proyecto de innovación con HubTeb y La Universidad de Los Andes (2022)"
+                "・Proyecto colaborativo de simbiosis industrial para la agroindustria AgroSimBiótica con la empresa ASB Innobiotics, empresa desarrolladora de prototipos web para testeo de soluciones digitales. ASB Innobiotics es una empresa filial de Lazo SpA. AgroSimBiótica fue ganador del concurso Lift me Up 6 (ganador 2021, Incubadora The Lift Pontificia Universidad Católica de Valparaíso) y de los concursos CREA y DESARROLLA (2021) de la Dirección de Innovación y Emprendimiento (DIE) de la misma casa de estudios. Actualmente la plataforma se encuentra en prototipaje y validación técnica.|・Empresa asociada en proyecto FONDEF ID22I10292 (ANID), denominado “Aplicación de una tecnología enzimática para la recuperación de biomoléculas de alto potencial comercial a partir del aprovechamiento integral del bagazo cervecero”, adjudicado por Centro Regional de Alimentos Saludables (CREAS).|・Proyecto colaborativo con Centro Regional de Alimentos Saludables (CREAS) en proyecto Súmate a Innovar (2021, CORFO) “Generación de una estrategia de valorización de residuos orgánicos de la industria cervecera artesanal mediante el desarrollo de un paté vegano” código 22SNM-201521.|・Empresa a cargo de la Dirección de Innovación de Inversiones Gastronómicas y Turísticas Anfiteatro para la ejecución de los proyectos INNOVA Región Escalamiento y validación de una hamburguesa vegana como alternativa a la valorización del bagazo de cerveza para el fortalecimiento de la economía regional sustentable” código 23IR-246428 (duración hasta 2025, CORFO) y Súmate a Innovar (2021, CORFO) “Desarrollo de una línea de productos innovadores congelados como alternativa de valorización del bagazo de cerveza” código 21SN2-200648.|・Servicios de ingeniería para proyecto de innovación “GelX” con HubTec y Universidad de Los Andes (2022)."
             ],
             "imagen": "/images/lazo.jpeg",
             "financiamiento": null,
@@ -48,9 +104,9 @@
                 "Up Foods SpA "
             ],
             "cargo": "Socia cofundadora, Chief Strategy Officer (CSO)",
-            "descripcion": "spin off como empresa elaboradora de alimentos en base a bagazo de cerveza, con foco en producción sostenible en línea con la economía circular, con sede en el Maule.",
+            "descripcion": "Up Foods es una spin off como empresa elaboradora de alimentos en base a bagazo de cerveza, con foco en producción sostenible en línea con la economía circular y sede en el Maule. Adjudicación de proyecto Semilla Inicia 22INI2-238658 de la Gerencia de Emprendimiento de CORFO y de diversos fondos concursables público y privados tales como:",
             "mas": [
-                "Somos Upfood! una foodtech liderada por mujeres y desarrollamos productos alimenticios a partir de sub-ingredientes de la industria cervecera ¡Hacemos upcycling food y economía circular! Bagán es nuestro primer producto 🌱🍺.| ¡Conoce a Up Foods, una empresa revolucionaria en la industria de alimentos! 🌱. En Up Foods estamos comprometidos con la innovación y la sostenibilidad, aprovechando los recursos de manera inteligente para crear soluciones deliciosas y respetuosas con el medio ambiente ♻️."
+                "・Lift me Up 7 (ganador 2021) – Incubadora The Lift, Pontificia Universidad Católica de Valparaíso.|・Te Quiero Valparaíso (finalista 2022) - Fundación el Buen Puerto.|・Ejecuta tu idea (ganador 2023) – Consorcio ScienceUp.|・Concurso Nuevos productos para la agroindustria (ganador 2023) – Programa Maule Alimenta.|・Laboratorio de Financiamiento Climático (ganador 2023) – Ministerio del Medio Ambiente.|・Impacto Yakana Agroconnect (finalista 2023) – Grupo Zenit. | Actualmente somos beneficiarios del programa de difusión tecnológica “Maule Industria 4.0, una agroindustria circular” de CORFO Maule y ejecutado por BlueOak SpA."
             ],
             "imagen": "/images/upfoods.jpeg",
             "financiamiento": [
@@ -154,7 +210,7 @@
             "cargo": "Socia cofundadora y CSO",
             "descripcion": "La plataforma AgroSimbiótica es el primer proyecto de la empresa, y es la primera plataforma de Simbiosis Industrial y Economía Circular para residuos orgánicos, como forma de potenciar nuevos modelos de negocios y oportunidades en torno al aprovechamiento de recursos agrícolas que actualmente se desperdician en vertederos.",
             "mas": [
-                "Servicios: |・Desarrollo de aplicaciones web (Java, Javascript).|・Servicios UX/UI y back end.|・Reportabilidad de variables en plataforma web.|・Deployment de servidores en Amazon Web Service, Heroku y Vercel.|・Manejo de bases de datos SQL y NoSQL (PgAdmin (Postgres), DBeaver, MySQl, Compass (MongoDB).|・Prueba de prototipos en baja con Raspebrry Pi.|・Director Tecnológico – Felipe Zapata Soto. Java Full Stack developer (LinkedIn)"
+                "・Desarrollo de aplicaciones web (Java, Javascript).|・Servicios UX/UI y back end.|・Reportabilidad de variables en plataforma web.|・Deployment de servidores en Amazon Web Service, Heroku y Vercel.|・Manejo de bases de datos SQL y NoSQL (PgAdmin (Postgres), DBeaver, MySQl, Compass (MongoDB).|・Prueba de prototipos en baja con Raspebrry Pi.|・Director Tecnológico – Felipe Zapata Soto. Java Full Stack developer (LinkedIn)"
             ],
             "imagen": "/images/asb.jpeg",
             "financiamiento": [
@@ -217,7 +273,7 @@
                 "Retrocicla SpA"
             ],
             "cargo": "Socia cofundadora, Directora de finanzas 💰",
-            "descripcion": "Somos un emprendimiento liderado por mujeres que quieren cambiar la industria textil por medio de la economía circular. Nuestra labor es apoyar a los emprendimientos de upcycler y crear conciencia medioambiental en los jóvenes.",
+            "descripcion": "Socia fundadora y Gerente de Finanzas – Chief Growth Officer (11.2021 – 10.2023) Empresa liderada por mujeres buscando aportar a la industria textil por medio de la economía circular, apoyando a los emprendimientos de upcycling y creaando conciencia medioambiental en los comunidad. Adjudicación y ejecución de proyecto Semilla Inicia CORFO21INI-162476. Empresa cerrada.",
             "imagen": "/images/retrocicla.jpeg",
             "financiamiento": [
                 {
@@ -261,7 +317,7 @@
             ],
             "empresa": "Consultora Técnica Sustrend SpA",
             "fecha": [
-                "2023|08/2023",
+                "12/2023|2023",
                 "08/2023|05/2023",
                 "05/2023|01/2023"
             ],
@@ -374,7 +430,7 @@
             ],
             "empresa": "Departamento de Medio Ambiente de la Ilustre Municipalidad de Quintero",
             "fecha": [
-                "2023|02/2022"
+                "2024|02/2022"
             ],
             "descripcion": "・Programa Comuna Energética del Ministerio de la Agencia de Sostenibilidad Energética.|・Programa HuellaChile del Ministerio de Medio Ambiente.|・Implementación de iniciativas de economía circular y área de cambio climático de acuerdo con el Compromiso Municipio Verde-ONG FIMA y la Guía metodológica para orientar la transición hacia una economía circular|・Ciudad Circular, Facultad Ciencias de la Vida, Universidad Andrés Bello.|・Implementación de iniciativas educativas para funcionarios municipales y para la comunidad en línea con la Ley 21455 Ley Marco de Cambio Climático.|・Contraparte municipal para el reporte del Plan de Acción Nacional de Cambio Climático 2017-2022 (PANCC). |・Contraparte para el proyecto Hoja de ruta para reconversión productiva de la zona Quinter-Puchuncaví - Fundación Chile 10/2023.",
             "especialidad": "sector_público",
@@ -2820,26 +2876,16 @@
             ]
         }
     ],
-    "premios": [
+    "reconocimientos": [
         {
             "id": "o1",
-            "tipo": "premios",
-            "titulo": [
-                "Programa The Lift ganador AGS"
-            ]
-        },
-        {
-            "id": "o2",
-            "tipo": "premios",
-            "titulo": [
-                "Programa CREA y DESARROLLA del DIE. PUCV"
-            ]
-        },
-        {
-            "id": "o3",
             "tipo": "premio",
             "titulo": [
-                "Distinción premio “Carmen Gloria Arévalo” que se otorga a un titulado entre quienes hayan obtenido la más alta calificación en su memoria de título realizada en la modalidad experimental (2010). Pontificia Universidad Católica de Valparaíso, Chile."
+                "Distinción premio “Carmen Gloria Arévalo” que se otorga a un titulado entre quienes hayan obtenido la más alta calificación en su memoria de título realizada en la modalidad experimental."
+            ],
+            "institucion": "Pontificia Universidad Católica de Valparaíso",
+            "fecha": [
+                "2010"
             ]
         }
     ],
@@ -3030,6 +3076,43 @@
             ]
         }
     ],
+    "becas": [
+        {
+            "id": "be1",
+            "fechas": [
+                "2020"
+            ],
+            "titulo": "Beca financiamiento doctoral Universidad Internacional Iberoamericana. México."
+        },
+        {
+            "id": "be2",
+            "fechas": [
+                "2014|2013"
+            ],
+            "titulo": "Beca de Apoyo a Tesis Doctoral. Vicerrectoría de Investigación y Estudios Avanzados, de la Pontifica Universidad Católica de Valparaíso, Chile."
+        },
+        {
+            "id": "be3",
+            "fechas": [
+                "2014"
+            ],
+            "titulo": "Beca de Pasantía en el extranjero. Vicerrectoría de Investigación y Estudios Avanzados, de la Pontifica Universidad Católica de Valparaíso, Chile."
+        },
+        {
+            "id": "be4",
+            "fechas": [
+                "2012|2010"
+            ],
+            "titulo": "Beca para Estudios de Doctorado en Chile. CONICYT-MECESUP, Chile."
+        },
+        {
+            "id": "be5",
+            "fechas": [
+                "2001"
+            ],
+            "titulo": "Beca de arancel para estudios de pregrado. Beca por un año por ingresar entre los cinco mejores postulantes a la carrera de Ingeniería Civil Bioquímica. Pontifica Universidad Católica de Valparaíso."
+        }
+    ],
     "servicios": [
         {
             "id": "y1",
@@ -3179,12 +3262,6 @@
             "nivel": "Junior"
         },
         {
-            "id": "h2",
-            "titulo": "R",
-            "tipo": "programación",
-            "nivel": "Intermedio"
-        },
-        {
             "id": "h3",
             "titulo": "Python (Python Software Foundation)",
             "tipo": "programación",
@@ -3225,6 +3302,28 @@
             "titulo": "KNIME Analytic software ",
             "tipo": null,
             "nivel": "Básico"
+        }
+    ],
+    "analitica": [
+        {
+            "id": "an1",
+            "titulo": "Especialización en técnicas cromatográficas de laboratorio (HPLC UV/VIS, DAD, FT-IR, GC (MS) y TECAN)."
+        },
+        {
+            "id": "an2",
+            "titulo": "Caracterización proximal de alimentos."
+        },
+        {
+            "id": "an3",
+            "titulo": "Actividad de caracterización y perfiles antioxidantes (ORAC, DPPH, ABTS, FRAP, entre otros)."
+        },
+        {
+            "id": "an4",
+            "titulo": "Caracterización de biomasas y ensayos de toxicidad y medición de potencial de biogás."
+        },
+        {
+            "id": "an5",
+            "titulo": "Cultivo in vitro de células vegetales."
         }
     ],
     "idiomas": [

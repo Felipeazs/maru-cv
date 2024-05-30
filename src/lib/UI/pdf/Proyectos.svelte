@@ -11,11 +11,11 @@
         </h3>
         {#each proyectos as item}
             <div class="grid grid-cols-9 grid-auto-rows my-5">
-                <span class="row-span-2 col-span-2">
+                <span class="row-span-2 col-span-1">
                     {item.fecha[0].split("|").reverse().join(" - ")}
                 </span>
-                <span class="col-span-7 font-semibold">{item.cargo}</span>
-                <span class="col-span-7">
+                <span class="col-span-6 col-end-9 font-semibold">{item.cargo}</span>
+                <span class="col-span-6 col-end-9">
                     {#each item.titulo as titulo}
                         {titulo}
                     {/each}
@@ -27,4 +27,3 @@
 
 <style>
 </style>
-

@@ -23,13 +23,14 @@
         { value: "diplomados", opcion: "Diplomados" },
         { value: "cursos", opcion: "Cursos" },
         { value: "seminarios", opcion: "Seminarios" },
-        { value: "premios", opcion: "Premios" },
+        { value: "reconocimientos", opcion: "Reconocimientos" },
         { value: "vinculaciones", opcion: "Vinculaciones" },
         { value: "servicios", opcion: "Servicios" },
     ];
 
     const anios = [
         { value: 0, opcion: "Todos" },
+        { value: 2024, opcion: "2024" },
         { value: 2023, opcion: "2023" },
         { value: 2022, opcion: "2022" },
         { value: 2021, opcion: "2021" },

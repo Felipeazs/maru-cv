@@ -17,6 +17,10 @@ export type ProyectoTypes = typeof data.proyectos
 export type CursoTypes = typeof data.cursos
 export type PresentacionTypes = typeof data.presentaciones
 export type PublicacionTypes = typeof data.publicaciones
+export type HerramientasTypes = typeof data.herramientas
+export type AnaliticaTypes = typeof data.analitica
+export type BecaTypes = typeof data.becas
+export type PremioTypes = typeof data.reconocimientos
 
 export interface PDFTypes {
     personal: { nombre: string, value: string }[]
@@ -29,7 +33,10 @@ export interface PDFTypes {
     cursos: CursoTypes
     presentaciones: PresentacionTypes
     publicaciones: PublicacionTypes
-    herramientas: { nombre: string, value: string }[]
+    herramientas: HerramientasTypes
+    analitica: AnaliticaTypes
+    becas: BecaTypes
+    premios: PremioTypes
     idiomas: { nombre: string, value: string }[]
     items: number;
 }

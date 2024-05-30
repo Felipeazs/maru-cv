@@ -1,18 +1,19 @@
 <script lang="ts">
-    import data, { type PDFTypes } from "../../../cv-store";
+    import type { PDFTypes } from "../../../cv-store";
 
     export let pdfItems: PDFTypes;
-    let elements = $data.herramientas
+
+    const elements = [ ];
 
     let info = false;
 
     const changeHandler = () => {
         if (info) {
-            pdfItems.herramientas = elements;
-            pdfItems.items += pdfItems.herramientas.length;
+            pdfItems.idiomas = elements;
+            pdfItems.items += pdfItems.idiomas.length;
         } else {
-            pdfItems.items -= pdfItems.herramientas.length;
-            pdfItems.herramientas = [];
+            pdfItems.items -= pdfItems.idiomas.length;
+            pdfItems.idiomas = [];
         }
     };
 
@@ -21,18 +22,18 @@
         if (isChecked) pdfItems.items++;
         else pdfItems.items--;
 
-        info = elements.length === pdfItems.herramientas.length ? true : false;
+        info = elements.length === pdfItems.idiomas.length ? true : false;
     };
 </script>
 
 <div>
-    <h3 class="uppercase font-semibold">Herramientas computacionales</h3>
+    <h3 class="uppercase font-semibold">Idiomas</h3>
     <div class="divider m-0"></div>
-    <div class="grid grid-cols-2 grid-rows-auto">
+    <div class="grid grid-rows-auto">
         <label>
             <input
                 type="checkbox"
-                name="herramientas"
+                name="idiomas"
                 value={info}
                 bind:checked={info}
                 on:change={changeHandler}
@@ -43,12 +44,12 @@
             <label>
                 <input
                     type="checkbox"
-                    name="herramientas"
+                    name="idiomas"
                     value={ele}
-                    bind:group={pdfItems.herramientas}
+                    bind:group={pdfItems.idiomas}
                     on:change={selectHandler}
                 />
-                {ele.titulo}
+                {ele.nombre}
             </label>
         {/each}
     </div>
@@ -56,3 +57,4 @@
 
 <style>
 </style>
+

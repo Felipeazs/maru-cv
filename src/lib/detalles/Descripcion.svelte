@@ -36,11 +36,13 @@
         {/each}
         {#if item.mas}
             <span id={`mas-${item.id}`} class="hidden">
-                {#each item.mas[0]?.split("|") ?? [] as mas}
-                    <p>
-                        {mas}
-                    </p>
-                {/each}
+                <ul>
+                    {#each item.mas[0]?.split("|") ?? [] as mas}
+                        <li>
+                            {mas}
+                        </li>
+                    {/each}
+                </ul>
             </span>
             <button
                 id={`mas-button-${item.id}`}

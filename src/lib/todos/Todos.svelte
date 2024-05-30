@@ -16,15 +16,17 @@
 </script>
 
 {#each foundItems as items, i}
-    <DetallesWrapper
-        title={titulos[i]}
-        {anio}
-        {especialidad}
-        {selectedtags}
-        bind:items
-        bind:pdfItems
-        on:tag-click
-    />
+    {#if titulos[i] !== "personal"}
+        <DetallesWrapper
+            title={titulos[i]}
+            {anio}
+            {especialidad}
+            {selectedtags}
+            bind:items
+            bind:pdfItems
+            on:tag-click
+        />
+    {/if}
 {/each}
 
 <style>

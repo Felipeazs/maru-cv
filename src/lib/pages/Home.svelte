@@ -29,6 +29,9 @@
         presentaciones: [],
         publicaciones: [],
         herramientas: [],
+        analitica: [],
+        premios: [],
+        becas: [],
         idiomas: [],
         items: 0,
     };
