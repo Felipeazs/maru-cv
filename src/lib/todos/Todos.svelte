@@ -18,7 +18,7 @@
 {#each foundItems as items, i}
     {#if titulos[i] !== "personal"}
         <DetallesWrapper
-            title={titulos[i]}
+            title={titulos[i + 1]}
             {anio}
             {especialidad}
             {selectedtags}

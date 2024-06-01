@@ -380,7 +380,8 @@
             ],
             "empresa": "Fraunhofer Chile Research, Centro de Biotecnología de Sistemas FCR-CSB",
             "fecha": [
-                "12/2021|08/2010"
+                "12/2021|08/2010",
+                ""
             ],
             "descripcion": "Desarrollo de evaluaciones técnico-económicos y ambientales, incluyendo Análisis de Ciclo de Vida y estudios de mercado. Enfoque en revalorización de residuos.",
             "mas": [
@@ -411,7 +412,8 @@
             ],
             "empresa": "Consultora de Negocios Sustentables Lazo SpA",
             "fecha": [
-                "2023|12/2021"
+                "2023|12/2021",
+                ""
             ],
             "descripcion": "Lazo SpA es una empresa de derecho privado que nace el 2021 para promover negocios en línea con la sostenibilidad, y priorizando los Objetivos de Desarrollo Sostenible (ODS), y en particular los ODS 9 Industria, Innovación e Infraestructura; ODS 12 Producción y Consumo Responsable; ODS 11 Ciudades y Comunidades Sostenibles; ODS 13 Acción por el Clima, y ODS 17 Alianzas para lograr los objetivos. De igual manera, la empresa se compromete con fomentar en las empresas las políticas de sostenibilidad nacionales en favor del cumplimiento de las obligaciones adquiridas para el Acuerdo de París el 9 de abril del 2020 en su Contribución Determinada a Nivel Nacional",
             "especialidad": "sostenibilidad",
@@ -430,7 +432,8 @@
             ],
             "empresa": "Departamento de Medio Ambiente de la Ilustre Municipalidad de Quintero",
             "fecha": [
-                "2024|02/2022"
+                "2024|02/2022",
+                ""
             ],
             "descripcion": "・Programa Comuna Energética del Ministerio de la Agencia de Sostenibilidad Energética.|・Programa HuellaChile del Ministerio de Medio Ambiente.|・Implementación de iniciativas de economía circular y área de cambio climático de acuerdo con el Compromiso Municipio Verde-ONG FIMA y la Guía metodológica para orientar la transición hacia una economía circular|・Ciudad Circular, Facultad Ciencias de la Vida, Universidad Andrés Bello.|・Implementación de iniciativas educativas para funcionarios municipales y para la comunidad en línea con la Ley 21455 Ley Marco de Cambio Climático.|・Contraparte municipal para el reporte del Plan de Acción Nacional de Cambio Climático 2017-2022 (PANCC). |・Contraparte para el proyecto Hoja de ruta para reconversión productiva de la zona Quinter-Puchuncaví - Fundación Chile 10/2023.",
             "especialidad": "sector_público",
@@ -449,7 +452,8 @@
             ],
             "empresa": "Centro Regional de Estudios en Alimentos Saludables, Pontificia Universidad Católica de Valparaíso",
             "fecha": [
-                "2010|2009"
+                "2010|2009",
+                ""
             ],
             "descripcion": "FONDEF D07I1045 “Desarrollo de un proceso biotecnológico para la revalorización de descartes de la industria de procesamiento de berries”. Financiadora Conicyt. Participación en la caracterización bioquímica y bioactividad de los extractos.",
             "especialidad": "sostenibilidad",
@@ -466,7 +470,8 @@
             ],
             "empresa": "Núcleo Biotecnología de Curauma, Pontificia Universidad Católica de Valparaíso",
             "fecha": [
-                "07/2023|06/2023"
+                "07/2023|06/2023",
+                ""
             ],
             "descripcion": "Apoyo en puesta en marcha y diseño de experimentos para la implementación de diversos pretratamientos para la digestión anaerobia de lodos en la Planta de Tratamiento de Aguas Residuales La Farfana en Santiago, Chile.",
             "especialidad": "sostenibilidad",
@@ -482,7 +487,8 @@
             ],
             "empresa": "Lazo SpA",
             "fecha": [
-                "2023|2022"
+                "2023|2022",
+                ""
             ],
             "descripcion": "Servicios de ingeniería para proyecto de innovación HubTec - Universidad de Los Andes",
             "especialidad": "sostenibilidad",
@@ -517,7 +523,8 @@
             ],
             "empresa": "AGS Innobiotics SpA",
             "fecha": [
-                "2023|09/2022"
+                "2023|09/2022",
+                ""
             ],
             "descripcion": "Empresa de prototipaje on-demand para emprendimientos digitales.",
             "mas": [
@@ -543,7 +550,8 @@
             ],
             "empresa": "Up Foods",
             "fecha": [
-                "2023|12/2022"
+                "2023|12/2022",
+                ""
             ],
             "descripcion": "spin off como empresa elaboradora de alimentos en base a bagazo de cerveza, con foco en producción sostenible en línea con la economía circular, con sede en el Maule.",
             "mas": [
@@ -569,7 +577,8 @@
             ],
             "empresa": "Retrocicla",
             "fecha": [
-                "12/2022|01/2021"
+                "12/2022|01/2021",
+                ""
             ],
             "descripcion": "",
             "especialidad": "sostenibilidad",
@@ -592,7 +601,8 @@
             ],
             "empresa": "Pontificia Universidad Católica de Valparaíso",
             "fecha": [
-                "2013|2010"
+                "2013|2010",
+                ""
             ],
             "descripcion": "",
             "especialidad": "educación",
@@ -608,7 +618,8 @@
             ],
             "empresa": "Laboratorios Silob",
             "fecha": [
-                "05/2008|01/2007"
+                "05/2008|01/2007",
+                ""
             ],
             "descripcion": "",
             "especialidad": "ciencias_de_la_ingeniería",
@@ -777,7 +788,7 @@
             "cargo": "Responsable del análisis tecno-económico.",
             "institucion": "Fraunhofer Chile Research",
             "fecha": [
-                "2021|2020"
+                "2021|2020", ""
             ],
             "tags": [
                 "agroindustria",
@@ -797,7 +808,7 @@
             "cargo": "Responsable del análisis tecno-económico.",
             "institucion": "Fraunhofer Chile Research",
             "fecha": [
-                "2021|2017"
+                "2021|2017", ""
             ],
             "tags": [
                 "agroindustria",
@@ -817,7 +828,7 @@
             "cargo": "Responsable del análisis tecnoeconómico y de mercado.",
             "institucion": "Fraunhofer Chile Research",
             "fecha": [
-                "2019|2018"
+                "2019|2018", ""
             ],
             "tags": [
                 "agroindustria",
@@ -859,7 +870,7 @@
             "cargo": "Responsable del análisis tecnoeconómico y de mercado. ",
             "institucion": "Fraunhofer Chile Research",
             "fecha": [
-                "2017|2016"
+                "2017|2016", ""
             ],
             "tags": [
                 "agroindustria",
@@ -879,7 +890,7 @@
             "cargo": "Participación en el desarrollo del paquete de trabajo que involucró caracterización bioquímica y bioactividad de los extractos, además de ser responsable del análisis tecnoeconómico y de mercado.",
             "institucion": "Fraunhofer Chile Research",
             "fecha": [
-                "2019|2016"
+                "2019|2016", ""
             ],
             "tags": [
                 "agroindustria",
@@ -901,7 +912,7 @@
             "cargo": "Responsable del paquete de trabajo de revalorización de residuos mediante digestión anaerobia, además de ser responsable del análisis tecnoeconómico y de mercado.",
             "institucion": "Fraunhofer Chile Research",
             "fecha": [
-                "2015|2013"
+                "2015|2013", ""
             ],
             "tags": [
                 "biorefinería",
@@ -967,7 +978,7 @@
             ],
             "descripcion": "“Establecimiento de un cultivo en suspensión de células de T. officinale para la producción de α-amirina y lupeol. Pontificia institucion Católica de Valparaíso, Chile. Examen de titulación pendiente.”",
             "fecha": [
-                "2017|2010"
+                "2017|2010", ""
             ],
             "institucion": "Pontificia Universidad Católica de Valparaíso, Chile.",
             "logo": "/images/pucv.png",
@@ -985,7 +996,7 @@
             ],
             "descripcion": "“Creación de un modelo computacional utilizando una base de datos construida a partir de información proveniente del sector frutícola, con el cual se permita cuantificar su impacto en términos sociales, ambientales y económicos, con el fin de promover la circularidad del sector.”",
             "fecha": [
-                "2023|2022"
+                "2023|2022", ""
             ],
             "institucion": "U. Internacional Ibeoramericana, México.",
             "logo": "/images/unini.png",
@@ -1003,7 +1014,7 @@
             ],
             "descripcion": "“Diseño de un modelo de simbiosis industrial como herramienta para promover acciones de mitigación y adaptación al cambio climático desde el sector agroindustrial”",
             "fecha": [
-                "2023|2020"
+                "2023|2020", ""
             ],
             "institucion": "Núcleo Biotecnología Curauma, PUCV.",
             "logo": "/images/nbc.png",
@@ -1023,7 +1034,7 @@
             ],
             "descripcion": "",
             "fecha": [
-                "2023|2020"
+                "2023|2020", ""
             ],
             "institucion": "ENEB - Escuela de Negocios Europea de Barcelona Y Universidad I de Castilla, España.",
             "logo": "/images/eneb.png",
@@ -1573,7 +1584,7 @@
             ],
             "instituto": "Red CLACSO de Posgrados en Ciencias Sociales. Consejo Latinoamericano de Ciencias Sociales, Argentina",
             "fecha": [
-                "2022|2021"
+                "2022|2021", ""
             ],
             "logo": "/images/clacso.png",
             "certificado": "https://drive.google.com/file/d/1rM4kn4PHAsh5D-lddbyV-zAuD1igNuO_/view?usp=drive_link",
@@ -1591,7 +1602,7 @@
             ],
             "instituto": "Universidad Nacional Andrés Bello",
             "fecha": [
-                "2021|2020"
+                "2021|2020", ""
             ],
             "logo": "/images/unab.png",
             "certificado": "https://drive.google.com/file/d/1R06IEsHR6Riimyb1UjDT4zOw5kliNTdW/view?usp=drive_link",
@@ -1610,7 +1621,7 @@
             ],
             "instituto": "Universidad del Mar",
             "fecha": [
-                "2011|2010"
+                "2011|2010", ""
             ],
             "certificado": "",
             "especialidad": "sostenibilidad",
@@ -1703,7 +1714,7 @@
             ],
             "institucion": "Pontificia Universidad Católica de Valparaíso",
             "fecha": [
-                "2016|2015"
+                "2016|2015", ""
             ],
             "logo": "/images/pucv.png",
             "certificado": null,
@@ -1722,7 +1733,7 @@
             ],
             "institucion": "Pontificia Universidad Católica de Valparaíso",
             "fecha": [
-                "2016|2015"
+                "2016|2015", ""
             ],
             "logo": "/images/pucv.png",
             "certificado": null,
@@ -2886,7 +2897,8 @@
             "institucion": "Pontificia Universidad Católica de Valparaíso",
             "fecha": [
                 "2010"
-            ]
+            ],
+            "logo": "/images/pucv.png"
         },
         {
             "id": "o2",
@@ -2899,6 +2911,7 @@
             "fecha": [
                 "2024"
             ],
+            "logo": "/images/pucv.png",
             "tags": [
                 "up foods",
                 "fibrup",
@@ -2962,7 +2975,6 @@
                 "innovación",
                 "sostenibilidad"
             ]
-
         },
         {
             "id": "o6",
