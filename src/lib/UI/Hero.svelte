@@ -24,7 +24,7 @@
 
 <style>
     hero {
-        background-image: url("/images/hero3.png");
+        background-image: url("/images/hero_4.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-blend-mode: darken;

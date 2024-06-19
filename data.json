@@ -788,7 +788,8 @@
             "cargo": "Responsable del análisis tecno-económico.",
             "institucion": "Fraunhofer Chile Research",
             "fecha": [
-                "2021|2020", ""
+                "2021|2020",
+                ""
             ],
             "tags": [
                 "agroindustria",
@@ -808,7 +809,8 @@
             "cargo": "Responsable del análisis tecno-económico.",
             "institucion": "Fraunhofer Chile Research",
             "fecha": [
-                "2021|2017", ""
+                "2021|2017",
+                ""
             ],
             "tags": [
                 "agroindustria",
@@ -828,7 +830,8 @@
             "cargo": "Responsable del análisis tecnoeconómico y de mercado.",
             "institucion": "Fraunhofer Chile Research",
             "fecha": [
-                "2019|2018", ""
+                "2019|2018",
+                ""
             ],
             "tags": [
                 "agroindustria",
@@ -870,7 +873,8 @@
             "cargo": "Responsable del análisis tecnoeconómico y de mercado. ",
             "institucion": "Fraunhofer Chile Research",
             "fecha": [
-                "2017|2016", ""
+                "2017|2016",
+                ""
             ],
             "tags": [
                 "agroindustria",
@@ -890,7 +894,8 @@
             "cargo": "Participación en el desarrollo del paquete de trabajo que involucró caracterización bioquímica y bioactividad de los extractos, además de ser responsable del análisis tecnoeconómico y de mercado.",
             "institucion": "Fraunhofer Chile Research",
             "fecha": [
-                "2019|2016", ""
+                "2019|2016",
+                ""
             ],
             "tags": [
                 "agroindustria",
@@ -912,7 +917,8 @@
             "cargo": "Responsable del paquete de trabajo de revalorización de residuos mediante digestión anaerobia, además de ser responsable del análisis tecnoeconómico y de mercado.",
             "institucion": "Fraunhofer Chile Research",
             "fecha": [
-                "2015|2013", ""
+                "2015|2013",
+                ""
             ],
             "tags": [
                 "biorefinería",
@@ -978,7 +984,8 @@
             ],
             "descripcion": "“Establecimiento de un cultivo en suspensión de células de T. officinale para la producción de α-amirina y lupeol. Pontificia institucion Católica de Valparaíso, Chile. Examen de titulación pendiente.”",
             "fecha": [
-                "2017|2010", ""
+                "2017|2010",
+                ""
             ],
             "institucion": "Pontificia Universidad Católica de Valparaíso, Chile.",
             "logo": "/images/pucv.png",
@@ -996,7 +1003,8 @@
             ],
             "descripcion": "“Creación de un modelo computacional utilizando una base de datos construida a partir de información proveniente del sector frutícola, con el cual se permita cuantificar su impacto en términos sociales, ambientales y económicos, con el fin de promover la circularidad del sector.”",
             "fecha": [
-                "2023|2022", ""
+                "2023|2022",
+                ""
             ],
             "institucion": "U. Internacional Ibeoramericana, México.",
             "logo": "/images/unini.png",
@@ -1014,7 +1022,8 @@
             ],
             "descripcion": "“Diseño de un modelo de simbiosis industrial como herramienta para promover acciones de mitigación y adaptación al cambio climático desde el sector agroindustrial”",
             "fecha": [
-                "2023|2020", ""
+                "2023|2020",
+                ""
             ],
             "institucion": "Núcleo Biotecnología Curauma, PUCV.",
             "logo": "/images/nbc.png",
@@ -1034,7 +1043,8 @@
             ],
             "descripcion": "",
             "fecha": [
-                "2023|2020", ""
+                "2023|2020",
+                ""
             ],
             "institucion": "ENEB - Escuela de Negocios Europea de Barcelona Y Universidad I de Castilla, España.",
             "logo": "/images/eneb.png",
@@ -1584,7 +1594,8 @@
             ],
             "instituto": "Red CLACSO de Posgrados en Ciencias Sociales. Consejo Latinoamericano de Ciencias Sociales, Argentina",
             "fecha": [
-                "2022|2021", ""
+                "2022|2021",
+                ""
             ],
             "logo": "/images/clacso.png",
             "certificado": "https://drive.google.com/file/d/1rM4kn4PHAsh5D-lddbyV-zAuD1igNuO_/view?usp=drive_link",
@@ -1602,7 +1613,8 @@
             ],
             "instituto": "Universidad Nacional Andrés Bello",
             "fecha": [
-                "2021|2020", ""
+                "2021|2020",
+                ""
             ],
             "logo": "/images/unab.png",
             "certificado": "https://drive.google.com/file/d/1R06IEsHR6Riimyb1UjDT4zOw5kliNTdW/view?usp=drive_link",
@@ -1621,7 +1633,8 @@
             ],
             "instituto": "Universidad del Mar",
             "fecha": [
-                "2011|2010", ""
+                "2011|2010",
+                ""
             ],
             "certificado": "",
             "especialidad": "sostenibilidad",
@@ -1714,7 +1727,8 @@
             ],
             "institucion": "Pontificia Universidad Católica de Valparaíso",
             "fecha": [
-                "2016|2015", ""
+                "2016|2015",
+                ""
             ],
             "logo": "/images/pucv.png",
             "certificado": null,
@@ -1733,7 +1747,8 @@
             ],
             "institucion": "Pontificia Universidad Católica de Valparaíso",
             "fecha": [
-                "2016|2015", ""
+                "2016|2015",
+                ""
             ],
             "logo": "/images/pucv.png",
             "certificado": null,
@@ -2780,6 +2795,28 @@
                 "emprendimiento",
                 "herramientas_digitales"
             ]
+        },
+        {
+            "id": "c64",
+            "tipo": "cursos",
+            "titulo": [
+                "Curso de Proceso de exportación de servicios"
+            ],
+            "institucion": "ProChile",
+            "fecha": [
+                "2024"
+            ]
+        },
+        {
+            "id": "c65",
+            "tipo": "cursos",
+            "titulo": [
+                "Curso de Formación para Inversionistas de Austral Angels"
+            ],
+            "institucion": "Austral Angels",
+            "fecha": [
+                "2024"
+            ]
         }
     ],
     "seminarios": [
@@ -3086,6 +3123,87 @@
                 "emprendimiento",
                 "innovación",
                 "sostenibilidad"
+            ]
+        },
+        {
+            "id": "o12",
+            "tipo": "premio",
+            "titulo": [
+                "Programa Dream Builder"
+            ],
+            "institucion": "Freeport-MacMoran",
+            "fecha": [
+                "2020"
+            ],
+            "tags": [
+                "emprendimiento"
+            ]
+        },
+        {
+            "id": "o13",
+            "tipo": "premio",
+            "titulo": [
+                "Programa Academia para Emprededoras"
+            ],
+            "cargo": "seleccionada",
+            "institucion": "AWS - Mujeres del pacífico",
+            "fecha": [
+                "2024"
+            ],
+            "tags": [
+                "empresa",
+                "consultoría",
+                "innovación"
+            ]
+        },
+        {
+            "id": "o14",
+            "tipo": "premio",
+            "titulo": [
+                "Aprende cómo ser consultor para internacionalizar una empresa de servicios"
+            ],
+            "institucion": "ArchGroup",
+            "fecha": [
+                "2024"
+            ],
+            "tags": [
+                "emprendimiento",
+                "consultoría",
+                "empresa"
+            ]
+        },
+        {
+            "id": "o15",
+            "tipo": "premio",
+            "titulo": [
+                "Premio BCG"
+            ],
+            "institucion": "Foro de Cooperación Econímica del Asia Pacífico, APEC",
+            "fecha": [
+                "2024"
+            ],
+            "tags": [
+                "Up foods",
+                "sostenibilidad",
+                "emprendimiento",
+                "foodtech",
+                "innovación"
+            ]
+        },
+        {
+            "id": "o16",
+            "tipo": "premio",
+            "titulo": [
+                "Fase de Profundización del progama WIT rEvolutioon"
+            ],
+            "institucion": "Mujeres del Pacífico",
+            "fecha": [
+                "2024"
+            ],
+            "tags": [
+                "Up foods",
+                "sostenibilidad",
+                "emprendimiento"
             ]
         }
     ],
