@@ -2817,6 +2817,125 @@
             "fecha": [
                 "2024"
             ]
+        },
+        {
+            "id": "c66",
+            "tipo": "cursos",
+            "titulo": [
+                "Programa Dream Builder"
+            ],
+            "institucion": "Freeport-MacMoran",
+            "fecha": [
+                "2020"
+            ],
+            "tags": [
+                "emprendimiento"
+            ]
+        },
+        {
+            "id": "c67",
+            "tipo": "cursos",
+            "titulo": [
+                "Programa Academia para Emprededoras"
+            ],
+            "cargo": "seleccionada",
+            "institucion": "AWS - Mujeres del pacífico",
+            "fecha": [
+                "2024"
+            ],
+            "tags": [
+                "empresa",
+                "consultoría",
+                "innovación"
+            ]
+        },
+        {
+            "id": "c68",
+            "tipo": "cursos",
+            "titulo": [
+                "Aprende cómo ser consultor para internacionalizar una empresa de servicios"
+            ],
+            "institucion": "ArchGroup",
+            "fecha": [
+                "2024"
+            ],
+            "tags": [
+                "emprendimiento",
+                "consultoría",
+                "empresa"
+            ]
+        },
+        {
+            "id": "c69",
+            "tipo": "cursos",
+            "titulo": [
+                "Fase de Profundización del progama WIT rEvolutioon"
+            ],
+            "institucion": "Mujeres del Pacífico",
+            "fecha": [
+                "2024"
+            ],
+            "tags": [
+                "Up foods",
+                "sostenibilidad",
+                "emprendimiento"
+            ]
+        },
+        {
+            "id": "c70",
+            "tipo": "cursos",
+            "titulo": [
+                "Programa de Incubación Zero"
+            ],
+            "institucion": "Chrysalis",
+            "fecha": [
+                "2024"
+            ],
+            "tags": [
+                "agrsimbiotica",
+                "innovación",
+                "emprendimiento"
+            ]
+        },
+        {
+            "id": "c71",
+            "tipo": "cursos",
+            "titulo": [
+                "Introducción a las infraestructuras de Datos Geoespaciales"
+            ],
+            "certificado": "https://drive.google.com/file/d/1Q37kO_17BJl6vhIgSbonEIaZ_8dXgwz2/view?usp=drive_link",
+            "institucion": "IDE",
+            "fecha": [
+                "2024"
+            ]
+        },
+        {
+            "id": "c72",
+            "tipo": "cursos",
+            "titulo": [
+                "Herramientas de Cartografía colaborativas para Captura de datos en terreno con dispositivos móviles"
+            ],
+            "certificado": "https://drive.google.com/file/d/1F1uMc9Pw382vD-TONSd9pNrcoplohTZN/view?usp=drive_link",
+            "institucion": "IDE",
+            "fecha": [
+                "2024"
+            ]
+        },
+        {
+            "id": "c73",
+            "tipo": "cursos",
+            "titulo": [
+                "Curso de Innovación Social para el Desarrollo Sostenible"
+            ],
+            "institucion": "Pontificia Universidad Católica de Valparaíso, Chile.",
+            "fecha": [
+                "2024"
+            ],
+            "certificado": "https://drive.google.com/file/d/1ihTuEXsAMIFGoftkt5RVApZLv5xn2Myk/view?usp=drive_link",
+            "tags": [
+                "innovación",
+                "sostenibilidad"
+            ]
         }
     ],
     "seminarios": [
@@ -3126,53 +3245,6 @@
             ]
         },
         {
-            "id": "o12",
-            "tipo": "premio",
-            "titulo": [
-                "Programa Dream Builder"
-            ],
-            "institucion": "Freeport-MacMoran",
-            "fecha": [
-                "2020"
-            ],
-            "tags": [
-                "emprendimiento"
-            ]
-        },
-        {
-            "id": "o13",
-            "tipo": "premio",
-            "titulo": [
-                "Programa Academia para Emprededoras"
-            ],
-            "cargo": "seleccionada",
-            "institucion": "AWS - Mujeres del pacífico",
-            "fecha": [
-                "2024"
-            ],
-            "tags": [
-                "empresa",
-                "consultoría",
-                "innovación"
-            ]
-        },
-        {
-            "id": "o14",
-            "tipo": "premio",
-            "titulo": [
-                "Aprende cómo ser consultor para internacionalizar una empresa de servicios"
-            ],
-            "institucion": "ArchGroup",
-            "fecha": [
-                "2024"
-            ],
-            "tags": [
-                "emprendimiento",
-                "consultoría",
-                "empresa"
-            ]
-        },
-        {
             "id": "o15",
             "tipo": "premio",
             "titulo": [
@@ -3188,22 +3260,6 @@
                 "emprendimiento",
                 "foodtech",
                 "innovación"
-            ]
-        },
-        {
-            "id": "o16",
-            "tipo": "premio",
-            "titulo": [
-                "Fase de Profundización del progama WIT rEvolutioon"
-            ],
-            "institucion": "Mujeres del Pacífico",
-            "fecha": [
-                "2024"
-            ],
-            "tags": [
-                "Up foods",
-                "sostenibilidad",
-                "emprendimiento"
             ]
         }
     ],
